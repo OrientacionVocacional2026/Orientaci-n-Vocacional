@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dilanagustinmonzon.github.io/Carreras-en-SP/sitemap.xml
