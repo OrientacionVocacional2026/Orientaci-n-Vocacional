@@ -20,12 +20,23 @@
       fuertes del estudiante → 6 a 8 carreras recomendadas puntuales.
    5) El resultado se guarda en localStorage para no perderlo al
       recargar la página.
+
+   CAMBIOS v10.0:
+   - "Posgrado" y las fichas que exigen título previo (CCC, doctorados,
+     maestrías, especializaciones sueltas) quedan afuera de las
+     recomendaciones del test: no tiene sentido sugerirle un doctorado
+     a alguien que recién termina el secundario.
+   - Nuevo botón para compartir el resultado por WhatsApp.
+   - Nuevo link "Ver todas las carreras de [categoría]" en el resultado,
+     que lleva a la grilla filtrada por esa categoría.
+   - Se bumpeó el STORAGE_KEY a v2 para que a nadie le quede guardado
+     un resultado viejo con recomendaciones de antes de este cambio.
    ===================================================================== */
 
 (function () {
   "use strict";
 
-  const STORAGE_KEY = "ov_test_vocacional_v1";
+  const STORAGE_KEY = "ov_test_vocacional_v2";
 
   /* ---------------------------------------------------------------------
      1) PREGUNTAS
@@ -86,11 +97,25 @@
     "Educación":                        { R: 0, I: 1, A: 1, S: 3, E: 1, C: 1 },
     "Tecnicaturas":                     { R: 2, I: 1, A: 0, S: 1, E: 1, C: 2 },
     "Derecho y Seguridad":              { R: 1, I: 1, A: 0, S: 2, E: 2, C: 2 },
-    "Posgrado":                         { R: 0, I: 3, A: 0, S: 1, E: 1, C: 1 },
     "Sustentabilidad y Turismo":        { R: 2, I: 1, A: 1, S: 2, E: 2, C: 0 },
     "Tecnología":                       { R: 1, I: 3, A: 1, S: 0, E: 1, C: 1 },
     "Diseño y Comunicación":            { R: 0, I: 0, A: 3, S: 1, E: 1, C: 0 }
   };
+
+  /* "Posgrado" queda afuera de CATEGORY_RIASEC a propósito: son carreras
+     (doctorados, maestrías, especializaciones) que exigen tener ya un
+     título universitario previo, así que no tiene sentido que el test
+     se las sugiera a alguien que recién termina el secundario. Sigue
+     existiendo como categoría filtrable en el catálogo general. */
+
+  /* Además, dentro de las categorías que sí se recomiendan, se descartan
+     fichas puntuales que también requieren un título previo (Ciclos de
+     Complementación Curricular, posgrados sueltos, etc.), aunque su
+     categoría "madre" sea apta para alguien que recién egresa. */
+  const NOT_ENTRY_LEVEL_RE = /\(CCC\)|Ciclo de Complementaci[oó]n|Posgrado|Maestr[ií]a|Doctorado|^Especializaci[oó]n en|para Abogados/i;
+  function isEntryLevelCareer(c) {
+    return !NOT_ENTRY_LEVEL_RE.test(c.nombre || "");
+  }
 
   /* Palabras clave por dimensión, para afinar qué carrera puntual
      recomendar dentro de una categoría (se buscan en habilidades,
@@ -260,7 +285,7 @@
 
   function recommendCareers(topCategoriesList, topDims) {
     const topCatNames = topCategoriesList.slice(0, 3).map(e => e.cat);
-    const pool = CAREERS.filter(c => topCatNames.includes(c.categoria));
+    const pool = CAREERS.filter(c => topCatNames.includes(c.categoria) && isEntryLevelCareer(c));
     const scored = pool.map(c => ({ c, s: careerAffinityScore(c, topDims) }));
     scored.sort((a, b) => b.s - a.s);
     // Nos aseguramos de traer variedad: no más de 3 de la misma categoría entre las primeras 8
@@ -366,9 +391,11 @@
           <h4>Carreras que podrían interesarte</h4>
           <p class="vt-result-note">Elegidas de nuestra base de ${CAREERS.length} carreras según tu perfil. Tocá cualquiera para ver la ficha completa.</p>
           <div class="vt-careers-grid">${careersHTML}</div>
+          ${topCategories[0] ? `<button type="button" class="vt-secondary-btn" id="vtSeeCategoryBtn">Ver todas las carreras de ${topCategories[0].cat} →</button>` : ""}
         </div>
 
         <div class="vt-result-actions">
+          <button type="button" class="vt-secondary-btn" id="vtShareBtn">📤 Compartir mi resultado</button>
           <button type="button" class="vt-secondary-btn" id="vtRetakeBtn">↻ Volver a hacer el test</button>
         </div>
       </div>
@@ -383,6 +410,17 @@
       current = 0;
       answers = new Array(QUESTIONS.length).fill(null);
       renderQuestion();
+    });
+    const seeCategoryBtn = document.getElementById("vtSeeCategoryBtn");
+    if (seeCategoryBtn) {
+      seeCategoryBtn.addEventListener("click", () => {
+        if (typeof window.filterByCategory === "function") window.filterByCategory(topCategories[0].cat);
+      });
+    }
+    document.getElementById("vtShareBtn").addEventListener("click", () => {
+      const nombresRecomendados = recommended.slice(0, 3).map(c => c.nombre).join(", ");
+      const texto = `Hice el test vocacional de Orientación Vocacional y mi perfil es ${codeLabel} (${codeLetters}). Me recomendó carreras como ${nombresRecomendados}. Probalo vos también 👉 ${location.origin}${location.pathname}#test-vocacional`;
+      window.open("https://wa.me/?text=" + encodeURIComponent(texto), "_blank", "noopener");
     });
   }
 

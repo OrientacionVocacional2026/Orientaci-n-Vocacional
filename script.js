@@ -1737,4 +1737,14 @@
   /* ---------------------- Exponer para vocational-test.js ---------------------- */
   window.openDetail = openDetail;
 
+  // Aplica un filtro de categoría (mismo comportamiento que tocar un chip) y
+  // lleva al usuario a la grilla de carreras. Lo usa el resultado del test
+  // vocacional para el link "Ver todas las carreras de esta área".
+  window.filterByCategory = function (cat) {
+    const chip = Array.from(chipsWrap.querySelectorAll(".chip")).find(b => b.textContent === cat);
+    if (chip) chip.click();
+    const carrerasSection = document.getElementById("carreras");
+    if (carrerasSection) carrerasSection.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
 })();
