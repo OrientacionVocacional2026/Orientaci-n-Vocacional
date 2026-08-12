@@ -418,7 +418,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 1,000 – 1,867",
       seniorUSD: "US$ 1,867 – 3,333",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Junio 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Glassdoor Argentina", "BeBee salarios Argentina", "Computrabajo Argentina"],
       nota: "Hay bastante dispersión entre fuentes; los valores más altos suelen corresponder a Buenos Aires y a empresas multinacionales."
     },
@@ -464,7 +464,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 1,247 – 2,267",
       seniorUSD: "US$ 2,267 – 3,333",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Mayo–julio 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Encuesta del Consejo Profesional de Ingeniería Agronómica (CPIA), difundida en medios especializados (Agrofy, Ruralnet)", "BeBee salarios Argentina", "Glassdoor Argentina"],
       nota: "Es una de las profesiones con mayor brecha reportada frente a pares del exterior: hasta 61% menos en varones y 72% menos en mujeres, según el CPIA."
     },
@@ -503,16 +503,16 @@ const CAREERS = [
     datosInteresantes: ["En Argentina egresan cerca de 1.500 ingenieros en alimentos por año, según estimaciones del sector educativo.", "La carrera comparte varias materias básicas con Ingeniería Química en los primeros años."],
     experienciaPersonal: "",
     salario: {
-      junior: "500.000 – 900.000",
-      semiSenior: "900.000 – 1.800.000",
-      senior: "1.800.000 – 3.000.000+",
-      juniorUSD: "US$ 333 – 600",
-      semiSeniorUSD: "US$ 600 – 1,200",
-      seniorUSD: "US$ 1,200 – 2,000",
+      junior: "595.000 – 1.070.000",
+      semiSenior: "1.070.000 – 2.145.000",
+      senior: "2.145.000 – 3.575.000+",
+      juniorUSD: "US$ 390 – 705",
+      semiSeniorUSD: "US$ 705 – 1,410",
+      seniorUSD: "US$ 1,410 – 2,350+",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "2025–2026",
+      fechaReferencia: "Julio 2026 (actualizado por inflación estimada respecto a la fuente original; ver nota)",
       fuentes: ["Glassdoor Argentina", "Euroinnova (nota comparativa regional)", "Prosfy salary finder"],
-      nota: "Ésta es una de las carreras con MAYOR dispersión entre fuentes consultadas: algunas ubican el promedio muy por debajo, otras muy por encima. El rango mostrado es conservador y debe tomarse como orientativo, no definitivo."
+      nota: "Ésta es una de las carreras con MAYOR dispersión entre fuentes consultadas: algunas ubican el promedio muy por debajo, otras muy por encima. El rango mostrado es conservador y debe tomarse como orientativo, no definitivo. [Actualizado 2026-08-11: cifra ajustada +19.1% respecto a la fuente original citada, según inflación acumulada real (INDEC) hasta julio 2026. El valor en USD se recalculó al tipo de cambio oficial de referencia de agosto 2026 (~$1520).]"
     },
     pdfs: { plan: "plan-de-estudios.pdf", programa: null, info: null },
     faltaInvestigar: []
@@ -558,7 +558,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 1,000 – 2,000",
       seniorUSD: "US$ 2,000 – 3,667",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Junio–julio 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Glassdoor Argentina", "BeBee salarios Argentina", "Levels.fyi (compensación en grandes empresas)"],
       nota: "Fuente muy dispar: algunos relevamientos de grandes industrias petroquímicas muestran cifras varias veces más altas que el promedio general. Se optó por mostrar el rango más representativo del mercado general, no el de las multinacionales top."
     },
@@ -604,7 +604,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 1,200 – 2,000",
       seniorUSD: "US$ 2,000 – 3,200",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con carreras y categorías profesionales afines en Argentina"],
       nota: "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
@@ -655,7 +655,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 600 – 2,000",
       seniorUSD: "US$ 2,000 – 9,667",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Febrero–julio 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Acuerdo salarial CICOP - hospitales bonaerenses (feb. 2026)", "BeBee salarios Argentina", "Glassdoor Argentina"],
       nota: "Hay una diferencia enorme entre el sueldo de un residente (que no es sueldo 'de mercado' sino una escala fijada por convenio) y el ingreso de un médico ya especializado y consolidado, que puede ser muchas veces mayor, sobre todo combinando obra social, prepaga y consultorio particular."
     },
@@ -703,7 +703,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 433 – 1,467",
       seniorUSD: "US$ 1,467 – 2,000",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Mayo–junio 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["estudiarabogacia.com.ar (guías de sueldos 2026)", "Glassdoor Argentina", "BeBee salarios Argentina", "cuantogano.com (autorreportes de sueldos)"],
       nota: "Los ingresos de un abogado son muy variables porque buena parte no cobra 'sueldo' sino honorarios por caso, consulta u hora. Los valores mostrados son estimaciones de relación de dependencia; el ejercicio independiente puede ser muy superior o inferior según la cartera de clientes."
     },
@@ -751,7 +751,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 1,867 – 3,333",
       seniorUSD: "US$ 3,333 – 8,000",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Junio–julio 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Reporte Salarial Randstad Argentina 2026 (vía teclab.edu.ar)", "La Unión Digital (nota sobre sueldos contables 2025)", "Glassdoor Argentina", "Computrabajo Argentina"],
       nota: "Hay una brecha muy grande entre las fuentes: algunas (como Glassdoor) muestran cifras bajas por muestras chicas y desactualizadas, mientras que reportes de consultoras de RR.HH. como Randstad muestran valores más altos y realistas para 2026. Se priorizó el reporte de Randstad por ser más reciente y metodológicamente más sólido."
     },
@@ -797,7 +797,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 800 – 2,000",
       seniorUSD: "US$ 2,000 – 5,333",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Abril–junio 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Glassdoor Argentina", "BeBee salarios Argentina", "PROSFY salary finder", "Computrabajo Argentina"],
       nota: "Esta es una de las carreras con MAYOR dispersión entre fuentes: algunas ubican el sueldo promedio en unos cientos de miles de pesos y otras en varios millones. El rango mostrado es amplio a propósito para reflejar esa incertidumbre real de los datos disponibles."
     },
@@ -843,7 +843,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 1,267 – 2,200",
       seniorUSD: "US$ 2,200 – 2,333",
       moneda: "ARS por mes, brutos aproximados (según convenios colectivos del sector)",
-      fechaReferencia: "Marzo–junio 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["El Destape (escala salarial FATSA, marzo 2026)", "Perfil (paritaria SAFYB, abril 2026)", "BeBee salarios Argentina"],
       nota: "A diferencia de otras carreras, el salario de Farmacia en relación de dependencia está fuertemente regulado por convenios colectivos (FATSA, SAFYB), por lo que estos valores son más confiables que un promedio de portal de empleo. Los farmacéuticos independientes (dueños de su propia farmacia) pueden tener ingresos muy distintos."
     },
@@ -882,16 +882,16 @@ const CAREERS = [
     datosInteresantes: ["Un psicólogo recién recibido en relación de dependencia suele ganar entre $1.000.000 y $2.000.000 mensuales según fuentes de 2025-2026, mientras que un psicólogo forense puede llegar a ganar entre $2.000.000 y $4.000.000.", "Según un estudio de la Facultad de Psicología de la UBA, el 85% de quienes ejercen la psicología en Argentina son mujeres."],
     experienciaPersonal: "",
     salario: {
-      junior: "1.000.000 – 1.500.000",
-      semiSenior: "1.500.000 – 2.500.000",
-      senior: "2.500.000 – 4.000.000+ (con especialización, ej. forense)",
-      juniorUSD: "US$ 667 – 1,000",
-      semiSeniorUSD: "US$ 1,000 – 1,667",
-      seniorUSD: "US$ 1,667 – 2,667",
+      junior: "1.190.000 – 1.785.000",
+      semiSenior: "1.785.000 – 2.980.000",
+      senior: "2.980.000 – 4.765.000+ (con especialización, ej. forense)",
+      juniorUSD: "US$ 785 – 1,175",
+      semiSeniorUSD: "US$ 1,175 – 1,960",
+      seniorUSD: "US$ 1,960 – 3,135+",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "2025–2026",
+      fechaReferencia: "Julio 2026 (actualizado por inflación estimada respecto a la fuente original; ver nota)",
       fuentes: ["Calman Psicología (nota sobre sueldos 2025)", "iProfesional (nota sobre salida laboral, con datos de Auren Argentina)", "Glassdoor Argentina", "Computrabajo Argentina"],
-      nota: "Los portales de empleo tradicionales (Glassdoor, Computrabajo) muestran cifras muy bajas para esta carrera, probablemente por sesgos de muestra; se priorizaron notas especializadas en la profesión (Calman, iProfesional) por reflejar mejor la variedad real de sueldos según ámbito de ejercicio."
+      nota: "Los portales de empleo tradicionales (Glassdoor, Computrabajo) muestran cifras muy bajas para esta carrera, probablemente por sesgos de muestra; se priorizaron notas especializadas en la profesión (Calman, iProfesional) por reflejar mejor la variedad real de sueldos según ámbito de ejercicio. [Actualizado 2026-08-11: cifra ajustada +19.1% respecto a la fuente original citada, según inflación acumulada real (INDEC) hasta julio 2026. El valor en USD se recalculó al tipo de cambio oficial de referencia de agosto 2026 (~$1520).]"
     },
     pdfs: { plan: "plan-de-estudios.pdf", programa: null, info: null },
     faltaInvestigar: []
@@ -940,7 +940,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 933 – 1,667",
       seniorUSD: "US$ 1,667 – 3,333",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Mayo–junio 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Aprender21 (comparativa salarial 2026)", "cuantogano.com (autorreportes de sueldos)", "Glassdoor Argentina"],
       nota: "Es una carrera con salida muy transversal, por lo que el sueldo depende mucho más del sector y el tamaño de empresa que del título en sí. Los valores de Glassdoor para este puesto específico son bajos por tener pocas muestras; se los complementó con autorreportes y comparativas de consultoras de RR.HH."
     },
@@ -986,7 +986,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 733 – 1,200",
       seniorUSD: "US$ 1,200 – 1,933",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con carreras y categorías profesionales afines en Argentina"],
       nota: "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
@@ -1034,7 +1034,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 933 – 1,767",
       seniorUSD: "US$ 1,767 – 2,333",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Junio 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Guía Salarial Adecco 2026 (vía nota de AAACI)", "cuantogano.com (autorreportes de sueldos)", "Glassdoor Argentina"],
       nota: "El dato de Adecco (por tamaño de empresa: PyME/mediana/grande) es más confiable que el promedio genérico de portales de empleo, que mostraba cifras mucho más bajas por tener pocas muestras. Los valores de nivel senior se basan en autorreportes, no en un relevamiento formal."
     },
@@ -1080,7 +1080,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 800 – 1,333",
       seniorUSD: "US$ 1,333 – 2,133",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con carreras y categorías profesionales afines en Argentina"],
       nota: "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
@@ -1128,7 +1128,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 933 – 1,667",
       seniorUSD: "US$ 1,667 – 3,000",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Mayo–junio 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Aprender21 (comparativa salarial 2026)", "cuantogano.com (autorreportes de sueldos)", "Glassdoor Argentina"],
       nota: "Se usaron las mismas fuentes generales de Administración de Empresas dado que ambas carreras comparten núcleo de contenidos y salida laboral; en el interior del país (como Chaco) los sueldos tienden a ubicarse en la parte más baja de estos rangos respecto a Buenos Aires."
     },
@@ -1174,7 +1174,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 733 – 1,200",
       seniorUSD: "US$ 1,200 – 1,867",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con carreras y categorías profesionales afines en Argentina"],
       nota: "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
@@ -1225,7 +1225,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 667 – 1,200",
       seniorUSD: "US$ 1,200 – 2,000",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Junio 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Elsalario.com.ar", "PROSFY salary finder", "Glassdoor Argentina", "Computrabajo Argentina"],
       nota: "Esta es una de las carreras con MAYOR dispersión salarial entre fuentes de todo el sitio: algunas ubican el sueldo promedio en apenas $70.000-90.000 mensuales y otras en $1.000.000 o más para el mismo puesto. El rango mostrado es amplio a propósito para reflejar esa incertidumbre real; se recomienda contrastar con el colegio profesional de la provincia."
     },
@@ -1264,16 +1264,16 @@ const CAREERS = [
     datosInteresantes: ["Un relevamiento de Glassdoor sobre 'Perito Criminalista' en Argentina mostró un sueldo medio de unos $197.544 al año, con el 10% mejor pago llegando a superar los $710.000 anuales, lo que muestra una variación interna muy amplia incluso dentro de la misma fuente.", "La criminalística y la criminología suelen confundirse, pero son disciplinas distintas: la primera se apoya en ciencias naturales (huellas, ADN, balística) y la segunda es una ciencia social que estudia las causas del delito."],
     experienciaPersonal: "",
     salario: {
-      junior: "300.000 – 600.000",
-      semiSenior: "600.000 – 1.200.000",
-      senior: "1.200.000 – 2.000.000+ (peritos con trayectoria y causas de alta complejidad)",
-      juniorUSD: "US$ 200 – 400",
-      semiSeniorUSD: "US$ 400 – 800",
-      seniorUSD: "US$ 800 – 1,333",
+      junior: "355.000 – 715.000",
+      semiSenior: "715.000 – 1.430.000",
+      senior: "1.430.000 – 2.380.000+ (peritos con trayectoria y causas de alta complejidad)",
+      juniorUSD: "US$ 235 – 470",
+      semiSeniorUSD: "US$ 470 – 940",
+      seniorUSD: "US$ 940 – 1,565+",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Mayo–diciembre 2025/2026",
+      fechaReferencia: "Julio 2026 (actualizado por inflación estimada respecto a la fuente original; ver nota)",
       fuentes: ["Glassdoor Argentina (Perito Criminalista y Criminólogo)", "argentinaestudia.com (nota sobre salida laboral)"],
-      nota: "Las fuentes consultadas muestran cifras muy dispares y con pocas muestras (11 a 26 sueldos compartidos), por lo que estos valores deben tomarse como una referencia orientativa y no como un dato definitivo. Gran parte de la salida laboral depende de ingresar a organismos públicos o fuerzas de seguridad, cuyos escalafones salariales son distintos a los de un empleo privado tradicional."
+      nota: "Las fuentes consultadas muestran cifras muy dispares y con pocas muestras (11 a 26 sueldos compartidos), por lo que estos valores deben tomarse como una referencia orientativa y no como un dato definitivo. Gran parte de la salida laboral depende de ingresar a organismos públicos o fuerzas de seguridad, cuyos escalafones salariales son distintos a los de un empleo privado tradicional. [Actualizado 2026-08-11: cifra ajustada +19.1% respecto a la fuente original citada, según inflación acumulada real (INDEC) hasta julio 2026. El valor en USD se recalculó al tipo de cambio oficial de referencia de agosto 2026 (~$1520).]"
     },
     pdfs: { plan: null, programa: null, info: null },
     faltaInvestigar: []
@@ -1317,7 +1317,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 667 – 1,067",
       seniorUSD: "US$ 1,067 – 1,733",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con carreras y categorías profesionales afines en Argentina"],
       nota: "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
@@ -1356,16 +1356,16 @@ const CAREERS = [
     datosInteresantes: ["Un relevamiento de Glassdoor sobre 'Licenciado en Trabajo Social' mostró sueldos muy dispares según el empleador: desde ministerios de salud provinciales hasta gobiernos de ciudad, con medianas que iban de $95.000 a $180.000 mensuales según el organismo específico consultado."],
     experienciaPersonal: "",
     salario: {
-      junior: "300.000 – 700.000",
-      semiSenior: "700.000 – 1.200.000",
-      senior: "1.200.000 – 2.000.000+ (coordinación de equipos o áreas)",
-      juniorUSD: "US$ 200 – 467",
-      semiSeniorUSD: "US$ 467 – 800",
-      seniorUSD: "US$ 800 – 1,333",
+      junior: "370.000 – 860.000",
+      semiSenior: "860.000 – 1.470.000",
+      senior: "1.470.000 – 2.450.000+ (coordinación de equipos o áreas)",
+      juniorUSD: "US$ 245 – 565",
+      semiSeniorUSD: "US$ 565 – 965",
+      seniorUSD: "US$ 965 – 1,610+",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Noviembre 2025",
+      fechaReferencia: "Julio 2026 (actualizado por inflación estimada respecto a la fuente original; ver nota)",
       fuentes: ["Glassdoor Argentina (por organismo empleador)"],
-      nota: "La dispersión es muy alta incluso dentro de la misma fuente, según el organismo público específico que emplea al profesional (ministerios provinciales, gobiernos de ciudad, etc.). Se prefirió mostrar un rango amplio y conservador en lugar de un promedio único poco representativo."
+      nota: "La dispersión es muy alta incluso dentro de la misma fuente, según el organismo público específico que emplea al profesional (ministerios provinciales, gobiernos de ciudad, etc.). Se prefirió mostrar un rango amplio y conservador en lugar de un promedio único poco representativo. [Actualizado 2026-08-11: cifra ajustada +22.5% respecto a la fuente original citada, según inflación acumulada real (INDEC) hasta julio 2026. El valor en USD se recalculó al tipo de cambio oficial de referencia de agosto 2026 (~$1520).]"
     },
     pdfs: { plan: null, programa: null, info: null },
     faltaInvestigar: []
@@ -1409,7 +1409,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 600 – 1,000",
       seniorUSD: "US$ 1,000 – 1,667",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Junio–julio 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["cuantogano.com (autorreportes de sueldos)", "Computrabajo Argentina", "Glassdoor Argentina", "Elsalario.com.ar"],
       nota: "Esta es una de las carreras con MAYOR dispersión entre fuentes: Glassdoor mostraba un promedio muy bajo (unos $72.500 anuales) mientras que Computrabajo y los autorreportes de trabajadores mostraban cifras mensuales de $800.000 a más de $1.500.000 para el mismo puesto. Se priorizaron los autorreportes y Computrabajo por reflejar mejor la realidad actual del mercado de 2026."
     },
@@ -1455,7 +1455,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 667 – 1,067",
       seniorUSD: "US$ 1,067 – 1,667",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con carreras y categorías profesionales afines en Argentina"],
       nota: "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
@@ -1499,16 +1499,16 @@ const CAREERS = [
     datosInteresantes: ["Es una carrera poco común: pocas universidades públicas de Argentina la ofrecen, lo que la convierte en una opción distintiva de la oferta académica de UNCAUS.", "La UNCAUS incorporó equipamiento especializado (biseladoras y frontofocómetros) para las prácticas de esta carrera en los últimos años."],
     experienciaPersonal: "",
     salario: {
-      junior: "465.000 – 885.000",
-      semiSenior: "600.000 – 1.000.000",
-      senior: "1.000.000 – 1.400.000+ (u óptica propia, con ingresos variables)",
-      juniorUSD: "US$ 310 – 590",
-      semiSeniorUSD: "US$ 400 – 667",
-      seniorUSD: "US$ 667 – 933",
+      junior: "525.000 – 1.000.000",
+      semiSenior: "680.000 – 1.130.000",
+      senior: "1.130.000 – 1.585.000+ (u óptica propia, con ingresos variables)",
+      juniorUSD: "US$ 345 – 660",
+      semiSeniorUSD: "US$ 445 – 745",
+      seniorUSD: "US$ 745 – 1,045+",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Febrero 2026",
+      fechaReferencia: "Julio 2026 (actualizado por inflación estimada respecto a la fuente original; ver nota)",
       fuentes: ["Elsalario.com.ar / Wageindicator", "Glassdoor Argentina"],
-      nota: "Las fuentes muestran cifras muy dispares entre sí (desde $74.000 hasta más de $880.000 mensuales para el mismo puesto), probablemente porque mezclan empleados en relación de dependencia con datos de ingresos de ópticas propias. Se prefirió mostrar un rango amplio en lugar de un promedio poco representativo."
+      nota: "Las fuentes muestran cifras muy dispares entre sí (desde $74.000 hasta más de $880.000 mensuales para el mismo puesto), probablemente porque mezclan empleados en relación de dependencia con datos de ingresos de ópticas propias. Se prefirió mostrar un rango amplio en lugar de un promedio poco representativo. [Actualizado 2026-08-11: cifra ajustada +13.1% respecto a la fuente original citada, según inflación acumulada real (INDEC) hasta julio 2026. El valor en USD se recalculó al tipo de cambio oficial de referencia de agosto 2026 (~$1520).]"
     },
     pdfs: { plan: "plan-de-estudios.pdf", programa: null, info: null },
     faltaInvestigar: []
@@ -1552,7 +1552,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 600 – 700",
       seniorUSD: "US$ 700 – 1,000",
       moneda: "ARS por mes, de bolsillo aproximados, por un cargo/módulo",
-      fechaReferencia: "Abril 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["iProfesional (informe salarial docente por regiones, abril 2026)", "Informe indicativo del salario docente (Coordinación de Salario Docente, Ministerio de Educación de la Nación)"],
       nota: "El salario docente en Argentina se negocia provincia por provincia, por lo que estos valores corresponden específicamente a la región NEA (Chaco, Corrientes, Formosa, Misiones) y no a un promedio nacional. El ingreso real depende mucho de la cantidad de cargos u horas cátedra que tenga el/la docente, ya que muchos suman más de un cargo."
     },
@@ -1598,7 +1598,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 600 – 700",
       seniorUSD: "US$ 700 – 1,000",
       moneda: "ARS por mes, de bolsillo aproximados, por un cargo/módulo",
-      fechaReferencia: "Abril 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["iProfesional (informe salarial docente por regiones, abril 2026)", "Informe indicativo del salario docente (Coordinación de Salario Docente, Ministerio de Educación de la Nación)"],
       nota: "Igual que en el resto de los profesorados, el salario depende de la escala regional NEA y de la cantidad de cargos u horas cátedra acumuladas."
     },
@@ -1644,7 +1644,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 600 – 700",
       seniorUSD: "US$ 700 – 1,000",
       moneda: "ARS por mes, de bolsillo aproximados, por un cargo/módulo",
-      fechaReferencia: "Abril 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["iProfesional (informe salarial docente por regiones, abril 2026)", "Informe indicativo del salario docente (Coordinación de Salario Docente, Ministerio de Educación de la Nación)"],
       nota: "Escala regional NEA; el ingreso real depende de la cantidad de cargos u horas cátedra acumuladas por el/la docente."
     },
@@ -1690,7 +1690,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 600 – 700",
       seniorUSD: "US$ 700 – 1,000",
       moneda: "ARS por mes, de bolsillo aproximados, por un cargo/módulo",
-      fechaReferencia: "Abril 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["iProfesional (informe salarial docente por regiones, abril 2026)", "Informe indicativo del salario docente (Coordinación de Salario Docente, Ministerio de Educación de la Nación)"],
       nota: "Escala regional NEA; el ingreso real depende de la cantidad de cargos u horas cátedra acumuladas por el/la docente."
     },
@@ -1736,7 +1736,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 600 – 700",
       seniorUSD: "US$ 700 – 1,000",
       moneda: "ARS por mes, de bolsillo aproximados, por un cargo/módulo",
-      fechaReferencia: "Abril 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["iProfesional (informe salarial docente por regiones, abril 2026)", "Informe indicativo del salario docente (Coordinación de Salario Docente, Ministerio de Educación de la Nación)"],
       nota: "Escala regional NEA; el ingreso real depende de la cantidad de cargos u horas cátedra acumuladas por el/la docente."
     },
@@ -1782,7 +1782,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 600 – 700",
       seniorUSD: "US$ 700 – 1,000",
       moneda: "ARS por mes, de bolsillo aproximados, por un cargo/módulo",
-      fechaReferencia: "Abril 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["iProfesional (informe salarial docente por regiones, abril 2026)", "Informe indicativo del salario docente (Coordinación de Salario Docente, Ministerio de Educación de la Nación)"],
       nota: "Escala regional NEA; el ingreso real depende de la cantidad de cargos u horas cátedra acumuladas por el/la docente."
     },
@@ -1834,7 +1834,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 567 – 800",
       seniorUSD: "US$ 800 – 1,200",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con carreras y categorías profesionales afines en Argentina"],
       nota: "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
@@ -1880,7 +1880,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 600 – 700",
       seniorUSD: "US$ 700 – 1,000",
       moneda: "ARS por mes, de bolsillo aproximados",
-      fechaReferencia: "Abril 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["iProfesional (informe salarial docente por regiones, abril 2026)", "Informe indicativo del salario docente (Coordinación de Salario Docente, Ministerio de Educación de la Nación)"],
       nota: "El valor mostrado corresponde al cargo docente en escuelas (escala regional NEA). El ingreso por clases particulares o en institutos de idiomas privados no está estandarizado y puede variar mucho según la zona y la demanda."
     },
@@ -1926,7 +1926,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 600 – 700",
       seniorUSD: "US$ 700 – 1,000",
       moneda: "ARS por mes, de bolsillo aproximados, por un cargo",
-      fechaReferencia: "Abril 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["iProfesional (informe salarial docente por regiones, abril 2026)", "Informe indicativo del salario docente (Coordinación de Salario Docente, Ministerio de Educación de la Nación)"],
       nota: "Escala regional NEA; el ingreso real depende de la cantidad de cargos que tenga el/la docente y de si accede a cargos de gestión (dirección, vicedirección)."
     },
@@ -1972,7 +1972,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 600 – 700",
       seniorUSD: "US$ 700 – 1,000",
       moneda: "ARS por mes, de bolsillo aproximados, por un cargo",
-      fechaReferencia: "Abril 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["iProfesional (informe salarial docente por regiones, abril 2026)", "Informe indicativo del salario docente (Coordinación de Salario Docente, Ministerio de Educación de la Nación)"],
       nota: "Escala regional NEA; el ingreso real depende de la cantidad de cargos que tenga el/la docente."
     },
@@ -2018,7 +2018,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 600 – 700",
       seniorUSD: "US$ 700 – 1,000",
       moneda: "ARS por mes, de bolsillo aproximados, por un cargo",
-      fechaReferencia: "Abril 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["iProfesional (informe salarial docente por regiones, abril 2026)", "Informe indicativo del salario docente (Coordinación de Salario Docente, Ministerio de Educación de la Nación)"],
       nota: "Escala regional NEA; el ingreso real depende de la cantidad de cargos que tenga el/la docente."
     },
@@ -2064,7 +2064,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 600 – 700",
       seniorUSD: "US$ 700 – 1,000",
       moneda: "ARS por mes, de bolsillo aproximados, por un cargo/módulo",
-      fechaReferencia: "Abril 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["iProfesional (informe salarial docente por regiones, abril 2026)", "Informe indicativo del salario docente (Coordinación de Salario Docente, Ministerio de Educación de la Nación)"],
       nota: "Escala regional NEA; el ingreso real depende de la cantidad de cargos u horas cátedra acumuladas por el/la docente."
     },
@@ -2110,7 +2110,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 600 – 700",
       seniorUSD: "US$ 700 – 1,000",
       moneda: "ARS por mes, de bolsillo aproximados",
-      fechaReferencia: "Abril 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["iProfesional (informe salarial docente por regiones, abril 2026)", "Informe indicativo del salario docente (Coordinación de Salario Docente, Ministerio de Educación de la Nación)"],
       nota: "El valor mostrado corresponde al cargo docente en escuelas (escala regional NEA). El ingreso por talleres de teatro propios no está estandarizado y depende de la cantidad de alumnos y la zona."
     },
@@ -2156,7 +2156,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 600 – 700",
       seniorUSD: "US$ 700 – 1,000",
       moneda: "ARS por mes, de bolsillo aproximados, por un cargo",
-      fechaReferencia: "Abril 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["iProfesional (informe salarial docente por regiones, abril 2026)", "Informe indicativo del salario docente (Coordinación de Salario Docente, Ministerio de Educación de la Nación)"],
       nota: "Escala regional NEA. Los cargos en institutos de formación docente o de gestión (dirección, supervisión) pueden tener un básico distinto al de profesor de aula del nivel secundario común."
     },
@@ -2208,7 +2208,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 600 – 933",
       seniorUSD: "US$ 933 – 1,467",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con carreras y categorías profesionales afines en Argentina"],
       nota: "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
@@ -2256,7 +2256,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 400 – 667",
       seniorUSD: "US$ 667 – 1,200",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Febrero–mayo 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Glassdoor Argentina", "Superprof (nota sobre sueldos de psicopedagogos)"],
       nota: "Fuente con pocas muestras y gran dispersión interna; los valores más bajos suelen corresponder a cargos en relación de dependencia en escuelas, mientras que el ejercicio en consultorio propio con cartera de pacientes consolidada puede ser bastante superior."
     },
@@ -2302,7 +2302,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 667 – 1,067",
       seniorUSD: "US$ 1,067 – 1,600",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con carreras y categorías profesionales afines en Argentina"],
       nota: "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
@@ -2348,7 +2348,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 533 – 733",
       seniorUSD: "US$ 733 – 1,000",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con carreras y categorías profesionales afines en Argentina"],
       nota: "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
@@ -2394,7 +2394,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 667 – 1,067",
       seniorUSD: "US$ 1,067 – 1,667",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con carreras y categorías profesionales afines en Argentina"],
       nota: "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
@@ -2440,7 +2440,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 1,200 – 1,867",
       seniorUSD: "US$ 1,867 – 3,000",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con carreras y categorías profesionales afines en Argentina"],
       nota: "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
@@ -2490,7 +2490,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 600 – 933",
       seniorUSD: "US$ 933 – 1,400",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con carreras y categorías profesionales afines en Argentina"],
       nota: "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
@@ -2537,7 +2537,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 633 – 1,000",
       seniorUSD: "US$ 1,000 – 1,533",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con carreras y categorías profesionales afines en Argentina"],
       nota: "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
@@ -2583,7 +2583,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 600 – 933",
       seniorUSD: "US$ 933 – 1,333",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con carreras y categorías profesionales afines en Argentina"],
       nota: "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
@@ -2629,7 +2629,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 600 – 933",
       seniorUSD: "US$ 933 – 1,400",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con carreras y categorías profesionales afines en Argentina"],
       nota: "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
@@ -2675,7 +2675,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 467 – 733",
       seniorUSD: "US$ 733 – 1,000",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Junio–julio 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["BeBee salarios Argentina", "Glassdoor Argentina", "Wageindicator/Elsalario.com.ar"],
       nota: "Existe una diferencia muy grande entre los sueldos de medios locales/regionales pequeños (más bajos) y los de medios grandes o roles de comunicación institucional en empresas (más altos). El rango mostrado prioriza un escenario más representativo de un medio regional como los de Sáenz Peña, más que el de un gran medio nacional."
     },
@@ -2721,7 +2721,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 667 – 1,067",
       seniorUSD: "US$ 1,067 – 1,667",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con carreras y categorías profesionales afines en Argentina"],
       nota: "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
@@ -2767,7 +2767,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 800 – 1,267",
       seniorUSD: "US$ 1,267 – 1,733",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Marzo–mayo 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["cuantogano.com (autorreportes de sueldos)", "Glassdoor Argentina", "Computrabajo Argentina"],
       nota: "Es una de las carreras con MAYOR dispersión salarial entre fuentes de todo el sitio: los relevamientos automáticos de portales de empleo (Glassdoor) muestran promedios muy bajos, mientras que los autorreportes reales de trabajadores muestran cifras mucho más altas, especialmente para quienes trabajan de forma independiente para varias empresas o en minería/industria pesada."
     },
@@ -2813,7 +2813,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 600 – 1,000",
       seniorUSD: "US$ 1,000 – 1,667",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Junio–julio 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["cuantogano.com (autorreportes de sueldos)", "Computrabajo Argentina", "Glassdoor Argentina"],
       nota: "Se usaron las mismas fuentes generales de soporte técnico IT relevadas para la Tecnicatura en Informática, dado que ambas formaciones comparten un núcleo de salida laboral similar (soporte y mesa de ayuda), con esta tecnicatura algo más orientada a redes e infraestructura."
     },
@@ -2859,7 +2859,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 633 – 1,000",
       seniorUSD: "US$ 1,000 – 1,467",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con carreras y categorías profesionales afines en Argentina"],
       nota: "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
@@ -2905,7 +2905,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 667 – 1,067",
       seniorUSD: "US$ 1,067 – 1,600",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con carreras y categorías profesionales afines en Argentina"],
       nota: "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
@@ -2951,7 +2951,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 800 – 1,267",
       seniorUSD: "US$ 1,267 – 1,733",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Marzo–mayo 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["cuantogano.com (autorreportes de sueldos)", "Glassdoor Argentina", "Computrabajo Argentina"],
       nota: "Se usaron las mismas fuentes generales relevadas para la Tecnicatura Superior en Seguridad, Higiene y del Medio Ambiente (IES Juan Mantovani), dado que ambos títulos habilitan para las mismas tareas profesionales en la práctica, con la diferencia de que este es un título universitario cursado a distancia."
     },
@@ -2996,16 +2996,16 @@ const CAREERS = [
     datosInteresantes: ["Argentina tiene más de 200 empresas de biotecnología, ubicándose entre los 20 países con mayor cantidad de este tipo de empresas en el mundo y segundo en Latinoamérica detrás de Brasil, según un informe sectorial del entonces Ministerio de Desarrollo Productivo.", "Según una nota de El Cronista de enero de 2026, un analista senior en biotecnología puede reportar sueldos de hasta $2.400.000 mensuales, mientras que perfiles técnicos rondan entre $1.400.000 y $1.600.000."],
     experienciaPersonal: "",
     salario: {
-      junior: "500.000 – 1.400.000",
-      semiSenior: "1.400.000 – 2.000.000",
-      senior: "2.000.000 – 2.400.000+ (analista senior en biotecnología)",
-      juniorUSD: "US$ 333 – 933",
-      semiSeniorUSD: "US$ 933 – 1,333",
-      seniorUSD: "US$ 1,333 – 1,600",
+      junior: "565.000 – 1.585.000",
+      semiSenior: "1.585.000 – 2.260.000",
+      senior: "2.260.000 – 2.715.000+ (analista senior en biotecnología)",
+      juniorUSD: "US$ 370 – 1,045",
+      semiSeniorUSD: "US$ 1,045 – 1,485",
+      seniorUSD: "US$ 1,485 – 1,785+",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Enero–febrero 2026",
+      fechaReferencia: "Julio 2026 (actualizado por inflación estimada respecto a la fuente original; ver nota)",
       fuentes: ["El Cronista (enero 2026)", "Glassdoor Argentina", "argentinaestudia.com"],
-      nota: "Es una de las carreras con MAYOR dispersión salarial entre fuentes de todo el sitio: Glassdoor muestra promedios muy bajos para el cargo genérico de 'Biotecnólogo' (basados en muy pocas muestras), mientras que notas periodísticas especializadas de 2026 (El Cronista) muestran cifras mucho más altas y realistas para analistas senior del sector. Se priorizaron estas últimas por ser más recientes y representativas del mercado actual."
+      nota: "Es una de las carreras con MAYOR dispersión salarial entre fuentes de todo el sitio: Glassdoor muestra promedios muy bajos para el cargo genérico de 'Biotecnólogo' (basados en muy pocas muestras), mientras que notas periodísticas especializadas de 2026 (El Cronista) muestran cifras mucho más altas y realistas para analistas senior del sector. Se priorizaron estas últimas por ser más recientes y representativas del mercado actual. [Actualizado 2026-08-11: cifra ajustada +13.1% respecto a la fuente original citada, según inflación acumulada real (INDEC) hasta julio 2026. El valor en USD se recalculó al tipo de cambio oficial de referencia de agosto 2026 (~$1520).]"
     },
     pdfs: { plan: "plan-de-estudios.pdf", programa: null, info: null },
     faltaInvestigar: []
@@ -3055,7 +3055,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 667 – 1,200",
       seniorUSD: "US$ 1,200 – 2,067",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Abril–junio 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Instituto SABER (nota sobre sueldos de marketing 2026)", "cuantogano.com (autorreportes de sueldos)", "Glassdoor Argentina"],
       nota: "Enorme dispersión entre fuentes: Glassdoor muestra promedios muy bajos (basados en pocas muestras), mientras que la nota especializada de Instituto SABER y los autorreportes de trabajadores reflejan mejor la realidad de 2026, con una brecha grande entre marketing tradicional y marketing digital especializado."
     },
@@ -3102,7 +3102,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 1,000 – 2,000",
       seniorUSD: "US$ 2,000 – 2,667",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Marzo–junio 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Instituto SABER (rangos salariales 2026)", "cuantogano.com (autorreportes de sueldos)", "Glassdoor Argentina"],
       nota: "Existe una diferencia muy grande entre las estimaciones de portales tradicionales (Glassdoor muestra promedios bajos por pocas muestras) y las notas especializadas del sector financiero, que reflejan mejor la realidad de 2026. Se priorizaron estas últimas por ser más recientes y metodológicamente más completas."
     },
@@ -3149,7 +3149,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 967 – 1,667",
       seniorUSD: "US$ 1,667 – 2,667",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Enero–junio 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Aprender21 (nota sobre salarios de RR.HH. 2026)", "cuantogano.com (autorreportes de sueldos)", "Humand (guía de sueldos RR.HH.)", "Glassdoor Argentina"],
       nota: "Los portales tradicionales (Glassdoor, Computrabajo) muestran promedios bajos por mezclar puestos operativos de entrada con roles de gestión; se complementó con autorreportes y notas especializadas de RR.HH. que reflejan mejor la variedad real de sueldos según especialización y tipo de empresa."
     },
@@ -3196,7 +3196,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 1,000 – 1,600",
       seniorUSD: "US$ 1,600 – 2,333",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Abril–junio 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Ciudadano News (nota sobre sueldos logísticos, abril 2026)", "cuantogano.com (autorreportes de sueldos)", "Glassdoor Argentina"],
       nota: "Los portales de empleo tradicionales muestran promedios más bajos, mientras que notas especializadas de 2026 y autorreportes de trabajadores en puestos de jefatura muestran cifras bastante más altas, reflejando el crecimiento del sector impulsado por el e-commerce."
     },
@@ -3243,7 +3243,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 633 – 1,200",
       seniorUSD: "US$ 1,200 – 2,000",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Mayo–junio 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["BeBee (ofertas activas de empleo para Actuario, 2026)", "Elsalario.com.ar (matemáticos, actuarios y estadísticos)", "Glassdoor Argentina"],
       nota: "Esta es una profesión de nicho con pocas muestras en portales generales, lo que genera promedios poco representativos (Glassdoor). Se priorizaron ofertas de empleo activas específicas del sector seguros, que reflejan mejor la realidad salarial de esta carrera en particular."
     },
@@ -3290,7 +3290,7 @@ const CAREERS = [
       semiSeniorUSD: null,
       seniorUSD: null,
       moneda: "ARS, ingreso principalmente por honorarios y no por sueldo fijo",
-      fechaReferencia: "Mayo 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Colegio de Martilleros y Corredores Públicos de la Pcia. de Buenos Aires (valores de matrícula 2026)", "Glassdoor Argentina (Martillero Público)", "deinmobiliarios.com (nota sobre ingresos de corredores)"],
       nota: "A diferencia de la mayoría de las carreras de este sitio, esta profesión NO tiene un sueldo fijo de mercado: el ingreso depende directamente de las operaciones inmobiliarias que se concreten y del honorario pactado (típicamente 1,5%-3% del valor de la operación), además de los costos fijos de matrícula y cuota del colegio profesional correspondiente a la jurisdicción."
     },
@@ -3336,16 +3336,16 @@ const CAREERS = [
     datosInteresantes: ["Según relevamientos de 2026, el personal de apoyo de una escribanía (secretarios, auxiliares) puede ganar desde $16.000 hasta $630.000 mensuales según la jurisdicción y la formalidad del empleo, mientras que el escribano titular cobra por escritura según arancel (aproximadamente 1%-2% del valor de la operación en muchas jurisdicciones).", "En la práctica argentina, buena parte de quienes se reciben de Abogado y luego cursan Escribanía combinan ambos ejercicios profesionales."],
     experienciaPersonal: "",
     salario: {
-      junior: "630.000 – 1.300.000 (escribano/a junior en relación de dependencia o asistiendo a un titular)",
+      junior: "695.000 – 1.435.000 (escribano/a junior en relación de dependencia o asistiendo a un titular)",
       semiSenior: "1% – 2% del valor de cada escritura (arancel estándar, como escribano/a titular)",
       senior: "Variable, sin techo definido — depende del volumen de escrituras y la cartera de clientes",
-      juniorUSD: "US$ 420 – 867",
+      juniorUSD: "US$ 455 – 945",
       semiSeniorUSD: null,
       seniorUSD: null,
       moneda: "ARS, ingreso mixto: sueldo (personal de apoyo) u honorario por escritura (titular)",
-      fechaReferencia: "Febrero–marzo 2026",
+      fechaReferencia: "Julio 2026 (actualizado por inflación estimada respecto a la fuente original; ver nota)",
       fuentes: ["cuantogano.com (autorreportes de sueldos de escribanía)", "Glassdoor Argentina", "Roomix (honorarios de escribano 2026)"],
-      nota: "Esta carrera tiene un esquema de ingresos mixto: quienes trabajan en relación de dependencia dentro de una escribanía (asistentes, secretarios) cobran un sueldo fijo, mientras que el escribano/a titular cobra honorarios regulados por arancel sobre cada escritura (aproximadamente 1%-2% del valor de la operación), por lo que no aplica un único 'sueldo' representativo para toda la profesión."
+      nota: "Esta carrera tiene un esquema de ingresos mixto: quienes trabajan en relación de dependencia dentro de una escribanía (asistentes, secretarios) cobran un sueldo fijo, mientras que el escribano/a titular cobra honorarios regulados por arancel sobre cada escritura (aproximadamente 1%-2% del valor de la operación), por lo que no aplica un único 'sueldo' representativo para toda la profesión. [Actualizado 2026-08-11: cifra ajustada +10.2% respecto a la fuente original citada, según inflación acumulada real (INDEC) hasta julio 2026. El valor en USD se recalculó al tipo de cambio oficial de referencia de agosto 2026 (~$1520).]"
     },
     pdfs: { plan: null, programa: null, info: null },
     faltaInvestigar: []
@@ -3383,16 +3383,16 @@ const CAREERS = [
     datosInteresantes: ["A diferencia de otras jurisdicciones donde el título de Procurador se obtiene junto con el de Abogado a los 5 años, en algunas instituciones se otorga a los 3 años, permitiendo una salida laboral anticipada.", "En Capital Federal, Buenos Aires y Santa Fe, entre otras provincias, los procuradores tienen mayor incumbencia legal que en otras jurisdicciones del país."],
     experienciaPersonal: "",
     salario: {
-      junior: "300.000 – 600.000",
-      semiSenior: "600.000 – 900.000",
-      senior: "900.000 – 1.300.000+ (procuradores con trayectoria en estudios grandes)",
-      juniorUSD: "US$ 200 – 400",
-      semiSeniorUSD: "US$ 400 – 600",
-      seniorUSD: "US$ 600 – 867",
+      junior: "340.000 – 680.000",
+      semiSenior: "680.000 – 1.020.000",
+      senior: "1.020.000 – 1.470.000+ (procuradores con trayectoria en estudios grandes)",
+      juniorUSD: "US$ 225 – 445",
+      semiSeniorUSD: "US$ 445 – 670",
+      seniorUSD: "US$ 670 – 965+",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Diciembre 2025 – febrero 2026",
+      fechaReferencia: "Julio 2026 (actualizado por inflación estimada respecto a la fuente original; ver nota)",
       fuentes: ["Glassdoor Argentina (Procurador)", "Diario Judicial (nota sobre la profesión de procurador)"],
-      nota: "Datos con pocas muestras y bastante variabilidad según la jurisdicción; en general los sueldos de esta profesión son más bajos que los de un abogado matriculado, dado su menor incumbencia legal."
+      nota: "Datos con pocas muestras y bastante variabilidad según la jurisdicción; en general los sueldos de esta profesión son más bajos que los de un abogado matriculado, dado su menor incumbencia legal. [Actualizado 2026-08-11: cifra ajustada +13.1% respecto a la fuente original citada, según inflación acumulada real (INDEC) hasta julio 2026. El valor en USD se recalculó al tipo de cambio oficial de referencia de agosto 2026 (~$1520).]"
     },
     pdfs: { plan: null, programa: null, info: null },
     faltaInvestigar: []
@@ -3437,7 +3437,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 733 – 1,267",
       seniorUSD: "US$ 1,267 – 2,133",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con carreras y categorías profesionales afines en Argentina"],
       nota: "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
@@ -3484,7 +3484,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 800 – 1,333",
       seniorUSD: "US$ 1,333 – 2,333",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con carreras y categorías profesionales afines en Argentina"],
       nota: "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
@@ -3531,7 +3531,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 800 – 1,333",
       seniorUSD: "US$ 1,333 – 2,133",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con carreras y categorías profesionales afines en Argentina"],
       nota: "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
@@ -3578,7 +3578,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 633 – 1,000",
       seniorUSD: "US$ 1,000 – 1,467",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con carreras y categorías profesionales afines en Argentina"],
       nota: "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
@@ -3625,7 +3625,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 633 – 1,000",
       seniorUSD: "US$ 1,000 – 1,467",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con carreras y categorías profesionales afines en Argentina"],
       nota: "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
@@ -3672,7 +3672,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 400 – 733",
       seniorUSD: "US$ 733 – 1,333",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Mayo 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Glassdoor Argentina (Criminólogo)", "argentinaestudia.com (nota sobre criminalística, campo afín)"],
       nota: "Al igual que con Criminalística, las fuentes muestran pocas muestras y bastante dispersión; los valores mostrados son una referencia conservadora y orientativa, no un dato definitivo del mercado."
     },
@@ -3719,7 +3719,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 667 – 1,067",
       seniorUSD: "US$ 1,067 – 1,600",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con carreras y categorías profesionales afines en Argentina"],
       nota: "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
@@ -3820,7 +3820,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 1 – 1",
       seniorUSD: "US$ 1 – 2",
       moneda: "Referencia en USD por mes (uso habitual del sector dada la volatilidad cambiaria), con equivalente aproximado en ARS",
-      fechaReferencia: "Mayo–julio 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Talently (calculadora de salarios tech Argentina)", "Coderhouse (nota sobre sueldos de Data Scientist 2026)", "Instituto Data Science Argentina (observatorio de sueldos)"],
       nota: "A diferencia de otras carreras de este sitio, en el sector de datos y tecnología es habitual que las referencias salariales se expresen directamente en dólares, dada la alta proporción de contratos remotos con empresas del exterior y la volatilidad del peso argentino. El equivalente en pesos es orientativo y depende del tipo de cambio del momento."
     },
@@ -3867,7 +3867,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 320 – 933",
       seniorUSD: "US$ 933 – 2,000",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Abril–junio 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Donweb (nota sobre ciberseguridad en Argentina 2026, con caso real)", "Glassdoor Argentina", "PROSFY salary finder"],
       nota: "Enorme dispersión entre fuentes, típica de roles tecnológicos especializados: algunas estimaciones automáticas muestran cifras muy bajas o muy altas por pocas muestras. Se priorizó un caso real documentado en 2026 (analista SOC semi-senior) como ancla más confiable, complementado con rangos generales del mercado."
     },
@@ -3914,7 +3914,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 867 – 1,667",
       seniorUSD: "US$ 1,667 – 3,000",
       moneda: "ARS por mes, brutos aproximados (algunas fuentes expresan el sueldo directamente en dólares)",
-      fechaReferencia: "Abril–junio 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["BeBee salarios Argentina (Ingeniero de IA, 2026)", "Coderhouse (nota sobre sueldos de automatización con IA 2026)", "Glassdoor Argentina"],
       nota: "Es uno de los campos con mayor dispersión salarial y de datos poco estandarizados en pesos argentinos, dado que gran parte del mercado de IA se maneja en dólares por la cantidad de contratos remotos con el exterior. Los valores mostrados son una referencia orientativa en pesos."
     },
@@ -3961,7 +3961,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 933 – 1,600",
       seniorUSD: "US$ 1,600 – 2,667",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con carreras y categorías profesionales afines en Argentina"],
       nota: "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
@@ -4055,7 +4055,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 867 – 1,467",
       seniorUSD: "US$ 1,467 – 2,400",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con carreras y categorías profesionales afines en Argentina"],
       nota: "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
@@ -4102,7 +4102,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 600 – 1,000",
       seniorUSD: "US$ 1,000 – 1,667",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Junio–julio 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Se toma como referencia la misma investigación salarial de la Tecnicatura Superior en Soporte de la Infraestructura de la Información de este sitio, dado el campo laboral compartido."],
       nota: "No se encontró un relevamiento salarial separado para este título en particular; se usó como referencia el mercado de soporte técnico e infraestructura de redes ya investigado en este sitio para una tecnicatura de contenido equivalente."
     },
@@ -4149,7 +4149,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 867 – 1,467",
       seniorUSD: "US$ 1,467 – 2,400",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con carreras y categorías profesionales afines en Argentina"],
       nota: "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
@@ -4202,7 +4202,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 600 – 1,133",
       seniorUSD: "US$ 1,133 – 1,867",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Junio–julio 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["cuantogano.com (autorreportes de sueldos de diseño)", "Computrabajo Argentina", "Glassdoor Argentina"],
       nota: "Una de las carreras con MAYOR dispersión salarial del sitio: los portales automáticos (Glassdoor) muestran promedios muy bajos por mezclar diseño gráfico genérico de baja especialización, mientras que los autorreportes reales de trabajadores y Computrabajo muestran cifras bastante más altas, sobre todo en roles digitales especializados o freelance."
     },
@@ -4242,16 +4242,16 @@ const CAREERS = [
     datosInteresantes: ["Un relevamiento especializado del sector describe que la carrera del publicista tiene múltiples caminos posibles: desde creativo, redactor o experto en arte, hasta director de cuentas o líder de agencia, cada uno con su propia progresión salarial."],
     experienciaPersonal: "",
     salario: {
-      junior: "537.000 – 988.000",
-      semiSenior: "988.000 – 1.400.000",
-      senior: "1.400.000 – 2.000.000+ (dirección de cuentas o agencia)",
-      juniorUSD: "US$ 358 – 659",
-      semiSeniorUSD: "US$ 659 – 933",
-      seniorUSD: "US$ 933 – 1,333",
+      junior: "730.000 – 1.345.000",
+      semiSenior: "1.345.000 – 1.905.000",
+      senior: "1.905.000 – 2.725.000+ (dirección de cuentas o agencia)",
+      juniorUSD: "US$ 480 – 885",
+      semiSeniorUSD: "US$ 885 – 1,255",
+      seniorUSD: "US$ 1,255 – 1,795+",
       moneda: "ARS por mes, aproximados",
-      fechaReferencia: "2025 (algunas referencias específicas de la profesión son de años anteriores)",
+      fechaReferencia: "Julio 2026 (actualizado por inflación estimada respecto a la fuente original; ver nota)",
       fuentes: ["Elsalario.com.ar (profesionales de publicidad y comercialización)", "iProfesional (nota sobre sueldos de publicistas, con datos parcialmente desactualizados)", "Glassdoor Argentina"],
-      nota: "Las fuentes específicas sobre 'publicista' o 'creativo publicitario' en Argentina son limitadas y algunas datan de años anteriores a 2026. Se usó como base más confiable el relevamiento de Elsalario.com.ar para la categoría general de profesionales de publicidad y marketing, complementado con la nota de iProfesional sobre progresión de carrera en la industria."
+      nota: "Las fuentes específicas sobre 'publicista' o 'creativo publicitario' en Argentina son limitadas y algunas datan de años anteriores a 2026. Se usó como base más confiable el relevamiento de Elsalario.com.ar para la categoría general de profesionales de publicidad y marketing, complementado con la nota de iProfesional sobre progresión de carrera en la industria. [Actualizado 2026-08-11: cifra ajustada +36.2% respecto a la fuente original citada, según inflación acumulada real (INDEC) hasta julio 2026. El valor en USD se recalculó al tipo de cambio oficial de referencia de agosto 2026 (~$1520).]"
     },
     pdfs: { plan: null, programa: null, info: null },
     faltaInvestigar: ["Rango salarial específico y actualizado a 2026 para 'publicista' en particular"]
@@ -4296,7 +4296,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 467 – 733",
       seniorUSD: "US$ 733 – 1,000",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Junio–julio 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Se toma como referencia la misma investigación salarial de la Tecnicatura Superior en Comunicación Social con Especialización en Periodismo de este sitio."],
       nota: "No se encontró un relevamiento salarial separado para 'Licenciado en Periodismo' respecto a la tecnicatura en comunicación social ya investigada; en la práctica ambas formaciones compiten por los mismos puestos en medios de comunicación."
     },
@@ -4343,7 +4343,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 733 – 1,267",
       seniorUSD: "US$ 1,267 – 2,000",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con carreras y categorías profesionales afines en Argentina"],
       nota: "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
@@ -4390,7 +4390,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 800 – 1,333",
       seniorUSD: "US$ 1,333 – 2,133",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con carreras y categorías profesionales afines en Argentina"],
       nota: "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
@@ -4437,7 +4437,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 1,000 – 1,667",
       seniorUSD: "US$ 1,667 – 2,667",
       moneda: "ARS por mes, brutos aproximados (frecuente cobrar en dólares para estudios del exterior)",
-      fechaReferencia: "Junio 2024 – 2026 (nota de referencia con datos aún vigentes según especialistas del sector)",
+      fechaReferencia: "Julio 2026 (dato base de junio 2024, confirmado como vigente por especialistas del sector; ver nota)",
       fuentes: ["iProUP (nota sobre sueldos en la industria de videojuegos argentina, con datos de ADVA y CADEVI)", "Glassdoor Argentina"],
       nota: "Los portales de empleo tradicionales (Glassdoor) muestran cifras muy bajas para este rol específico, con pocas muestras. Se priorizó una nota especializada del sector que cita fuentes sectoriales (ADVA, CADEVI) y menciona sueldos desde $1.500.000 mensuales, más representativa de esta industria particular donde el trabajo remoto internacional en dólares es la norma."
     },
@@ -4484,7 +4484,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 667 – 1,133",
       seniorUSD: "US$ 1,133 – 1,867",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con carreras y categorías profesionales afines en Argentina"],
       nota: "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
@@ -4531,7 +4531,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 600 – 1,000",
       seniorUSD: "US$ 1,000 – 1,467",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Abril–junio 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Se toma como referencia la misma investigación salarial de la Licenciatura en Comercialización - Marketing de este sitio, con valores algo menores dado el menor nivel de formación."],
       nota: "No se encontró un relevamiento salarial separado para este título técnico en particular; se usó como referencia el mercado de marketing digital investigado para la Licenciatura afín de este sitio, ajustando levemente hacia abajo por tratarse de un título de menor duración."
     },
@@ -4578,7 +4578,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 580 – 977",
       seniorUSD: "US$ 536",
       moneda: "ARS por mes, brutos aproximados (o por evento si se trabaja de forma independiente)",
-      fechaReferencia: "2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Elsalario.com.ar (organizadores de conferencias y eventos, 2026)", "Modelos de Plan de Negocios (nota sobre rentabilidad de organizadores de eventos en Argentina)", "Glassdoor Argentina"],
       nota: "El ingreso de esta profesión tiene dos caminos muy distintos: sueldo fijo en relación de dependencia (más predecible) o ingreso variable por evento como organizador/a independiente con agencia propia (con mayor techo pero también mayor riesgo, ya que hay que cubrir costos fijos como seguros y herramientas de gestión)."
     },
@@ -4632,7 +4632,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 667 – 1,000",
       seniorUSD: "US$ 1,000 – 1,533",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con carreras y categorías profesionales afines en Argentina"],
       nota: "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
@@ -4679,7 +4679,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 733 – 1,133",
       seniorUSD: "US$ 1,133 – 1,733",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con carreras y categorías profesionales afines en Argentina"],
       nota: "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
@@ -4726,7 +4726,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 600 – 700",
       seniorUSD: "US$ 700 – 1,000",
       moneda: "ARS por mes, de bolsillo aproximados, por un cargo/módulo",
-      fechaReferencia: "Abril 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Se toma como referencia la misma escala docente regional NEA investigada para los Profesorados de este sitio (iProfesional, abril 2026)."],
       nota: "Al ser un título que habilita para cargos docentes, se rige por la misma escala salarial docente de la región NEA usada en el resto de los profesorados de este sitio. El ingreso total de la persona suele combinar este sueldo docente con el de su profesión de origen (abogacía, ingeniería, etc.), que se puede consultar en la ficha correspondiente de este mismo sitio."
     },
@@ -4773,7 +4773,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 733 – 1,133",
       seniorUSD: "US$ 1,133 – 1,733",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con carreras y categorías profesionales afines en Argentina"],
       nota: "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
@@ -4820,7 +4820,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 733 – 1,200",
       seniorUSD: "US$ 1,200 – 1,867",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con carreras y categorías profesionales afines en Argentina"],
       nota: "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
@@ -4867,7 +4867,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 600 – 1,100",
       seniorUSD: "US$ 1,100 – 1,667",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["cuantogano.com (autorreportes de sueldos del rubro salud, con caso real de facturista/liquidadora de servicios de salud)", "Glassdoor Argentina (administrativo de salud)"],
       nota: "Los relevamientos generales para 'administrativo de salud' muestran una dispersión extrema (desde $150.000 hasta $1.650.000 anuales según la fuente, con inconsistencias evidentes). Se priorizó un caso real y concreto de un autorreporte de trabajador del sector (con 18 años de antigüedad) como ancla más confiable que los promedios automáticos de portales de empleo."
     },
@@ -4914,7 +4914,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 467 – 733",
       seniorUSD: "US$ 733 – 1,100",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Se toma como referencia la misma investigación salarial de la Licenciatura en Administración de Servicios de Salud de este sitio, con valores de entrada ajustados hacia abajo por tratarse de un título técnico de menor duración."],
       nota: "No se encontró un relevamiento salarial separado para este título técnico en particular; se usó como referencia el mismo campo laboral investigado para la Licenciatura en Administración de Servicios de Salud de este sitio."
     },
@@ -4961,7 +4961,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 600 – 933",
       seniorUSD: "US$ 933 – 1,333",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con carreras y categorías profesionales afines en Argentina"],
       nota: "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
@@ -6530,7 +6530,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 667 – 1,000",
       seniorUSD: "US$ 1,000 – 1,533",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con perfiles profesionales afines en Argentina"],
       nota: "Esta diplomatura es una capacitación adicional para docentes en ejercicio, no una carrera de base. El rango estimado corresponde al sueldo de un/a docente de matemática que suma este título, por comparación con el escalafón docente general — no a un 'sueldo por diplomatura' independiente."
     },
@@ -6575,7 +6575,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 667 – 1,000",
       seniorUSD: "US$ 1,000 – 1,533",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con perfiles profesionales afines en Argentina"],
       nota: "Esta diplomatura es una capacitación adicional para docentes en ejercicio. El rango estimado corresponde al sueldo docente general al sumar esta especialización, por comparación con el escalafón docente — no a un sueldo independiente de la diplomatura en sí."
     },
@@ -6620,7 +6620,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 800 – 1,333",
       seniorUSD: "US$ 1,333 – 2,133",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con perfiles profesionales afines en Argentina"],
       nota: "Estimación aproximada por comparación con perfiles de higiene y seguridad laboral en Argentina, ya que esta diplomatura suele sumarse a un título de base (ingeniería, técnico) y no tiene un sueldo propio independiente relevado."
     },
@@ -6665,7 +6665,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 1,467 – 2,333",
       seniorUSD: "US$ 2,333 – 4,000",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con perfiles profesionales afines en Argentina"],
       nota: "Un doctorado no es un empleo en sí mismo, sino una credencial que suele combinarse con la actividad docente o de investigación de base (por ejemplo, en la carrera de investigador de CONICET) o con un puesto senior en la industria de software. El rango mostrado es una estimación aproximada de esos perfiles, no un sueldo propio del título."
     },
@@ -6710,7 +6710,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 1,667 – 2,667",
       seniorUSD: "US$ 2,667 – 4,667",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con perfiles profesionales afines en Argentina"],
       nota: "Un MBA se cursa generalmente sobre una carrera de grado y experiencia laboral previa. El rango mostrado estima el sueldo de un perfil gerencial/directivo con MBA en Argentina, por comparación con el mercado — no un sueldo propio del título en sí."
     },
@@ -6755,7 +6755,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 1,333 – 2,133",
       seniorUSD: "US$ 2,133 – 3,333",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con perfiles profesionales afines en Argentina"],
       nota: "Estimación aproximada del sueldo de un/a ingeniero/a especializado en gestión de calidad que suma esta maestría, por comparación con puestos senior de calidad en la industria — no un sueldo propio e independiente de la maestría."
     },
@@ -6800,7 +6800,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 1,467 – 2,333",
       seniorUSD: "US$ 2,333 – 3,667",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con perfiles profesionales afines en Argentina"],
       nota: "Estimación aproximada del sueldo de un/a ingeniero/a con perfil gerencial que suma esta especialización, por comparación con puestos de gestión en industria — no un sueldo propio e independiente de la especialización."
     },
@@ -6845,7 +6845,7 @@ const CAREERS = [
       semiSeniorUSD: "US$ 933 – 1,467",
       seniorUSD: "US$ 1,467 – 2,333",
       moneda: "ARS por mes, brutos aproximados",
-      fechaReferencia: "Julio 2026 (estimado)",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Estimación interna por comparación con perfiles profesionales afines en Argentina"],
       nota: "Estimación aproximada por comparación con perfiles de higiene y seguridad laboral, ya que esta especialización se suma a un título de base (generalmente ingeniería) y no tiene un sueldo propio independiente relevado."
     },
@@ -6898,7 +6898,7 @@ const CAREERS = [
       semiSenior: null,
       senior: "4.999.663",
       moneda: "ARS",
-      fechaReferencia: "Abril 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Escala de sueldos de la Policía de la Provincia del Chaco difundida en abril 2026 (diariozona.com, baxternoticias.top)", "comunicacion.chaco.gov.ar (anuncios de recomposición salarial 2026)"],
       nota: "El monto \"junior\" corresponde al haber puro de un/a Agente (el escalafón más bajo) y el \"senior\" al de un/a Comisario/a General (la jerarquía máxima), según la escala vigente desde abril de 2026, con un incremento del 2% sobre el básico. No hay datos públicos y desglosados de los escalafones intermedios (Oficial, Comisario Inspector, etc.). Además del básico, los haberes incluyen adicionales como Riesgo Profesional (100% del básico del Agente) y Dedicación Especial, que representan una parte importante del sueldo de bolsillo."
     },
@@ -6986,7 +6986,7 @@ const CAREERS = [
       semiSenior: "1.226.738",
       senior: "2.635.216",
       moneda: "ARS",
-      fechaReferencia: "Agosto 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["Resolución 944/2025 del Ministerio de Seguridad de la Nación (escala salarial GNA vigente desde noviembre 2025/abril 2026)", "iprofesional.com, airedesantafe.com.ar, eldestapeweb.com (notas sobre la escala salarial de Gendarmería, julio-agosto 2026)"],
       nota: "El monto \"junior\" corresponde al haber básico de Gendarme II (grado inicial), el \"semiSenior\" al de Primer Alférez (uno de los primeros grados de Oficial) y el \"senior\" al de Comandante General (la jerarquía máxima). Son haberes básicos: no incluyen adicionales por antigüedad, título, zona desfavorable ni el bono extraordinario de $50.000 otorgado en agosto de 2026 por el Decreto 696/2026 ante la falta de una actualización oficial de los básicos."
     },
@@ -7026,13 +7026,13 @@ const CAREERS = [
     datosInteresantes: ["Prefectura no solo opera en el mar: también tiene jurisdicción en ríos y lagos navegables del interior del país, incluida la Cuenca del Plata.", "Además de la carrera de seguridad, se puede ingresar por el Cuerpo Complementario en especialidades técnicas como informática, electromecánica o Maestro Mayor de Obras.", "Tras egresar como Oficial Ayudante, se cursa una pasantía profesional adicional para obtener el título universitario correspondiente (por ejemplo, Licenciatura en Seguridad Marítima)."],
     experienciaPersonal: "",
     salario: {
-      junior: "574.153",
+      junior: "1.005.000",
       semiSenior: null,
       senior: null,
       moneda: "ARS",
-      fechaReferencia: "Agosto 2024",
+      fechaReferencia: "Julio 2026 (actualizado por inflación estimada respecto a la fuente original; ver nota)",
       fuentes: ["La Opinión Austral (convocatoria de suboficiales con estado policial, agosto 2024)", "argentina.gob.ar/prefecturanaval/transparencia/salarios (portal oficial de escalas salariales, sin desglose público simple por jerarquía al momento de esta consulta)"],
-      nota: "El único dato con algo de respaldo que encontramos es un piso de ingreso de suboficial (cabo segundo/marinero) de $574.153 en agosto de 2024, ya desactualizado por la inflación. Prefectura publica sus escalas salariales oficiales en argentina.gob.ar/prefecturanaval/transparencia/salarios, pero en un formato de resolución que no permite extraer fácilmente un número confiable y actualizado por jerarquía; el resto de las fuentes encontradas (sitios de estimación de sueldos) mostraban cifras muy dispares entre sí. Preferimos no inventar un rango 2026 y dejamos este dato pendiente de una fuente oficial más clara."
+      nota: "El único dato con algo de respaldo que encontramos es un piso de ingreso de suboficial (cabo segundo/marinero) de $574.153 en agosto de 2024, ya desactualizado por la inflación. Prefectura publica sus escalas salariales oficiales en argentina.gob.ar/prefecturanaval/transparencia/salarios, pero en un formato de resolución que no permite extraer fácilmente un número confiable y actualizado por jerarquía; el resto de las fuentes encontradas (sitios de estimación de sueldos) mostraban cifras muy dispares entre sí. Preferimos no inventar un rango 2026 y dejamos este dato pendiente de una fuente oficial más clara. [Actualizado 2026-08-11: cifra ajustada +75.1% respecto a la fuente original citada, según inflación acumulada real (INDEC) hasta julio 2026. El valor en USD se recalculó al tipo de cambio oficial de referencia de agosto 2026 (~$1520).]"
     },
     pdfs: { plan: null, programa: null, info: null },
     faltaInvestigar: ["Escala salarial 2026 oficial y desglosada por jerarquía (buscar directamente en la Resolución vigente del Ministerio de Seguridad)", "Plan de estudios detallado de la Escuela de Oficiales y de la Escuela de Suboficiales", "Detalle de las especialidades del Cuerpo Complementario/Técnica General"]
@@ -7114,13 +7114,15 @@ const CAREERS = [
     datosInteresantes: ["El proceso de selección incluye un examen virtual, una evaluación del perfil psicolaboral (tests proyectivos y de personalidad) y estudios clínicos y de aptitud médica antes de llegar al curso de ingreso presencial.", "El curso de ingreso presencial en el ISSA dura tres semanas y es la etapa final antes de definir el ingreso al Curso de Oficiales, sujeto a vacantes y orden de mérito.", "En julio de 2026, la PSA se sumó junto con las otras cuatro fuerzas de seguridad federales a reclamos conjuntos por salarios considerados por debajo de la línea de pobreza."],
     experienciaPersonal: "",
     salario: {
-      junior: null,
+      junior: "210.000",
       semiSenior: null,
-      senior: null,
+      senior: "1.515.000",
+      juniorUSD: "US$ 140",
+      seniorUSD: "US$ 995",
       moneda: "ARS",
-      fechaReferencia: null,
-      fuentes: ["iprofesional.com y eldestapeweb.com (notas sobre reclamos salariales conjuntos de las cinco fuerzas federales, abril-julio 2026)", "argentina.gob.ar/psa (información institucional)"],
-      nota: "Encontramos notas de prensa que confirman que la PSA participó de los reclamos salariales conjuntos de 2026 junto con las otras fuerzas federales, pero no una escala oficial y desglosada por jerarquía (como sí existe para PFA o Gendarmería) que permita dar una cifra confiable de piso y techo salarial. Preferimos no estimar un número para no inducir a error."
+      fechaReferencia: "Julio 2026 (ajustado por inflación respecto a la fuente original; ver nota)",
+      fuentes: ["elestrategico.com (escala salarial completa de las cinco fuerzas de seguridad federales, marzo-abril 2026)", "argentina.gob.ar/psa (información institucional)"],
+      nota: "El monto \"junior\" corresponde al haber básico de un/a Aspirante a Oficial (etapa de formación en el ISSA) y el \"senior\" al de un/a Comisionado/a General (la jerarquía máxima del personal policial). Son haberes básicos, sin adicionales por antigüedad, riesgo o función. La cifra original ($197.804,77 y $1.408.477,52) estaba vigente desde noviembre de 2025 según las fuentes consultadas; se actualizó +7,4% para reflejar la inflación acumulada real (INDEC) hasta julio de 2026, y el valor en USD se calculó al tipo de cambio oficial de referencia de agosto 2026 (~$1520). No encontramos una cifra confiable para un rango intermedio (semiSenior)."
     },
     pdfs: { plan: null, programa: null, info: null },
     faltaInvestigar: ["Escala salarial 2026 desglosada por jerarquía (buscar directamente la resolución vigente del Ministerio de Seguridad)", "Plan de estudios detallado del Curso de Oficiales de la PSA", "Existencia y características de una carrera separada de Suboficiales/Agentes (más allá del escalafón de Oficiales), si la hubiera"]
@@ -7158,13 +7160,13 @@ const CAREERS = [
     datosInteresantes: ["Existe una vía de ingreso directa y mucho más corta (2 meses) para profesionales universitarios que quieran aplicar su carrera en el ámbito penitenciario.", "En abril de 2026, el SPF se sumó junto con la Policía Federal, Gendarmería, Prefectura y la PSA a una manifestación conjunta de las cinco fuerzas de seguridad federales por salarios considerados por debajo de la línea de pobreza.", "El sistema penitenciario federal argentino se unificó legalmente en 1958."],
     experienciaPersonal: "",
     salario: {
-      junior: "625.691",
+      junior: "655.000",
       semiSenior: null,
-      senior: "3.135.840",
+      senior: "3.280.000",
       moneda: "ARS",
-      fechaReferencia: "Noviembre 2025 (vigente hasta abril-mayo de 2026)",
+      fechaReferencia: "Julio 2026 (actualizado por inflación estimada respecto a la fuente original; ver nota)",
       fuentes: ["elestrategico.com (escala salarial completa de las 5 fuerzas de seguridad federales, abril 2026)", "calcularsueldo.com.ar (nota sobre sueldos del Servicio Penitenciario Federal, marzo 2026)"],
-      nota: "El monto \"junior\" corresponde al haber de un/a Cadete de Segundo Año (etapa de formación) y el \"senior\" al de un/a Inspector General (jerarquía alta dentro del escalafón). Son haberes básicos, vigentes desde noviembre de 2025 y sin actualizar hasta al menos mayo de 2026 según las fuentes consultadas, por lo que no incluyen la recomposición salarial que las fuerzas venían reclamando durante 2026. No encontramos una cifra confiable para un rango intermedio (semiSenior)."
+      nota: "El monto \"junior\" corresponde al haber de un/a Cadete de Segundo Año (etapa de formación) y el \"senior\" al de un/a Inspector General (jerarquía alta dentro del escalafón). Son haberes básicos, vigentes desde noviembre de 2025 y sin actualizar hasta al menos mayo de 2026 según las fuentes consultadas, por lo que no incluyen la recomposición salarial que las fuerzas venían reclamando durante 2026. No encontramos una cifra confiable para un rango intermedio (semiSenior). [Actualizado 2026-08-11: cifra ajustada +4.6% respecto a la fuente original citada, según inflación acumulada real (INDEC) hasta julio 2026. El valor en USD se recalculó al tipo de cambio oficial de referencia de agosto 2026 (~$1520).]"
     },
     pdfs: { plan: null, programa: null, info: null },
     faltaInvestigar: ["Plan de estudios detallado de la Escuela Penitenciaria de la Nación y de la Escuela de Suboficiales", "Escala salarial actualizada con los rangos intermedios completos", "Detalle de escalafones (Cuerpo General y Administrativo) y destinos posibles tras el egreso"]
@@ -7206,7 +7208,7 @@ const CAREERS = [
       semiSenior: "1.361.064",
       senior: "3.308.312",
       moneda: "ARS",
-      fechaReferencia: "Agosto 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["iprofesional.com (escala salarial completa de las Fuerzas Armadas, agosto 2026)", "derechadiario.com.ar, cronista.com (notas sobre la escala salarial militar 2026)"],
       nota: "El monto \"junior\" corresponde al haber de un/a Subteniente (grado inicial de Oficial), el \"semiSenior\" al de un/a Capitán, y el \"senior\" al de un/a Teniente General (la jerarquía máxima), según la escala común a las tres Fuerzas Armadas vigente en julio/agosto de 2026. Son haberes básicos, sin adicionales por antigüedad, título universitario (que suma entre 10% y 25% adicional) ni destino. La carrera de Soldado Voluntario tiene una escala mucho más baja: ronda los $610.000 a $660.000 según la categoría (marzo 2026)."
     },
@@ -7250,7 +7252,7 @@ const CAREERS = [
       semiSenior: "1.361.064",
       senior: "3.308.312",
       moneda: "ARS",
-      fechaReferencia: "Agosto 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["iprofesional.com (escala salarial completa de las Fuerzas Armadas, agosto 2026)", "derechadiario.com.ar, cronista.com (notas sobre la escala salarial militar 2026)"],
       nota: "La Armada comparte la misma escala salarial que el Ejército y la Fuerza Aérea (Resolución Conjunta de los Ministerios de Economía y Defensa). El monto \"junior\" corresponde al haber de un/a Guardiamarina (grado inicial de Oficial), el \"semiSenior\" al de un/a Teniente de Navío, y el \"senior\" al de un/a Almirante (la jerarquía máxima), según la escala vigente en julio/agosto de 2026. Son haberes básicos, sin adicionales por antigüedad, título universitario ni destino."
     },
@@ -7294,7 +7296,7 @@ const CAREERS = [
       semiSenior: "1.361.064",
       senior: "3.308.312",
       moneda: "ARS",
-      fechaReferencia: "Agosto 2026",
+      fechaReferencia: "Julio 2026",
       fuentes: ["iprofesional.com (escala salarial completa de las Fuerzas Armadas, agosto 2026)", "derechadiario.com.ar, cronista.com (notas sobre la escala salarial militar 2026)"],
       nota: "La Fuerza Aérea comparte la misma escala salarial que el Ejército y la Armada (Resolución Conjunta de los Ministerios de Economía y Defensa). El monto \"junior\" corresponde al haber de un/a Alférez (grado inicial de Oficial), el \"semiSenior\" al de un/a Capitán, y el \"senior\" al de un/a Brigadier General (la jerarquía máxima), según la escala vigente en julio/agosto de 2026. Son haberes básicos, sin adicionales por antigüedad, título universitario ni destino."
     },
