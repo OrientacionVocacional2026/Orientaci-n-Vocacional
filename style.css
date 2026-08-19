@@ -1465,6 +1465,23 @@ html.reading-mode .faq-item summary { line-height: 1.5; }
 .vt-result-block h4 { font-family: var(--font-display); font-size: 1.02rem; margin: 0 0 14px; }
 .vt-result-note { font-size: .82rem; color: var(--text-faint); margin: -8px 0 14px; }
 
+.vt-context-groups { display: flex; flex-direction: column; gap: 22px; margin-bottom: 24px; }
+.vt-context-question { font-weight: 600; font-size: .95rem; margin: 0 0 10px; }
+.vt-context-options { display: flex; flex-wrap: wrap; gap: 8px; }
+.vt-context-btn {
+  padding: 9px 14px; border-radius: 999px; border: 1.5px solid var(--card-border);
+  background: var(--bg); color: var(--text); font-size: .84rem; text-align: left;
+  transition: border-color .15s ease, background .15s ease;
+}
+.vt-context-btn:hover { border-color: var(--accent); }
+.vt-context-btn.selected { border-color: var(--accent); background: var(--accent-soft); color: var(--text); font-weight: 600; }
+
+.vt-radar-wrap { display: flex; justify-content: center; margin: 4px 0 18px; }
+.vt-radar-svg { width: 100%; max-width: 260px; height: auto; }
+.vt-radar-label { font-family: var(--font-mono); font-size: 12px; fill: var(--text-muted); }
+
+.vt-career-reason { font-size: .74rem; color: var(--accent); font-weight: 600; margin-top: 4px; }
+
 .vt-dim-bars { display: flex; flex-direction: column; gap: 10px; }
 .vt-dim-row { display: grid; grid-template-columns: 110px 1fr 44px; align-items: center; gap: 10px; }
 .vt-dim-label { font-size: .82rem; color: var(--text-muted); }
@@ -1497,6 +1514,8 @@ html.reading-mode .faq-item summary { line-height: 1.5; }
   .vt-options { grid-template-columns: 1fr 1fr; }
   .vt-dim-row { grid-template-columns: 90px 1fr 36px; }
   .vt-careers-grid { grid-template-columns: 1fr; }
+  .vt-context-options { flex-direction: column; }
+  .vt-context-btn { width: 100%; }
   .vt-nav { flex-direction: column-reverse; gap: 10px; }
   .vt-nav .vt-start-btn, .vt-nav .vt-secondary-btn { width: 100%; margin-left: 0; }
 }

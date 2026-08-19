@@ -31,12 +31,30 @@
      que lleva a la grilla filtrada por esa categoría.
    - Se bumpeó el STORAGE_KEY a v2 para que a nadie le quede guardado
      un resultado viejo con recomendaciones de antes de este cambio.
+
+   CAMBIOS v10.2:
+   - Nuevo paso "Para afinar el resultado" después de las 18 preguntas
+     RIASEC: 3 preguntas rápidas de opción única (modalidad, prioridad
+     vocación/sueldo, duración preferida) que ajustan el orden final de
+     las carreras recomendadas usando datos reales de cada ficha
+     (institución, salario.junior, duracionAnios). Son opcionales: si
+     el estudiante no tiene preferencia, elige "Me da igual" y no
+     afectan el ranking.
+   - Nuevo gráfico de radar (SVG, sin librerías) que muestra el
+     hexágono RIASEC del estudiante de forma visual, además de las
+     barras numéricas que ya existían (se mantienen para quien
+     prefiera los números exactos).
+   - Cada carrera recomendada ahora muestra un motivo corto y concreto
+     ("Coincide en Investigativo y Realista", "Es una carrera corta",
+     etc.) en vez de aparecer sin explicación.
+   - Se bumpeó el STORAGE_KEY a v3 (el resultado guardado ahora incluye
+     las respuestas de contexto).
    ===================================================================== */
 
 (function () {
   "use strict";
 
-  const STORAGE_KEY = "ov_test_vocacional_v2";
+  const STORAGE_KEY = "ov_test_vocacional_v3";
 
   /* ---------------------------------------------------------------------
      1) PREGUNTAS
@@ -82,6 +100,44 @@
     { value: 1, label: "Un poco" },
     { value: 2, label: "Bastante" },
     { value: 3, label: "Me encanta" }
+  ];
+
+  /* ---------------------------------------------------------------------
+     1-B) PREGUNTAS DE CONTEXTO (opcionales, después del RIASEC)
+     No miden gusto sino preferencias prácticas. Sirven para reordenar
+     las carreras recomendadas dentro de las categorías afines, usando
+     datos reales que ya existen en careers-data.js (institución,
+     duración, salario). Todas tienen una opción neutra ("me da igual")
+     que no afecta el resultado, así nadie se siente forzado a elegir.
+     --------------------------------------------------------------------- */
+  const CONTEXT_QUESTIONS = [
+    {
+      key: "modalidad",
+      text: "¿Cómo preferís cursar?",
+      options: [
+        { value: "presencial", label: "Presencial" },
+        { value: "virtual", label: "Virtual / a distancia" },
+        { value: "cualquiera", label: "Me da igual" }
+      ]
+    },
+    {
+      key: "prioridad",
+      text: "Si tuvieras que elegir, ¿qué pesa más para vos?",
+      options: [
+        { value: "vocacion", label: "Que me apasione, aunque gane menos al principio" },
+        { value: "equilibrio", label: "Un equilibrio entre ambas cosas" },
+        { value: "sueldo", label: "Buena salida laboral y buen sueldo" }
+      ]
+    },
+    {
+      key: "duracion",
+      text: "¿Te importa cuánto dura la carrera?",
+      options: [
+        { value: "corta", label: "Prefiero algo corto (2-3 años)" },
+        { value: "larga", label: "No me importa que sea larga" },
+        { value: "cualquiera", label: "Me da igual" }
+      ]
+    }
   ];
 
   /* ---------------------------------------------------------------------
@@ -134,14 +190,30 @@
      --------------------------------------------------------------------- */
   let current = 0;
   let answers = new Array(QUESTIONS.length).fill(null);
+  let contextAnswers = { modalidad: "cualquiera", prioridad: "equilibrio", duracion: "cualquiera" };
 
   const root = document.getElementById("testVocacionalContent");
   if (!root) return; // si el HTML no tiene el contenedor, no hacemos nada
 
-  function saveResult(scores, topDims, topCategories, recommended) {
+  /* Réplica liviana de las funciones de institución que ya existen en
+     script.js (viven dentro de su propia clausura y no están expuestas
+     a window, así que las repetimos acá en chico). */
+  function institucionIds(career) {
+    return Array.isArray(career.institucion) ? career.institucion : (career.institucion ? [career.institucion] : []);
+  }
+  function esVirtual(c) { return institucionIds(c).includes("siglo21"); }
+  function esPresencial(c) { return institucionIds(c).some(id => id !== "siglo21"); }
+  function sueldoJuniorNumero(c) {
+    const j = c.salario && c.salario.junior;
+    if (!j) return -1;
+    const digits = String(j).replace(/\./g, "").match(/\d+/);
+    return digits ? parseInt(digits[0], 10) : -1;
+  }
+
+  function saveResult(scores, topDims, topCategories, recommended, context) {
     try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify({
-        scores, topDims, topCategories,
+        scores, topDims, topCategories, context,
         recommendedIds: recommended.map(c => c.id),
         date: new Date().toISOString()
       }));
@@ -162,7 +234,7 @@
     const saved = loadSavedResult();
     root.innerHTML = `
       <div class="vt-intro">
-        <p class="vt-intro-text">Son ${QUESTIONS.length} frases sobre cosas que te pueden gustar hacer. No hay respuestas correctas ni incorrectas: contestá lo más sincero posible, pensando en qué te gusta a vos, no en qué "conviene" o qué esperan tus papás. Tarda unos 3 minutos.</p>
+        <p class="vt-intro-text">Son ${QUESTIONS.length} frases sobre cosas que te pueden gustar hacer, más 3 preguntas rápidas al final para afinar el resultado. No hay respuestas correctas ni incorrectas: contestá lo más sincero posible, pensando en qué te gusta a vos, no en qué "conviene" o qué esperan tus papás. Tarda unos 4 minutos.</p>
         <button type="button" class="vt-start-btn" id="vtStartBtn">Empezar el test →</button>
         ${saved ? `<button type="button" class="vt-secondary-btn" id="vtViewLastBtn">Ver mi último resultado</button>` : ""}
       </div>
@@ -170,6 +242,7 @@
     document.getElementById("vtStartBtn").addEventListener("click", () => {
       current = 0;
       answers = new Array(QUESTIONS.length).fill(null);
+      contextAnswers = { modalidad: "cualquiera", prioridad: "equilibrio", duracion: "cualquiera" };
       renderQuestion();
     });
     const viewLastBtn = document.getElementById("vtViewLastBtn");
@@ -206,7 +279,7 @@
 
         <div class="vt-nav">
           <button type="button" class="vt-secondary-btn" id="vtBackBtn" ${current === 0 ? "disabled" : ""}>← Anterior</button>
-          <button type="button" class="vt-start-btn" id="vtNextBtn" ${answers[current] === null ? "disabled" : ""}>${current === QUESTIONS.length - 1 ? "Ver mi resultado" : "Siguiente →"}</button>
+          <button type="button" class="vt-start-btn" id="vtNextBtn" ${answers[current] === null ? "disabled" : ""}>Siguiente →</button>
         </div>
       </div>
     `;
@@ -221,7 +294,7 @@
             current++;
             renderQuestion();
           } else {
-            computeAndRenderResult();
+            renderContextQuestions();
           }
         }, 220);
       });
@@ -233,7 +306,60 @@
     document.getElementById("vtNextBtn").addEventListener("click", () => {
       if (answers[current] === null) return;
       if (current < QUESTIONS.length - 1) { current++; renderQuestion(); }
-      else { computeAndRenderResult(); }
+      else { renderContextQuestions(); }
+    });
+  }
+
+  /* ---------------------------------------------------------------------
+     RENDER: PREGUNTAS DE CONTEXTO (paso extra antes del resultado)
+     Van todas en una sola pantalla porque son de elección única y
+     rápidas de contestar; ya vienen precargadas en "Me da igual" /
+     valor neutro, así que el botón para ver el resultado siempre está
+     habilitado y nadie queda trabado si no tiene preferencia.
+     --------------------------------------------------------------------- */
+  function renderContextQuestions() {
+    const groupsHTML = CONTEXT_QUESTIONS.map(q => `
+      <div class="vt-context-group">
+        <p class="vt-context-question">${q.text}</p>
+        <div class="vt-context-options" role="radiogroup" aria-label="${q.text}">
+          ${q.options.map(opt => `
+            <button type="button" class="vt-context-btn${contextAnswers[q.key] === opt.value ? " selected" : ""}" data-key="${q.key}" data-value="${opt.value}" role="radio" aria-checked="${contextAnswers[q.key] === opt.value}">
+              ${opt.label}
+            </button>
+          `).join("")}
+        </div>
+      </div>
+    `).join("");
+
+    root.innerHTML = `
+      <div class="vt-quiz">
+        <div class="vt-progress-track" role="progressbar" aria-valuenow="${QUESTIONS.length}" aria-valuemin="0" aria-valuemax="${QUESTIONS.length}">
+          <div class="vt-progress-fill" style="width:100%"></div>
+        </div>
+        <p class="vt-progress-label">Para afinar el resultado</p>
+        <h3 class="vt-question">Ya casi. 3 preguntas rápidas más, solo para ordenar mejor las carreras que te vamos a mostrar.</h3>
+
+        <div class="vt-context-groups">${groupsHTML}</div>
+
+        <div class="vt-nav">
+          <button type="button" class="vt-secondary-btn" id="vtBackBtn">← Anterior</button>
+          <button type="button" class="vt-start-btn" id="vtSeeResultBtn">Ver mi resultado →</button>
+        </div>
+      </div>
+    `;
+
+    root.querySelectorAll(".vt-context-btn").forEach(btn => {
+      btn.addEventListener("click", () => {
+        contextAnswers[btn.dataset.key] = btn.dataset.value;
+        renderContextQuestions();
+      });
+    });
+    document.getElementById("vtBackBtn").addEventListener("click", () => {
+      current = QUESTIONS.length - 1;
+      renderQuestion();
+    });
+    document.getElementById("vtSeeResultBtn").addEventListener("click", () => {
+      computeAndRenderResult();
     });
   }
 
@@ -270,32 +396,59 @@
     ].join(" ").toLowerCase();
   }
 
-  function careerAffinityScore(c, topDims) {
+  function careerAffinityScore(c, topDims, context) {
     const text = careerText(c);
     let score = 0;
+    let bestDim = null, bestDimHits = 0;
     topDims.forEach((dim, idx) => {
       const weight = topDims.length - idx; // la 1ra dimensión pesa más que la 2da, etc.
+      let hits = 0;
       (DIM_KEYWORDS[dim] || []).forEach(kw => {
-        if (text.indexOf(kw) !== -1) score += weight;
+        if (text.indexOf(kw) !== -1) { score += weight; hits++; }
       });
+      if (hits > bestDimHits) { bestDimHits = hits; bestDim = dim; }
     });
     if (c.investigado) score += 0.5; // leve preferencia por fichas con datos verificados
-    return score;
+
+    const reasons = [];
+    if (bestDim) reasons.push(`Coincide con tu perfil ${DIM_INFO[bestDim].name.toLowerCase()}`);
+
+    if (context) {
+      if (context.modalidad === "presencial" && esPresencial(c)) { score += 1.5; }
+      else if (context.modalidad === "virtual" && esVirtual(c)) { score += 1.5; reasons.push("Se cursa en modalidad virtual"); }
+
+      if (context.duracion === "corta" && typeof c.duracionAnios === "number" && c.duracionAnios <= 3) {
+        score += 1.5;
+        reasons.push("Es una carrera corta");
+      }
+
+      if (context.prioridad === "sueldo") {
+        const s = sueldoJuniorNumero(c);
+        if (s > 0) score += Math.min(2, s / 500000); // boost proporcional, con techo
+      }
+    }
+
+    return { score, reason: reasons[0] || null };
   }
 
-  function recommendCareers(topCategoriesList, topDims) {
+  function recommendCareers(topCategoriesList, topDims, context) {
     const topCatNames = topCategoriesList.slice(0, 3).map(e => e.cat);
     const pool = CAREERS.filter(c => topCatNames.includes(c.categoria) && isEntryLevelCareer(c));
-    const scored = pool.map(c => ({ c, s: careerAffinityScore(c, topDims) }));
+    const scored = pool.map(c => {
+      const { score, reason } = careerAffinityScore(c, topDims, context);
+      return { c, s: score, reason };
+    });
     scored.sort((a, b) => b.s - a.s);
     // Nos aseguramos de traer variedad: no más de 3 de la misma categoría entre las primeras 8
     const picked = [];
+    const reasonById = {};
     const perCategoryCount = {};
     for (const item of scored) {
       const cat = item.c.categoria;
       perCategoryCount[cat] = perCategoryCount[cat] || 0;
       if (perCategoryCount[cat] >= 3) continue;
       picked.push(item.c);
+      reasonById[item.c.id] = item.reason;
       perCategoryCount[cat]++;
       if (picked.length >= 8) break;
     }
@@ -303,9 +456,10 @@
     if (picked.length < 6) {
       for (const item of scored) {
         if (picked.length >= 6) break;
-        if (!picked.includes(item.c)) picked.push(item.c);
+        if (!picked.includes(item.c)) { picked.push(item.c); reasonById[item.c.id] = item.reason; }
       }
     }
+    picked.reasonById = reasonById;
     return picked;
   }
 
@@ -314,19 +468,81 @@
     const ranked = Object.keys(scores).sort((a, b) => scores[b] - scores[a]);
     const topDims = ranked.slice(0, 3);
     const topCategories = rankCategories(scores);
-    const recommended = recommendCareers(topCategories, topDims);
+    const recommended = recommendCareers(topCategories, topDims, contextAnswers);
 
-    saveResult(scores, topDims, topCategories.slice(0, 3).map(e => e.cat), recommended);
+    saveResult(scores, topDims, topCategories.slice(0, 3).map(e => e.cat), recommended, contextAnswers);
     renderResult(scores, topDims, topCategories, recommended);
   }
 
   function renderResultFromSaved(saved) {
+    const savedContext = saved.context || { modalidad: "cualquiera", prioridad: "equilibrio", duracion: "cualquiera" };
+    contextAnswers = savedContext;
+    // Recalculamos las carreras recomendadas con la lógica actual (por si
+    // el estudiante quedó con un resultado guardado de antes de agregar
+    // los motivos/contexto); los ids guardados definen el pool, el orden
+    // y los motivos se recalculan.
     const recommended = saved.recommendedIds
       .map(id => CAREERS.find(c => c.id === id))
       .filter(Boolean);
+    recommended.reasonById = {};
+    recommended.forEach(c => {
+      recommended.reasonById[c.id] = careerAffinityScore(c, saved.topDims, savedContext).reason;
+    });
     const topCategories = saved.topCategories.map(cat => ({ cat, score: 0 }))
       .concat(rankCategories(saved.scores).filter(e => !saved.topCategories.includes(e.cat)));
     renderResult(saved.scores, saved.topDims, topCategories, recommended);
+  }
+
+  /* ---------------------------------------------------------------------
+     GRÁFICO DE RADAR (SVG puro, sin librerías externas)
+     Dibuja un hexágono con un punto por cada dimensión RIASEC, en el
+     orden fijo R-I-A-S-E-C para que sea siempre comparable de un test
+     a otro. El radio de cada punto es proporcional al puntaje.
+     --------------------------------------------------------------------- */
+  function buildRadarSVG(scores) {
+    const maxScore = 9;
+    const size = 260;
+    const center = size / 2;
+    const maxRadius = center - 46; // deja lugar para las etiquetas
+    const order = ["R", "I", "A", "S", "E", "C"];
+    const angleFor = i => (Math.PI * 2 * i) / order.length - Math.PI / 2;
+
+    function pointAt(i, fraction) {
+      const a = angleFor(i);
+      return {
+        x: center + Math.cos(a) * maxRadius * fraction,
+        y: center + Math.sin(a) * maxRadius * fraction
+      };
+    }
+
+    // Anillos de referencia (25/50/75/100%)
+    const rings = [0.25, 0.5, 0.75, 1].map(frac => {
+      const pts = order.map((_, i) => pointAt(i, frac));
+      return `<polygon points="${pts.map(p => `${p.x.toFixed(1)},${p.y.toFixed(1)}`).join(" ")}" fill="none" stroke="var(--card-border)" stroke-width="1"/>`;
+    }).join("");
+
+    // Líneas desde el centro a cada vértice
+    const spokes = order.map((_, i) => {
+      const p = pointAt(i, 1);
+      return `<line x1="${center}" y1="${center}" x2="${p.x.toFixed(1)}" y2="${p.y.toFixed(1)}" stroke="var(--card-border)" stroke-width="1"/>`;
+    }).join("");
+
+    // Polígono del estudiante
+    const dataPts = order.map((d, i) => pointAt(i, Math.max(0.04, (scores[d] || 0) / maxScore)));
+    const dataPolygon = `<polygon points="${dataPts.map(p => `${p.x.toFixed(1)},${p.y.toFixed(1)}`).join(" ")}" fill="var(--accent)" fill-opacity="0.28" stroke="var(--accent)" stroke-width="2"/>`;
+    const dataDots = dataPts.map(p => `<circle cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="3" fill="var(--accent)"/>`).join("");
+
+    // Etiquetas
+    const labels = order.map((d, i) => {
+      const p = pointAt(i, 1.24);
+      return `<text x="${p.x.toFixed(1)}" y="${p.y.toFixed(1)}" text-anchor="middle" dominant-baseline="middle" class="vt-radar-label">${d}</text>`;
+    }).join("");
+
+    return `
+      <svg class="vt-radar-svg" viewBox="0 0 ${size} ${size}" role="img" aria-label="Gráfico de tu perfil vocacional en las seis dimensiones RIASEC">
+        ${rings}${spokes}${dataPolygon}${dataDots}${labels}
+      </svg>
+    `;
   }
 
   /* ---------------------------------------------------------------------
@@ -359,6 +575,7 @@
       `;
     }).join("");
 
+    const reasonById = recommended.reasonById || {};
     const careersHTML = recommended.map(c => `
       <button type="button" class="vt-career-card" data-id="${c.id}">
         <span class="vt-career-icon" aria-hidden="true">${c.icono}</span>
@@ -366,6 +583,7 @@
           <strong>${c.nombre}</strong>
           <span class="vt-career-cat">${c.categoria}</span>
           <span class="vt-career-desc">${c.descripcionBreve || ""}</span>
+          ${reasonById[c.id] ? `<span class="vt-career-reason">✦ ${reasonById[c.id]}</span>` : ""}
         </span>
       </button>
     `).join("");
@@ -379,6 +597,7 @@
 
         <div class="vt-result-block">
           <h4>Tu perfil completo</h4>
+          <div class="vt-radar-wrap">${buildRadarSVG(scores)}</div>
           <div class="vt-dim-bars">${dimBarsHTML}</div>
         </div>
 
@@ -409,6 +628,7 @@
     document.getElementById("vtRetakeBtn").addEventListener("click", () => {
       current = 0;
       answers = new Array(QUESTIONS.length).fill(null);
+      contextAnswers = { modalidad: "cualquiera", prioridad: "equilibrio", duracion: "cualquiera" };
       renderQuestion();
     });
     const seeCategoryBtn = document.getElementById("vtSeeCategoryBtn");
