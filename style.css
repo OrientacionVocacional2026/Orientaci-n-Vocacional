@@ -1476,9 +1476,16 @@ html.reading-mode .faq-item summary { line-height: 1.5; }
 .vt-context-btn:hover { border-color: var(--accent); }
 .vt-context-btn.selected { border-color: var(--accent); background: var(--accent-soft); color: var(--text); font-weight: 600; }
 
-.vt-radar-wrap { display: flex; justify-content: center; margin: 4px 0 18px; }
+.vt-radar-wrap { display: flex; flex-direction: column; align-items: center; gap: 8px; margin: 4px 0 18px; }
 .vt-radar-svg { width: 100%; max-width: 260px; height: auto; }
 .vt-radar-label { font-family: var(--font-mono); font-size: 12px; fill: var(--text-muted); }
+.vt-radar-legend { display: flex; gap: 16px; font-size: .78rem; color: var(--text-muted); }
+.vt-radar-legend-item { display: flex; align-items: center; gap: 6px; }
+.vt-radar-dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; }
+.vt-radar-dot--student { background: var(--accent); }
+.vt-radar-dot--category { background: transparent; border: 2px dashed var(--link); }
+
+.vt-tie-note { background: var(--link-soft); color: var(--text); border-radius: var(--radius-s); padding: 12px 14px; margin-top: 10px; line-height: 1.5; }
 
 .vt-career-reason { font-size: .74rem; color: var(--accent); font-weight: 600; margin-top: 4px; }
 

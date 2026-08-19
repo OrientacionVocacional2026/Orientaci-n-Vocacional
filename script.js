@@ -1182,6 +1182,154 @@
     });
   }
 
+  /* ---------------------------------------------------------------------
+     PDF del resultado del test vocacional
+     Reutiliza el mismo cargador de jsPDF, tipografías y paleta de colores
+     que ya usa downloadCareerPdf, pero arma un documento propio (portada +
+     perfil por dimensión + áreas afines + carreras recomendadas +
+     preferencias elegidas). Se expone en window para que lo llame
+     vocational-test.js, que vive en un archivo aparte.
+     --------------------------------------------------------------------- */
+  function exportTestResultPdf(payload) {
+    return Promise.all([loadJsPDF(), loadPdfAssets()]).then(([jsPDF, assets]) => {
+      const doc = new jsPDF({ unit: "pt", format: "a4" });
+      const pageWidth = doc.internal.pageSize.getWidth();
+      const pageHeight = doc.internal.pageSize.getHeight();
+      const marginX = 48;
+      const maxWidth = pageWidth - marginX * 2;
+      const footerReserve = 46;
+
+      doc.addFileToVFS("Fraunces-SemiBold.ttf", assets.frauncesSemiBold);
+      doc.addFont("Fraunces-SemiBold.ttf", "FrauncesSB", "normal");
+      doc.addFileToVFS("Fraunces-Bold.ttf", assets.frauncesBold);
+      doc.addFont("Fraunces-Bold.ttf", "FrauncesBold", "normal");
+      doc.addFileToVFS("Inter-Regular.ttf", assets.interRegular);
+      doc.addFont("Inter-Regular.ttf", "Inter", "normal");
+      doc.addFileToVFS("Inter-SemiBold.ttf", assets.interSemiBold);
+      doc.addFont("Inter-SemiBold.ttf", "InterSB", "normal");
+      doc.addFileToVFS("Inter-Bold.ttf", assets.interBold);
+      doc.addFont("Inter-Bold.ttf", "InterBold", "normal");
+
+      let y = 118;
+
+      function paintBackground() {
+        doc.setFillColor(...PDF_COLORS.bg);
+        doc.rect(0, 0, pageWidth, pageHeight, "F");
+      }
+      function drawContinuationHeader() {
+        doc.addImage(assets.logoMark, "PNG", marginX, 30, 18, 18);
+        doc.setFont("InterSB", "normal"); doc.setFontSize(9); doc.setTextColor(...PDF_COLORS.accent);
+        doc.text("ORIENTACIÓN VOCACIONAL", marginX + 26, 42);
+        doc.setDrawColor(...PDF_COLORS.cardBorder);
+        doc.setLineWidth(0.75);
+        doc.line(marginX, 66, pageWidth - marginX, 66);
+      }
+      function newPage() {
+        doc.addPage();
+        paintBackground();
+        drawContinuationHeader();
+        y = 92;
+      }
+      function ensureSpace(h) { if (y + h > pageHeight - footerReserve) newPage(); }
+      function addHeading(text) {
+        ensureSpace(28); y += 14;
+        doc.setFont("FrauncesSB", "normal"); doc.setFontSize(13); doc.setTextColor(...PDF_COLORS.accent);
+        doc.text(text, marginX, y);
+        y += 17;
+      }
+      function addParagraph(text) {
+        doc.setFont("Inter", "normal"); doc.setFontSize(10); doc.setTextColor(...PDF_COLORS.textMuted);
+        doc.splitTextToSize(text, maxWidth).forEach((line) => { ensureSpace(15); doc.text(line, marginX, y); y += 14.5; });
+        y += 4;
+      }
+      function addList(items) {
+        doc.setFont("Inter", "normal"); doc.setFontSize(10);
+        items.forEach((item) => {
+          doc.splitTextToSize(item, maxWidth - 16).forEach((line, i) => {
+            ensureSpace(15);
+            if (i === 0) { doc.setTextColor(...PDF_COLORS.accent); doc.text("•", marginX, y); }
+            doc.setTextColor(...PDF_COLORS.textMuted);
+            doc.text(line, marginX + 14, y);
+            y += 14.5;
+          });
+        });
+        y += 4;
+      }
+      function addCard(title, rows) {
+        const pad = 16;
+        doc.setFont("Inter", "normal"); doc.setFontSize(10);
+        const innerWidth = maxWidth - pad * 2;
+        const wrappedRows = rows.map((r) => doc.splitTextToSize(r, innerWidth));
+        const lineCount = wrappedRows.reduce((sum, w) => sum + w.length, 0);
+        const titleH = 22;
+        const lineH = 14.5;
+        const totalH = pad * 2 + titleH + lineCount * lineH;
+        ensureSpace(totalH + 16);
+        y += 10;
+        doc.setFillColor(...PDF_COLORS.card);
+        doc.setDrawColor(...PDF_COLORS.cardBorder);
+        doc.setLineWidth(0.75);
+        doc.roundedRect(marginX, y, maxWidth, totalH, 8, 8, "FD");
+        let cy = y + pad + 13;
+        doc.setFont("FrauncesSB", "normal"); doc.setFontSize(11.5); doc.setTextColor(...PDF_COLORS.accent);
+        doc.text(title, marginX + pad, cy);
+        cy += titleH;
+        doc.setFont("Inter", "normal"); doc.setFontSize(10); doc.setTextColor(...PDF_COLORS.textMuted);
+        wrappedRows.forEach((wrapped) => { wrapped.forEach((line) => { doc.text(line, marginX + pad, cy); cy += lineH; }); });
+        y += totalH + 18;
+      }
+
+      // ---- Portada ----
+      paintBackground();
+      doc.addImage(assets.logoMark, "PNG", marginX, 34, 34, 34);
+      doc.setFont("InterSB", "normal"); doc.setFontSize(10.5); doc.setTextColor(...PDF_COLORS.accent);
+      doc.text("ORIENTACIÓN VOCACIONAL", marginX + 44, 48);
+      doc.setFont("Inter", "normal"); doc.setFontSize(8.5); doc.setTextColor(...PDF_COLORS.textFaint);
+      doc.text("Resultado del test vocacional · Chaco", marginX + 44, 60);
+      doc.setDrawColor(...PDF_COLORS.cardBorder);
+      doc.setLineWidth(0.75);
+      doc.line(marginX, 86, pageWidth - marginX, 86);
+
+      doc.setFont("FrauncesBold", "normal"); doc.setFontSize(20); doc.setTextColor(...PDF_COLORS.text);
+      doc.splitTextToSize(payload.codeLabel, maxWidth).forEach((line) => { ensureSpace(26); doc.text(line, marginX, y); y += 26; });
+      doc.setFont("Inter", "normal"); doc.setFontSize(10); doc.setTextColor(...PDF_COLORS.textMuted);
+      doc.text(`Código Holland: ${payload.codeLetters} · ${payload.date}`, marginX, y);
+      y += 20;
+
+      addParagraph(payload.explainText);
+
+      addCard("Tu perfil por dimensión (RIASEC)", payload.dimRows);
+      addCard("Tus áreas más afines", payload.categoryRows);
+
+      if (payload.contextRows && payload.contextRows.length) {
+        addCard("Tus preferencias", payload.contextRows);
+      }
+
+      if (payload.careers && payload.careers.length) {
+        addHeading("Carreras que te recomendamos explorar");
+        addList(payload.careers.map(c => c.reason ? `${c.nombre} (${c.categoria}) — ${c.reason}` : `${c.nombre} (${c.categoria})`));
+      }
+
+      addHeading("Sobre este resultado");
+      addParagraph("Este test es una orientación, no una obligación ni un diagnóstico. Sirve como punto de partida para investigar carreras que quizás no tenías en el radar, no para cerrar puertas. Podés volver a hacerlo cuando quieras en orientacionvocacional (la página web).");
+
+      // ---- Pie de página ----
+      const totalPages = doc.internal.getNumberOfPages();
+      for (let p = 1; p <= totalPages; p++) {
+        doc.setPage(p);
+        doc.setDrawColor(...PDF_COLORS.cardBorder);
+        doc.setLineWidth(0.5);
+        doc.line(marginX, pageHeight - 34, pageWidth - marginX, pageHeight - 34);
+        doc.addImage(assets.logoMark, "PNG", marginX, pageHeight - 26, 11, 11);
+        doc.setFont("Inter", "normal"); doc.setFontSize(8); doc.setTextColor(...PDF_COLORS.textFaint);
+        doc.text("Orientación Vocacional · Resultado del test", marginX + 16, pageHeight - 18);
+        doc.text(`Página ${p} de ${totalPages}`, pageWidth - marginX, pageHeight - 18, { align: "right" });
+      }
+
+      doc.save("resultado-test-vocacional.pdf");
+    });
+  }
+
   /* ---------------------- Favoritos ---------------------- */
   // Se guardan en este navegador/dispositivo (localStorage), así que cada
   // persona ve únicamente los suyos y nadie más los ve desde otro equipo.
@@ -1736,6 +1884,8 @@
 
   /* ---------------------- Exponer para vocational-test.js ---------------------- */
   window.openDetail = openDetail;
+  window.exportTestResultPdf = exportTestResultPdf;
+  window.showToast = showToast;
 
   // Aplica un filtro de categoría (mismo comportamiento que tocar un chip) y
   // lleva al usuario a la grilla de carreras. Lo usa el resultado del test

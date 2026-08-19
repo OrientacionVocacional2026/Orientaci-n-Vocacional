@@ -47,6 +47,19 @@
    - Cada carrera recomendada ahora muestra un motivo corto y concreto
      ("Coincide en Investigativo y Realista", "Es una carrera corta",
      etc.) en vez de aparecer sin explicación.
+   - El radar ahora superpone, además del perfil del estudiante, el
+     perfil típico de la categoría mejor rankeada (línea punteada
+     azul) para que se vea de un vistazo "por qué" esa área encaja.
+   - Si las dos categorías mejor rankeadas quedan muy parejas, el
+     resultado lo dice explícitamente en vez de forzar una única
+     respuesta ("tu perfil quedó parejo entre X e Y, está bien
+     explorar los dos").
+   - Nuevo botón "Descargar en PDF": genera un documento con el mismo
+     estilo visual que las fichas de carrera (mismas tipografías,
+     colores y logo), para que el estudiante se lo guarde o se lo
+     muestre a un adulto/orientador. Reutiliza el motor de PDF que ya
+     existía en script.js (se agregó exportTestResultPdf, expuesta en
+     window junto con showToast).
    - Se bumpeó el STORAGE_KEY a v3 (el resultado guardado ahora incluye
      las respuestas de contexto).
    ===================================================================== */
@@ -493,13 +506,20 @@
     renderResult(saved.scores, saved.topDims, topCategories, recommended);
   }
 
+  function contextAnswerLabel(key, value) {
+    const q = CONTEXT_QUESTIONS.find(q => q.key === key);
+    if (!q) return value;
+    const opt = q.options.find(o => o.value === value);
+    return opt ? opt.label : value;
+  }
+
   /* ---------------------------------------------------------------------
      GRÁFICO DE RADAR (SVG puro, sin librerías externas)
      Dibuja un hexágono con un punto por cada dimensión RIASEC, en el
      orden fijo R-I-A-S-E-C para que sea siempre comparable de un test
      a otro. El radio de cada punto es proporcional al puntaje.
      --------------------------------------------------------------------- */
-  function buildRadarSVG(scores) {
+  function buildRadarSVG(scores, compareProfile, compareLabel) {
     const maxScore = 9;
     const size = 260;
     const center = size / 2;
@@ -527,6 +547,14 @@
       return `<line x1="${center}" y1="${center}" x2="${p.x.toFixed(1)}" y2="${p.y.toFixed(1)}" stroke="var(--card-border)" stroke-width="1"/>`;
     }).join("");
 
+    // Polígono de comparación (perfil típico de la categoría mejor rankeada),
+    // se dibuja primero para que el del estudiante quede siempre arriba.
+    let comparePolygon = "";
+    if (compareProfile) {
+      const comparePts = order.map((d, i) => pointAt(i, Math.max(0.04, (compareProfile[d] || 0) / 3)));
+      comparePolygon = `<polygon points="${comparePts.map(p => `${p.x.toFixed(1)},${p.y.toFixed(1)}`).join(" ")}" fill="none" stroke="var(--link)" stroke-width="2" stroke-dasharray="4 3"/>`;
+    }
+
     // Polígono del estudiante
     const dataPts = order.map((d, i) => pointAt(i, Math.max(0.04, (scores[d] || 0) / maxScore)));
     const dataPolygon = `<polygon points="${dataPts.map(p => `${p.x.toFixed(1)},${p.y.toFixed(1)}`).join(" ")}" fill="var(--accent)" fill-opacity="0.28" stroke="var(--accent)" stroke-width="2"/>`;
@@ -538,10 +566,17 @@
       return `<text x="${p.x.toFixed(1)}" y="${p.y.toFixed(1)}" text-anchor="middle" dominant-baseline="middle" class="vt-radar-label">${d}</text>`;
     }).join("");
 
+    const legend = compareProfile ? `
+      <div class="vt-radar-legend">
+        <span class="vt-radar-legend-item"><i class="vt-radar-dot vt-radar-dot--student"></i>Vos</span>
+        <span class="vt-radar-legend-item"><i class="vt-radar-dot vt-radar-dot--category"></i>${compareLabel || "Categoría"}</span>
+      </div>` : "";
+
     return `
-      <svg class="vt-radar-svg" viewBox="0 0 ${size} ${size}" role="img" aria-label="Gráfico de tu perfil vocacional en las seis dimensiones RIASEC">
-        ${rings}${spokes}${dataPolygon}${dataDots}${labels}
+      <svg class="vt-radar-svg" viewBox="0 0 ${size} ${size}" role="img" aria-label="Gráfico de tu perfil vocacional en las seis dimensiones RIASEC${compareProfile ? ", comparado con el perfil típico de " + compareLabel : ""}">
+        ${rings}${spokes}${comparePolygon}${dataPolygon}${dataDots}${labels}
       </svg>
+      ${legend}
     `;
   }
 
@@ -552,6 +587,17 @@
     const maxScore = 9; // 3 preguntas x 3 puntos máx cada una, por dimensión
     const codeLabel = topDims.map(d => DIM_INFO[d].name).join(" – ");
     const codeLetters = topDims.join("");
+
+    // Si las dos primeras categorías están muy cerca en puntaje, se lo
+    // decimos tal cual: no tiene sentido fingir una certeza que el
+    // resultado no tiene, y es más tranquilizador que confuso.
+    let tieNote = "";
+    if (topCategories.length > 1 && topCategories[0].score > 0) {
+      const gap = (topCategories[0].score - topCategories[1].score) / topCategories[0].score;
+      if (gap <= 0.15) {
+        tieNote = `<p class="vt-result-note vt-tie-note">Tu perfil quedó bastante parejo entre <strong>${topCategories[0].cat}</strong> y <strong>${topCategories[1].cat}</strong>. No es que no sepas qué te gusta: te atraen cosas de los dos mundos, y está bien explorar ambos antes de decidir.</p>`;
+      }
+    }
 
     const dimBarsHTML = DIMENSIONS
       .slice()
@@ -597,13 +643,14 @@
 
         <div class="vt-result-block">
           <h4>Tu perfil completo</h4>
-          <div class="vt-radar-wrap">${buildRadarSVG(scores)}</div>
+          <div class="vt-radar-wrap">${buildRadarSVG(scores, topCategories[0] ? CATEGORY_RIASEC[topCategories[0].cat] : null, topCategories[0] ? topCategories[0].cat : null)}</div>
           <div class="vt-dim-bars">${dimBarsHTML}</div>
         </div>
 
         <div class="vt-result-block">
           <h4>Tus áreas más afines</h4>
           <div class="vt-cat-bars">${catBarsHTML}</div>
+          ${tieNote}
         </div>
 
         <div class="vt-result-block">
@@ -614,6 +661,7 @@
         </div>
 
         <div class="vt-result-actions">
+          <button type="button" class="vt-secondary-btn" id="vtDownloadPdfBtn"><span id="vtDownloadPdfLabel">📄 Descargar en PDF</span></button>
           <button type="button" class="vt-secondary-btn" id="vtShareBtn">📤 Compartir mi resultado</button>
           <button type="button" class="vt-secondary-btn" id="vtRetakeBtn">↻ Volver a hacer el test</button>
         </div>
@@ -641,6 +689,36 @@
       const nombresRecomendados = recommended.slice(0, 3).map(c => c.nombre).join(", ");
       const texto = `Hice el test vocacional de Orientación Vocacional y mi perfil es ${codeLabel} (${codeLetters}). Me recomendó carreras como ${nombresRecomendados}. Probalo vos también 👉 ${location.origin}${location.pathname}#test-vocacional`;
       window.open("https://wa.me/?text=" + encodeURIComponent(texto), "_blank", "noopener");
+    });
+
+    document.getElementById("vtDownloadPdfBtn").addEventListener("click", () => {
+      const labelEl = document.getElementById("vtDownloadPdfLabel");
+      const original = labelEl.textContent;
+      if (typeof window.exportTestResultPdf !== "function") {
+        if (typeof window.showToast === "function") window.showToast("No se pudo preparar el generador de PDF.");
+        return;
+      }
+      labelEl.textContent = "Generando PDF…";
+      const dimRowsSorted = DIMENSIONS.slice().sort((a, b) => scores[b] - scores[a]);
+      const payload = {
+        codeLabel,
+        codeLetters,
+        date: new Date().toLocaleDateString("es-AR", { year: "numeric", month: "long", day: "numeric" }),
+        explainText: `Sos alguien a quien ${topDims.map(d => DIM_INFO[d].desc).join(" ")}`,
+        dimRows: dimRowsSorted.map(d => `${DIM_INFO[d].name}: ${scores[d]}/${maxScore}`),
+        categoryRows: topCategories.slice(0, 4).map((e, idx) => `${idx + 1}. ${e.cat}`),
+        contextRows: [
+          `Modalidad: ${contextAnswerLabel("modalidad", contextAnswers.modalidad)}`,
+          `Prioridad: ${contextAnswerLabel("prioridad", contextAnswers.prioridad)}`,
+          `Duración: ${contextAnswerLabel("duracion", contextAnswers.duracion)}`
+        ],
+        careers: recommended.map(c => ({ nombre: c.nombre, categoria: c.categoria, reason: reasonById[c.id] }))
+      };
+      window.exportTestResultPdf(payload)
+        .catch(err => {
+          if (typeof window.showToast === "function") window.showToast(err && err.message ? err.message : "No se pudo generar el PDF.");
+        })
+        .finally(() => { labelEl.textContent = original; });
     });
   }
 
