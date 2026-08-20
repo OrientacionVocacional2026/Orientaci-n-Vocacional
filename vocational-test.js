@@ -727,4 +727,10 @@
      --------------------------------------------------------------------- */
   renderIntro();
 
+  /* Exponer para el comparador de carreras (script.js), que muestra qué
+     tan afín es cada carrera al perfil RIASEC del estudiante si ya hizo
+     el test. */
+  window.CATEGORY_RIASEC = CATEGORY_RIASEC;
+  window.OV_TEST_STORAGE_KEY = STORAGE_KEY;
+
 })();

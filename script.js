@@ -1623,30 +1623,178 @@
       .map(x => x.o);
   }
 
+  function escapeHtml(str) {
+    return String(str == null ? "" : str)
+      .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;").replace(/'/g, "&#39;");
+  }
+
+  /* ---------------------- Comparador visual: helpers ---------------------- */
+  function parseYearsFromDuration(c) {
+    if (typeof c.duracionAnios === "number") return c.duracionAnios;
+    if (c.duracionInstituciones) {
+      const m = c.duracionInstituciones.replace(",", ".").match(/(\d+(?:\.\d+)?)/);
+      if (m) return parseFloat(m[1]);
+    }
+    return null;
+  }
+
+  // c.dificultad es un párrafo largo que arranca con un nivel ("Alta: ...",
+  // "Media-alta: ...", etc). Lo convertimos en un puntito visual (●●●○○) +
+  // la palabra del nivel, y dejamos el texto completo en el title (tooltip)
+  // para quien quiera leerlo entero.
+  const DIFFICULTY_LEVELS = [
+    { re: /^muy alta/i, n: 5, label: "Muy alta" },
+    { re: /^media-alta/i, n: 4, label: "Media-alta" },
+    { re: /^alta/i, n: 5, label: "Alta" },
+    { re: /^baja a media/i, n: 2, label: "Baja a media" },
+    { re: /^media/i, n: 3, label: "Media" },
+    { re: /^baja/i, n: 1, label: "Baja" }
+  ];
+  function difficultyMeter(text) {
+    if (!text || !text.trim()) return "No disponible";
+    const found = DIFFICULTY_LEVELS.find(l => l.re.test(text.trim()));
+    if (!found) return truncateText(text, 90);
+    const dots = Array.from({ length: 5 }, (_, i) => `<span class="diff-dot${i < found.n ? " filled" : ""}"></span>`).join("");
+    return `<div class="diff-meter" title="${escapeHtml(text)}"><span class="diff-dots">${dots}</span><span class="diff-label">${found.label}</span></div>`;
+  }
+
+  // Lee el resultado guardado del test vocacional (vocational-test.js), si
+  // el estudiante ya lo hizo, para poder mostrar "qué tan afín" es cada
+  // carrera comparada a su perfil.
+  function getSavedVocTestScores() {
+    try {
+      const key = window.OV_TEST_STORAGE_KEY || "ov_test_vocacional_v3";
+      const raw = localStorage.getItem(key);
+      if (!raw) return null;
+      const parsed = JSON.parse(raw);
+      return parsed && parsed.scores ? parsed.scores : null;
+    } catch (e) { return null; }
+  }
+
+  // % de afinidad entre el perfil RIASEC típico de una categoría y el
+  // perfil RIASEC del estudiante: promedio ponderado (ponderado por cuánto
+  // le importa cada dimensión a la categoría) de qué tan alto puntuó el
+  // estudiante en esas dimensiones.
+  function riasecMatchPercent(categoria, scores) {
+    const profile = window.CATEGORY_RIASEC && window.CATEGORY_RIASEC[categoria];
+    if (!profile || !scores) return null;
+    let weightedSum = 0, weightTotal = 0;
+    Object.keys(profile).forEach(d => {
+      const w = profile[d];
+      const frac = Math.min(1, (scores[d] || 0) / 9);
+      weightedSum += w * frac;
+      weightTotal += w;
+    });
+    if (weightTotal === 0) return null;
+    return Math.round((weightedSum / weightTotal) * 100);
+  }
+
+  const COMPARE_RADAR_COLORS = ["var(--accent)", "var(--link)", "var(--success)"];
+
+  function buildCompareRadarSVG(careers, scores) {
+    const size = 280;
+    const center = size / 2;
+    const maxRadius = center - 46;
+    const order = ["R", "I", "A", "S", "E", "C"];
+    const angleFor = i => (Math.PI * 2 * i) / order.length - Math.PI / 2;
+    function pointAt(i, fraction) {
+      const a = angleFor(i);
+      return { x: center + Math.cos(a) * maxRadius * fraction, y: center + Math.sin(a) * maxRadius * fraction };
+    }
+    const rings = [0.25, 0.5, 0.75, 1].map(frac => {
+      const pts = order.map((_, i) => pointAt(i, frac));
+      return `<polygon points="${pts.map(p => `${p.x.toFixed(1)},${p.y.toFixed(1)}`).join(" ")}" fill="none" stroke="var(--card-border)" stroke-width="1"/>`;
+    }).join("");
+    const spokes = order.map((_, i) => {
+      const p = pointAt(i, 1);
+      return `<line x1="${center}" y1="${center}" x2="${p.x.toFixed(1)}" y2="${p.y.toFixed(1)}" stroke="var(--card-border)" stroke-width="1"/>`;
+    }).join("");
+
+    let polygons = "";
+    const legendItems = [];
+    careers.forEach((c, idx) => {
+      const profile = window.CATEGORY_RIASEC && window.CATEGORY_RIASEC[c.categoria];
+      const color = COMPARE_RADAR_COLORS[idx % COMPARE_RADAR_COLORS.length];
+      if (profile) {
+        const pts = order.map((d, i) => pointAt(i, Math.max(0.04, (profile[d] || 0) / 3)));
+        polygons += `<polygon points="${pts.map(p => `${p.x.toFixed(1)},${p.y.toFixed(1)}`).join(" ")}" fill="${color}" fill-opacity="0.16" stroke="${color}" stroke-width="2"/>`;
+      }
+      const match = scores ? riasecMatchPercent(c.categoria, scores) : null;
+      legendItems.push(`<span class="compare-radar-legend-item"><i class="compare-radar-dot" style="background:${profile ? color : "transparent"};border-color:${color}"></i>${escapeHtml(c.nombre)}${match !== null ? ` · <strong>${match}% afín a vos</strong>` : ""}</span>`);
+    });
+
+    let studentPolygon = "";
+    if (scores) {
+      const pts = order.map((d, i) => pointAt(i, Math.max(0.04, (scores[d] || 0) / 9)));
+      studentPolygon = `<polygon points="${pts.map(p => `${p.x.toFixed(1)},${p.y.toFixed(1)}`).join(" ")}" fill="none" stroke="var(--text)" stroke-width="2" stroke-dasharray="4 3"/>`;
+      legendItems.unshift(`<span class="compare-radar-legend-item"><i class="compare-radar-dot compare-radar-dot--student"></i>Vos (tu test)</span>`);
+    }
+
+    const labels = order.map((d, i) => {
+      const p = pointAt(i, 1.24);
+      return `<text x="${p.x.toFixed(1)}" y="${p.y.toFixed(1)}" text-anchor="middle" dominant-baseline="middle" class="compare-radar-label">${d}</text>`;
+    }).join("");
+
+    return `
+      <div class="compare-radar-block">
+        <svg class="compare-radar-svg" viewBox="0 0 ${size} ${size}" role="img" aria-label="Gráfico comparando el perfil RIASEC de las carreras seleccionadas${scores ? ", superpuesto con tu perfil del test vocacional" : ""}">
+          ${rings}${spokes}${polygons}${studentPolygon}${labels}
+        </svg>
+        <div class="compare-radar-legend">${legendItems.join("")}</div>
+      </div>
+    `;
+  }
+
+  // Fila de tabla con barras horizontales comparables entre columnas (en vez
+  // de solo texto), con una insignia en la mejor de cada fila cuando tiene
+  // sentido resaltarla (más corta, mejor sueldo, etc).
+  function buildCompareBarRow(label, careers, getValue, formatValue, opts) {
+    opts = opts || {};
+    const values = careers.map(getValue);
+    const validValues = values.filter(v => typeof v === "number" && !isNaN(v));
+    if (validValues.length === 0) return "";
+    const max = Math.max(...validValues);
+    const bestValue = opts.bestIsMin ? Math.min(...validValues) : max;
+    const tie = validValues.filter(v => v === bestValue).length === validValues.length;
+    const cells = careers.map((c, idx) => {
+      const v = values[idx];
+      if (typeof v !== "number" || isNaN(v)) return `<td>No disponible</td>`;
+      const pct = max > 0 ? Math.max(8, Math.round((v / max) * 100)) : 8;
+      const isBest = !tie && v === bestValue;
+      return `
+        <td>
+          <div class="compare-bar-cell">
+            <div class="compare-bar-track"><div class="compare-bar-fill" style="width:${pct}%"></div></div>
+            <span class="compare-bar-value">${formatValue(v, c)}${isBest ? ` <span class="compare-bar-badge">${opts.badgeText || "★"}</span>` : ""}</span>
+          </div>
+        </td>`;
+    }).join("");
+    return `<tr><td class="compare-row-label">${label}</td>${cells}</tr>`;
+  }
+
   const COMPARE_ROWS = [
     { label: "Institución", get: c => institucionNombres(c.institucion).join(" · ") || "No disponible" },
     { label: "Modalidad", get: modalidadTexto },
     { label: "Tipo de título", get: c => tipoTitulo(c.nombre) },
-    { label: "Duración", get: c => c.duracionInstituciones || (c.duracionAnios ? c.duracionAnios + " años" : "No disponible") },
     { label: "Carga horaria", get: c => c.cargaHoraria || "No disponible" },
-    { label: "Dificultad", get: c => c.dificultad || "No disponible" },
+    { label: "Dificultad", get: c => difficultyMeter(c.dificultad) },
     { label: "Perfil recomendado", get: c => truncateText(c.perfilRecomendado, 140) },
     { label: "Habilidades clave", get: c => compactListText(c.habilidades) },
     { label: "Salidas laborales", get: c => compactListText(c.salidasLaborales) },
-    { label: "Sueldo junior", get: c => (c.salario && c.salario.junior) ? `${c.salario.junior}${c.salario.juniorUSD ? " (" + c.salario.juniorUSD + ")" : ""}` : "No disponible" },
-    { label: "Sueldo semi senior", get: c => (c.salario && c.salario.semiSenior) ? `${c.salario.semiSenior}${c.salario.semiSeniorUSD ? " (" + c.salario.semiSeniorUSD + ")" : ""}` : "No disponible" },
-    { label: "Sueldo senior", get: c => (c.salario && c.salario.senior) ? `${c.salario.senior}${c.salario.seniorUSD ? " (" + c.salario.seniorUSD + ")" : ""}` : "No disponible" },
     { label: "Trabajo remoto", get: c => truncateText(c.trabajoRemoto, 100) },
     { label: "Demanda actual", get: c => truncateText(c.demandaActual, 120) }
   ];
 
   function buildCompareHTML(careers) {
+    const savedScores = getSavedVocTestScores();
+
     const theadCols = careers.map(c => `
       <th>
         <div class="compare-col-head">
           <div class="compare-col-head-top">
             <span class="compare-col-icon" aria-hidden="true">${c.icono}</span>
-            <button type="button" class="compare-remove-btn" data-id="${c.id}" aria-label="Quitar ${c.nombre} de la comparación">✕</button>
+            <button type="button" class="compare-remove-btn" data-id="${c.id}" aria-label="Quitar ${escapeHtml(c.nombre)} de la comparación">✕</button>
           </div>
           <strong>${c.nombre}</strong>
           <span class="compare-col-category">${c.categoria}</span>
@@ -1654,12 +1802,57 @@
       </th>
     `).join("");
 
-    const rows = COMPARE_ROWS.map(row => `
-      <tr>
-        <td class="compare-row-label">${row.label}</td>
-        ${careers.map(c => `<td>${row.get(c)}</td>`).join("")}
-      </tr>
-    `).join("");
+    const rowsByLabel = {};
+    COMPARE_ROWS.forEach(row => {
+      rowsByLabel[row.label] = `
+        <tr>
+          <td class="compare-row-label">${row.label}</td>
+          ${careers.map(c => `<td>${row.get(c)}</td>`).join("")}
+        </tr>
+      `;
+    });
+
+    const durationRow = buildCompareBarRow(
+      "Duración", careers,
+      c => parseYearsFromDuration(c),
+      (v) => `${Number.isInteger(v) ? v : v.toFixed(1)} años`,
+      { bestIsMin: true, badgeText: "Más corta" }
+    );
+    const salaryJuniorRow = buildCompareBarRow(
+      "Sueldo junior", careers,
+      c => parseAvgARS(c.salario && c.salario.junior),
+      (v, c) => `${c.salario.junior}${c.salario.juniorUSD ? " (" + c.salario.juniorUSD + ")" : ""}`,
+      { bestIsMin: false, badgeText: "Más alto" }
+    );
+    const salarySemiRow = buildCompareBarRow(
+      "Sueldo semi senior", careers,
+      c => parseAvgARS(c.salario && c.salario.semiSenior),
+      (v, c) => `${c.salario.semiSenior}${c.salario.semiSeniorUSD ? " (" + c.salario.semiSeniorUSD + ")" : ""}`,
+      { bestIsMin: false, badgeText: "Más alto" }
+    );
+    const salarySeniorRow = buildCompareBarRow(
+      "Sueldo senior", careers,
+      c => parseAvgARS(c.salario && c.salario.senior),
+      (v, c) => `${c.salario.senior}${c.salario.seniorUSD ? " (" + c.salario.seniorUSD + ")" : ""}`,
+      { bestIsMin: false, badgeText: "Más alto" }
+    );
+
+    const rows = [
+      durationRow,
+      rowsByLabel["Institución"],
+      rowsByLabel["Modalidad"],
+      rowsByLabel["Tipo de título"],
+      rowsByLabel["Carga horaria"],
+      rowsByLabel["Dificultad"],
+      salaryJuniorRow,
+      salarySemiRow,
+      salarySeniorRow,
+      rowsByLabel["Perfil recomendado"],
+      rowsByLabel["Habilidades clave"],
+      rowsByLabel["Salidas laborales"],
+      rowsByLabel["Trabajo remoto"],
+      rowsByLabel["Demanda actual"]
+    ].filter(Boolean).join("");
 
     const footerRow = `
       <tr class="compare-footer-row">
@@ -1668,12 +1861,45 @@
       </tr>
     `;
 
+    // "Lo esencial de un vistazo": 2-3 datos concretos antes de la tabla,
+    // para el que no quiere leer fila por fila.
+    const highlights = [];
+    const durationCandidates = careers.map(c => ({ c, v: parseYearsFromDuration(c) })).filter(x => typeof x.v === "number");
+    if (durationCandidates.length > 1) {
+      const shortest = durationCandidates.reduce((a, b) => (b.v < a.v ? b : a));
+      highlights.push(`<span class="compare-highlight">⏱️ La más corta: <strong>${escapeHtml(shortest.c.nombre)}</strong> (${shortest.v} años)</span>`);
+    }
+    const juniorCandidates = careers.map(c => ({ c, v: parseAvgARS(c.salario && c.salario.junior) })).filter(x => typeof x.v === "number" && !isNaN(x.v));
+    if (juniorCandidates.length > 1) {
+      const best = juniorCandidates.reduce((a, b) => (b.v > a.v ? b : a));
+      highlights.push(`<span class="compare-highlight">💰 Mejor sueldo inicial: <strong>${escapeHtml(best.c.nombre)}</strong></span>`);
+    }
+    if (savedScores) {
+      const matchCandidates = careers.map(c => ({ c, v: riasecMatchPercent(c.categoria, savedScores) })).filter(x => x.v !== null);
+      if (matchCandidates.length > 1) {
+        const best = matchCandidates.reduce((a, b) => (b.v > a.v ? b : a));
+        highlights.push(`<span class="compare-highlight">🎯 Más afín a tu perfil: <strong>${escapeHtml(best.c.nombre)}</strong> (${best.v}%)</span>`);
+      }
+    }
+
+    const testHint = !savedScores ? `
+      <div class="compare-test-hint">
+        <span>💡 Hacé el test vocacional para ver qué tan afín es cada carrera a tu perfil.</span>
+        <button type="button" class="compare-test-hint-btn" id="compareTestHintBtn">Hacer el test →</button>
+      </div>
+    ` : "";
+
     return `
       <div class="compare-header">
         <p class="compare-eyebrow">Comparador de carreras</p>
         <h2>Comparando ${careers.length} carreras</h2>
         <p class="compare-scroll-hint">Deslizá hacia los costados para ver todas las columnas →</p>
       </div>
+
+      ${buildCompareRadarSVG(careers, savedScores)}
+      ${testHint}
+      ${highlights.length ? `<div class="compare-highlights">${highlights.join("")}</div>` : ""}
+
       <div class="compare-table-wrap">
         <table class="compare-table">
           <thead><tr><th class="compare-row-label"></th>${theadCols}</tr></thead>
@@ -1725,6 +1951,16 @@
         syncCompareButtons();
         renderCompareBar();
         renderCompareContent();
+      });
+    }
+    const testHintBtn = document.getElementById("compareTestHintBtn");
+    if (testHintBtn) {
+      testHintBtn.addEventListener("click", () => {
+        closeCompare();
+        setTimeout(() => {
+          const section = document.getElementById("test-vocacional");
+          if (section) section.scrollIntoView({ behavior: "smooth", block: "start" });
+        }, 300);
       });
     }
   }

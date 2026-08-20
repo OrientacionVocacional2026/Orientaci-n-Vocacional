@@ -1186,6 +1186,46 @@ body.has-compare-bar .back-to-top { bottom: 96px; }
 .compare-header h2 { font-size: clamp(1.3rem, 3.4vw, 1.8rem); margin: 0 0 8px; }
 .compare-scroll-hint { display: none; color: var(--text-faint); font-size: .8rem; margin: 0 0 10px; }
 
+/* ---- Radar comparativo ---- */
+.compare-radar-block { display: flex; flex-direction: column; align-items: center; gap: 10px; margin: 8px 0 18px; padding: 18px; background: var(--card); border: 1px solid var(--card-border); border-radius: var(--radius-m); }
+.compare-radar-svg { width: 100%; max-width: 280px; height: auto; }
+.compare-radar-label { font-family: var(--font-mono); font-size: 12px; fill: var(--text-muted); }
+.compare-radar-legend { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px 18px; font-size: .8rem; color: var(--text-muted); }
+.compare-radar-legend-item { display: flex; align-items: center; gap: 6px; }
+.compare-radar-dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; border: 2px solid transparent; flex-shrink: 0; }
+.compare-radar-dot--student { background: transparent; border: 2px dashed var(--text); }
+
+/* ---- Banner para invitar a hacer el test ---- */
+.compare-test-hint {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap;
+  background: var(--accent-soft); border-radius: var(--radius-s); padding: 12px 16px; margin-bottom: 16px;
+  font-size: .85rem; color: var(--text);
+}
+.compare-test-hint-btn {
+  background: var(--accent); color: var(--accent-contrast); border: none; border-radius: 999px;
+  padding: 8px 14px; font-size: .8rem; font-weight: 600; cursor: pointer; white-space: nowrap;
+}
+.compare-test-hint-btn:hover { filter: brightness(1.05); }
+
+/* ---- "Lo esencial de un vistazo" ---- */
+.compare-highlights { display: flex; flex-wrap: wrap; gap: 10px 20px; margin-bottom: 16px; }
+.compare-highlight { font-size: .84rem; color: var(--text-muted); }
+.compare-highlight strong { color: var(--text); }
+
+/* ---- Filas con barras (duración, sueldos) ---- */
+.compare-bar-cell { display: flex; flex-direction: column; gap: 5px; min-width: 150px; }
+.compare-bar-track { width: 100%; height: 7px; border-radius: 999px; background: var(--card-border); overflow: hidden; }
+.compare-bar-fill { height: 100%; background: var(--accent); border-radius: 999px; }
+.compare-bar-value { font-size: .78rem; color: var(--text-muted); }
+.compare-bar-badge { display: inline-block; background: var(--accent-soft); color: var(--accent); font-size: .68rem; font-weight: 700; padding: 1px 7px; border-radius: 999px; margin-left: 2px; }
+
+/* ---- Medidor de dificultad ---- */
+.diff-meter { display: flex; flex-direction: column; gap: 4px; cursor: help; }
+.diff-dots { display: flex; gap: 3px; }
+.diff-dot { width: 9px; height: 9px; border-radius: 50%; background: var(--card-border); }
+.diff-dot.filled { background: var(--accent); }
+.diff-label { font-size: .78rem; color: var(--text-muted); }
+
 .compare-table-wrap {
   overflow-x: auto;
   margin-top: 12px;
@@ -1372,6 +1412,9 @@ body.has-compare-bar .back-to-top { bottom: 96px; }
   body.has-compare-bar .back-to-top { bottom: 128px; }
 
   .compare-scroll-hint { display: block; }
+  .compare-radar-block { padding: 14px; }
+  .compare-test-hint { flex-direction: column; align-items: flex-start; }
+  .compare-highlights { flex-direction: column; gap: 6px; }
   .compare-table td:first-child, .compare-table th:first-child { min-width: 110px; max-width: 120px; font-size: .8rem; }
   .compare-table th, .compare-table td { padding: 12px; }
   .compare-panel-inner { padding: 18px 16px 90px; }
