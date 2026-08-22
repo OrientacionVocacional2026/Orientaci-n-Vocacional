@@ -79,7 +79,17 @@ const INSTITUCIONES = {
     web: "https://uncaus.edu.ar",
     descripcion: "Universidad pública y gratuita creada en 2007 por la Ley 26.335, a partir de la ex Facultad de Agroindustrias de la UNNE. Tiene su sede central en Presidencia Roque Sáenz Peña y presencia adicional en Resistencia (Escuela de Gobierno y Negocios del Chaco Austral). Se organiza en dos grandes áreas académicas: Departamento de Ciencias Básicas y Aplicadas, y Departamento de Ciencias Sociales y Humanísticas.",
     modalidad: "Mayormente presencial, con oferta virtual (UNCAUS Virtual) para algunas carreras como Licenciatura en Administración, Contador Público, Licenciatura en Sociología y ciclos de complementación curricular.",
-    fuente: "uncaus.edu.ar, Wikipedia, nota informativa sobre universidades del Chaco (abril 2026)"
+    fuente: "uncaus.edu.ar, Wikipedia, nota informativa sobre universidades del Chaco (abril 2026)",
+    ingresoBecas: {
+      arancel: "Gratuita (universidad pública)",
+      ingreso: "Preinscripción online por el sistema de Legajos Digitales (documentación: DNI, foto carnet, título secundario o constancia de título en trámite, grupo sanguíneo, certificado de buena salud). Después hay que hacer el curso introductorio, que arranca en febrero para casi todas las carreras (Medicina y Cs. Veterinarias tienen su propio proceso de ingreso, un poco más largo, entre febrero y marzo). No es un examen eliminatorio: es una nivelación obligatoria para empezar a cursar.",
+      becas: [
+        "Becas de comedor y de fotocopias, para carreras presenciales (se piden en Bienestar Estudiantil con DNI, constancia de alumno regular y certificación negativa de ANSES)",
+        "Becas de investigación para estudiantes avanzados, en distintas carreras",
+        "Acceso a las becas nacionales (PROGRESAR) tramitando por separado en argentina.gob.ar/educacion/becas"
+      ],
+      fuente: "uncaus.edu.ar (Ingresantes, Bienestar Estudiantil) — agosto 2026"
+    }
   },
   "ucp": {
     nombre: "Universidad de la Cuenca del Plata (UCP) — Sede Sáenz Peña",
@@ -88,7 +98,17 @@ const INSTITUCIONES = {
     web: "https://www.ucp.edu.ar/sedes/saenz-pena/",
     descripcion: "Universidad privada con sede central en Corrientes Capital (fundada en 1994) y delegaciones regionales en las cuatro provincias del NEA. La sede de Sáenz Peña funciona en Rivadavia 580 y ofrece carreras de grado, pregrado y ciclos de complementación curricular.",
     modalidad: "Presencial en la sede regional, con sistema institucional de educación digital (SIED) para algunas propuestas.",
-    fuente: "ucp.edu.ar (institucional y datos de contacto), redes oficiales de la sede Sáenz Peña"
+    fuente: "ucp.edu.ar (institucional y datos de contacto), redes oficiales de la sede Sáenz Peña",
+    ingresoBecas: {
+      arancel: "Arancelada (universidad privada)",
+      ingreso: "Curso de Ingreso (con inscripción presencial: carpeta colgante, título secundario original y fotocopia, fotos carnet, DNI, partida de nacimiento). No encontramos si el curso es eliminatorio o solo de ambientación; conviene confirmarlo directamente en la sede antes de anotarse.",
+      becas: [
+        "Becas a la Constancia y Rendimiento Académico: 10% de descuento en las cuotas del segundo semestre si en el primer cuatrimestre tenés 100% de asistencia o promedio 8 o más en todas las materias",
+        "Becas de Rendimiento Académico para carreras digitales, con requisitos similares",
+        "Becas extensión, para estudiantes que representan a la institución en actividades deportivas o culturales"
+      ],
+      fuente: "ucp.edu.ar (ingreso y becas) — agosto 2026"
+    }
   },
   "ies-juan-mantovani": {
     nombre: "Instituto de Educación Superior \"Juan Mantovani\"",
@@ -97,7 +117,13 @@ const INSTITUCIONES = {
     web: "https://ispmantovani-cha.infd.edu.ar",
     descripcion: "Instituto de formación docente y técnico-profesional presente en la comunidad desde 1975 (originalmente como Instituto Superior de Formación Docente \"Mariano Moreno\"). Es de gestión pública y depende del Ministerio de Educación de la Provincia del Chaco.",
     modalidad: "Presencial, con campus virtual institucional de apoyo a la cursada.",
-    fuente: "ispmantovani-cha.infd.edu.ar, Ministerio de Educación del Chaco"
+    fuente: "ispmantovani-cha.infd.edu.ar, Ministerio de Educación del Chaco",
+    ingresoBecas: {
+      arancel: "Gratuita (instituto de gestión pública)",
+      ingreso: "Inscripción online a través del sistema integrado de la Dirección de Educación Superior del Ministerio de Educación del Chaco (se genera usuario y contraseña en el sitio del instituto). No encontramos que tenga examen de ingreso eliminatorio.",
+      becas: null,
+      fuente: "ispmantovani-cha.infd.edu.ar, notas de prensa locales — agosto 2026. No encontramos información oficial sobre becas propias del instituto; los profesorados dan acceso a las becas nacionales (PROGRESAR)."
+    }
   },
   "don-orione": {
     nombre: "Instituto Superior del Profesorado \"Don Orione\" (U.E.G.P. N° 55)",
@@ -142,7 +168,17 @@ const INSTITUCIONES = {
     web: "https://21.edu.ar",
     descripcion: "Universidad privada con sede central en Córdoba, que dicta sus carreras de forma virtual en todo el país a través de Centros de Apoyo Universitario (CAU) regionales, donde los estudiantes pueden rendir exámenes, hacer trámites y recibir apoyo presencial. El CAU de Sáenz Peña funciona en Laprida 527.",
     modalidad: "Virtual/a distancia, con apoyo presencial en el CAU local para exámenes, trámites y consultas. Las carreras con prácticas clínicas obligatorias (como Psicología o Nutrición) no se dictan a distancia; solo están habilitadas de forma virtual las carreras y Ciclos de Complementación Curricular (CCC) que no requieren práctica física diaria.",
-    fuente: "21.edu.ar (presencia territorial y oferta académica), julio 2026"
+    fuente: "21.edu.ar (presencia territorial y oferta académica), julio 2026",
+    ingresoBecas: {
+      arancel: "Arancelada (universidad privada), con planes de financiación en cuotas",
+      ingreso: "No tiene examen de ingreso, salvo Medicina (que sí exige curso de nivelación y examen obligatorio). Para el resto de las carreras existe \"Universitarios 21\", un programa de acompañamiento para el primer tramo (no eliminatorio, no es obligatorio si ya tenés 5 o más materias reconocidas de otra carrera).",
+      becas: [
+        "Becas de Ingreso: hasta 50% de descuento en el arancel del primer semestre, según promedio del secundario (mínimo 7) y situación económica",
+        "Becas de Alumno Regular: para quienes ya están cursando, con buen rendimiento académico y dificultades para pagar el arancel",
+        "Becas por vulnerabilidad social o económica, con acreditación de ingresos y egresos del grupo familiar"
+      ],
+      fuente: "21.edu.ar/becas-beneficios-y-pagos, reglamento.21.edu.ar — agosto 2026"
+    }
   },
   "utn-frre": {
     nombre: "Universidad Tecnológica Nacional — Facultad Regional Resistencia (UTN FRRE)",
@@ -151,7 +187,17 @@ const INSTITUCIONES = {
     web: "https://www.frre.utn.edu.ar",
     descripcion: "Facultad Regional de la Universidad Tecnológica Nacional, fundada en 1960, con sede central en Resistencia (French 414) y un edificio anexo en French 802. Es la única universidad del país organizada íntegramente alrededor de la ingeniería, y tiene alcance regional en el NEA a través de extensiones áulicas en Formosa, Goya, Gobernador Virasoro e Ituzaingó (Corrientes) y Posadas (Misiones). Dicta carreras de grado, tecnicaturas universitarias, ciclos de licenciatura, diplomaturas y posgrados (algunos en conjunto con la UNNE y la Universidad Nacional de Misiones).",
     modalidad: "Mixta: las carreras de grado (ingenierías y Licenciatura en Administración Rural) son presenciales en la sede de Resistencia. Las tecnicaturas universitarias son mayormente presenciales, dictadas en Resistencia y/o en extensiones áulicas de la región (Goya, Formosa, Posadas, Gobernador Virasoro, Ituzaingó), salvo la Tecnicatura Universitaria en Programación a Distancia (TUPaD). Los ciclos de licenciatura, diplomaturas y posgrados combinan modalidad virtual y presencial según la carrera.",
-    fuente: "frre.utn.edu.ar (institucional, académica y posgrados), notas de prensa de UTN Resistencia (Diario Chaco, Diario TAG, inChaco, ChacoDiaPorDia) y Wikipedia — julio 2026"
+    fuente: "frre.utn.edu.ar (institucional, académica y posgrados), notas de prensa de UTN Resistencia (Diario Chaco, Diario TAG, inChaco, ChacoDiaPorDia) y Wikipedia — julio 2026",
+    ingresoBecas: {
+      arancel: "Gratuita (universidad pública)",
+      ingreso: "Seminario Universitario: es el curso de ingreso, con varias fechas/turnos a lo largo del año (para no perder un año si no llegás a un turno). Se dicta a estudiantes que están terminando el secundario o ya lo terminaron, cubre Matemática, Física e Introducción a la Universidad, y se aprueba (no es un examen clasificatorio con cupo, es de nivelación). La inscripción es online, con DNI y constancia de alumno regular o título secundario.",
+      becas: [
+        "Becas de Ayuda Económica / Ayuda Social: aporte mensual de abril a diciembre para estudiantes regulares cuyo ingreso familiar no supere 3 Salarios Mínimos, Vitales y Móviles",
+        "Becas de Investigación y Servicio, para estudiantes avanzados que participan de un proyecto de un grupo de investigación de la facultad",
+        "Boleto Educativo Gratuito (transporte) en algunas provincias de la región"
+      ],
+      fuente: "frre.utn.edu.ar/ingresantes, becassau.frre.utn.edu.ar — agosto 2026"
+    }
   },
 
   /* ===============================================================
@@ -324,6 +370,60 @@ const INSTITUCIONES = {
     modalidad: "Presencial, régimen de internado, en Ezeiza (Buenos Aires).",
     fuente: "argentina.gob.ar/fuerzaaerea (institutos e ingreso a la ESFAE) — agosto 2026"
   }
+};
+
+/* =====================================================================
+   BECAS Y AYUDA ECONÓMICA — no dependen de una institución en particular,
+   se pueden pedir sin importar dónde estudies (mientras cumplas los
+   requisitos de cada programa). Última verificación: agosto 2026.
+   ===================================================================== */
+const BECAS_GENERALES = [
+  {
+    nombre: "Beca Progresar",
+    alcance: "Nacional",
+    descripcion: "La ayuda económica más conocida y de mayor alcance para estudiantes en Argentina. Tiene 4 líneas: Obligatorio (secundario), Superior (terciario o universitario), Enfermería y Trabajo (formación profesional).",
+    requisitos: "Ingresos del grupo familiar que no superen 3 Salarios Mínimos, Vitales y Móviles. Ser alumno regular. Para Progresar Superior, si sos ingresante alcanza con acreditar regularidad; si ya estás avanzado, se pide el 50% de las materias aprobadas según el plan.",
+    monto: "$35.000 mensuales brutos (se cobra el 80% mes a mes, el 20% restante se libera al acreditar avance académico). Cifra de 2026, se actualiza.",
+    comoAnotarse: "Online, con usuario de Mi Argentina, en argentina.gob.ar/progresar. Hay varias convocatorias por año — conviene revisar el calendario vigente antes de la fecha límite.",
+    fuente: "argentina.gob.ar/servicio/inscribirme-en-progresar-superior — agosto 2026"
+  },
+  {
+    nombre: "Becas Chaco + i",
+    alcance: "Provincial (Chaco)",
+    descripcion: "Becas del Instituto Chaqueño de Ciencia, Tecnología e Innovación (ICCTI) para estudiantes avanzados de carreras estratégicas que quieran su primera experiencia en investigación, en instituciones científicas con sede en la provincia.",
+    requisitos: "Ser estudiante avanzado (más del 50% de la carrera aprobada), de una universidad pública con sede en Chaco (UNCAUS, UTN, UNNE), con promedio de al menos 6 puntos. Ser chaqueño o tener residencia legal en la provincia.",
+    monto: "$85.000 mensuales, por 12 meses (renovable).",
+    comoAnotarse: "Por la plataforma Tu Gobierno Digital (gobiernodigital.chaco.gob.ar), en la convocatoria anual del ICCTI.",
+    fuente: "iccti.chaco.gob.ar/becasdegrado — agosto 2026"
+  },
+  {
+    nombre: "Programa Enfoque — línea Impulsando Talentos",
+    alcance: "Provincial (Chaco)",
+    descripcion: "Asistencia financiera del Gobierno del Chaco para acompañar a estudiantes ingresantes de carreras consideradas estratégicas para la provincia, con el objetivo de que puedan sostener el primer tramo de la carrera. Incluye también clases de apoyo y tutorías.",
+    requisitos: "Ser ingresante de una carrera estratégica en una universidad pública con sede en Chaco. Los requisitos específicos (ingresos, promedio) se confirman en cada convocatoria.",
+    monto: "Varía según la convocatoria vigente.",
+    comoAnotarse: "Por la plataforma Tu Gobierno Digital, a través del Ministerio de Planificación, Economía e Infraestructura del Chaco.",
+    fuente: "hacienda.chaco.gov.ar (Programa Enfoque) — agosto 2026"
+  },
+  {
+    nombre: "Construir Futuro",
+    alcance: "Provincial (Chaco)",
+    descripcion: "Apoyo económico del Gobierno del Chaco para estudiantes de universidades públicas, pensado para cubrir insumos de estudio (apuntes, materiales, conectividad). Pide una carta de motivación breve contando la situación personal.",
+    requisitos: "Cursar en una universidad pública. No estar en relación de dependencia ni cobrar la beca nacional Manuel Belgrano. Es compatible con el Programa Enfoque.",
+    monto: "Varía según la convocatoria vigente.",
+    comoAnotarse: "Por la plataforma Tu Gobierno Digital, dentro del plazo de cada convocatoria (suele abrirse una vez al año).",
+    fuente: "hacienda.chaco.gov.ar/noticia/921 — agosto 2026"
+  }
+];
+
+/* =====================================================================
+   SOBRE LA PERMANENCIA EN EL PRIMER AÑO — datos oficiales para dar
+   contexto real sin caer en el alarmismo ni en el "no pasa nada".
+   ===================================================================== */
+const DATOS_PERMANENCIA = {
+  dato: "Según la Secretaría de Políticas Universitarias, la retención en el primer año del sistema universitario argentino es del 61,8%. Pero ojo: no todo el resto son abandonos — un 21% de esos estudiantes se anotó en otra carrera, no dejó de estudiar.",
+  contexto: "Entre estudiantes de familias con menos recursos, el desafío es mayor: representan el 18% de quienes empiezan primer año, pero solo el 4% de quienes llegan a quinto año (datos de FIEL y Argentinos por la Educación). El primer año es, en general, el momento de mayor abandono en cualquier carrera, y suele estar más relacionado con la adaptación (horarios, hábitos de estudio, expectativas) que con no ser \"lo suficientemente inteligente\".",
+  fuente: "Página/12 (nov. 2025, datos SPU) y FIEL Fundación (blog, 2024)"
 };
 
 const CAREERS = [

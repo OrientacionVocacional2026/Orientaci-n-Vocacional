@@ -97,6 +97,31 @@
     return ids.map(id => (INSTITUCIONES[id] ? INSTITUCIONES[id].nombre : id));
   }
 
+  function buildIngresoBecasHTML(inst) {
+    const ib = inst.ingresoBecas;
+    if (!ib) {
+      return `
+        <details class="institucion-ingreso">
+          <summary>Ingreso y becas</summary>
+          <p class="institucion-ingreso-empty">No encontramos información oficial verificable sobre el proceso de ingreso o becas propias de esta institución. Te recomendamos consultarlo directamente ${inst.web ? `en <a href="${inst.web}" target="_blank" rel="noopener">su sitio web</a>` : "por sus canales de contacto"}.</p>
+        </details>
+      `;
+    }
+    const becasHTML = Array.isArray(ib.becas) && ib.becas.length
+      ? `<p class="institucion-ingreso-label">Becas propias</p><ul>${ib.becas.map(b => `<li>${b}</li>`).join("")}</ul>`
+      : `<p class="institucion-ingreso-label">Becas propias</p><p class="institucion-ingreso-empty">No encontramos becas propias documentadas para esta institución. Podés acceder igual a las becas nacionales y provinciales (más abajo en esta página).</p>`;
+    return `
+      <details class="institucion-ingreso">
+        <summary>Ingreso y becas</summary>
+        ${ib.arancel ? `<p class="institucion-ingreso-arancel">${ib.arancel}</p>` : ""}
+        <p class="institucion-ingreso-label">Cómo es el ingreso</p>
+        <p>${ib.ingreso}</p>
+        ${becasHTML}
+        <p class="institucion-ingreso-fuente">Fuente: ${ib.fuente}</p>
+      </details>
+    `;
+  }
+
   const institucionesGrid = document.getElementById("institucionesGrid");
   if (institucionesGrid && typeof INSTITUCIONES === "object") {
     Object.values(INSTITUCIONES).forEach(inst => {
@@ -108,9 +133,36 @@
         <p>${inst.descripcion}</p>
         <p class="institucion-direccion">📍 ${inst.direccion}</p>
         ${inst.web ? `<a class="institucion-web" href="${inst.web}" target="_blank" rel="noopener">Sitio web →</a>` : ""}
+        ${buildIngresoBecasHTML(inst)}
       `;
       institucionesGrid.appendChild(card);
     });
+  }
+
+  /* ---------------------- Becas generales y permanencia ---------------------- */
+  const becasGrid = document.getElementById("becasGrid");
+  if (becasGrid && typeof BECAS_GENERALES !== "undefined") {
+    becasGrid.innerHTML = BECAS_GENERALES.map(b => `
+      <article class="beca-card">
+        <span class="beca-alcance">${b.alcance}</span>
+        <h3>${b.nombre}</h3>
+        <p>${b.descripcion}</p>
+        <p class="beca-row"><strong>Requisitos:</strong> ${b.requisitos}</p>
+        <p class="beca-row"><strong>Monto:</strong> ${b.monto}</p>
+        <p class="beca-row"><strong>Cómo anotarte:</strong> ${b.comoAnotarse}</p>
+        <p class="beca-fuente">Fuente: ${b.fuente}</p>
+      </article>
+    `).join("");
+  }
+
+  const permanenciaCallout = document.getElementById("permanenciaCallout");
+  if (permanenciaCallout && typeof DATOS_PERMANENCIA !== "undefined") {
+    permanenciaCallout.innerHTML = `
+      <p class="permanencia-title">Sobre el abandono en el primer año</p>
+      <p>${DATOS_PERMANENCIA.dato}</p>
+      <p>${DATOS_PERMANENCIA.contexto}</p>
+      <p class="permanencia-fuente">Fuente: ${DATOS_PERMANENCIA.fuente}</p>
+    `;
   }
 
   /* ---------------------- Comparador de instituciones ---------------------- */
@@ -1978,6 +2030,25 @@
     compareOverlay.setAttribute("aria-hidden", "true");
     document.body.style.overflow = "";
   }
+
+  // Permite que otro archivo (vocational-test.js) precargue el comparador
+  // con un set de carreras (p. ej. las recomendadas por el test) y lo abra
+  // directamente, sin que el estudiante tenga que volver a buscarlas.
+  function compareCareersFromOutside(ids) {
+    const validIds = (ids || []).filter(id => CAREERS.some(c => c.id === id)).slice(0, MAX_COMPARE);
+    if (validIds.length < 2) {
+      showToast("Necesitás al menos 2 carreras válidas para comparar.");
+      return;
+    }
+    compareList = validIds;
+    saveCompareList();
+    syncCompareButtons();
+    renderCompareBar();
+    const carrerasSection = document.getElementById("carreras");
+    if (carrerasSection) carrerasSection.scrollIntoView({ behavior: "smooth", block: "start" });
+    setTimeout(() => openCompare(), 350);
+  }
+  window.compareCareersFromOutside = compareCareersFromOutside;
 
   closeCompareBtn.addEventListener("click", closeCompare);
   compareOverlay.addEventListener("keydown", (e) => { if (e.key === "Escape") closeCompare(); });

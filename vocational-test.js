@@ -661,6 +661,7 @@
         </div>
 
         <div class="vt-result-actions">
+          <button type="button" class="vt-secondary-btn" id="vtCompareBtn">⚖️ Comparar mis carreras recomendadas</button>
           <button type="button" class="vt-secondary-btn" id="vtDownloadPdfBtn"><span id="vtDownloadPdfLabel">📄 Descargar en PDF</span></button>
           <button type="button" class="vt-secondary-btn" id="vtShareBtn">📤 Compartir mi resultado</button>
           <button type="button" class="vt-secondary-btn" id="vtRetakeBtn">↻ Volver a hacer el test</button>
@@ -685,6 +686,13 @@
         if (typeof window.filterByCategory === "function") window.filterByCategory(topCategories[0].cat);
       });
     }
+    document.getElementById("vtCompareBtn").addEventListener("click", () => {
+      const ids = recommended.slice(0, 3).map(c => c.id);
+      if (typeof window.compareCareersFromOutside === "function") {
+        window.compareCareersFromOutside(ids);
+      }
+    });
+
     document.getElementById("vtShareBtn").addEventListener("click", () => {
       const nombresRecomendados = recommended.slice(0, 3).map(c => c.nombre).join(", ");
       const texto = `Hice el test vocacional de Orientación Vocacional y mi perfil es ${codeLabel} (${codeLetters}). Me recomendó carreras como ${nombresRecomendados}. Probalo vos también 👉 ${location.origin}${location.pathname}#test-vocacional`;
