@@ -204,7 +204,7 @@ button { font-family: var(--font-body); cursor: pointer; }
   flex-wrap: wrap;
   gap: 12px;
   margin: 0 0 30px;
-  animation: fadeUp .7s ease .1s both;
+  animation: fadeUp .7s ease .18s both;
 }
 .hero-cta-btn {
   display: inline-block;
@@ -236,8 +236,8 @@ button { font-family: var(--font-body); cursor: pointer; }
   display: flex;
   flex-wrap: wrap;
   gap: 28px;
-  margin: 0 0 28px;
-  animation: fadeUp .7s ease .18s both;
+  margin: 0 0 30px;
+  animation: fadeUp .7s ease .1s both;
 }
 .stat-item { display: flex; flex-direction: column; gap: 2px; }
 .stat-number { font-family: var(--font-mono); font-size: 1.5rem; font-weight: 700; color: var(--accent); line-height: 1; }
