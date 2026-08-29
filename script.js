@@ -48,6 +48,8 @@
   let showOnlyFavorites = false;
 
   totalCarrerasEl.textContent = CAREERS.length;
+  const totalCarrerasContactoEl = document.getElementById("totalCarrerasContacto");
+  if (totalCarrerasContactoEl) totalCarrerasContactoEl.textContent = CAREERS.length;
 
   /* ---------------------- Estadísticas del sitio ---------------------- */
   (function renderSiteStats() {
