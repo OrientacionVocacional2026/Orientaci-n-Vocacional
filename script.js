@@ -83,14 +83,25 @@
     return "Otros títulos";
   }
 
-  // Siglo 21 es, en los datos de este sitio, la única institución 100% virtual;
-  // el resto dicta de forma presencial (algunas con opción virtual puntual ya
-  // aclarada en el campo modalidadInstituciones de esa carrera).
+  // Modalidad de cada carrera. Si la carrera trae el campo modalidadTipo
+  // (por ejemplo ["virtual"] o ["presencial", "virtual"]) se usa tal cual.
+  // Si no lo trae, se deduce como antes: Siglo 21 es virtual y cualquier
+  // otra institución se considera presencial (con el detalle fino aclarado
+  // en el campo modalidadInstituciones de esa carrera).
   function institucionIds(career) {
     return Array.isArray(career.institucion) ? career.institucion : (career.institucion ? [career.institucion] : []);
   }
-  function esVirtual(career) { return institucionIds(career).includes("siglo21"); }
-  function esPresencial(career) { return institucionIds(career).some(id => id !== "siglo21"); }
+  function modalidadesDe(career) {
+    if (Array.isArray(career.modalidadTipo) && career.modalidadTipo.length) return career.modalidadTipo;
+    const ids = institucionIds(career);
+    const out = [];
+    if (ids.includes("siglo21")) out.push("virtual");
+    if (ids.some(id => id !== "siglo21")) out.push("presencial");
+    return out;
+  }
+  function esVirtual(career) { return modalidadesDe(career).includes("virtual"); }
+  function esPresencial(career) { return modalidadesDe(career).includes("presencial"); }
+  function esSoloADistancia(career) { return esVirtual(career) && !esPresencial(career); }
 
   /* ---------------------- Instituciones ---------------------- */
   function institucionNombres(institucionField) {
@@ -235,12 +246,18 @@
   });
 
   /* ---------------------- Chips de modalidad ---------------------- */
-  const modalidades = ["Todas", "Presencial", "Virtual"];
+  const modalidades = ["Todas", "Presencial", "Virtual", "100% a distancia"];
+  const modalidadTitulos = {
+    "Presencial": "Carreras que se cursan en una sede física (incluye las que además tienen opción virtual)",
+    "Virtual": "Carreras con cursado virtual o a distancia (incluye las que además son presenciales)",
+    "100% a distancia": "Carreras que se cursan solo a distancia, sin sede presencial"
+  };
 
   modalidades.forEach(mod => {
     const btn = document.createElement("button");
     btn.className = "chip" + (mod === "Todas" ? " active" : "");
     btn.textContent = mod;
+    if (modalidadTitulos[mod]) btn.title = modalidadTitulos[mod];
     btn.setAttribute("role", "tab");
     btn.addEventListener("click", () => {
       activeModality = mod;
@@ -560,7 +577,8 @@
       const matchesTitleType = activeTitleType === "Todos" || tipoTitulo(c.nombre) === activeTitleType;
       const matchesModality = activeModality === "Todas"
         || (activeModality === "Presencial" && esPresencial(c))
-        || (activeModality === "Virtual" && esVirtual(c));
+        || (activeModality === "Virtual" && esVirtual(c))
+        || (activeModality === "100% a distancia" && esSoloADistancia(c));
       const matchesDuration = activeDuration === "Todas" || duracionCategoria(c.duracionAnios) === activeDuration;
       const matchesInstitution = activeInstitution === "todas" || institucionIds(c).includes(activeInstitution);
       const matchesFavorite = !showOnlyFavorites || isFavorite(c.id);
@@ -597,6 +615,7 @@
         <p class="card-desc">${career.descripcionBreve}</p>
         <div class="card-meta">
           ${career.duracionAnios ? `<span>⏱ ${career.duracionAnios} años</span>` : ""}
+          ${esSoloADistancia(career) ? `<span class="badge-distancia" title="Se cursa solo a distancia">💻 100% a distancia</span>` : ""}
           ${!career.investigado ? `<span class="badge-unverified">En construcción</span>` : ""}
         </div>
         ${institucionNombres(career.institucion).length ? `<div class="card-meta">${institucionNombres(career.institucion).map(n => `<span class="badge-institucion">🏛️ ${n}</span>`).join("")}</div>` : ""}

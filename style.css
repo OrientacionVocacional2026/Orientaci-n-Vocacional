@@ -1705,3 +1705,6 @@ html.reading-mode .faq-item summary { line-height: 1.5; }
 @media (max-width: 640px) {
   .toggle-careers-btn { width: 100%; justify-content: center; }
 }
+
+/* Etiqueta de carreras que se cursan solo a distancia */
+.badge-distancia{display:inline-flex;align-items:center;gap:4px;font-size:.72rem;font-weight:600;padding:2px 8px;border-radius:999px;background:color-mix(in srgb, var(--accent, #2f6fdd) 14%, transparent);color:var(--accent, #2f6fdd);border:1px solid color-mix(in srgb, var(--accent, #2f6fdd) 35%, transparent);}
