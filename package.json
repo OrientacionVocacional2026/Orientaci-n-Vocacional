@@ -1,0 +1,13 @@
+{
+  "name": "orientacion-vocacional",
+  "version": "1.13.3",
+  "private": true,
+  "description": "Guía de orientación vocacional (HTML/CSS/JS puro, sin dependencias). Este package.json solo define scripts de prueba y mantenimiento.",
+  "scripts": {
+    "test": "node --test tests/unit.test.js",
+    "test:e2e": "python3 tests/e2e/smoke.py",
+    "check": "node tools/sync-seo.js --check && node tools/sw-version.js --check",
+    "build": "node tools/sync-seo.js && node tools/sw-version.js"
+  },
+  "engines": { "node": ">=18" }
+}

@@ -1,0 +1,165 @@
+/* =====================================================================
+   ov-tools.css — Estilos de las herramientas nuevas:
+   asistente "Encontrá tu carrera ideal", "Mi plan", "¿Encontraste un
+   dato incorrecto?", mejoras del comparador y diseño de impresión.
+   Usa las variables de tema de style.css (claro/oscuro).
+   ===================================================================== */
+
+/* ---------- Portada: tres acciones principales ---------- */
+.hero-cta-row.hero-cta-three { flex-wrap: wrap; gap: 12px; }
+.hero-cta-row.hero-cta-three .hero-cta-btn,
+.hero-cta-row.hero-cta-three .hero-cta-btn-secondary { flex: 1 1 220px; text-align: center; min-height: 48px; }
+
+/* ---------- Secciones nuevas ---------- */
+.ov-section { padding: 56px 0; border-top: 1px solid var(--card-border); }
+.ov-section h2 { font-family: var(--font-display); margin: 4px 0 8px; }
+.ov-intro { color: var(--text-muted); max-width: 62ch; margin: 0 0 24px; line-height: 1.6; }
+.ov-card {
+  background: var(--card); border: 1px solid var(--card-border); border-radius: var(--radius-m);
+  box-shadow: var(--shadow); padding: 22px; max-width: 760px;
+}
+.ov-sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* ---------- Botones ---------- */
+.ov-btn {
+  font: inherit; font-weight: 600; cursor: pointer; border-radius: 999px; padding: 11px 20px; min-height: 44px;
+  border: 1px solid var(--card-border); background: var(--bg-elevated); color: var(--text);
+  transition: transform .15s ease, background .15s ease;
+}
+.ov-btn:hover { background: var(--card); transform: translateY(-1px); }
+.ov-btn-primary { background: var(--accent); color: var(--accent-contrast); border-color: var(--accent); }
+.ov-btn-primary:hover { background: var(--accent); filter: brightness(1.06); }
+.ov-btn-link { background: none; border: none; color: var(--link); text-decoration: underline; padding: 8px 4px; min-height: 40px; }
+.ov-btn:disabled { opacity: .45; cursor: not-allowed; transform: none; }
+.ov-btn:focus-visible, .ov-opt input:focus-visible + span, .ov-field input:focus-visible, .ov-field textarea:focus-visible,
+.ov-task input:focus-visible + span, .ov-btn-link:focus-visible {
+  outline: 3px solid var(--link); outline-offset: 2px;
+}
+.ov-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; align-items: center; }
+
+/* ---------- Asistente ---------- */
+.ov-progress { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; font-size: .9rem; color: var(--text-muted); }
+.ov-progress-track { flex: 1; height: 8px; border-radius: 999px; background: var(--card-border); overflow: hidden; }
+.ov-progress-fill { height: 100%; background: var(--accent); border-radius: 999px; transition: width .25s ease; }
+.ov-q { border: 0; padding: 0; margin: 0; min-width: 0; }
+.ov-q legend { font-family: var(--font-display); font-size: 1.3rem; line-height: 1.3; padding: 0; margin-bottom: 6px; }
+.ov-help { color: var(--text-muted); font-size: .92rem; margin: 0 0 14px; }
+.ov-opts { display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); }
+.ov-opt { position: relative; display: block; }
+.ov-opt input { position: absolute; opacity: 0; inset: 0; width: 100%; height: 100%; margin: 0; cursor: pointer; }
+.ov-opt span {
+  display: flex; align-items: center; gap: 10px; min-height: 52px; padding: 12px 14px; border-radius: var(--radius-s);
+  border: 1.5px solid var(--card-border); background: var(--bg-elevated); line-height: 1.35; transition: border-color .15s, background .15s;
+}
+.ov-opt span::before { content: ""; flex: 0 0 18px; height: 18px; border-radius: 50%; border: 2px solid var(--text-faint); }
+.ov-opt.is-multi span::before { border-radius: 5px; }
+.ov-opt input:checked + span { border-color: var(--accent); background: var(--accent-soft); }
+.ov-opt input:checked + span::before { background: var(--accent); border-color: var(--accent); box-shadow: inset 0 0 0 3px var(--accent-soft); }
+.ov-opt input:disabled + span { opacity: .5; }
+.ov-note { font-size: .88rem; color: var(--text-muted); margin-top: 14px; line-height: 1.5; }
+.ov-check { display: flex; gap: 10px; align-items: flex-start; margin-top: 14px; font-size: .95rem; }
+.ov-check input { margin-top: 3px; width: 18px; height: 18px; }
+
+/* ---------- Resultados del asistente ---------- */
+.ov-results { display: grid; gap: 16px; max-width: 860px; }
+.ov-result { background: var(--card); border: 1px solid var(--card-border); border-radius: var(--radius-m); box-shadow: var(--shadow); padding: 20px; }
+.ov-result-head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 16px; align-items: baseline; }
+.ov-result h3 { margin: 0; font-family: var(--font-display); font-size: 1.2rem; }
+.ov-badge { font-size: .8rem; font-weight: 700; padding: 4px 10px; border-radius: 999px; background: var(--link-soft); color: var(--link); white-space: nowrap; }
+.ov-badge.alta { background: color-mix(in srgb, var(--success) 18%, transparent); color: var(--success); }
+.ov-badge.baja { background: var(--accent-soft); color: var(--text-muted); }
+.ov-result h4 { margin: 14px 0 4px; font-size: .85rem; text-transform: uppercase; letter-spacing: .05em; color: var(--text-muted); }
+.ov-result ul { margin: 0; padding-left: 20px; line-height: 1.5; }
+.ov-result .ov-actions { margin-top: 14px; }
+.ov-result .ov-btn { padding: 8px 14px; min-height: 40px; font-size: .9rem; }
+.ov-result .ov-btn[aria-pressed="true"] { background: var(--accent-soft); border-color: var(--accent); }
+.ov-warn { background: var(--accent-soft); border: 1px solid var(--accent); border-radius: var(--radius-s); padding: 12px 14px; line-height: 1.5; }
+.ov-disclaimer { font-size: .88rem; color: var(--text-muted); border-left: 3px solid var(--card-border); padding-left: 12px; line-height: 1.5; }
+
+/* ---------- Mi plan ---------- */
+.ov-plan-grid { display: grid; gap: 18px; max-width: 900px; }
+.ov-plan-block { background: var(--card); border: 1px solid var(--card-border); border-radius: var(--radius-m); padding: 18px 20px; }
+.ov-plan-block h3 { margin: 0 0 10px; font-family: var(--font-display); font-size: 1.1rem; }
+.ov-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.ov-list li { display: flex; gap: 10px; align-items: flex-start; justify-content: space-between; line-height: 1.45; }
+.ov-list .ov-sub { display: block; font-size: .85rem; color: var(--text-muted); }
+.ov-list a { color: var(--link); word-break: break-word; }
+.ov-task { display: flex; gap: 10px; align-items: flex-start; cursor: pointer; flex: 1; }
+.ov-task input { margin-top: 3px; width: 18px; height: 18px; flex: 0 0 auto; }
+.ov-task input:checked + span { text-decoration: line-through; color: var(--text-muted); }
+.ov-mini { background: none; border: none; cursor: pointer; color: var(--text-muted); font-size: .85rem; padding: 6px 8px; min-height: 36px; border-radius: 8px; }
+.ov-mini:hover { color: var(--text); background: var(--bg-elevated); }
+.ov-empty { color: var(--text-muted); font-style: italic; margin: 0; }
+.ov-inline-form { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.ov-inline-form input { flex: 1 1 220px; }
+.ov-field { display: grid; gap: 6px; margin-bottom: 16px; }
+.ov-field label { font-weight: 600; font-size: .95rem; }
+.ov-field input, .ov-field textarea, .ov-inline-form input {
+  font: inherit; color: var(--text); background: var(--bg-elevated); border: 1.5px solid var(--card-border);
+  border-radius: var(--radius-s); padding: 11px 12px; min-height: 44px; width: 100%;
+}
+.ov-field textarea { min-height: 96px; resize: vertical; }
+.ov-field [aria-invalid="true"] { border-color: #C0392B; }
+.ov-error { color: #B3261E; font-size: .88rem; margin: 0; }
+html[data-theme="dark"] .ov-error { color: #FF8A80; }
+.ov-count { font-size: .8rem; color: var(--text-faint); text-align: right; }
+.ov-status { margin-top: 14px; padding: 12px 14px; border-radius: var(--radius-s); border: 1px solid var(--card-border); background: var(--bg-elevated); line-height: 1.5; }
+.ov-status:empty { display: none; }
+
+/* ---------- Comparador: mejoras ---------- */
+.compare-diff-toggle { display: flex; gap: 8px; align-items: center; margin: 4px 0 10px; font-size: .92rem; }
+.compare-diff-toggle input { width: 18px; height: 18px; }
+.compare-table.hide-same .compare-same { display: none; }
+.compare-diff-badge { font-size: .65rem; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; padding: 2px 6px; border-radius: 999px; background: var(--link-soft); color: var(--link); vertical-align: middle; }
+.compare-table a { color: var(--link); word-break: break-word; }
+.compare-note { font-size: .85rem; color: var(--text-muted); line-height: 1.5; margin: 14px 0 0; }
+
+@media (max-width: 600px) {
+  .ov-section { padding: 40px 0; }
+  .ov-card, .ov-plan-block { padding: 16px; }
+  .ov-opts { grid-template-columns: 1fr; }
+  .ov-actions .ov-btn { flex: 1 1 100%; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ov-btn, .ov-progress-fill, .ov-opt span { transition: none; }
+  .ov-btn:hover { transform: none; }
+}
+
+/* ---------- Impresión del plan ---------- */
+@media print {
+  body.print-plan { background: #fff !important; color: #000 !important; }
+  body.print-plan > *:not(main),
+  body.print-plan main > section:not(#mi-plan),
+  body.print-plan #mi-plan .ov-no-print,
+  body.print-plan .reveal-hidden-fix { display: none !important; }
+  body.print-plan #mi-plan { border: 0; padding: 0; }
+  body.print-plan .ov-plan-block { border: 1px solid #999; box-shadow: none; break-inside: avoid; background: #fff; }
+  body.print-plan * { color: #000 !important; background: transparent !important; animation: none !important; transition: none !important; opacity: 1 !important; transform: none !important; }
+  body.print-plan a[href^="http"]::after { content: " (" attr(href) ")"; font-size: .8em; word-break: break-all; }
+  body.print-plan .ov-task input { appearance: checkbox; }
+  .ov-print-only { display: block !important; }
+}
+.ov-print-only { display: none; }
+
+/* select del plan */
+.ov-select { font: inherit; color: var(--text); background: var(--bg-elevated); border: 1.5px solid var(--card-border); border-radius: var(--radius-s); padding: 11px 12px; min-height: 44px; width: 100%; max-width: 100%; }
+.ov-select:focus-visible { outline: 3px solid var(--link); outline-offset: 2px; }
+
+/* Formulario de correcciones dentro del bloque de contacto (un solo lugar para avisar de algo) */
+.contact-callout-form { margin-top: 22px; padding-top: 20px; border-top: 1px solid var(--card-border); }
+.contact-callout-sub { font-family: var(--font-display); font-size: 1.1rem; margin: 0 0 6px; }
+.contact-callout .ov-card { max-width: none; box-shadow: none; background: var(--bg-elevated); }
+
+/* Contraste AA: botón principal y contador (axe marcaba 3,38 y 3,05) */
+html:not([data-theme="dark"]) .ov-btn-primary,
+html:not([data-theme="dark"]) .ov-btn-primary:hover { background: #9A5314; border-color: #9A5314; color: #fff; }
+.ov-count { color: var(--text-muted); }
+
+/* Impresión del plan: sin enlaces duplicados (el texto ya es la dirección), sin contador de caracteres
+   ni la introducción de la sección. */
+@media print {
+  body.print-plan #mi-plan a[href^="http"]::after { content: none; }
+  body.print-plan #mi-plan .ov-count,
+  body.print-plan #mi-plan .ov-intro { display: none !important; }
+}
