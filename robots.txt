@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://orientacionvocacional2026.github.io/Orientaci-n-Vocacional/sitemap.xml
