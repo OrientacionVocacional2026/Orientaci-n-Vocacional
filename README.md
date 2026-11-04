@@ -1,4 +1,4 @@
-# Orientación Vocacional 2026 (v1.13.3)
+# Orientación Vocacional 2026 (v1.13.4)
 
 Guía para estudiantes secundarios del Chaco y provincias cercanas: catálogo de carreras, test vocacional RIASEC, asistente para elegir carrera, comparador, plan para empezar a estudiar, instituciones y becas.
 Es HTML, CSS y JavaScript puro, sin framework ni paso de compilación. Se publica en GitHub Pages en el subdirectorio `/Orientaci-n-Vocacional/`.

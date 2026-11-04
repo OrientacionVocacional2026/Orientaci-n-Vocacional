@@ -1,6 +1,6 @@
 {
   "name": "orientacion-vocacional",
-  "version": "1.13.3",
+  "version": "1.13.4",
   "private": true,
   "description": "Guía de orientación vocacional (HTML/CSS/JS puro, sin dependencias). Este package.json solo define scripts de prueba y mantenimiento.",
   "scripts": {

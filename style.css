@@ -2153,3 +2153,11 @@ html { scroll-padding-top: 88px; }
 /* Contraste AA del botón principal de la portada en tema claro (blanco sobre #C9782F daba 3,38:1);
    mismo ámbar oscuro que ya usan los otros botones del sitio. */
 html:not([data-theme="dark"]) .hero-cta-btn { background: #9A5314; }
+
+/* Instituciones: la fila de filtros extra (ciudad / tipo / gestión) ya no hereda la disposición en columna
+   de .filter-group: queda en una fila ordenada, alineada a la izquierda, debajo de las provincias. */
+.filter-group.inst-extra-filters { flex-direction: row; flex-wrap: wrap; align-items: flex-end; justify-content: flex-start; gap: 14px 18px; margin-top: 14px; }
+.inst-extra-filters .inst-select-wrap { flex: 0 1 250px; min-width: 0; }
+.inst-extra-filters .inst-select-wrap[hidden] { display: none; }
+.inst-extra-filters .institution-select { width: 100%; min-width: 0; }
+@media (max-width: 600px) { .inst-extra-filters .inst-select-wrap { flex: 1 1 100%; } }

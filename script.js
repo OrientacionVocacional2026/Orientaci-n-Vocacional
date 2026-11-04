@@ -185,6 +185,21 @@
       return null;
     }
     function ciudadDeInstitucion(inst) { const u = inst.ubicaciones || []; return u.length ? u[0].ciudad : null; }
+    // La lista de ciudades depende de la provincia elegida (así "Provincia" y "Ciudad" no se pisan):
+    // solo muestra las ciudades de esa provincia y se oculta si hay una sola.
+    function refrescarCiudadesInst() {
+      const sel = document.getElementById("instCiudadSelect");
+      if (!sel) return;
+      const ciudades = [...new Set(Object.values(INSTITUCIONES)
+        .filter(i => activeInstProvince === "Todas" || provinciaDeInstitucion(i) === activeInstProvince)
+        .map(ciudadDeInstitucion).filter(Boolean))].sort((a, b) => a.localeCompare(b, "es"));
+      if (activeInstCiudad !== "Todas" && !ciudades.includes(activeInstCiudad)) activeInstCiudad = "Todas";
+      sel.innerHTML = "";
+      ["Todas"].concat(ciudades).forEach(v => { const o = document.createElement("option"); o.value = v; o.textContent = v; sel.appendChild(o); });
+      sel.value = activeInstCiudad;
+      const wrap = sel.closest(".inst-select-wrap");
+      if (wrap) wrap.hidden = ciudades.length <= 1;
+    }
     // Enlace a Google Maps con la dirección cargada (Maps muestra su propio pin; no se guardan coordenadas propias).
     function mapsUrlInst(inst) {
       const vaga = /no verific|exacta|sede en|aprox/i.test(inst.direccion || "");
@@ -457,7 +472,7 @@
         [primera].concat(valores).forEach(v => { const o = document.createElement("option"); o.value = v; o.textContent = v; sel.appendChild(o); });
       };
       const insts = Object.values(INSTITUCIONES);
-      llenar(selCiudad, "Todas", [...new Set(insts.map(ciudadDeInstitucion).filter(Boolean))].sort((a, b) => a.localeCompare(b, "es")));
+      refrescarCiudadesInst();
       llenar(selTipo, "Todos", [...new Set(insts.map(grupoTipoInst))].sort((a, b) => a.localeCompare(b, "es")));
       llenar(selGestion, "Todas", [...new Set(insts.map(gestionInst).filter(Boolean))].sort((a, b) => a.localeCompare(b, "es")));
       selCiudad.addEventListener("change", () => { activeInstCiudad = selCiudad.value; renderInstitucionesGrid(); });
@@ -505,6 +520,7 @@
         btn.setAttribute("role", "tab");
         btn.addEventListener("click", () => {
           activeInstProvince = prov;
+          refrescarCiudadesInst();
           institucionesProvinceChipsWrap.querySelectorAll(".chip").forEach(c => c.classList.remove("active"));
           btn.classList.add("active");
           renderInstitucionesGrid();
