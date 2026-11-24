@@ -14,7 +14,7 @@
    verifica).
    ===================================================================== */
 
-const CACHE_NAME = "ov-cache-a75a6250f1"; // lo mantiene tools/sw-version.js
+const CACHE_NAME = "ov-cache-d08dbafb27"; // lo mantiene tools/sw-version.js
 
 // Archivos propios del sitio que se guardan apenas se instala el Service Worker.
 const PRECACHE_URLS = [

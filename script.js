@@ -1409,21 +1409,37 @@
     }
   }
 
+  if (detailContent) {
+    detailContent.addEventListener("click", (e) => {
+      const btn = e.target.closest("button[data-pdf-key]");
+      if (!btn) return;
+      window.downloadEmbeddedPdf(btn.dataset.pdfKey, btn.dataset.pdfFile || "plan-de-estudios.pdf");
+    });
+  }
+
   function pdfButton(label, filename, careerId) {
     if (filename) {
       const key = careerId + "/" + filename;
+      const downloadName = careerId + "-" + filename;
+      const isLocalFile = typeof location !== "undefined" && location.protocol === "file:";
       const isEmbedded = Array.isArray(window.PDFS_KEYS) && window.PDFS_KEYS.includes(key);
-      if (isEmbedded) {
-        return `<button type="button" class="download-btn" onclick="downloadEmbeddedPdf('${key}','${filename}')">
+      if (isLocalFile && isEmbedded) {
+        return `<button type="button" class="download-btn" data-pdf-key="${key}" data-pdf-file="${downloadName}">
           <span>${label}</span>
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12"/><polyline points="7 10 12 15 17 10"/><path d="M5 19h14"/></svg>
         </button>`;
       }
-      // Respaldo por si se agrega un PDF nuevo sin re-generar pdfs-data.js
-      return `<a class="download-btn" href="pdfs/${careerId}/${filename}" download="${filename}" target="_blank" rel="noopener">
+      // En servidor web (GitHub Pages / http / https) descarga el archivo directo (~90 KB) sin bajar los 22 MB de pdfs-data.js ni usar handlers inline bloqueados por CSP
+      return `<a class="download-btn" href="pdfs/${careerId}/${filename}" download="${downloadName}" target="_blank" rel="noopener">
         <span>${label}</span>
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12"/><polyline points="7 10 12 15 17 10"/><path d="M5 19h14"/></svg>
       </a>`;
+    }
+    if (label === "Plan de estudios") {
+      return `<span class="download-btn disabled">
+        <span>${label}</span>
+        <small>No disponible · Buscalo por tu cuenta en la institución</small>
+      </span>`;
     }
     return `<span class="download-btn disabled">
       <span>${label}</span>

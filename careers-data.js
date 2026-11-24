@@ -1415,7 +1415,7 @@ const CAREERS = [
       "nota": "Es una salida técnica más corta que la licenciatura, con un techo salarial algo menor."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -3139,7 +3139,7 @@ const CAREERS = [
       "nota": "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -3224,7 +3224,7 @@ const CAREERS = [
       "nota": "Un doctorado no es un empleo en sí mismo, sino una credencial que suele combinarse con la actividad docente o de investigación de base (por ejemplo, en la carrera de investigador de CONICET) o con un puesto senior en la industria de software. El rango mostrado es una estimación aproximada de esos perfiles, no un sueldo propio del título."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -3307,7 +3307,7 @@ const CAREERS = [
       "nota": "Es un perfil técnico que trabaja mayormente en el sector público, donde los sueldos siguen escalas administrativas más que de mercado libre."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -3714,7 +3714,7 @@ const CAREERS = [
       "nota": "Estimación aproximada por comparación con perfiles de higiene y seguridad laboral, ya que esta especialización se suma a un título de base (generalmente ingeniería) y no tiene un sueldo propio independiente relevado."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -4567,7 +4567,7 @@ const CAREERS = [
       "nota": "Los valores nacionales de referencia (minería, Patagonia, grandes constructoras) suelen ser más altos; en el NEA y el NOA, fuera de sectores como minería o petróleo, los sueldos tienden a ubicarse en la mitad inferior de este rango. El techo puede ser mucho mayor en roles de dirección de obra o gerencia."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -6487,7 +6487,7 @@ const CAREERS = [
       "nota": "Como en toda el área de administración y economía, los sueldos varían mucho según se trabaje para una PyME, una empresa grande o el sector público, y según la provincia."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -9312,7 +9312,7 @@ const CAREERS = [
       "nota": "Como en toda el área de administración y economía, los sueldos varían mucho según se trabaje para una PyME, una empresa grande o el sector público, y según la provincia."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -10476,7 +10476,7 @@ const CAREERS = [
       "nota": "Como en toda el área de administración y economía, los sueldos varían mucho según se trabaje para una PyME, una empresa grande o el sector público, y según la provincia."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -10655,7 +10655,7 @@ const CAREERS = [
       "nota": "Quien cursa un ciclo de complementación curricular ya suele estar trabajando como docente; el título de licenciatura no cambia el sueldo de un cargo de aula, pero habilita a concursar cargos de gestión, supervisión o coordinación mejor pagos que el profesorado terciario solo."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -10736,7 +10736,7 @@ const CAREERS = [
       "nota": "Quien cursa un ciclo de complementación curricular ya suele estar trabajando como docente; el título de licenciatura no cambia el sueldo de un cargo de aula, pero habilita a concursar cargos de gestión, supervisión o coordinación mejor pagos que el profesorado terciario solo."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -10841,7 +10841,7 @@ const CAREERS = [
       "nota": "Quien cursa un ciclo de complementación curricular ya suele estar trabajando como docente; el título de licenciatura no cambia el sueldo de un cargo de aula, pero habilita a concursar cargos de gestión, supervisión o coordinación mejor pagos que el profesorado terciario solo."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -11092,7 +11092,7 @@ const CAREERS = [
       "nota": "Quien cursa un ciclo de complementación curricular ya suele estar trabajando como docente; el título de licenciatura no cambia el sueldo de un cargo de aula, pero habilita a concursar cargos de gestión, supervisión o coordinación mejor pagos que el profesorado terciario solo."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -11750,7 +11750,7 @@ const CAREERS = [
       "nota": "Es una carrera nueva en la región, sin datos de sueldo específicos todavía; se estimó por comparación con perfiles de comercio exterior y análisis internacional."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -12788,7 +12788,7 @@ const CAREERS = [
       "nota": "Quien cursa un ciclo de complementación curricular ya suele estar trabajando como docente; el título de licenciatura no cambia el sueldo de un cargo de aula, pero habilita a concursar cargos de gestión, supervisión o coordinación mejor pagos que el profesorado terciario solo."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -15381,7 +15381,7 @@ const CAREERS = [
       "nota": "Como en toda el área de administración y economía, los sueldos varían mucho según se trabaje para una PyME, una empresa grande o el sector público, y según la provincia."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -18302,7 +18302,7 @@ const CAREERS = [
       "nota": "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -18618,7 +18618,7 @@ const CAREERS = [
       "nota": "Escala regional NEA. Los cargos en institutos de formación docente o de gestión (dirección, supervisión) pueden tener un básico distinto al de profesor de aula del nivel secundario común."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -21631,7 +21631,7 @@ const CAREERS = [
       "nota": "Es una tecnicatura corta (2-3 años), con salida laboral más rápida pero un techo salarial menor que el de una licenciatura equivalente."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -22902,7 +22902,7 @@ const CAREERS = [
       "nota": "Existe una diferencia muy grande entre los sueldos de medios locales/regionales pequeños (más bajos) y los de medios grandes o roles de comunicación institucional en empresas (más altos). El rango mostrado prioriza un escenario más representativo de un medio regional como los de Sáenz Peña, más que el de un gran medio nacional."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -22985,7 +22985,7 @@ const CAREERS = [
       "nota": "Como en toda la familia de programación, el trabajo remoto para empresas de otras provincias o del exterior puede superar ampliamente estos valores."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -23606,7 +23606,7 @@ const CAREERS = [
       "nota": "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
