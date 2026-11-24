@@ -153,7 +153,12 @@ const INSTITUCIONES = {
     web: "https://www.iset.org.ar",
     descripcion: "Instituto terciario de gestión privada con sede central en Resistencia (depende de la Fundación Vida para los Nuevos Desafíos) y sede en Sáenz Peña, orientado a formación docente y técnica. En la sede de Sáenz Peña dicta Auxiliar Docente, Estimulación Temprana, Profesorado en Nivel Inicial, Psicopedagogía y Trabajo Social.",
     modalidad: "Presencial.",
-    fuente: "iset.org.ar (sede Presidencia Roque Sáenz Peña e información institucional) — septiembre 2026"
+    fuente: "iset.org.ar (sede Presidencia Roque Sáenz Peña e información institucional) — septiembre 2026",
+    ingresoBecas: {
+      arancel: "Instituto de gestión privada: generalmente se paga una cuota mensual. El monto lo informa el instituto.",
+      ingreso: "Para los estudios de nivel superior se pide el título secundario completo (las personas mayores de 25 años pueden ingresar sin él, según el artículo 7 de la Ley de Educación Superior). Las fechas, la documentación y las entrevistas de ingreso las informa el instituto: consultalas en iset.org.ar o en la sede de Sáenz Peña.",
+      fuente: "Ley de Educación Superior 24.521 (art. 7) e iset.org.ar; no se encontraron aranceles ni fechas publicados — noviembre 2026"
+    }
   },
   "nuestra-senora-misericordia": {
     nombre: "Instituto Nuestra Señora de la Misericordia (U.E.G.P. N° 54)",
@@ -163,7 +168,12 @@ const INSTITUCIONES = {
     web: "https://uep54-cha.infd.edu.ar/sitio/",
     descripcion: "Instituto terciario de gestión privada y de origen religioso ubicado en Sáenz Peña, Chaco. En su sitio institucional informa que hoy ofrece el Profesorado de Educación Secundaria en Lengua y Literatura y la Tecnicatura Superior en Gestión de Recursos Humanos.",
     modalidad: "Presencial.",
-    fuente: "uep54-cha.infd.edu.ar (nivel terciario) — septiembre 2026"
+    fuente: "uep54-cha.infd.edu.ar (nivel terciario) — septiembre 2026",
+    ingresoBecas: {
+      arancel: "Instituto de gestión privada: generalmente se paga una cuota mensual. El monto lo informa el instituto.",
+      ingreso: "Para los estudios de nivel superior se pide el título secundario completo (las personas mayores de 25 años pueden ingresar sin él, según el artículo 7 de la Ley de Educación Superior). Las fechas y la documentación de inscripción las informa el instituto: consultalas en su sitio institucional o en la sede de Sáenz Peña.",
+      fuente: "Ley de Educación Superior 24.521 (art. 7) y uep54-cha.infd.edu.ar; no se encontraron aranceles ni fechas publicados — noviembre 2026"
+    }
   },
   "otras-privadas": {
     nombre: "Institutos privados U.E.G.P. N° 82 / N° 193",
@@ -173,7 +183,12 @@ const INSTITUCIONES = {
     web: null,
     descripcion: "Institutos de gestión privada ubicados en Sáenz Peña, Chaco, que dictan tecnicaturas superiores en administración de empresas y en recursos humanos.",
     modalidad: "Presencial.",
-    fuente: "No se encontró un sitio web oficial verificable; información basada en el nombre institucional y su categoría U.E.G.P."
+    fuente: "No se encontró un sitio web oficial verificable; información basada en el nombre institucional y su categoría U.E.G.P.",
+    ingresoBecas: {
+      arancel: "Institutos de gestión privada: generalmente se paga una cuota mensual. El monto lo informa cada instituto.",
+      ingreso: "Para los estudios de nivel superior se pide el título secundario completo (las personas mayores de 25 años pueden ingresar sin él, según el artículo 7 de la Ley de Educación Superior). Como no encontramos un sitio oficial verificable, las fechas y la documentación hay que consultarlas directamente en la sede de cada instituto en Sáenz Peña.",
+      fuente: "Ley de Educación Superior 24.521 (art. 7); sin sitio web oficial verificable — noviembre 2026"
+    }
   },
   "siglo21": {
     nombre: "Universidad Siglo 21 — Centro de Apoyo Universitario (CAU) Sáenz Peña",
@@ -232,7 +247,12 @@ const INSTITUCIONES = {
     web: "https://isspchaco.edu.ar",
     descripcion: "Instituto de formación de la Policía de la Provincia del Chaco, también conocido como Escuela de Policía del Chaco. Forma tanto a Oficiales (Tecnicatura Superior en Seguridad Pública y Ciudadana) como a Agentes (Curso de Formación Inicial), dependiendo del Ministerio de Seguridad y Justicia de la Provincia del Chaco.",
     modalidad: "Presencial, con régimen de instituto policial (internado/externado según el curso) en Resistencia.",
-    fuente: "isspchaco.edu.ar, comunicacion.chaco.gov.ar (Servicio Informativo Oficial de Chaco Gobierno de Todos), prensa local (convocatoria 2027, septiembre 2026) — septiembre 2026"
+    fuente: "isspchaco.edu.ar, comunicacion.chaco.gov.ar (Servicio Informativo Oficial de Chaco Gobierno de Todos), prensa local (convocatoria 2027, septiembre 2026) — septiembre 2026",
+    ingresoBecas: {
+      arancel: "No se informa arancel de cursado en la convocatoria 2027 (instituto público de una fuerza provincial).",
+      ingreso: "Convocatoria 2027 con 200 vacantes: 150 para la Escuela de Agentes (formación de aproximadamente un año; 100 lugares para varones y 50 para mujeres) y 50 para la Escuela de Oficiales (tres años; 35 para varones y 15 para mujeres). Agentes: 18 a 28 años. Oficiales: 18 a 23 años. Se pide secundario finalizado (o constancia de no adeudar materias), no tener antecedentes penales y cumplir las condiciones físicas; hay un informe socioambiental reservado y verificación de peso y talla. La preinscripción fue 100% online, del 15 al 30 de septiembre de 2026 (ya cerró); después se entrega la carpeta de forma presencial.",
+      fuente: "isspchaco.edu.ar, Gobierno del Chaco y notas de Examedia, SPNoticias y Alerta Urbana (septiembre-octubre 2026) — noviembre 2026"
+    }
   },
   "spp-chaco": {
     nombre: "Instituto de Formación Penitenciaria del Chaco (Servicio Penitenciario Provincial)",
@@ -242,7 +262,12 @@ const INSTITUCIONES = {
     web: "https://spp.chaco.gob.ar",
     descripcion: "Instituto de formación del Servicio Penitenciario y de Readaptación Social de la Provincia del Chaco (creado en 2008 por Decreto Provincial N° 1433/08). Forma tanto a Oficiales (Tecnicatura en Seguridad Penitenciaria) como a Agentes/Suboficiales (Curso de Formación para Agentes Penitenciarios).",
     modalidad: "Presencial, en el predio del Servicio Penitenciario Provincial en Barranqueras.",
-    fuente: "spp.chaco.gob.ar (incluye subsitio ifp.spp.chaco.gob.ar del Instituto de Formación Penitenciaria) — agosto 2026"
+    fuente: "spp.chaco.gob.ar (incluye subsitio ifp.spp.chaco.gob.ar del Instituto de Formación Penitenciaria) — agosto 2026",
+    ingresoBecas: {
+      arancel: "No se informa arancel de cursado en la convocatoria 2027 (instituto público de una fuerza provincial).",
+      ingreso: "Convocatoria 2027 con 65 vacantes: 50 para el curso de agentes (20 a 30 años) y 15 para el curso de oficiales o cadetes (18 a 25 años). Se pide título secundario y no registrar antecedentes judiciales ni contravencionales; hay cupos para integrantes de pueblos originarios. La inscripción se habilitó desde el 15 de septiembre de 2026 en spp.chaco.gob.ar, donde se publican los requisitos completos y las etapas.",
+      fuente: "spp.chaco.gob.ar, Gobierno del Chaco y notas de Perfil, Diario Norte y EsChaco (septiembre 2026) — noviembre 2026"
+    }
   },
   "gna-oficiales": {
     nombre: "Escuela de Gendarmería Nacional \"Gral. D. Martín Miguel de Güemes\" (ESCUGEN)",
@@ -252,7 +277,12 @@ const INSTITUCIONES = {
     web: "https://www.argentina.gob.ar/gendarmeria",
     descripcion: "Único centro de formación de Oficiales de Gendarmería Nacional Argentina. Los cadetes egresan con la jerarquía de Subalférez y título universitario de pregrado (Técnico Universitario) en especialidades como Seguridad Pública, Gestión y Seguridad de las Tecnologías de la Información, Administración Pública o Policía Científica; en un cuarto año completan la Licenciatura en el destino asignado.",
     modalidad: "Presencial, régimen de internado, en Ciudad Evita (La Matanza, Buenos Aires).",
-    fuente: "argentina.gob.ar/gendarmeria (unidades educativas y proceso de selección), prensagendarmeria.gob.ar — agosto 2026"
+    fuente: "argentina.gob.ar/gendarmeria (unidades educativas y proceso de selección), prensagendarmeria.gob.ar — agosto 2026",
+    ingresoBecas: {
+      arancel: "No se informa un arancel de cursado en las fuentes oficiales consultadas (escuela pública de una fuerza federal).",
+      ingreso: "Convocatoria anual (ciclo 2027). Requisitos generales: ser argentino/a nativo/a o por opción, tener DNI actualizado, tener entre 17 y 25 años al 31 de diciembre del año de postulación y contar con el título secundario completo o la constancia de título en trámite. Etapas: preinscripción online, curso de ingreso virtual y evaluaciones presenciales (médicas, físicas, intelectuales, psicológicas y psicopedagógicas), entrevistas y control de antecedentes judiciales y penales.",
+      fuente: "Gendarmería Nacional (convocatoria de cadetes y aspirantes) según El Estratégico (14/02/2026) y Despertar Entrerriano (octubre 2026); confirmá fechas en argentina.gob.ar/gendarmeria — noviembre 2026"
+    }
   },
   "gna-suboficiales": {
     nombre: "Escuela de Suboficiales de Gendarmería Nacional \"Cabo Raúl Remberto Cuello\"",
@@ -262,7 +292,12 @@ const INSTITUCIONES = {
     web: "https://www.argentina.gob.ar/gendarmeria",
     descripcion: "Instituto de formación de Gendarmes de Gendarmería Nacional Argentina, mediante el Curso Básico de Formación de Gendarmes. Junto con el Instituto de Capacitación Especializada \"Cabo Juan Adolfo Romero\" (Mercedes, Buenos Aires), es una de las sedes donde se forman los aspirantes a gendarme.",
     modalidad: "Presencial, régimen de internado, en Jesús María (Córdoba).",
-    fuente: "argentina.gob.ar/gendarmeria (etapas del proceso de selección de cadetes y aspirantes) — agosto 2026"
+    fuente: "argentina.gob.ar/gendarmeria (etapas del proceso de selección de cadetes y aspirantes) — agosto 2026",
+    ingresoBecas: {
+      arancel: "No se informa un arancel de cursado en las fuentes oficiales consultadas (escuela pública de una fuerza federal).",
+      ingreso: "Se ingresa como aspirante a gendarme en la misma convocatoria anual (ciclo 2027). Los medios que difundieron los requisitos generales los publican en conjunto para cadetes y aspirantes: argentino/a nativo/a o por opción, 17 a 25 años al 31 de diciembre del año de postulación y título secundario completo o constancia de título en trámite. Etapas: preinscripción online, curso de ingreso virtual y evaluaciones presenciales.",
+      fuente: "Gendarmería Nacional según El Estratégico (14/02/2026) y Despertar Entrerriano (octubre 2026); confirmá las condiciones de aspirantes en argentina.gob.ar/gendarmeria — noviembre 2026"
+    }
   },
   "pna-oficiales": {
     nombre: "Escuela de Oficiales \"General Matías de Irigoyen\" (Prefectura Naval Argentina)",
@@ -272,7 +307,12 @@ const INSTITUCIONES = {
     web: "https://www.argentina.gob.ar/prefecturanaval",
     descripcion: "Departamento Académico del Instituto Universitario de Seguridad Marítima de la Prefectura Naval Argentina que forma a los futuros Oficiales de la fuerza. Egresan como Oficiales Ayudantes con título universitario de grado (Licenciatura en Seguridad Marítima o en Administración y Contabilidad del Sector Público con orientación en Administración Marítima) o de pregrado (Analista Universitario en Seguridad del Trabajo en Buques y Ámbito Portuario).",
     modalidad: "Presencial, régimen de internado, en Zárate (Buenos Aires).",
-    fuente: "argentina.gob.ar/prefecturanaval (educación e ingreso a los institutos de formación), educacion.prefecturanaval.gob.ar — agosto 2026"
+    fuente: "argentina.gob.ar/prefecturanaval (educación e ingreso a los institutos de formación), educacion.prefecturanaval.gob.ar — agosto 2026",
+    ingresoBecas: {
+      arancel: "No se informa un arancel de cursado en las fuentes oficiales consultadas (escuela pública de una fuerza federal).",
+      ingreso: "Inscripción 100% online para el ingreso 2027 en inscripciones.prefecturanaval.gob.ar (estuvo abierta hasta el 30 de agosto de 2026). Cadetes (oficiales): 17 a 22 años, ser argentino/a nativo/a o por opción, tener estudios secundarios completos o estar cursando el último año sin adeudar materias (según la convocatoria 2027), reunir las condiciones psicofísicas del reglamento de aptitud física y no haber sido dado/a de baja por mala conducta de otro instituto de formación. Los menores de 18 necesitan autorización certificada. El trámite es personal y voluntario: la Prefectura aclara que no tiene vínculo con academias ni gestores.",
+      fuente: "Prefectura Naval Argentina (prefecturanaval.gob.ar/cs/pna/Requisitos y portal de inscripciones) y notas de prensa sobre la convocatoria 2027 — noviembre 2026"
+    }
   },
   "pna-suboficiales": {
     nombre: "Escuela de Suboficiales \"Coronel Martín Jacobo Thompson\" (Prefectura Naval Argentina)",
@@ -282,7 +322,12 @@ const INSTITUCIONES = {
     web: "https://www.argentina.gob.ar/prefecturanaval",
     descripcion: "Departamento Académico del Instituto Universitario de Seguridad Marítima de la Prefectura Naval Argentina que forma a los futuros Suboficiales de la fuerza, con tecnicaturas de formación en áreas como navegación, salvamento, protección ambiental, comunicaciones, gestión administrativa y seguridad con orientación marítimo-portuaria.",
     modalidad: "Presencial, régimen de internado, en Zárate (Buenos Aires).",
-    fuente: "argentina.gob.ar/prefecturanaval, necoeduca.com (oferta educativa de Prefectura) — agosto 2026"
+    fuente: "argentina.gob.ar/prefecturanaval, necoeduca.com (oferta educativa de Prefectura) — agosto 2026",
+    ingresoBecas: {
+      arancel: "No se informa un arancel de cursado en las fuentes oficiales consultadas (escuela pública de una fuerza federal).",
+      ingreso: "Inscripción 100% online para el ingreso 2027 en inscripciones.prefecturanaval.gob.ar (estuvo abierta hasta el 30 de agosto de 2026). Aspirantes a suboficiales: 17 a 27 años, ser argentino/a nativo/a o por opción y tener estudios secundarios completos o estar cursando el último año sin adeudar materias (según la convocatoria 2027). Los menores de 18 necesitan autorización certificada. El trámite es personal y voluntario.",
+      fuente: "Prefectura Naval Argentina (portal de inscripciones) y notas de prensa sobre la convocatoria 2027 — noviembre 2026"
+    }
   },
   "pfa-oficiales": {
     nombre: "Escuela de Cadetes \"Comisario General Juan Ángel Pirker\" (Policía Federal Argentina)",
@@ -292,7 +337,12 @@ const INSTITUCIONES = {
     web: "https://www.iupfa.edu.ar",
     descripcion: "Instituto de formación de oficiales de la Policía Federal Argentina, integrado al Instituto Universitario de la Policía Federal Argentina (IUPFA). Forma a los futuros oficiales en los escalafones de seguridad, comunicaciones, bomberos y cuerpo pericial, a lo largo de tres años de formación académica, táctica y ética.",
     modalidad: "Presencial, régimen de internado, en Villa Lugano (Ciudad Autónoma de Buenos Aires).",
-    fuente: "iupfa.edu.ar (Escuela de Cadetes e ingreso a la PFA), argentina.gob.ar/seguridad/pfa — agosto 2026"
+    fuente: "iupfa.edu.ar (Escuela de Cadetes e ingreso a la PFA), argentina.gob.ar/seguridad/pfa — agosto 2026",
+    ingresoBecas: {
+      arancel: "Sin costo de inscripción: la Policía Federal informa que el trámite de ingreso es personal y gratuito.",
+      ingreso: "Se postula como cadete por el Portal Integrado de Ingresos (sistemaspfa.gov.ar/portal_ingresos); la preinscripción para el ciclo 2027 abrió en abril de 2026. Requisitos: ser argentino/a nativo/a, tener entre 17 y 25 años al 31 de diciembre del año en curso (los menores de 18 necesitan autorización de sus padres o tutores), tener el secundario completo o estar cursando el último año sin adeudar materias de años anteriores, y aprobar los exámenes de ingreso. El reglamento (Decreto 1.866/83) pide además ser soltero/a sin hijos para cadetes: verificá si sigue vigente en la convocatoria.",
+      fuente: "argentina.gob.ar/seguridad/incorporacion-fuerzas-federales/policia-federal-argentina, El Estratégico (17/04/2026) y Radio Sudamericana — noviembre 2026"
+    }
   },
   "pfa-suboficiales": {
     nombre: "Escuela de Suboficiales y Agentes \"Don Enrique O'Gorman\" (Policía Federal Argentina)",
@@ -302,7 +352,12 @@ const INSTITUCIONES = {
     web: "https://www.argentina.gob.ar/seguridad/pfa",
     descripcion: "Instituto de formación del personal operativo (agentes) de la Policía Federal Argentina, que cumple funciones esenciales de seguridad en todo el territorio nacional.",
     modalidad: "Presencial, en Ciudad Autónoma de Buenos Aires.",
-    fuente: "argentina.gob.ar/seguridad/pfa (Escuela de Cadetes, Suboficiales y Agentes de la PFA) — agosto 2026"
+    fuente: "argentina.gob.ar/seguridad/pfa (Escuela de Cadetes, Suboficiales y Agentes de la PFA) — agosto 2026",
+    ingresoBecas: {
+      arancel: "Sin costo de inscripción: la Policía Federal informa que el trámite de ingreso es personal y gratuito.",
+      ingreso: "Se postula como agente por el Portal Integrado de Ingresos (sistemaspfa.gov.ar/portal_ingresos). Requisitos publicados por la fuerza: ser argentino/a nativo/a, tener entre 19 y 35 años al 31 de diciembre del año en curso, haber terminado el secundario y aprobar los exámenes de ingreso. A diferencia de los cadetes, no se exige estado civil ni ausencia de hijos, en principio. Algunos medios publican otros rangos de edad: tomá como válido el de la página oficial.",
+      fuente: "argentina.gob.ar/seguridad/incorporacion-fuerzas-federales/policia-federal-argentina y El Estratégico (17/04/2026) — noviembre 2026"
+    }
   },
   "psa-issa": {
     nombre: "Instituto Superior de Seguridad Aeroportuaria (ISSA)",
@@ -312,7 +367,12 @@ const INSTITUCIONES = {
     web: "https://www.argentina.gob.ar/psa",
     descripcion: "Instituto de formación de la Policía de Seguridad Aeroportuaria (PSA), dependiente del Ministerio de Seguridad de la Nación. Organiza, gestiona y administra el sistema de formación y capacitación en materia de seguridad aeroportuaria, incluyendo el Curso de Oficiales de la PSA.",
     modalidad: "Presencial, en Ezeiza (Buenos Aires).",
-    fuente: "argentina.gob.ar/policia-aeroportuaria/issa, argentina.gob.ar/psa — agosto 2026"
+    fuente: "argentina.gob.ar/policia-aeroportuaria/issa, argentina.gob.ar/psa — agosto 2026",
+    ingresoBecas: {
+      arancel: "No se informa un arancel de cursado en las fuentes oficiales consultadas (instituto público de una fuerza federal).",
+      ingreso: "El Curso de Oficiales de la PSA inicia en 2027 y se dicta en el ISSA, en Ezeiza. Requisitos formales: ser argentino/a nativo/a o por opción, tener entre 17 y 25 años al momento de ingresar y poseer el secundario completo (con título en mano o en trámite). Hay que aprobar los exámenes de admisión, entre ellos el psicotécnico, y el curso de ingreso.",
+      fuente: "argentina.gob.ar/policia-aeroportuaria/issa/requisitos-y-seleccion — noviembre 2026"
+    }
   },
   "spf-oficiales": {
     nombre: "Escuela Penitenciaria de la Nación \"Dr. Juan José O'Connor\" (Servicio Penitenciario Federal)",
@@ -322,7 +382,12 @@ const INSTITUCIONES = {
     web: "https://www.argentina.gob.ar/spf",
     descripcion: "Instituto de formación de oficiales del Servicio Penitenciario Federal, creado en 1947. Forma a los futuros recursos humanos que se incorporan a la carrera de oficial en los escalafones Cuerpo General y Administrativo, egresando como Subadjutores.",
     modalidad: "Presencial, régimen de internado, en Ezeiza (Buenos Aires).",
-    fuente: "argentina.gob.ar/spf (Escuela Penitenciaria de la Nación e ingreso a la Escuela de Oficiales) — agosto 2026"
+    fuente: "argentina.gob.ar/spf (Escuela Penitenciaria de la Nación e ingreso a la Escuela de Oficiales) — agosto 2026",
+    ingresoBecas: {
+      arancel: "No se informa arancel de cursado, pero el SPF aclara que cualquier gasto de las etapas del proceso de inscripción (por ejemplo, los exámenes médicos) corre por cuenta del postulante.",
+      ingreso: "Pueden postularse argentinos/as nativos/as o por opción que cumplan los requisitos de edad y estudios de la convocatoria. Etapas: preinscripción digital, presentación presencial de la documentación original (DNI, certificado de estudios, etc.), exámenes médicos y curso de ingreso en la Escuela Penitenciaria de la Nación. La carrera dura 3 años, con cursada internada de lunes a viernes. Los límites de edad cambian en cada convocatoria: consultalos en la página oficial.",
+      fuente: "argentina.gob.ar/servicio/ingresar-la-escuela-de-oficiales — noviembre 2026"
+    }
   },
   "spf-suboficiales": {
     nombre: "Escuela de Suboficiales \"Coronel Rómulo Páez\" (Servicio Penitenciario Federal)",
@@ -332,7 +397,12 @@ const INSTITUCIONES = {
     web: "https://www.argentina.gob.ar/spf",
     descripcion: "Instituto donde se forman los agentes penitenciarios federales encargados de la seguridad de los establecimientos y la implementación de los programas criminológicos del Servicio Penitenciario Federal. Los egresados obtienen el grado de Subayudante.",
     modalidad: "Presencial, régimen de internado, en Ezeiza (Buenos Aires).",
-    fuente: "argentina.gob.ar/spf, Wikipedia (Servicio Penitenciario Federal) — agosto 2026"
+    fuente: "argentina.gob.ar/spf, Wikipedia (Servicio Penitenciario Federal) — agosto 2026",
+    ingresoBecas: {
+      arancel: "No se informa arancel de cursado, pero el SPF aclara que cualquier gasto de las etapas del proceso de inscripción corre por cuenta del postulante.",
+      ingreso: "Se preinscribe online y se completa un curso de ingreso teórico-práctico. La página oficial indica que pueden usar el servicio argentinos/as nativos/as o por opción mayores de 21 años, y entre los requisitos figura tener más de tres años de residencia en la provincia en la que se recluta. Al egresar se incorpora a la carrera de suboficial. Los requisitos por escalafón varían: consultalos en la página oficial.",
+      fuente: "argentina.gob.ar/servicio/ingresar-la-escuela-de-suboficiales y argentina.gob.ar/spf/escuela-de-suboficiales — noviembre 2026"
+    }
   },
   "ea-oficiales": {
     nombre: "Colegio Militar de la Nación (CMN)",
@@ -342,7 +412,12 @@ const INSTITUCIONES = {
     web: "https://www.colegiomilitar.mil.ar",
     descripcion: "Institución educativa militar dependiente del Ejército Argentino, creada en 1869, que forma a los futuros oficiales del Cuerpo Comando y del Cuerpo Profesional. Como unidad académica de la Facultad del Ejército de la Universidad de la Defensa Nacional (UNDEF), sus egresados obtienen el grado de Subteniente y una Licenciatura en la especialidad elegida.",
     modalidad: "Presencial, régimen de internado, en El Palomar (Buenos Aires).",
-    fuente: "colegiomilitar.mil.ar, Wikipedia (Colegio Militar de la Nación) — agosto 2026"
+    fuente: "colegiomilitar.mil.ar, Wikipedia (Colegio Militar de la Nación) — agosto 2026",
+    ingresoBecas: {
+      arancel: "No se encontró un arancel de cursado en las fuentes consultadas; consultalo en la convocatoria vigente.",
+      ingreso: "Ingreso por concurso, con exámenes intelectuales, de aptitud psicofísica y físicos. La edad máxima, el estado civil, las fechas y la documentación los fija cada convocatoria anual: consultalos en colegiomilitar.mil.ar o en el Centro de Reclutamiento más cercano. Para ingresar se piden estudios secundarios.",
+      fuente: "colegiomilitar.mil.ar (información institucional); no se encontró una convocatoria vigente con requisitos numéricos — noviembre 2026"
+    }
   },
   "ea-suboficiales": {
     nombre: "Escuela de Suboficiales del Ejército \"Sargento Cabral\" (ESESC)",
@@ -352,7 +427,12 @@ const INSTITUCIONES = {
     web: "https://esesc.ejercito.mil.ar",
     descripcion: "Instituto de formación del Ejército Argentino para suboficiales de todas las armas y especialidades, creado en 2002 por la fusión de la Escuela de Suboficiales \"Sargento Cabral\" y la Escuela de Suboficiales \"General Lemos\". Sus egresados obtienen el grado de Cabo con título técnico.",
     modalidad: "Presencial, régimen de internado, en Campo de Mayo (Buenos Aires).",
-    fuente: "esesc.ejercito.mil.ar, Wikipedia (Escuela de Suboficiales del Ejército) — agosto 2026"
+    fuente: "esesc.ejercito.mil.ar, Wikipedia (Escuela de Suboficiales del Ejército) — agosto 2026",
+    ingresoBecas: {
+      arancel: "No se encontró un arancel de cursado en las fuentes consultadas; consultalo en la convocatoria vigente.",
+      ingreso: "Ingreso por concurso con exámenes de admisión y aptitud psicofísica. La edad, el estado civil, las fechas y la documentación los fija cada convocatoria: consultalos en esesc.ejercito.mil.ar o en el Centro de Reclutamiento más cercano.",
+      fuente: "esesc.ejercito.mil.ar (información institucional); no se encontró una convocatoria vigente con requisitos numéricos — noviembre 2026"
+    }
   },
   "ara-oficiales": {
     nombre: "Escuela Naval Militar (ESNM)",
@@ -362,7 +442,12 @@ const INSTITUCIONES = {
     web: "https://www.escuelanaval.mil.ar",
     descripcion: "Academia naval militar de la Armada Argentina, creada en 1872, que forma ética, militar, académica, profesional y físicamente a los futuros oficiales de la Armada. Los cadetes egresan con el grado de Guardiamarina y, además, obtienen un título universitario de Licenciado reconocido por el Ministerio de Educación de la Nación.",
     modalidad: "Presencial, régimen de internado, en Isla Río Santiago (Ensenada, Buenos Aires), con un año adicional de instrucción a bordo del Buque Escuela Fragata A.R.A. \"Libertad\".",
-    fuente: "escuelanaval.mil.ar, incorporacion.armada.mil.ar, Wikipedia (Escuela Naval Militar) — agosto 2026"
+    fuente: "escuelanaval.mil.ar, incorporacion.armada.mil.ar, Wikipedia (Escuela Naval Militar) — agosto 2026",
+    ingresoBecas: {
+      arancel: "La carrera es gratuita y los cadetes reciben alojamiento, comida, un haber mensual y cobertura social mientras sean alumnos. La guía de ingreso menciona además un arancel de inscripción: verificá su monto vigente.",
+      ingreso: "Ingreso por concurso de antecedentes y exámenes, con inscripción online en incorporacion.armada.mil.ar. Para la Escuela Naval Militar hay que ser argentino/a nativo/a o por opción, tener menos de 22 años al 1 de marzo del año de ingreso y haber aprobado el secundario o estar cursando el último año sin adeudar materias. Los menores de 18 necesitan el consentimiento de ambos padres, y no se admiten postulantes dados de baja de institutos militares por conducta. Hay requisitos psicofísicos y de estatura mínima (1,60 m varones y 1,55 m mujeres).",
+      fuente: "Armada Argentina, Guía de ingreso a las escuelas de formación militar (incorporacion.armada.mil.ar y escuelanaval.mil.ar) — noviembre 2026"
+    }
   },
   "ara-suboficiales": {
     nombre: "Escuela de Suboficiales de la Armada (ESSA)",
@@ -372,7 +457,12 @@ const INSTITUCIONES = {
     web: "https://www.essa.armada.mil.ar",
     descripcion: "Instituto que forma a los futuros Suboficiales de la Armada Argentina en los aspectos técnicos y ético-morales de la carrera naval. Los egresados obtienen el grado de Cabo Segundo.",
     modalidad: "Presencial, régimen de internado, en la Base Naval Puerto Belgrano (Coronel Rosales, Buenos Aires).",
-    fuente: "essa.armada.mil.ar, incorporacion.armada.mil.ar — agosto 2026"
+    fuente: "essa.armada.mil.ar, incorporacion.armada.mil.ar — agosto 2026",
+    ingresoBecas: {
+      arancel: "La carrera es gratuita y los aspirantes reciben alojamiento, comida, un haber mensual y cobertura social mientras sean alumnos. La guía de ingreso menciona además un arancel de inscripción: verificá su monto vigente.",
+      ingreso: "Ingreso por concurso de antecedentes y exámenes, con inscripción online en incorporacion.armada.mil.ar. Para la Escuela de Suboficiales de la Armada hay que ser argentino/a nativo/a o por opción, tener menos de 24 años al 1 de marzo del año de ingreso y haber aprobado el secundario o estar cursando el último año sin adeudar materias. Los menores de 18 necesitan el consentimiento de ambos padres. Hay requisitos psicofísicos y de estatura mínima (1,60 m varones y 1,55 m mujeres).",
+      fuente: "Armada Argentina, Guía de ingreso a las escuelas de formación militar (essa.armada.mil.ar e incorporacion.armada.mil.ar) — noviembre 2026"
+    }
   },
   "faa-oficiales": {
     nombre: "Escuela de Aviación Militar (EAM)",
@@ -382,7 +472,12 @@ const INSTITUCIONES = {
     web: "https://www.argentina.gob.ar/fuerzaaerea",
     descripcion: "Instituto de formación que forma al personal militar superior (oficiales) de la Fuerza Aérea Argentina, en especialidades como piloto de caza, transporte o helicóptero, navegador militar, ingeniería aeronáutica o electrónica, entre otras. Los cadetes egresan con el grado de Alférez y la Licenciatura en Conducción de Recursos Aeroespaciales para la Defensa.",
     modalidad: "Presencial, régimen de internado, en Córdoba Capital.",
-    fuente: "argentina.gob.ar/fuerzaaerea (institutos e ingreso a la EAM) — agosto 2026"
+    fuente: "argentina.gob.ar/fuerzaaerea (institutos e ingreso a la EAM) — agosto 2026",
+    ingresoBecas: {
+      arancel: "La convocatoria 2027 menciona un comprobante de pago de inscripción y, en otra convocatoria, inscripción sin costo: confirmá en el sitio de la escuela qué corresponde.",
+      ingreso: "Inscripción para el ingreso 2027 abierta del 26 de mayo al 27 de noviembre de 2026, a las 13:00 hs. Requisitos: ser argentino/a nativo/a o por opción, soltero/a, tener como máximo 24 años al 1 de marzo de 2027, no registrar bajas por mala conducta ni condenas judiciales, tener DNI actualizado, autorización si sos menor de 18 y reunir las condiciones psicofisiológicas y de vacunación. Hay que aprobar los exámenes Intelectual y Definitivo del cuadernillo de ingreso. Documentación: acta de nacimiento y constancia de estudios secundarios o analítico.",
+      fuente: "Escuela de Aviación Militar (sitio oficial, convocatoria 2027) y La Gaceta — noviembre 2026"
+    }
   },
   "faa-suboficiales-cba": {
     nombre: "Escuela de Suboficiales de la Fuerza Aérea Córdoba (ESFAC)",
@@ -392,7 +487,12 @@ const INSTITUCIONES = {
     web: "https://esfacba.com",
     descripcion: "Instituto de capacitación técnico-militar que forma al personal militar subalterno (suboficiales) de la Fuerza Aérea Argentina en especialidades técnicas como telecomunicaciones, electrónica aeronáutica, mecánica aeronáutica, armamento o abastecimiento. Los egresados obtienen el grado de Cabo.",
     modalidad: "Presencial, régimen de internado, en Córdoba Capital.",
-    fuente: "esfacba.com, argentina.gob.ar/fuerzaaerea — agosto 2026"
+    fuente: "esfacba.com, argentina.gob.ar/fuerzaaerea — agosto 2026",
+    ingresoBecas: {
+      arancel: "No se informa arancel de cursado en las fuentes consultadas; consultalo en la convocatoria vigente.",
+      ingreso: "Las inscripciones para el ingreso 2027 a las escuelas de suboficiales de la Fuerza Aérea (Córdoba y Ezeiza) están abiertas desde el 26 de mayo de 2026. Hay exámenes de ingreso. Los requisitos de edad y estudios se publican en la convocatoria oficial: consultalos en argentina.gob.ar/fuerzaaerea.",
+      fuente: "La Gaceta (nota sobre la inscripción 2027 a la Fuerza Aérea) — noviembre 2026"
+    }
   },
   "faa-suboficiales-eze": {
     nombre: "Escuela de Suboficiales de la Fuerza Aérea Ezeiza (ESFAE, ex Instituto de Formación Ezeiza)",
@@ -402,7 +502,12 @@ const INSTITUCIONES = {
     web: "https://www.argentina.gob.ar/fuerzaaerea",
     descripcion: "Instituto que forma a Suboficiales de la Fuerza Aérea Argentina en especialidades de apoyo como carga y despacho, vigilancia y control del espacio aéreo, tránsito aéreo, meteorología y comunicaciones. Conocido históricamente como Instituto de Formación Ezeiza (IFE). Los egresados obtienen el grado de Cabo.",
     modalidad: "Presencial, régimen de internado, en Ezeiza (Buenos Aires).",
-    fuente: "argentina.gob.ar/fuerzaaerea (institutos e ingreso a la ESFAE) — agosto 2026"
+    fuente: "argentina.gob.ar/fuerzaaerea (institutos e ingreso a la ESFAE) — agosto 2026",
+    ingresoBecas: {
+      arancel: "No se informa arancel de cursado en las fuentes consultadas; consultalo en la convocatoria vigente.",
+      ingreso: "Las inscripciones para el ingreso 2027 a las escuelas de suboficiales de la Fuerza Aérea (Córdoba y Ezeiza) están abiertas desde el 26 de mayo de 2026. Hay exámenes de ingreso. Los requisitos de edad y estudios se publican en la convocatoria oficial: consultalos en argentina.gob.ar/fuerzaaerea.",
+      fuente: "La Gaceta (nota sobre la inscripción 2027 a la Fuerza Aérea) — noviembre 2026"
+    }
   },
   "unne-fau": {
     nombre: "UNNE — Facultad de Arquitectura y Urbanismo",
@@ -1032,7 +1137,7 @@ const CAREERS = [
     "icono": "⚖️",
     "investigado": true,
     "duracionAnios": 6,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 6 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Asesora, representa y defiende los intereses de personas, empresas o el Estado ante conflictos legales. Redacta contratos, dictámenes y escritos judiciales, y litiga en tribunales en las distintas ramas del derecho (civil, laboral, penal, comercial, entre otras).",
     "problemasQueResuelve": "Conflictos entre personas o empresas, incumplimientos contractuales, causas penales, disputas laborales, sucesiones, divorcios y cualquier situación que requiera interpretación o aplicación de normas legales.",
     "perfilRecomendado": "Estudiantes con buena capacidad de lectura y redacción, pensamiento argumentativo, interés por la actualidad social y política, y comodidad para el estudio de memoria de normativa extensa.",
@@ -1196,7 +1301,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Enorme dispersión salarial entre fuentes: desde promedios generales bajos hasta ofertas de empleo específicas del sector seguros bastante más altas",
-      "Carrera con alta exigencia matemática, similar a una ingeniería"
+      "Carrera con alta exigencia matemática, similar a una ingeniería",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Ofertas de empleo activas en el sector seguros muestran salarios de $600.000 a $900.000 para analistas actuariales junior en compañías como la Caja de Ahorro y Seguro, según relevamientos de 2026.",
@@ -1220,7 +1326,7 @@ const CAREERS = [
       "nota": "Esta es una profesión de nicho con pocas muestras en portales generales, lo que genera promedios poco representativos (Glassdoor). Se priorizaron ofertas de empleo activas específicas del sector seguros, que reflejan mejor la realidad salarial de esta carrera en particular."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -1241,7 +1347,7 @@ const CAREERS = [
     "icono": "🤝",
     "investigado": true,
     "duracionAnios": 2.5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de pregrado de 2,5 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNNE.",
     "queHace": "Formación técnica corta en gestión de relaciones laborales: liquidación de sueldos, negociación colectiva básica y administración de personal.",
     "problemasQueResuelve": "Necesidad de personal técnico en la gestión de recursos humanos y relaciones laborales de empresas y organismos.",
     "perfilRecomendado": "Interés en la gestión de personal y las relaciones entre empresas y trabajadores, con salida laboral rápida.",
@@ -1285,10 +1391,12 @@ const CAREERS = [
       "Planillas de cálculo (Excel)"
     ],
     "ventajas": [
-      "Título corto (2 años y medio) con salida laboral rápida en un área siempre necesaria"
+      "Título corto (2 años y medio) con salida laboral rápida en un área siempre necesaria",
+      "Se puede estudiar en UNNE — Facultad de Ciencias Económicas, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "El techo de crecimiento es menor que el de la Licenciatura en Relaciones Laborales"
+      "El techo de crecimiento es menor que el de la Licenciatura en Relaciones Laborales",
+      "Se cursa en Resistencia: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es el ciclo básico que después se puede continuar con la Licenciatura en Relaciones Laborales de la misma facultad.",
@@ -1369,10 +1477,12 @@ const CAREERS = [
       "Entornos de desarrollo (IDE)"
     ],
     "ventajas": [
-      "Título corto (3 años) con salida laboral inmediata"
+      "Título corto (3 años) con salida laboral inmediata",
+      "Se puede estudiar en UNNE — Facultad de Ciencias Exactas y Na, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "Algunos puestos senior piden el título de grado completo"
+      "Algunos puestos senior piden el título de grado completo",
+      "Se cursa en Corrientes: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Funciona como primer ciclo de la Licenciatura en Sistemas de Información de la misma facultad.",
@@ -1392,7 +1502,7 @@ const CAREERS = [
       "nota": "Es uno de los sectores con mayor variabilidad: un desarrollador que trabaja para una empresa argentina cobra en pesos dentro de este rango, pero uno que trabaja en remoto para una empresa extranjera puede cobrar en dólares, muy por encima de estos valores."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -1415,7 +1525,7 @@ const CAREERS = [
     "icono": "🧪",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de pregrado de 3 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSa.",
     "queHace": "Realiza análisis químicos de laboratorio para control de calidad, investigación y monitoreo ambiental, en industrias, laboratorios y organismos de control.",
     "problemasQueResuelve": "Necesidad de personal técnico calificado para análisis de laboratorio en industria, salud y medio ambiente, con una formación más corta que la de un licenciado o ingeniero químico.",
     "perfilRecomendado": "Interés práctico en química y trabajo de precisión en laboratorio.",
@@ -1461,10 +1571,12 @@ const CAREERS = [
       "Software de gestión de laboratorio"
     ],
     "ventajas": [
-      "Título corto (3 años) con salida laboral en industrias regionales importantes (minería, alimentos)"
+      "Título corto (3 años) con salida laboral en industrias regionales importantes (minería, alimentos)",
+      "Se puede estudiar en UNSa — Facultad de Ciencias Exactas, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "El techo de crecimiento es menor que el de una licenciatura o ingeniería en química"
+      "El techo de crecimiento es menor que el de una licenciatura o ingeniería en química",
+      "Se cursa en Salta: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "La actividad minera de Salta genera una demanda constante de analistas químicos para control de calidad de minerales.",
@@ -1483,7 +1595,7 @@ const CAREERS = [
       "nota": "La industria minera, muy presente en Salta, suele pagar mejor que la industria alimenticia para este tipo de perfil técnico."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -1500,7 +1612,7 @@ const CAREERS = [
     "icono": "📊",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de pregrado de 3 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UCP.",
     "queHace": "Aplica herramientas básicas de contabilidad: registro de operaciones contables, liquidación de sueldos e impuestos de rutina, y apoyo en la confección de balances. Es un título de pregrado, más corto que el de Contador Público.",
     "problemasQueResuelve": "Necesidad de personal capacitado en tareas contables operativas (registración, conciliaciones, facturación) en empresas y estudios contables, sin requerir aún la matrícula profesional completa de Contador Público.",
     "perfilRecomendado": "Estudiantes con gusto por los números y el orden que buscan una salida laboral más rápida en el área contable, con posibilidad de continuar hacia el título de Contador Público más adelante.",
@@ -1544,11 +1656,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Salida laboral más rápida (3 años) que el título de Contador Público completo",
-      "Buena base para continuar estudios y completar la matrícula profesional más adelante"
+      "Buena base para continuar estudios y completar la matrícula profesional más adelante",
+      "Se puede cursar en Presidencia Roque Sáenz Peña, sin mudarte de ciudad"
     ],
     "desafios": [
       "No habilita a firmar balances ni ejercer como Contador Público matriculado",
-      "Sueldos de entrada probablemente más bajos que los de un Contador Público, aunque no se encontró un relevamiento específico que lo confirme con números"
+      "Sueldos de entrada probablemente más bajos que los de un Contador Público, aunque no se encontró un relevamiento específico que lo confirme con números",
+      "Se estudia en una institución privada: hay que contar con el costo de la cuota"
     ],
     "datosInteresantes": [
       "Los puestos de 'analista contable' que aparecen en portales de empleo suelen ocuparlos tanto egresados de este título de pregrado como estudiantes avanzados de Contador Público, lo que dificulta aislar un sueldo específico para este título en particular."
@@ -1586,7 +1700,7 @@ const CAREERS = [
     "icono": "💼",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de pregrado de 3 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UCP.",
     "queHace": "Aplica herramientas básicas de gestión administrativa: organización de procesos, manejo de documentación, apoyo en la toma de decisiones y control de recursos en una organización. Es un título de pregrado (más corto que la Licenciatura), con posibilidad de continuar el Ciclo de Complementación Curricular para obtener la Licenciatura.",
     "problemasQueResuelve": "Necesidad de personal capacitado para tareas de gestión administrativa de nivel intermedio en empresas y organizaciones, sin requerir aún la formación completa de una licenciatura.",
     "perfilRecomendado": "Estudiantes que buscan una salida laboral más rápida en el área de gestión, con posibilidad de continuar estudios más adelante para completar la Licenciatura.",
@@ -1634,11 +1748,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Salida laboral más rápida que una Licenciatura completa (3 años)",
-      "Posibilidad de continuar estudios y completar la Licenciatura más adelante"
+      "Posibilidad de continuar estudios y completar la Licenciatura más adelante",
+      "Se puede cursar en Presidencia Roque Sáenz Peña, sin mudarte de ciudad"
     ],
     "desafios": [
       "Sueldos de entrada probablemente más bajos que los de un Licenciado en Administración, aunque no se encontró un relevamiento específico que lo confirme con números",
-      "Menor reconocimiento en el mercado laboral frente a un título de grado completo"
+      "Menor reconocimiento en el mercado laboral frente a un título de grado completo",
+      "Se estudia en una institución privada: hay que contar con el costo de la cuota"
     ],
     "datosInteresantes": [
       "Es habitual que estos títulos de pregrado ('Analista Universitario') permitan continuar estudios mediante un Ciclo de Complementación Curricular corto para obtener la Licenciatura completa."
@@ -1676,7 +1792,7 @@ const CAREERS = [
     "icono": "🌎",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de pregrado de 3 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UCP.",
     "queHace": "Aplica herramientas básicas de gestión de comercio exterior: documentación de importación/exportación, trámites aduaneros de rutina y apoyo en operaciones logísticas internacionales. Es un título de pregrado, más corto que la Licenciatura.",
     "problemasQueResuelve": "Necesidad de personal capacitado en tareas operativas de comercio exterior (documentación, seguimiento de envíos, trámites aduaneros básicos) sin requerir aún la formación completa de la Licenciatura.",
     "perfilRecomendado": "Estudiantes que buscan una salida laboral operativa más rápida en comercio exterior, con posibilidad de continuar hacia la Licenciatura más adelante.",
@@ -1719,11 +1835,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Salida laboral más rápida (3 años) que la Licenciatura completa",
-      "Puerta de entrada a un sector con alta posibilidad de crecimiento hacia roles internacionales"
+      "Puerta de entrada a un sector con alta posibilidad de crecimiento hacia roles internacionales",
+      "Se puede cursar en Presidencia Roque Sáenz Peña, sin mudarte de ciudad"
     ],
     "desafios": [
       "Sueldos de entrada probablemente más bajos que los de puestos que requieren la Licenciatura completa, aunque no se encontró un relevamiento específico que lo confirme con números",
-      "Roles más operativos y con menor margen de decisión que los de un Licenciado"
+      "Roles más operativos y con menor margen de decisión que los de un Licenciado",
+      "Se estudia en una institución privada: hay que contar con el costo de la cuota"
     ],
     "datosInteresantes": [
       "Un autorreporte de sueldos ubicó a un 'Auxiliar de comercio exterior' con 4 meses de experiencia en $700.000 mensuales en 2026, aunque no queda claro si esa persona tenía este título específico de pregrado."
@@ -1806,10 +1924,13 @@ const CAREERS = [
       "Sistemas de digitalización de archivos"
     ],
     "ventajas": [
-      "Es una salida laboral específica y con poca competencia por ser un perfil poco común"
+      "Es una salida laboral específica y con poca competencia por ser un perfil poco común",
+      "Se puede estudiar en UNNE — Facultad de Humanidades, institución pública: sin arancel de cursado",
+      "Es una carrera corta (3 años), que permite empezar a trabajar antes"
     ],
     "desafios": [
-      "Mercado laboral acotado fuera de organismos públicos e instituciones grandes"
+      "Mercado laboral acotado fuera de organismos públicos e instituciones grandes",
+      "Se cursa en Resistencia: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es el título de pregrado que después se puede continuar con la Licenciatura en Ciencias de la Información de la misma facultad.",
@@ -1828,7 +1949,7 @@ const CAREERS = [
       "nota": "Buena parte de las salidas de esta familia (investigación, docencia universitaria) dependen de becas o cargos concursados, con ingresos que crecen lento pero de forma más previsible que en el sector privado."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -1848,7 +1969,7 @@ const CAREERS = [
     "icono": "⚓",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Formación institucional de 5 años, con régimen propio de la fuerza. La carga horaria la define el plan de formación de cada escuela.",
     "modalidadInstituciones": "Presencial, régimen de internado, en la Escuela Naval Militar (Isla Río Santiago, Ensenada, Buenos Aires) · Presencial, régimen de internado, en la Escuela de Suboficiales de la Armada (Base Naval Puerto Belgrano, Buenos Aires)",
     "duracionInstituciones": "Escuela Naval Militar (Oficiales): 5 años (4 años como Cadete, formación académica e internado + 1 año como Guardiamarina en Comisión, con viaje de instrucción a bordo del Buque Escuela Fragata A.R.A. \"Libertad\") · Escuela de Suboficiales de la Armada: 1 a 2 años y medio según el escalafón/orientación (egresan como Cabo Segundo); existe además el Curso de Integración Militar (CUIM), de 6 meses, para technicos con título afín",
     "queHace": "Un/a marino de la Armada Argentina se forma para la defensa del país en el ámbito naval, conduciendo personal, administrando recursos y operando sistemas navales a bordo de buques y en unidades en tierra. Según el cuerpo y escalafón elegido, puede desempeñarse como Oficial Naval o Infante de Marina (Cuerpo de Comando) o en Intendencia (Cuerpo Profesional), y en especialidades técnicas como maquinista, técnico aeronáutico, informática, enfermería o infantería de marina.",
@@ -1958,12 +2079,12 @@ const CAREERS = [
       }
     ],
     "modalidadInstituciones": "Presencial en la UNNE (Resistencia) · Presencial en UCP (Resistencia)",
-    "duracionInstituciones": "6 años en la UNNE (Resistencia) · duración a confirmar en UCP (Resistencia)",
+    "duracionInstituciones": "6 años en la UNNE (Resistencia) · UCP (Resistencia): la duración no figura en las fuentes oficiales consultadas; consultala en la universidad",
     "descripcionBreve": "Carrera de grado de 6 años, presencial, que se dicta en la Facultad de Arquitectura y Urbanismo de la UNNE (Resistencia, Chaco).",
     "icono": "📐",
     "investigado": true,
     "duracionAnios": 6,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 6 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Diseña espacios y edificios: viviendas, edificios públicos, planificación urbana, con foco en la funcionalidad, la estética y el impacto en el entorno.",
     "problemasQueResuelve": "Necesidad de diseñar espacios habitables, funcionales y seguros, tanto a escala de un edificio como de la planificación de una ciudad.",
     "perfilRecomendado": "Interés en el diseño, el dibujo, la estética y la resolución de problemas espaciales.",
@@ -2012,10 +2133,13 @@ const CAREERS = [
       "Normativa de construcción local"
     ],
     "ventajas": [
-      "Alta posibilidad de ejercicio independiente con estudio propio"
+      "Alta posibilidad de ejercicio independiente con estudio propio",
+      "Se puede estudiar en UNNE — Facultad de Arquitectura y Urbani, institución pública: sin arancel de cursado",
+      "Se puede cursar en Presidencia Roque Sáenz Peña, sin mudarte de ciudad"
     ],
     "desafios": [
-      "Carrera larga y con alta carga de trabajo de taller (proyectos)"
+      "Carrera larga y con alta carga de trabajo de taller (proyectos)",
+      "Los planes, la duración y las condiciones pueden variar según la institución: conviene compararlos antes de elegir"
     ],
     "datosInteresantes": [
       "La UCP sumó Arquitectura a su oferta en Resistencia como alternativa privada a la de la UNNE, que es la carrera histórica de la región.",
@@ -2036,7 +2160,7 @@ const CAREERS = [
       "nota": "Los valores nacionales de referencia (minería, Patagonia, grandes constructoras) suelen ser más altos; en el NEA y el NOA, fuera de sectores como minería o petróleo, los sueldos tienden a ubicarse en la mitad inferior de este rango. El techo puede ser mucho mayor en roles de dirección de obra o gerencia."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -2053,7 +2177,7 @@ const CAREERS = [
     "icono": "🍎",
     "investigado": true,
     "duracionAnios": 2,
-    "cargaHoraria": null,
+    "cargaHoraria": "Tecnicatura superior de 2 años, presencial. La carga horaria total figura en el plan de estudios oficial de el ISET.",
     "queHace": "Colabora con los docentes a cargo en tareas de apoyo pedagógico, organización del aula y acompañamiento de estudiantes, sin asumir la responsabilidad total de la enseñanza de una materia.",
     "problemasQueResuelve": "Necesidad de apoyo adicional dentro del aula para el acompañamiento de estudiantes, tareas organizativas y de seguimiento en instituciones educativas.",
     "perfilRecomendado": "Estudiantes con vocación de trabajar en el ámbito educativo, que buscan una formación corta (2 años) como puerta de entrada al sistema educativo.",
@@ -2095,11 +2219,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Formación corta (2 años) como puerta de entrada al ámbito educativo",
-      "Buena base para continuar hacia un profesorado completo más adelante"
+      "Buena base para continuar hacia un profesorado completo más adelante",
+      "Se puede cursar en Presidencia Roque Sáenz Peña, sin mudarte de ciudad"
     ],
     "desafios": [
       "No se encontró un relevamiento salarial específico para este cargo en particular",
-      "La disponibilidad de este tipo de cargos varía mucho según la jurisdicción y no es tan extendida como la de maestro/profesor titulado"
+      "La disponibilidad de este tipo de cargos varía mucho según la jurisdicción y no es tan extendida como la de maestro/profesor titulado",
+      "Se estudia en una institución privada: hay que contar con el costo de la cuota"
     ],
     "datosInteresantes": [
       "Esta formación suele funcionar como un primer paso dentro del sistema educativo para quienes luego desean continuar con un profesorado de mayor duración."
@@ -2120,7 +2246,7 @@ const CAREERS = [
       "nota": "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -2182,10 +2308,12 @@ const CAREERS = [
       "Bases de datos bibliográficas"
     ],
     "ventajas": [
-      "Salida laboral relativamente segura en el sistema educativo público"
+      "Salida laboral relativamente segura en el sistema educativo público",
+      "Es una carrera corta (3 años), que permite empezar a trabajar antes"
     ],
     "desafios": [
-      "Sueldos moderados, sobre todo en bibliotecas escolares"
+      "Sueldos moderados, sobre todo en bibliotecas escolares",
+      "Se cursa en Resistencia: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es el título de pregrado que después se puede continuar con la Licenciatura en Ciencias de la Información de la misma facultad.",
@@ -2204,7 +2332,7 @@ const CAREERS = [
       "nota": "Buena parte de las salidas de esta familia (investigación, docencia universitaria) dependen de becas o cargos concursados, con ingresos que crecen lento pero de forma más previsible que en el sector privado."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -2221,7 +2349,7 @@ const CAREERS = [
     "icono": "🧫",
     "investigado": true,
     "duracionAnios": 6,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 6 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNNE.",
     "queHace": "Analiza muestras biológicas (sangre, orina, tejidos) para diagnóstico médico, investiga en biología molecular y trabaja en el control de calidad de medicamentos y alimentos.",
     "problemasQueResuelve": "Diagnóstico de enfermedades a través de análisis de laboratorio, y control de calidad en la industria farmacéutica y alimentaria.",
     "perfilRecomendado": "Interés en química, biología y trabajo de precisión en laboratorio.",
@@ -2270,10 +2398,12 @@ const CAREERS = [
       "Normas de bioseguridad"
     ],
     "ventajas": [
-      "Buena posibilidad de montar un laboratorio propio con matrícula"
+      "Buena posibilidad de montar un laboratorio propio con matrícula",
+      "Se puede estudiar en UNNE — Facultad de Ciencias Exactas y Na, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "Carrera larga (6 años) y exigente"
+      "Carrera larga (6 años) y exigente",
+      "Se cursa en Corrientes: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es una de las pocas carreras de Bioquímica de grado completo en universidades públicas del NEA.",
@@ -2293,7 +2423,7 @@ const CAREERS = [
       "nota": "Un bioquímico con laboratorio propio puede superar ampliamente estos valores; los que se muestran son para relación de dependencia en un laboratorio o institución de salud."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -2325,7 +2455,7 @@ const CAREERS = [
     "icono": "🐾",
     "investigado": true,
     "duracionAnios": 6,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 6 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Diagnostica, previene y trata enfermedades en animales domésticos, de producción y silvestres. También interviene en seguridad alimentaria (control de alimentos de origen animal) y salud pública (zoonosis).",
     "problemasQueResuelve": "Enfermedades y lesiones en animales, control sanitario de establecimientos ganaderos, inocuidad de productos de origen animal, prevención de enfermedades transmisibles de animales a humanos (zoonosis).",
     "perfilRecomendado": "Estudiantes con interés en biología, medicina y el trabajo con animales, buena tolerancia emocional (incluye situaciones de enfermedad o muerte de animales) y disposición a trabajar tanto en clínica como a campo.",
@@ -2463,7 +2593,7 @@ const CAREERS = [
     "icono": "📈",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Lleva la contabilidad de empresas y organizaciones, confecciona balances y estados contables, liquida impuestos, realiza auditorías y asesora en la toma de decisiones financieras.",
     "problemasQueResuelve": "Cumplimiento de obligaciones fiscales e impositivas, control de la situación financiera de una organización, detección de irregularidades contables (auditoría), planificación tributaria.",
     "perfilRecomendado": "Estudiantes con gusto por los números, el orden, el detalle y la normativa cambiante en materia impositiva; útil también tener habilidades de comunicación para asesorar clientes.",
@@ -2570,7 +2700,7 @@ const CAREERS = [
     "icono": "📐",
     "investigado": true,
     "duracionAnios": null,
-    "cargaHoraria": null,
+    "cargaHoraria": "Diplomatura virtual de la UTN FRRE. La duración y la carga horaria se fijan en cada cohorte; se consultan al inscribirte.",
     "queHace": "Actualiza y profundiza las estrategias didácticas para la enseñanza de la matemática en distintos niveles educativos, incorporando recursos tecnológicos y enfoques pedagógicos actuales para mejorar la comprensión de los contenidos matemáticos en el aula.",
     "problemasQueResuelve": "Dificultades históricas en la enseñanza y el aprendizaje de la matemática en escuelas argentinas, y necesidad de los/as docentes de actualizar sus estrategias didácticas más allá de lo que reciben en su formación inicial.",
     "perfilRecomendado": "Docentes de matemática en ejercicio (de nivel secundario o superior) que quieran actualizar y renovar sus estrategias de enseñanza con una formación corta y virtual, sin necesidad de cursar una carrera completa.",
@@ -2620,7 +2750,8 @@ const CAREERS = [
     ],
     "desafios": [
       "No reemplaza a una licenciatura o especialización: es una formación complementaria y acotada",
-      "Pensada específicamente para quienes ya son docentes, no para quienes recién empiezan"
+      "Pensada específicamente para quienes ya son docentes, no para quienes recién empiezan",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Las diplomaturas universitarias de la UTN suelen tener una duración de varios meses (no años) y no otorgan título de grado ni de posgrado, sino un certificado de formación continua."
@@ -2661,7 +2792,7 @@ const CAREERS = [
     "icono": "🌎",
     "investigado": true,
     "duracionAnios": null,
-    "cargaHoraria": null,
+    "cargaHoraria": "Diplomatura virtual de la UTN FRRE. La duración y la carga horaria se fijan en cada cohorte; se consultan al inscribirte.",
     "queHace": "Actualiza conocimientos de gestión ambiental, higiene y seguridad laboral para quienes ya trabajan en estas áreas o quieren sumar esta mirada a su perfil profesional, cubriendo normativa vigente, gestión de riesgos y sustentabilidad organizacional.",
     "problemasQueResuelve": "Necesidad de actualización constante en normativa ambiental y de higiene y seguridad, que cambia con frecuencia, y de sumar una mirada integradora entre ambiente y seguridad laboral a distintos perfiles profesionales.",
     "perfilRecomendado": "Profesionales o técnicos/as que ya trabajan en áreas afines (ambiente, higiene y seguridad, calidad) y buscan una actualización corta y virtual, o profesionales de otras áreas que quieran sumar esta formación complementaria.",
@@ -2706,11 +2837,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Formación corta y virtual, complementaria a las tecnicaturas y licenciaturas afines de la misma Facultad",
-      "Aplicable tanto a perfiles técnicos como a otros profesionales que quieran sumar esta mirada"
+      "Aplicable tanto a perfiles técnicos como a otros profesionales que quieran sumar esta mirada",
+      "Se puede estudiar en UTN FRRE, institución pública: sin arancel de cursado"
     ],
     "desafios": [
       "No reemplaza a la tecnicatura o licenciatura en higiene y seguridad para quien busca el título habilitante completo",
-      "Formación acotada, pensada como complemento de un perfil ya existente"
+      "Formación acotada, pensada como complemento de un perfil ya existente",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Combina en un solo trayecto dos áreas normativamente exigidas a las empresas (medioambiente e higiene y seguridad), que suelen enseñarse por separado en otras carreras."
@@ -2751,7 +2884,7 @@ const CAREERS = [
     "icono": "🧩",
     "investigado": true,
     "duracionAnios": null,
-    "cargaHoraria": null,
+    "cargaHoraria": "Diplomatura virtual de la UTN FRRE. La duración y la carga horaria se fijan en cada cohorte; se consultan al inscribirte.",
     "queHace": "Capacita a docentes en el uso de tecnologías de apoyo y recursos digitales para favorecer la inclusión educativa de estudiantes con discapacidad u otras necesidades educativas específicas, en cualquier nivel del sistema educativo.",
     "problemasQueResuelve": "Falta de herramientas concretas de muchos/as docentes para incluir efectivamente (no solo integrar) a estudiantes con discapacidad en el aula común, más allá de la buena voluntad o la formación general en inclusión.",
     "perfilRecomendado": "Docentes de cualquier nivel y especialidad que trabajen con estudiantes con discapacidad u otras necesidades específicas y quieran incorporar herramientas tecnológicas concretas de inclusión, sin necesariamente cursar la licenciatura completa.",
@@ -2800,7 +2933,8 @@ const CAREERS = [
     ],
     "desafios": [
       "No reemplaza al título de Profesor/a de Educación Especial ni a la licenciatura completa",
-      "Formación acotada, pensada como complemento y no como salida laboral en sí misma"
+      "Formación acotada, pensada como complemento y no como salida laboral en sí misma",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Esta diplomatura tuvo cohortes de inscripción confirmadas en 2023 en la red de facultades regionales de la UTN, con apertura específica para la carrera a distancia."
@@ -2838,7 +2972,7 @@ const CAREERS = [
     "icono": "🎨",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 4 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNNE.",
     "queHace": "Diseña piezas visuales de comunicación: identidad de marca, packaging, piezas digitales e impresas, para empresas, organismos y medios.",
     "problemasQueResuelve": "Necesidad de comunicación visual profesional para marcas, productos y campañas, tanto en medios digitales como impresos.",
     "perfilRecomendado": "Interés en el diseño visual, la estética y la comunicación de ideas a través de imágenes.",
@@ -2886,10 +3020,12 @@ const CAREERS = [
       "Herramientas de diseño para redes sociales"
     ],
     "ventajas": [
-      "Buena posibilidad de trabajo remoto e independiente"
+      "Buena posibilidad de trabajo remoto e independiente",
+      "Se puede estudiar en UNNE — Facultad de Arquitectura y Urbani, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "Mercado competitivo, con necesidad de armar un portfolio sólido para destacar"
+      "Mercado competitivo, con necesidad de armar un portfolio sólido para destacar",
+      "Se cursa en Resistencia: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es una de las carreras con mayor posibilidad de trabajo freelance para clientes de otras provincias o del exterior.",
@@ -2908,7 +3044,7 @@ const CAREERS = [
       "nota": "Es uno de los rubros con mayor variabilidad: trabajar en relación de dependencia para una empresa local da sueldos en la parte baja del rango, mientras que el freelance para clientes de otras provincias o del exterior puede superar ampliamente el techo mostrado."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -2981,7 +3117,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Proceso de formación muy largo y exigente, generalmente sin ingresos garantizados salvo acceso a una beca",
-      "Mercado laboral académico limitado en cantidad de cargos disponibles"
+      "Mercado laboral académico limitado en cantidad de cargos disponibles",
+      "Requiere contar con un título previo de nivel superior o de grado"
     ],
     "datosInteresantes": [
       "A diferencia de las demás carreras de esta guía, el Doctorado no tiene un 'sueldo de mercado' estándar: quienes lo cursan suelen sostenerse con becas de investigación (como las de CONICET) o continúan trabajando como docentes mientras investigan."
@@ -3017,7 +3154,7 @@ const CAREERS = [
     "icono": "🎓",
     "investigado": true,
     "duracionAnios": null,
-    "cargaHoraria": null,
+    "cargaHoraria": "Doctorado: cursos de formación más tesis doctoral. La duración total depende de cada doctorando y del plan de tesis.",
     "queHace": "Forma investigadores/as de más alto nivel en ciencias informáticas, con dos años de formación académica intensiva (seminarios y espacios de profundización) seguidos de una etapa de investigación y desarrollo de la tesis doctoral. Busca impulsar el desarrollo científico-tecnológico y socioeconómico de la región del NEA.",
     "problemasQueResuelve": "Falta históricamente de una oferta de doctorado en informática en la región del NEA, que obligaba a los profesionales de la zona a formarse en otras provincias para acceder a este nivel de posgrado.",
     "perfilRecomendado": "Ingenieros/as en sistemas o informática, y profesionales de carreras afines, con vocación de investigación científica y docencia universitaria de alto nivel.",
@@ -3065,7 +3202,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Es una carrera larga y exigente, típica de cualquier doctorado: dos años de formación más varios años adicionales para completar la tesis",
-      "Pensada para un perfil de investigación, no para quien busca una salida laboral inmediata en el sector privado"
+      "Pensada para un perfil de investigación, no para quien busca una salida laboral inmediata en el sector privado",
+      "Requiere contar con un título previo de nivel superior o de grado"
     ],
     "datosInteresantes": [
       "El Doctorado en Informática de la FRRE fue acreditado por la CONEAU en su sesión N° 517 del 16 de diciembre de 2019, y sus primeras cohortes incluyeron profesionales de Argentina y de Paraguay."
@@ -3102,8 +3240,8 @@ const CAREERS = [
     "descripcionBreve": "Carrera de pregrado, presencial, de la Facultad de Humanidades, Ciencias Sociales y de la Salud de la Universidad Nacional de Santiago del Estero (UNSE).",
     "icono": "🩺",
     "investigado": true,
-    "duracionAnios": null,
-    "cargaHoraria": "Carrera de pregrado. Modalidad: presencial. Duración a confirmar con la facultad.",
+    "duracionAnios": 3,
+    "cargaHoraria": "Carrera de pregrado de 3 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSE.",
     "queHace": "Formación técnica corta en promoción y educación de la salud comunitaria: talleres de prevención, campañas sanitarias y trabajo comunitario en salud.",
     "problemasQueResuelve": "Necesidad de agentes de salud comunitaria para llevar adelante campañas de prevención en barrios y zonas rurales, donde el acceso a profesionales de salud puede ser limitado.",
     "perfilRecomendado": "Interés en el trabajo comunitario y la promoción de la salud, con salida laboral rápida.",
@@ -3145,10 +3283,12 @@ const CAREERS = [
       "Planillas de seguimiento epidemiológico básico"
     ],
     "ventajas": [
-      "Título corto con salida laboral en programas de salud pública"
+      "Título corto con salida laboral en programas de salud pública",
+      "Es una carrera corta (3 años), que permite empezar a trabajar antes"
     ],
     "desafios": [
-      "Salida laboral acotada casi exclusivamente al sector público y ONGs"
+      "Salida laboral acotada casi exclusivamente al sector público y ONGs",
+      "Se cursa en Santiago del Estero: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es un perfil clave en la estrategia de atención primaria de la salud, que prioriza la prevención por sobre la atención en hospitales.",
@@ -3187,7 +3327,7 @@ const CAREERS = [
     "icono": "🎖️",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Formación institucional de 4 años, con régimen propio de la fuerza. La carga horaria la define el plan de formación de cada escuela.",
     "modalidadInstituciones": "Presencial, régimen de internado, en el Colegio Militar de la Nación (El Palomar, Buenos Aires) · Presencial, régimen de internado, en la Escuela de Suboficiales del Ejército \"Sargento Cabral\" (Campo de Mayo, Buenos Aires)",
     "duracionInstituciones": "Colegio Militar de la Nación (Oficiales): 4 años (egresan con el grado de Subteniente y Licenciatura en Conducción y Gestión Operativa u otra especialidad elegida) · Escuela de Suboficiales \"Sargento Cabral\": 2 a 2 años y medio (egresan como Cabo con título técnico)",
     "queHace": "Un/a oficial o suboficial del Ejército se forma para la defensa nacional y el empleo del instrumento militar terrestre, cumpliendo funciones de conducción de tropas, logística, comunicaciones, ingeniería militar, sanidad, inteligencia o administración, según el arma o especialidad elegida. En tiempos de paz, además de la instrucción y el entrenamiento constante, el Ejército participa en tareas de apoyo a la comunidad (catástrofes naturales, emergencias) y puede integrar misiones de paz internacionales.",
@@ -3317,8 +3457,8 @@ const CAREERS = [
     "descripcionBreve": "Carrera de pregrado, presencial, de la Facultad de Humanidades, Ciencias Sociales y de la Salud de la Universidad Nacional de Santiago del Estero (UNSE).",
     "icono": "💉",
     "investigado": true,
-    "duracionAnios": null,
-    "cargaHoraria": "Carrera de pregrado. Modalidad: presencial. Duración a confirmar con la facultad.",
+    "duracionAnios": 3,
+    "cargaHoraria": "Carrera de pregrado de 3 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSE.",
     "queHace": "Formación de pregrado en enfermería: cuidado directo de pacientes, administración de medicación, asistencia en procedimientos médicos, con salida laboral más rápida que la licenciatura.",
     "problemasQueResuelve": "Necesidad urgente de personal de enfermería en el sistema de salud, uno de los perfiles con mayor déficit en Argentina.",
     "perfilRecomendado": "Vocación de cuidado, buen manejo del estrés y disposición a trabajar en guardias y turnos rotativos.",
@@ -3362,10 +3502,14 @@ const CAREERS = [
       "Historia clínica electrónica"
     ],
     "ventajas": [
-      "Altísima empleabilidad, con posibilidad de conseguir trabajo apenas egresado"
+      "Altísima empleabilidad, con posibilidad de conseguir trabajo apenas egresado",
+      "Se puede estudiar en UNSE — Facultad de Humanidades, Ciencias y UNSa — Facultad de Ciencias de la Salud, institución pública: sin arancel de cursado",
+      "Se dicta en 2 instituciones de la región, así que podés comparar y elegir dónde cursarla"
     ],
     "desafios": [
-      "Guardias y turnos rotativos exigentes, con sueldos iniciales moderados en el sector público"
+      "Guardias y turnos rotativos exigentes, con sueldos iniciales moderados en el sector público",
+      "Los planes, la duración y las condiciones pueden variar según la institución: conviene compararlos antes de elegir",
+      "Se cursa en Santiago del Estero y Salta: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Argentina tiene un déficit estructural de enfermeros; distintos programas nacionales ofrecen becas específicas para quienes estudian esta carrera.",
@@ -3385,7 +3529,7 @@ const CAREERS = [
       "nota": "Los valores corresponden a convenios de sanidad privada (clínicas y sanatorios); en el sector público varían según la provincia. Un Licenciado en Enfermería, al ser profesional de grado, suele cobrar un básico más alto que un enfermero de pregrado o un auxiliar."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -3481,7 +3625,7 @@ const CAREERS = [
       "nota": "Esta carrera tiene un esquema de ingresos mixto: quienes trabajan en relación de dependencia dentro de una escribanía (asistentes, secretarios) cobran un sueldo fijo, mientras que el escribano/a titular cobra honorarios regulados por arancel sobre cada escritura (aproximadamente 1%-2% del valor de la operación), por lo que no aplica un único 'sueldo' representativo para toda la profesión. [Actualizado 2026-08-11: cifra ajustada +10.2% respecto a la fuente original citada, según inflación acumulada real (INDEC) hasta julio 2026. El valor en USD se recalculó al tipo de cambio oficial de referencia de agosto 2026 (~$1520).]"
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -3495,8 +3639,8 @@ const CAREERS = [
     "descripcionBreve": "Posgrado de cuarto nivel para graduados universitarios (ingenieros, arquitectos y profesionales afines), común a varias facultades regionales de la UTN y reacreditado por CONEAU con categorías altas en distintas sedes.",
     "icono": "🦺",
     "investigado": true,
-    "duracionAnios": null,
-    "cargaHoraria": null,
+    "duracionAnios": 2,
+    "cargaHoraria": "Posgrado de 2 años (4 semestres) más Trabajo Final Integrador. El plan de la UTN (Ordenanza CSU 1465) suma 430 horas presenciales.",
     "queHace": "Forma especialistas de alto nivel en la gestión integral de la higiene y la seguridad laboral: diseño de programas de prevención, auditoría de sistemas de gestión de seguridad, análisis avanzado de riesgos y liderazgo de áreas de seguridad e higiene en organizaciones grandes o complejas.",
     "problemasQueResuelve": "Necesidad de las empresas de mayor porte o riesgo de contar con especialistas de nivel de posgrado (no solo técnicos o licenciados de grado) para liderar sus áreas de higiene y seguridad y afrontar auditorías y certificaciones exigentes.",
     "perfilRecomendado": "Ingenieros/as, arquitectos/as y otros profesionales con título de grado que ya trabajen o quieran especializarse en higiene y seguridad laboral a nivel de posgrado.",
@@ -3543,11 +3687,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Posgrado reacreditado por CONEAU con categorías altas en distintas facultades regionales de la UTN",
-      "Habilita el acceso a roles de mayor jerarquía (auditoría senior, gerencia, docencia universitaria) dentro del área de higiene y seguridad"
+      "Habilita el acceso a roles de mayor jerarquía (auditoría senior, gerencia, docencia universitaria) dentro del área de higiene y seguridad",
+      "Se puede estudiar en UTN FRRE, institución pública: sin arancel de cursado"
     ],
     "desafios": [
       "Requiere ya contar con un título de grado (ingeniería, arquitectura u otro) para poder inscribirse",
-      "Exige profundizar en contenidos avanzados de auditoría y gestión, más allá de la práctica técnica cotidiana"
+      "Exige profundizar en contenidos avanzados de auditoría y gestión, más allá de la práctica técnica cotidiana",
+      "Se cursa en Resistencia: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "La Especialización en Higiene y Seguridad en el Trabajo ha sido reacreditada por la CONEAU con mayor categoría en distintas facultades regionales de la UTN, lo que respalda la calidad académica de este posgrado a nivel nacional."
@@ -3572,9 +3718,7 @@ const CAREERS = [
       "programa": null,
       "info": null
     },
-    "faltaInvestigar": [
-      "Confirmar si esta especialización tiene cohorte activa específicamente en la sede Resistencia en 2026, y su duración exacta en semestres."
-    ]
+    "faltaInvestigar": []
   },
   {
     "id": "especializacion-en-ingenieria-gerencial-utnfrre",
@@ -3584,8 +3728,8 @@ const CAREERS = [
     "descripcionBreve": "Posgrado de cuarto nivel para graduados universitarios, de aproximadamente 2 años de duración, común a toda la red de facultades regionales de la UTN. Suele cursarse junto con la Maestría en Administración de Negocios (MBA).",
     "icono": "📊",
     "investigado": true,
-    "duracionAnios": null,
-    "cargaHoraria": null,
+    "duracionAnios": 2,
+    "cargaHoraria": "Posgrado de 2 años. El plan nacional de la UTN (Ordenanza CSU 1403/13) tiene 14 seminarios y 410 horas, más un Trabajo Final Integrador.",
     "queHace": "Capacita a ingenieros/as y otros profesionales para el ejercicio de funciones gerenciales: planificación, organización, gestión, integración de personas, y evaluación y control de procesos y organizaciones, actualizando sus saberes profesionales a los entornos cambiantes del ambiente de negocios.",
     "problemasQueResuelve": "Necesidad de que los ingenieros, formados con un perfil más técnico, adquieran herramientas de gestión y liderazgo para asumir funciones gerenciales dentro de empresas e instituciones.",
     "perfilRecomendado": "Ingenieros/as y profesionales de carreras afines que quieran dar el salto de un rol técnico a uno gerencial, sumando herramientas de gestión, liderazgo y toma de decisiones.",
@@ -3636,7 +3780,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Requiere ya contar con un título de grado para poder inscribirse",
-      "Exige compatibilizar el cursado (generalmente vespertino, 2 veces por semana) con el trabajo"
+      "Exige compatibilizar el cursado (generalmente vespertino, 2 veces por semana) con el trabajo",
+      "Se cursa en Resistencia: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Esta especialización es una de las carreras de posgrado históricas de la UTN a nivel nacional, dictada en la mayoría de sus facultades regionales desde hace varias décadas."
@@ -3657,7 +3802,7 @@ const CAREERS = [
       "nota": "Estimación aproximada del sueldo de un/a ingeniero/a con perfil gerencial que suma esta especialización, por comparación con puestos de gestión en industria — no un sueldo propio e independiente de la especialización."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -3674,7 +3819,7 @@ const CAREERS = [
     "icono": "🧸",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera terciaria de 3 años, presencial. La carga horaria total figura en el plan de estudios oficial de el ISET.",
     "queHace": "Diseña y aplica actividades de estimulación para favorecer el desarrollo motor, cognitivo, emocional y social de niños y niñas en la primera infancia, especialmente en casos de riesgo o retraso en el desarrollo.",
     "problemasQueResuelve": "Retrasos o riesgos en el desarrollo infantil temprano, necesidad de intervención oportuna en los primeros años de vida para favorecer el desarrollo integral.",
     "perfilRecomendado": "Estudiantes con mucha vocación por trabajar con bebés y niños pequeños, paciencia, sensibilidad y compromiso con las familias.",
@@ -3719,11 +3864,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Alto impacto en el desarrollo temprano de la niñez",
-      "Formación corta (3 años) orientada a una salida laboral específica"
+      "Formación corta (3 años) orientada a una salida laboral específica",
+      "Se puede cursar en Presidencia Roque Sáenz Peña, sin mudarte de ciudad"
     ],
     "desafios": [
       "No se encontró un relevamiento salarial específico para esta carrera en particular",
-      "Trabajo de alta demanda emocional, sobre todo en casos de niños con riesgo en el desarrollo"
+      "Trabajo de alta demanda emocional, sobre todo en casos de niños con riesgo en el desarrollo",
+      "Se estudia en una institución privada: hay que contar con el costo de la cuota"
     ],
     "datosInteresantes": [
       "La estimulación temprana suele trabajar en conjunto con pediatras, psicólogos y fonoaudiólogos en un abordaje interdisciplinario de la primera infancia."
@@ -3744,7 +3891,7 @@ const CAREERS = [
       "nota": "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -3771,12 +3918,12 @@ const CAREERS = [
       }
     ],
     "modalidadInstituciones": "Presencial en UNCAUS (Sáenz Peña) · Presencial en UCP (Corrientes; nueva desde 2026)",
-    "duracionInstituciones": "5 años en UNCAUS (Sáenz Peña) · duración a confirmar en UCP (Corrientes)",
+    "duracionInstituciones": "5 años en UNCAUS (Sáenz Peña) · UCP (Corrientes): la duración no figura en las fuentes oficiales consultadas; consultala en la universidad",
     "descripcionBreve": "Forma profesionales especializados en medicamentos: su elaboración, control de calidad, dispensa y uso seguro.",
     "icono": "💊",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Elabora, controla y dispensa medicamentos; asesora sobre su uso correcto y seguro; puede dirigir técnicamente farmacias, droguerías y laboratorios, y participar en el desarrollo y control de calidad de nuevos medicamentos.",
     "problemasQueResuelve": "Uso inadecuado o inseguro de medicamentos, control de calidad en la producción farmacéutica, interacciones y efectos adversos de fármacos, provisión y dispensa responsable de medicamentos a la población.",
     "perfilRecomendado": "Estudiantes con interés en química, biología y el cuidado de la salud, con atención al detalle y responsabilidad frente a la normativa sanitaria.",
@@ -3881,7 +4028,7 @@ const CAREERS = [
     "icono": "✈️",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Formación institucional de 4 años, con régimen propio de la fuerza. La carga horaria la define el plan de formación de cada escuela.",
     "modalidadInstituciones": "Presencial, régimen de internado, en la Escuela de Aviación Militar (Córdoba Capital) · Presencial, régimen de internado, en la Escuela de Suboficiales de la Fuerza Aérea Córdoba (ESFAC) · Presencial, régimen de internado, en la Escuela de Suboficiales de la Fuerza Aérea Ezeiza (ESFAE, ex Instituto de Formación Ezeiza)",
     "duracionInstituciones": "Escuela de Aviación Militar (Oficiales): 4 años (egresan con el grado de Alférez y la Licenciatura en Conducción de Recursos Aeroespaciales para la Defensa, y pueden orientarse a 17 especialidades) · Escuela de Suboficiales Córdoba: 2 años (especialidades técnicas: telecomunicaciones, electrónica aeronáutica, mecánica aeronáutica, armamento, entre otras) · Escuela de Suboficiales Ezeiza: 2 años (especialidades de apoyo técnico, administrativo y logístico: carga y despacho, vigilancia y control del espacio aéreo, tránsito aéreo, meteorología, comunicaciones)",
     "queHace": "Un/a integrante de la Fuerza Aérea Argentina se forma para la defensa del espacio aéreo nacional, participando en operaciones de vigilancia, control y defensa aeroespacial, transporte aéreo, apoyo logístico y asistencia ante catástrofes o emergencias (por ejemplo, con el traslado de ayuda humanitaria). Los Oficiales pueden orientarse a piloto de caza, transporte o helicóptero, navegador militar, ingeniería aeronáutica, electrónica y otras especialidades del Escalafón Aire, General o Técnico; los Suboficiales cumplen funciones técnicas y de apoyo operativo.",
@@ -3989,7 +4136,7 @@ const CAREERS = [
     "icono": "🪖",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": null,
+    "cargaHoraria": "Formación institucional de 3 años, con régimen propio de la fuerza. La carga horaria la define el plan de formación de cada escuela.",
     "modalidadInstituciones": "Presencial, régimen de internado, en la Escuela de Oficiales \"Gral. D. Martín Miguel de Güemes\" (Ciudad Evita, Buenos Aires) · Presencial, régimen de internado, en la Escuela de Suboficiales \"Cabo Raúl Remberto Cuello\" (Jesús María, Córdoba)",
     "duracionInstituciones": "Escuela de Oficiales: 3 años (egresan como Subalférez con título terciario/universitario; un 4° año adicional completa la Licenciatura) · Escuela de Suboficiales: 1 a 2 años según la especialidad (Curso Básico de Formación de Gendarmes)",
     "queHace": "Un/a gendarme resguarda las fronteras terrestres del país, controla pasos internacionales, combate el narcotráfico y el contrabando, brinda seguridad en rutas nacionales y zonas de frontera, y participa en tareas de seguridad interior (como el patrullaje de barrios en el marco del Plan de Prevención Barrial) cuando así se lo requiere. Los Oficiales, además, conducen personal y gestionan escuadrones y unidades.",
@@ -4098,7 +4245,7 @@ const CAREERS = [
     "icono": "🪨",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSa.",
     "queHace": "Estudia la composición, estructura y procesos de la Tierra: exploración de yacimientos minerales, estudios geológicos para obras de infraestructura, riesgo geológico y agua subterránea.",
     "problemasQueResuelve": "Búsqueda y evaluación de recursos minerales, estudio de riesgos geológicos (deslizamientos, sismos) y soporte técnico para obras civiles y mineras.",
     "perfilRecomendado": "Interés en ciencias de la Tierra, trabajo de campo y geografía, con gusto por expediciones y salidas a terreno.",
@@ -4145,10 +4292,13 @@ const CAREERS = [
       "Software de procesamiento de datos geofísicos"
     ],
     "ventajas": [
-      "Salta es una de las provincias con mayor actividad minera del país, con buena demanda de geólogos"
+      "Salta es una de las provincias con mayor actividad minera del país, con buena demanda de geólogos",
+      "Se puede estudiar en UNSa — Facultad de Ciencias Naturales, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "El trabajo de campo suele requerir viajes largos a zonas de altura y aisladas"
+      "El trabajo de campo suele requerir viajes largos a zonas de altura y aisladas",
+      "Es una carrera larga: 5 años de cursada",
+      "Se cursa en Salta: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "El auge del litio en la Puna salteña convirtió a esta carrera en una de las de mayor demanda laboral de la provincia en los últimos años.",
@@ -4167,7 +4317,7 @@ const CAREERS = [
       "nota": "La salida en investigación pura (CONICET, universidades) crece lento y depende de becas; en cambio, quienes se insertan en industrias como la minería o el petróleo (frecuente para Geología) pueden acceder a sueldos bastante más altos."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -4341,7 +4491,7 @@ const CAREERS = [
     "icono": "🏗️",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Diseña, calcula y dirige la construcción de obras civiles: edificios, puentes, caminos, redes de agua y saneamiento, y estructuras de todo tipo.",
     "problemasQueResuelve": "Necesidad de infraestructura segura y bien calculada para viviendas, obras públicas y privadas.",
     "perfilRecomendado": "Interés en la construcción, el cálculo estructural y la gestión de obras de gran escala.",
@@ -4389,10 +4539,14 @@ const CAREERS = [
       "Software de cómputo y presupuesto"
     ],
     "ventajas": [
-      "Amplia posibilidad de ejercicio independiente y buena salida laboral en toda la región"
+      "Amplia posibilidad de ejercicio independiente y buena salida laboral en toda la región",
+      "Se puede estudiar en UNNE — Facultad de Ingeniería, UNSE — Facultad de Ciencias Exactas y Te, UNaF — Facultad de Recursos Naturales y UNSa — Facultad de Ingeniería, institución pública: sin arancel de cursado",
+      "Se dicta en 4 instituciones de la región, así que podés comparar y elegir dónde cursarla"
     ],
     "desafios": [
-      "Carrera larga (5-6 años) y exigente en matemática"
+      "Carrera larga (5-6 años) y exigente en matemática",
+      "Los planes, la duración y las condiciones pueden variar según la institución: conviene compararlos antes de elegir",
+      "Se cursa en Resistencia, Santiago del Estero, Formosa y Salta: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es una de las ingenierías más dictadas del país, presente en casi todas las universidades del norte argentino.",
@@ -4444,7 +4598,7 @@ const CAREERS = [
     "icono": "⚡",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Diseña, construye y mantiene sistemas de generación, transporte y distribución de energía eléctrica, e instalaciones eléctricas industriales y de potencia.",
     "problemasQueResuelve": "Provisión confiable de energía eléctrica a hogares, industrias y ciudades, y modernización de redes eléctricas.",
     "perfilRecomendado": "Interés en electricidad, matemática y física, con gusto por proyectos de infraestructura de gran escala.",
@@ -4492,10 +4646,14 @@ const CAREERS = [
       "Instrumental de medición eléctrica"
     ],
     "ventajas": [
-      "Salida laboral en empresas de servicios esenciales, con estabilidad"
+      "Salida laboral en empresas de servicios esenciales, con estabilidad",
+      "Se puede estudiar en UNNE — Facultad de Ciencias Exactas y Na y UNSE — Facultad de Ciencias Exactas y Te, institución pública: sin arancel de cursado",
+      "Se dicta en 2 instituciones de la región, así que podés comparar y elegir dónde cursarla"
     ],
     "desafios": [
-      "Carrera larga y exigente, con alta carga de matemática"
+      "Carrera larga y exigente, con alta carga de matemática",
+      "Los planes, la duración y las condiciones pueden variar según la institución: conviene compararlos antes de elegir",
+      "Se cursa en Corrientes y Santiago del Estero: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es una de las ingenierías con mayor demanda sostenida por ser un servicio esencial que no deja de necesitar mantenimiento y expansión.",
@@ -4516,7 +4674,7 @@ const CAREERS = [
       "nota": "Los valores nacionales de referencia (minería, Patagonia, grandes constructoras) suelen ser más altos; en el NEA y el NOA, fuera de sectores como minería o petróleo, los sueldos tienden a ubicarse en la mitad inferior de este rango. El techo puede ser mucho mayor en roles de dirección de obra o gerencia."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -4559,7 +4717,7 @@ const CAREERS = [
     "icono": "⚙️",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Proyecta, dirige y ejecuta máquinas, equipos, instrumentos y mecanismos de funcionamiento eléctrico, mecánico, térmico, hidráulico o neumático (o combinaciones de estos). Dirige la explotación, operación y mantenimiento de talleres, fábricas y plantas industriales, y participa en estudios de factibilidad, presupuestación y dirección de proyectos electromecánicos.",
     "problemasQueResuelve": "Necesidad de las industrias de contar con profesionales que integren la mirada eléctrica y la mecánica en un solo perfil, para el diseño, la puesta en marcha y el mantenimiento de plantas y equipos, evitando depender de dos especialistas separados.",
     "perfilRecomendado": "Estudiantes con buena base de matemática y física, interés en cómo funcionan las máquinas y las instalaciones industriales, y perfil tanto técnico (diseño, mantenimiento) como de gestión (dirección de proyectos y de personal).",
@@ -4621,7 +4779,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Carrera larga y exigente (5 años) con alto nivel de exigencia en materias básicas",
-      "El primer tramo (materias básicas de matemática y física) suele tener una tasa de abandono alta, como en toda ingeniería de la UTN"
+      "El primer tramo (materias básicas de matemática y física) suele tener una tasa de abandono alta, como en toda ingeniería de la UTN",
+      "Los planes, la duración y las condiciones pueden variar según la institución: conviene compararlos antes de elegir"
     ],
     "datosInteresantes": [
       "La UTN es la única universidad del país organizada íntegramente alrededor de la ingeniería, y Electromecánica es una de sus carreras históricas, presente en la mayoría de sus facultades regionales."
@@ -4642,7 +4801,7 @@ const CAREERS = [
       "nota": "Los sueldos de ingenieros electromecánicos suelen ser de los más altos entre las profesiones técnicas, con buena demanda en industrias del interior del país."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -4673,7 +4832,7 @@ const CAREERS = [
     "icono": "🗺️",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Mide y delimita terrenos, elabora planos de mensura, y participa en la definición legal de límites de propiedades, catastros y obras de infraestructura.",
     "problemasQueResuelve": "Necesidad de definir límites legales de propiedades, actualizar catastros y dar soporte técnico a obras civiles y loteos.",
     "perfilRecomendado": "Interés en el trabajo de campo, la geometría y el detalle técnico-legal de la propiedad.",
@@ -4719,10 +4878,14 @@ const CAREERS = [
       "Software de fotogrametría y drones"
     ],
     "ventajas": [
-      "Alta posibilidad de trabajo independiente con matrícula propia"
+      "Alta posibilidad de trabajo independiente con matrícula propia",
+      "Se puede estudiar en UNNE — Facultad de Ciencias Exactas y Na y UNSE — Facultad de Ciencias Exactas y Te, institución pública: sin arancel de cursado",
+      "Se dicta en 2 instituciones de la región, así que podés comparar y elegir dónde cursarla"
     ],
     "desafios": [
-      "El trabajo de campo puede requerir viajar a zonas rurales alejadas"
+      "El trabajo de campo puede requerir viajar a zonas rurales alejadas",
+      "Es una carrera larga: 5 años de cursada",
+      "Los planes, la duración y las condiciones pueden variar según la institución: conviene compararlos antes de elegir"
     ],
     "datosInteresantes": [
       "Es una de las pocas carreras que combina ingeniería con incumbencias legales sobre la propiedad.",
@@ -4743,7 +4906,7 @@ const CAREERS = [
       "nota": "Los valores nacionales de referencia (minería, Patagonia, grandes constructoras) suelen ser más altos; en el NEA y el NOA, fuera de sectores como minería o petróleo, los sueldos tienden a ubicarse en la mitad inferior de este rango. El techo puede ser mucho mayor en roles de dirección de obra o gerencia."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -4774,7 +4937,7 @@ const CAREERS = [
     ],
     "modalidadInstituciones": "Presencial en Universidad Nacional del Chaco Austral (UNCAUS) · Presencial en la UNSE (Facultad de Agronomía y Agroindustrias, Santiago del Estero)",
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Interviene en el desarrollo, procesamiento, envasado y control de calidad de alimentos, asegurando que cumplan normas sanitarias y nutricionales. Combina química, física e ingeniería de procesos.",
     "problemasQueResuelve": "Pérdida de calidad o inocuidad de alimentos, ineficiencia en líneas de producción, necesidad de nuevos productos o formulaciones, cumplimiento normativo (ANMAT/SENASA).",
     "perfilRecomendado": "Estudiantes con interés en química, biología y procesos industriales, con atención al detalle y responsabilidad frente a normas sanitarias.",
@@ -4836,7 +4999,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Los relevamientos de sueldos muestran cifras muy dispares entre sí (desde valores bajos hasta muy altos según la fuente), lo que dificulta dar un número único confiable",
-      "Trabajo mayormente presencial en planta"
+      "Trabajo mayormente presencial en planta",
+      "Es una carrera larga: 5 años de cursada"
     ],
     "datosInteresantes": [
       "En Argentina egresan cerca de 1.500 ingenieros en alimentos por año, según estimaciones del sector educativo.",
@@ -4889,7 +5053,7 @@ const CAREERS = [
     "icono": "🔌",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Diseña y desarrolla sistemas electrónicos: circuitos, dispositivos embebidos, automatización industrial, telecomunicaciones y control de procesos.",
     "problemasQueResuelve": "Automatización de procesos industriales, desarrollo de dispositivos electrónicos y sistemas de comunicación.",
     "perfilRecomendado": "Interés en electrónica, programación de bajo nivel y armado de dispositivos.",
@@ -4937,10 +5101,14 @@ const CAREERS = [
       "Instrumental de medición (osciloscopio, multímetro)"
     ],
     "ventajas": [
-      "Perfil muy versátil, con salida tanto en industria como en tecnología"
+      "Perfil muy versátil, con salida tanto en industria como en tecnología",
+      "Se puede estudiar en UNNE — Facultad de Ciencias Exactas y Na y UNSE — Facultad de Ciencias Exactas y Te, institución pública: sin arancel de cursado",
+      "Se dicta en 2 instituciones de la región, así que podés comparar y elegir dónde cursarla"
     ],
     "desafios": [
-      "Carrera exigente que requiere actualización constante por los cambios tecnológicos"
+      "Carrera exigente que requiere actualización constante por los cambios tecnológicos",
+      "Es una carrera larga: 5 años de cursada",
+      "Los planes, la duración y las condiciones pueden variar según la institución: conviene compararlos antes de elegir"
     ],
     "datosInteresantes": [
       "Es una de las ingenierías con mayor superposición con el mundo del software, por el auge de sistemas embebidos e IoT.",
@@ -4961,7 +5129,7 @@ const CAREERS = [
       "nota": "Los valores nacionales de referencia (minería, Patagonia, grandes constructoras) suelen ser más altos; en el NEA y el NOA, fuera de sectores como minería o petróleo, los sueldos tienden a ubicarse en la mitad inferior de este rango. El techo puede ser mucho mayor en roles de dirección de obra o gerencia."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -4978,7 +5146,7 @@ const CAREERS = [
     "icono": "🌲",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": "Carrera de grado. Modalidad: presencial. Duración a confirmar con la facultad.",
+    "cargaHoraria": "Carrera de grado de 5 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSE.",
     "queHace": "Diseña y gestiona procesos industriales de transformación de la madera: aserraderos, fabricación de tableros, muebles y otros productos forestales.",
     "problemasQueResuelve": "Necesidad de agregar valor industrial a la producción forestal de la región, en vez de solo extraer y vender madera en bruto.",
     "perfilRecomendado": "Interés en la industria, los procesos productivos y el aprovechamiento de recursos forestales.",
@@ -5022,10 +5190,13 @@ const CAREERS = [
       "Normas de calidad de productos madereros"
     ],
     "ventajas": [
-      "Es una de las pocas ingenierías específicas en industrias forestales del país"
+      "Es una de las pocas ingenierías específicas en industrias forestales del país",
+      "Se puede estudiar en UNSE — Facultad de Ciencias Forestales, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "El mercado depende del nivel de actividad de la industria maderera regional"
+      "El mercado depende del nivel de actividad de la industria maderera regional",
+      "Es una carrera larga: 5 años de cursada",
+      "Se cursa en Santiago del Estero: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Busca agregar valor industrial a la madera de monte nativo, en vez de exportarla solo como materia prima.",
@@ -5046,7 +5217,7 @@ const CAREERS = [
       "nota": "Los valores nacionales de referencia (minería, Patagonia, grandes constructoras) suelen ser más altos; en el NEA y el NOA, fuera de sectores como minería o petróleo, los sueldos tienden a ubicarse en la mitad inferior de este rango. El techo puede ser mucho mayor en roles de dirección de obra o gerencia."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -5069,7 +5240,7 @@ const CAREERS = [
     "icono": "⛏️",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 4 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSa.",
     "queHace": "Diseña y dirige operaciones de perforación para la extracción de petróleo, gas y agua, con foco en la industria de hidrocarburos.",
     "problemasQueResuelve": "Necesidad de ingenieros especializados en perforación para la industria petrolera y gasífera del norte argentino.",
     "perfilRecomendado": "Interés en la industria del petróleo y gas, con disposición a trabajar en yacimientos, muchas veces en campamentos.",
@@ -5115,10 +5286,12 @@ const CAREERS = [
       "Normas de seguridad industrial del sector petrolero"
     ],
     "ventajas": [
-      "Salarios altos en comparación con otras ingenierías, por tratarse de la industria petrolera"
+      "Salarios altos en comparación con otras ingenierías, por tratarse de la industria petrolera",
+      "Se puede estudiar en UNSa — Facultad de Ciencias Naturales, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "El trabajo suele implicar largos períodos en yacimientos, lejos de las ciudades"
+      "El trabajo suele implicar largos períodos en yacimientos, lejos de las ciudades",
+      "Se cursa en Salta: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Se dicta en Tartagal, en el corazón de una de las zonas petroleras y gasíferas más importantes del norte argentino.",
@@ -5137,7 +5310,7 @@ const CAREERS = [
       "nota": "La industria de hidrocarburos suele pagar bastante más que el promedio de otras ingenierías, en parte por las condiciones de trabajo en yacimientos y los adicionales por zona."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -5160,7 +5333,7 @@ const CAREERS = [
     "icono": "🌳",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSa.",
     "queHace": "Estudia y gestiona el uso sostenible de los recursos naturales: suelo, agua, bosques y biodiversidad, y evalúa el impacto ambiental de proyectos productivos.",
     "problemasQueResuelve": "Necesidad de planificar el uso de recursos naturales sin agotarlos, y de evaluar el impacto ambiental de proyectos agropecuarios, mineros e industriales.",
     "perfilRecomendado": "Interés en el medio ambiente, la ecología y el trabajo de campo en zonas rurales y naturales.",
@@ -5205,10 +5378,13 @@ const CAREERS = [
       "Instrumental de monitoreo ambiental"
     ],
     "ventajas": [
-      "Salta tiene fuerte actividad agropecuaria y minera, lo que genera demanda constante de estudios ambientales"
+      "Salta tiene fuerte actividad agropecuaria y minera, lo que genera demanda constante de estudios ambientales",
+      "Se puede estudiar en UNSa — Facultad de Ciencias Naturales, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "El trabajo de campo puede requerir viajes a zonas rurales o de difícil acceso"
+      "El trabajo de campo puede requerir viajes a zonas rurales o de difícil acceso",
+      "Es una carrera larga: 5 años de cursada",
+      "Se cursa en Salta: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es una de las ingenierías con mayor crecimiento en demanda por la exigencia legal de estudios ambientales para nuevos proyectos.",
@@ -5229,7 +5405,7 @@ const CAREERS = [
       "nota": "Los valores nacionales de referencia (minería, Patagonia, grandes constructoras) suelen ser más altos; en el NEA y el NOA, fuera de sectores como minería o petróleo, los sueldos tienden a ubicarse en la mitad inferior de este rango. El techo puede ser mucho mayor en roles de dirección de obra o gerencia."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -5367,7 +5543,7 @@ const CAREERS = [
     "icono": "🌲",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": "Carrera de grado. Modalidad: presencial. Duración a confirmar con la facultad.",
+    "cargaHoraria": "Carrera de grado de 5 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Gestiona bosques nativos y forestaciones: planes de manejo forestal, reforestación, control de la explotación maderera y conservación de ecosistemas boscosos.",
     "problemasQueResuelve": "Manejo sostenible de los bosques nativos y las forestaciones, en una región con fuerte presión de desmonte para uso agrícola.",
     "perfilRecomendado": "Interés en los bosques, la ecología y el trabajo de campo.",
@@ -5413,10 +5589,14 @@ const CAREERS = [
       "Instrumental de medición forestal (dasometría)"
     ],
     "ventajas": [
-      "Es una carrera con fuerte relevancia regional por la presión sobre los bosques nativos del norte argentino"
+      "Es una carrera con fuerte relevancia regional por la presión sobre los bosques nativos del norte argentino",
+      "Se puede estudiar en UNSE — Facultad de Ciencias Forestales y UNaF — Facultad de Recursos Naturales, institución pública: sin arancel de cursado",
+      "Se dicta en 2 instituciones de la región, así que podés comparar y elegir dónde cursarla"
     ],
     "desafios": [
-      "El trabajo de campo puede ser en zonas rurales alejadas"
+      "El trabajo de campo puede ser en zonas rurales alejadas",
+      "Es una carrera larga: 5 años de cursada",
+      "Los planes, la duración y las condiciones pueden variar según la institución: conviene compararlos antes de elegir"
     ],
     "datosInteresantes": [
       "Santiago del Estero fue una de las provincias con mayor tasa de desmonte del país, lo que le da una relevancia particular a esta carrera en la región.",
@@ -5438,7 +5618,7 @@ const CAREERS = [
       "nota": "Los valores nacionales de referencia (minería, Patagonia, grandes constructoras) suelen ser más altos; en el NEA y el NOA, fuera de sectores como minería o petróleo, los sueldos tienden a ubicarse en la mitad inferior de este rango. El techo puede ser mucho mayor en roles de dirección de obra o gerencia."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -5467,7 +5647,7 @@ const CAREERS = [
     "icono": "🎓",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": "Carrera de grado. Modalidad: presencial. Duración a confirmar con la facultad.",
+    "cargaHoraria": "Carrera de grado de 5 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSE.",
     "queHace": "Diseña y gestiona obras y sistemas vinculados al agua: canales de riego, sistemas de drenaje, defensas contra inundaciones, redes de agua potable y saneamiento, y aprovechamiento de cuencas hídricas.",
     "problemasQueResuelve": "Manejo del agua en zonas con lluvias irregulares y riesgo de inundación o sequía, típico del NOA; abastecimiento de agua para riego y consumo humano.",
     "perfilRecomendado": "Interés en obras civiles, matemática aplicada y en problemas ambientales relacionados con el agua.",
@@ -5515,10 +5695,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Es una de las pocas ingenierías hidráulicas específicas del NOA",
-      "Alta relevancia regional por la escasez de agua"
+      "Alta relevancia regional por la escasez de agua",
+      "Se puede estudiar en UNSE — Facultad de Ciencias Exactas y Te, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "Carrera exigente y de pocos graduados por año"
+      "Carrera exigente y de pocos graduados por año",
+      "Es una carrera larga: 5 años de cursada",
+      "Se cursa en Santiago del Estero: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Santiago del Estero depende fuertemente de sistemas de riego, lo que le da a esta carrera una salida laboral muy ligada a la región.",
@@ -5539,7 +5722,7 @@ const CAREERS = [
       "nota": "Los valores nacionales de referencia (minería, Patagonia, grandes constructoras) suelen ser más altos; en el NEA y el NOA, fuera de sectores como minería o petróleo, los sueldos tienden a ubicarse en la mitad inferior de este rango. El techo puede ser mucho mayor en roles de dirección de obra o gerencia."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -5687,7 +5870,7 @@ const CAREERS = [
     "icono": "⚙️",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNNE.",
     "queHace": "Diseña, construye y mantiene máquinas, motores y sistemas mecánicos: desde maquinaria industrial hasta sistemas de climatización y equipos de producción.",
     "problemasQueResuelve": "Necesidad de diseñar, mantener y optimizar maquinaria y sistemas mecánicos en la industria.",
     "perfilRecomendado": "Interés en el funcionamiento de máquinas, motores y sistemas mecánicos.",
@@ -5734,10 +5917,13 @@ const CAREERS = [
       "Instrumental de mantenimiento predictivo"
     ],
     "ventajas": [
-      "Salida laboral en industrias que necesitan mantenimiento constante de maquinaria"
+      "Salida laboral en industrias que necesitan mantenimiento constante de maquinaria",
+      "Se puede estudiar en UNNE — Facultad de Ingeniería, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "Carrera exigente con fuerte base de física y matemática"
+      "Carrera exigente con fuerte base de física y matemática",
+      "Es una carrera larga: 5 años de cursada",
+      "Se cursa en Resistencia: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es una de las ingenierías con más aplicación directa en la industria agroindustrial de la región.",
@@ -5758,7 +5944,7 @@ const CAREERS = [
       "nota": "Los valores nacionales de referencia (minería, Patagonia, grandes constructoras) suelen ser más altos; en el NEA y el NOA, fuera de sectores como minería o petróleo, los sueldos tienden a ubicarse en la mitad inferior de este rango. El techo puede ser mucho mayor en roles de dirección de obra o gerencia."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -5795,7 +5981,7 @@ const CAREERS = [
     "modalidadInstituciones": "Presencial en UNCAUS · Presencial en UTN Facultad Regional Resistencia (French 414) · Presencial en UNSa — Facultad de Ingeniería",
     "duracionInstituciones": "5 años en UNCAUS · 5 años en UTN FRRE · UNSa — Facultad de Ingeniería: 5 años",
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Diseña, opera y optimiza plantas y procesos industriales donde ocurren transformaciones químicas o físico-químicas: refinerías, plantas petroquímicas, industria farmacéutica, alimenticia, de fertilizantes, entre otras.",
     "problemasQueResuelve": "Ineficiencia energética y de materiales en procesos industriales, escalado de procesos de laboratorio a nivel industrial, cumplimiento de normas ambientales y de seguridad de plantas.",
     "perfilRecomendado": "Estudiantes con fuerte interés en química y física, capacidad analítica y disposición a trabajar en entornos industriales (a veces con turnos rotativos).",
@@ -5900,7 +6086,7 @@ const CAREERS = [
     "icono": "🛣️",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": "Carrera de grado. Modalidad: presencial. Duración a confirmar con la facultad.",
+    "cargaHoraria": "Carrera de grado de 5 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSE.",
     "queHace": "Diseña, construye y mantiene rutas, caminos y obras de infraestructura vial, incluyendo el estudio de tránsito y la señalización.",
     "problemasQueResuelve": "Necesidad de conectividad vial segura y eficiente entre localidades, un problema central en provincias extensas y con caminos rurales del NOA.",
     "perfilRecomendado": "Interés en obras públicas, matemática y trabajo de campo en construcción de caminos.",
@@ -5947,10 +6133,13 @@ const CAREERS = [
       "Software de gestión de pavimentos"
     ],
     "ventajas": [
-      "Es una ingeniería específica con poca oferta en el país"
+      "Es una ingeniería específica con poca oferta en el país",
+      "Se puede estudiar en UNSE — Facultad de Ciencias Exactas y Te, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "La demanda depende de la inversión en obra pública, que varía año a año"
+      "La demanda depende de la inversión en obra pública, que varía año a año",
+      "Es una carrera larga: 5 años de cursada",
+      "Se cursa en Santiago del Estero: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es una de las pocas carreras de Ingeniería Vial de grado que existen en universidades públicas argentinas.",
@@ -5971,7 +6160,7 @@ const CAREERS = [
       "nota": "Los valores nacionales de referencia (minería, Patagonia, grandes constructoras) suelen ser más altos; en el NEA y el NOA, fuera de sectores como minería o petróleo, los sueldos tienden a ubicarse en la mitad inferior de este rango. El techo puede ser mucho mayor en roles de dirección de obra o gerencia."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -5991,7 +6180,7 @@ const CAREERS = [
       "unaf-recnat"
     ],
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Maneja la crianza, alimentación, reproducción y mejora genética de animales de producción (bovinos, aves, porcinos, entre otros), buscando optimizar la productividad de manera sustentable.",
     "problemasQueResuelve": "Baja eficiencia productiva en establecimientos ganaderos, problemas reproductivos y genéticos, manejo sanitario y nutricional deficiente del ganado.",
     "perfilRecomendado": "Estudiantes con interés en biología animal, genética y producción agropecuaria, cómodos combinando trabajo de campo con análisis técnico.",
@@ -6043,11 +6232,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Rol especializado y valorado en el sector ganadero, históricamente relevante en Argentina",
-      "Buena salida como asesor independiente"
+      "Buena salida como asesor independiente",
+      "Se puede estudiar en UNCAUS y UNaF — Facultad de Recursos Naturales, institución pública: sin arancel de cursado"
     ],
     "desafios": [
       "Escasa disponibilidad de datos salariales específicos y confiables para esta carrera en particular (a diferencia de Ingeniería Agronómica)",
-      "Trabajo mayormente rural, alejado de grandes ciudades"
+      "Trabajo mayormente rural, alejado de grandes ciudades",
+      "Es una carrera larga: 5 años de cursada"
     ],
     "datosInteresantes": [
       "Los primeros años de la carrera suelen compartir materias básicas con Ingeniería Agronómica en varias universidades.",
@@ -6090,7 +6281,7 @@ const CAREERS = [
         "provincia": "Formosa"
       }
     ],
-    "modalidadInstituciones": "UNCAUS (Presidencia Roque Sáenz Peña): modalidad a confirmar · Presencial en la UNaF (Facultad de Recursos Naturales, Formosa)"
+    "modalidadInstituciones": "UNCAUS (Presidencia Roque Sáenz Peña): la modalidad no figura en las fuentes oficiales consultadas; consultala en la universidad · Presencial en la UNaF (Facultad de Recursos Naturales, Formosa)"
   },
   {
     "id": "licenciatura-en-administracion",
@@ -6131,7 +6322,7 @@ const CAREERS = [
     "icono": "📋",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 4 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Planifica, organiza y dirige los recursos de organizaciones públicas y privadas. Similar en su núcleo a la Licenciatura en Administración de Empresas, con foco en la gestión general de organizaciones.",
     "problemasQueResuelve": "Falta de planificación y organización en empresas u organismos públicos, necesidad de liderazgo de equipos y gestión eficiente de recursos.",
     "perfilRecomendado": "Estudiantes con interés en la gestión de organizaciones (privadas o públicas), liderazgo y toma de decisiones estratégicas.",
@@ -6228,7 +6419,7 @@ const CAREERS = [
     "icono": "📋",
     "investigado": true,
     "duracionAnios": 2,
-    "cargaHoraria": "Ciclo de Complementación Curricular a distancia (UNCAUS Virtual). Duración y requisitos de admisión a confirmar con la universidad.",
+    "cargaHoraria": "Ciclo de complementación curricular de 2 años, a distancia. La carga horaria total figura en el plan de estudios oficial de UNCAUS.",
     "queHace": "Ciclo de complementación para quienes ya tienen un título terciario en administración y quieren obtener el título universitario de grado, sin cursar toda la carrera desde el inicio.",
     "problemasQueResuelve": "Permite a técnicos y profesionales con título previo afín sumar el título de Licenciado en Administración de forma más rápida.",
     "perfilRecomendado": "Técnicos o profesionales con título previo en administración que buscan el título de grado.",
@@ -6271,10 +6462,13 @@ const CAREERS = [
       "Análisis de estados contables"
     ],
     "ventajas": [
-      "Permite sumar el título de grado en menos tiempo que empezando la carrera de cero"
+      "Permite sumar el título de grado en menos tiempo que empezando la carrera de cero",
+      "Se puede estudiar en UNCAUS, institución pública: sin arancel de cursado",
+      "Hay cursado a distancia o virtual, así que podés estudiar sin mudarte"
     ],
     "desafios": [
-      "Solo accesible para quienes ya tienen un título terciario afín"
+      "Solo accesible para quienes ya tienen un título terciario afín",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Es una salida a distancia (UNCAUS Virtual), pensada para quien ya trabaja y no puede cursar la carrera completa de forma presencial."
@@ -6310,7 +6504,7 @@ const CAREERS = [
     "icono": "🌾",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 4 años, virtual. La carga horaria total figura en el plan de estudios oficial de Siglo 21.",
     "queHace": "Dirige, planifica y gestiona organizaciones del sector agropecuario y agroindustrial: producción, comercialización, financiamiento e innovación de empresas rurales. Trabaja en conjunto con ingenieros agrónomos y veterinarios, aportando la mirada de gestión y negocio.",
     "problemasQueResuelve": "Necesidad de profesionalizar la gestión de establecimientos y empresas agropecuarias, que muchas veces se administran de forma informal, y de tomar decisiones de inversión, financiamiento y comercialización con criterio técnico.",
     "perfilRecomendado": "Estudiantes con vínculo con el campo o el agro (propio o familiar) e interés en la gestión de negocios, que quieran profesionalizar la administración de un establecimiento o trabajar en empresas del sector agroindustrial.",
@@ -6371,7 +6565,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Sueldos muy variables según se trabaje para un establecimiento propio, una empresa o en relación de dependencia",
-      "Requiere combinar criterio de negocio con conocimiento del ciclo productivo agropecuario"
+      "Requiere combinar criterio de negocio con conocimiento del ciclo productivo agropecuario",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Es una de las pocas licenciaturas del país enfocadas específicamente en la gestión (no la producción técnica) de empresas agropecuarias.",
@@ -6393,7 +6588,7 @@ const CAREERS = [
       "nota": "Al ser un título con fuerte inserción en el sector agropecuario, buena parte de la remuneración puede incluir componentes en especie o ligados a la producción, además del sueldo fijo."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -6421,7 +6616,7 @@ const CAREERS = [
     "icono": "💼",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 4 años, presencial y a distancia. La carga horaria total figura en el plan de estudios oficial de la UCP.",
     "queHace": "Planifica, organiza, dirige y controla los recursos humanos, financieros y materiales de una organización. Interviene en la toma de decisiones estratégicas, la gestión de equipos y la optimización de procesos.",
     "problemasQueResuelve": "Falta de organización o planificación en una empresa, ineficiencia en el uso de recursos, necesidad de liderazgo y coordinación de equipos, diseño de estrategias de crecimiento.",
     "perfilRecomendado": "Estudiantes con visión integral de negocios, interés en liderazgo y gestión de personas, y comodidad con el análisis de datos económicos y financieros básicos.",
@@ -6482,7 +6677,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Sueldos iniciales moderados y con mucha variación entre PyMEs y grandes empresas",
-      "Alta competencia con otros perfiles de gestión (Contador Público, Ingeniería Industrial) para los mismos puestos"
+      "Alta competencia con otros perfiles de gestión (Contador Público, Ingeniería Industrial) para los mismos puestos",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "El diferencial salarial entre industrias para un mismo perfil de administración puede llegar al 40-180% según el sector, de acuerdo a relevamientos de 2026.",
@@ -6577,7 +6773,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Requiere actualización constante en tecnologías cloud, que evolucionan rápido",
-      "Responsabilidad alta: errores de infraestructura pueden afectar a toda una organización"
+      "Responsabilidad alta: errores de infraestructura pueden afectar a toda una organización",
+      "Se estudia en una institución privada: hay que contar con el costo de la cuota"
     ],
     "datosInteresantes": [
       "Los roles de administración de infraestructura y DevOps suelen estar entre los mejor pagos dentro del sector de desarrollo de software en Argentina, dado el nivel de responsabilidad y especialización que requieren."
@@ -6598,7 +6795,7 @@ const CAREERS = [
       "nota": "No se encontró un relevamiento salarial específico y separado para este título en particular; se usó como referencia el mercado general de IT (Ingeniería en Sistemas), ya que los roles de infraestructura y DevOps compiten por los mismos puestos independientemente del título de grado obtenido."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -6672,7 +6869,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Fuentes salariales generales del sector muestran mucha dispersión según el tipo de institución (pública/privada) y el cargo específico",
-      "El sector salud argentino enfrenta tensiones presupuestarias recurrentes que pueden afectar la gestión"
+      "El sector salud argentino enfrenta tensiones presupuestarias recurrentes que pueden afectar la gestión",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Un autorreporte real de sueldos de 2026 describe a una 'Facturista y liquidadora de una administradora de servicio de salud' con 18 años de antigüedad y 30 horas semanales, ganando $1.650.000 mensuales, lo que da una referencia concreta (aunque de alta antigüedad) para roles administrativos del sector salud."
@@ -6694,7 +6892,7 @@ const CAREERS = [
       "nota": "Los relevamientos generales para 'administrativo de salud' muestran una dispersión extrema (desde $150.000 hasta $1.650.000 anuales según la fuente, con inconsistencias evidentes). Se priorizó un caso real y concreto de un autorreporte de trabajador del sector (con 18 años de antigüedad) como ancla más confiable que los promedios automáticos de portales de empleo."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -6709,7 +6907,7 @@ const CAREERS = [
     "icono": "🏨",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 4 años, virtual. La carga horaria total figura en el plan de estudios oficial de Siglo 21.",
     "queHace": "Gestiona todas las áreas de un hotel o establecimiento de alojamiento (recepción, housekeeping, alimentos y bebidas, ventas y reservas), asegura la calidad del servicio al huésped y administra la rentabilidad del negocio hotelero.",
     "problemasQueResuelve": "Necesidad de profesionalizar la gestión hotelera para mejorar la rentabilidad, la ocupación y la experiencia del huésped en un sector con alta competencia y estacionalidad.",
     "perfilRecomendado": "Estudiantes con vocación de servicio, orientación al detalle y gusto por la hospitalidad, interesados en gestionar hoteles, hostels o complejos de alojamiento.",
@@ -6758,11 +6956,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Uso de simuladores de sistemas hoteleros reales (como el sistema Opera) durante la carrera",
-      "Doble titulación posible con Licenciatura en Gestión Turística"
+      "Doble titulación posible con Licenciatura en Gestión Turística",
+      "Hay cursado a distancia o virtual, así que podés estudiar sin mudarte"
     ],
     "desafios": [
       "Horarios que suelen incluir fines de semana y feriados, por la naturaleza del negocio hotelero",
-      "Alta sensibilidad a la estacionalidad turística"
+      "Alta sensibilidad a la estacionalidad turística",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "La carrera incluye formación práctica en el sistema de gestión hotelera Opera, uno de los más usados por hoteles y cadenas en todo el mundo."
@@ -6783,7 +6983,7 @@ const CAREERS = [
       "nota": "En muchos establecimientos hoteleros, especialmente boutique, parte de la remuneración incluye alojamiento o comidas, además del sueldo fijo."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -6857,7 +7057,8 @@ const CAREERS = [
     ],
     "desafios": [
       "El ingreso a organismos públicos suele depender de concursos o convocatorias específicas, no siempre disponibles",
-      "El sueldo se rige por escalafones estatales que varían mucho según la jurisdicción y no por el mercado privado"
+      "El sueldo se rige por escalafones estatales que varían mucho según la jurisdicción y no por el mercado privado",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Ciudades como Buenos Aires publican sus grillas salariales de la Carrera de Administración Pública (CAP) de forma abierta en portales de datos públicos, lo que permite consultar con precisión el sueldo de cada categoría y grado del escalafón estatal."
@@ -6878,7 +7079,7 @@ const CAREERS = [
       "nota": "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -6901,7 +7102,7 @@ const CAREERS = [
     "icono": "🌾",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 4 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UTN.",
     "queHace": "Administra y gestiona establecimientos agropecuarios y agroindustriales: planifica costos de producción, organiza la comercialización de granos y hacienda, evalúa proyectos de inversión rural y asesora en financiamiento del sector.",
     "problemasQueResuelve": "Necesidad de gestión profesional en el campo argentino, un sector que mueve mucho dinero pero donde muchas veces la administración queda en manos de quien no tiene formación específica en costos, financiamiento o comercialización agropecuaria.",
     "perfilRecomendado": "Interés en el campo, los negocios agropecuarios y la gestión de empresas rurales, en una región (el norte santafesino) con fuerte producción algodonera, ganadera y lechera.",
@@ -6949,10 +7150,12 @@ const CAREERS = [
     ],
     "ventajas": [
       "Formación específica para una de las economías regionales más importantes del norte santafesino",
-      "Alta posibilidad de gestión de establecimiento propio"
+      "Alta posibilidad de gestión de establecimiento propio",
+      "Se puede estudiar en FRRQ, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "Los ingresos del sector agropecuario son variables según el clima y los precios internacionales de los commodities"
+      "Los ingresos del sector agropecuario son variables según el clima y los precios internacionales de los commodities",
+      "Se cursa en Reconquista: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es una de las dos licenciaturas (junto con Organización Industrial) que ofrece la UTN Facultad Regional Reconquista, complementando sus ingenierías tradicionales."
@@ -6970,7 +7173,7 @@ const CAREERS = [
       "nota": "Como en toda la familia agropecuaria, quienes gestionan un establecimiento propio pueden superar ampliamente estos valores en buenas campañas, y estar por debajo en años de sequía o precios bajos."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -6987,7 +7190,7 @@ const CAREERS = [
     "icono": "🌾",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 4 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UTN.",
     "queHace": "Planifica, organiza y administra empresas agropecuarias, forestales y agroindustriales: evalúa su funcionamiento, detecta falencias, determina la eficiencia en el uso de los recursos, calcula costos de producción, estima ingresos, orienta la comercialización y define el financiamiento del negocio.",
     "problemasQueResuelve": "Necesidad de profesionalizar la gestión de establecimientos y organizaciones del sector agropecuario y agroindustrial, integrando conocimientos técnicos, económicos y productivos que muchas veces se manejan de forma empírica en el campo.",
     "perfilRecomendado": "Estudiantes con vínculo con el campo (propio o familiar) o interés en el agro, que busquen un perfil de gestión y negocios más que uno técnico-productivo, y valoren estudiar en una universidad pública y gratuita.",
@@ -7048,7 +7251,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Sueldos muy variables según se trabaje para un establecimiento propio, una empresa o en relación de dependencia",
-      "Requiere combinar criterio de negocio con conocimiento del ciclo productivo agropecuario"
+      "Requiere combinar criterio de negocio con conocimiento del ciclo productivo agropecuario",
+      "Se cursa en Resistencia: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es una carrera poco común en el país: se dicta solo en un puñado de facultades regionales de la UTN ubicadas en zonas de fuerte actividad agropecuaria (entre ellas Resistencia, Rafaela, San Francisco, Concordia, Reconquista, Trenque Lauquen y Villa María)."
@@ -7069,7 +7273,7 @@ const CAREERS = [
       "nota": "Al ser un título con fuerte inserción en el sector agropecuario, buena parte de la remuneración puede incluir componentes en especie o ligados a la producción, además del sueldo fijo."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -7137,10 +7341,13 @@ const CAREERS = [
       "Sistemas de trazabilidad agropecuaria"
     ],
     "ventajas": [
-      "Permite sumar el título de grado en menos tiempo, aprovechando la formación técnica previa"
+      "Permite sumar el título de grado en menos tiempo, aprovechando la formación técnica previa",
+      "Se puede estudiar en UNNE — Facultad de Ciencias Veterinarias, institución pública: sin arancel de cursado",
+      "Es un ciclo de complementación: se aprovecha el título previo para completar la licenciatura"
     ],
     "desafios": [
-      "Solo accesible para quienes ya tienen el título técnico previo"
+      "Solo accesible para quienes ya tienen el título técnico previo",
+      "Se cursa en Corrientes: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Se dicta en Curuzú Cuatiá, en el corazón de una zona ganadera y agrícola importante de Corrientes.",
@@ -7160,7 +7367,7 @@ const CAREERS = [
       "nota": "Como en toda el área de administración y economía, los sueldos varían mucho según se trabaje para una PyME, una empresa grande o el sector público, y según la provincia."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -7233,7 +7440,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Al ser una carrera nueva, no se encontró un relevamiento salarial específico y confiable en Argentina",
-      "Mercado laboral de nicho, más chico que el de informática general"
+      "Mercado laboral de nicho, más chico que el de informática general",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Es una de las carreras señaladas como 'nuevas' dentro de la oferta 2026 de Siglo 21, reflejando el crecimiento del agtech como sector en expansión en Argentina."
@@ -7271,7 +7479,7 @@ const CAREERS = [
     "icono": "🔋",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 4 años, virtual. La carga horaria total figura en el plan de estudios oficial de Siglo 21.",
     "queHace": "Evalúa el impacto ambiental de proyectos y actividades productivas, diseña e implementa políticas de gestión sustentable, promueve el uso eficiente de recursos y energías renovables, y participa en equipos interdisciplinarios de soluciones ambientales y energéticas.",
     "problemasQueResuelve": "Necesidad de optimizar el uso de la energía en organizaciones, incorporar fuentes renovables (solar, eólica, biomasa) y auditar el impacto ambiental de proyectos energéticos y territoriales.",
     "perfilRecomendado": "Estudiantes interesados tanto en el cuidado ambiental como en la energía y la tecnología, con mirada de gestión de proyectos más que de ingeniería pura.",
@@ -7320,11 +7528,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Carrera con proyección de futuro por la transición energética",
-      "Combina dos áreas de alta demanda: ambiente y energía"
+      "Combina dos áreas de alta demanda: ambiente y energía",
+      "Hay cursado a distancia o virtual, así que podés estudiar sin mudarte"
     ],
     "desafios": [
       "Mercado laboral todavía concentrado en determinadas regiones del país con proyectos renovables activos",
-      "Requiere actualización constante en tecnología energética"
+      "Requiere actualización constante en tecnología energética",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Argentina cuenta con la Ley 27.191 de fomento de las energías renovables, que exige a grandes usuarios de energía abastecerse en parte con fuentes renovables, un marco directamente vinculado a esta carrera."
@@ -7345,7 +7555,7 @@ const CAREERS = [
       "nota": "Los sueldos suelen ser más altos en empresas del sector energético que en consultoras ambientales generales."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -7372,7 +7582,7 @@ const CAREERS = [
     "icono": "🖥️",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSa.",
     "queHace": "Diseña, desarrolla e implementa sistemas de software para empresas y organismos, con foco en análisis de requerimientos, programación y gestión de proyectos informáticos.",
     "problemasQueResuelve": "Necesidad de digitalizar procesos y desarrollar software a medida para empresas y organismos de la región.",
     "perfilRecomendado": "Interés en programación, lógica y resolución de problemas con tecnología.",
@@ -7417,10 +7627,13 @@ const CAREERS = [
       "Herramientas de modelado de sistemas (UML)"
     ],
     "ventajas": [
-      "Muy buena empleabilidad y posibilidad de trabajo remoto"
+      "Muy buena empleabilidad y posibilidad de trabajo remoto",
+      "Se puede estudiar en UNSa — Facultad de Ciencias Exactas, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "Requiere actualización constante ante los cambios tecnológicos"
+      "Requiere actualización constante ante los cambios tecnológicos",
+      "Es una carrera larga: 5 años de cursada",
+      "Se cursa en Salta: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es el equivalente en la UNSa a la Licenciatura en Sistemas de Información que dictan otras universidades de la región.",
@@ -7440,7 +7653,7 @@ const CAREERS = [
       "nota": "Es uno de los sectores con mayor variabilidad: un desarrollador que trabaja para una empresa argentina cobra en pesos dentro de este rango, pero uno que trabaja en remoto para una empresa extranjera puede cobrar en dólares, muy por encima de estos valores."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -7463,7 +7676,7 @@ const CAREERS = [
     "icono": "🗿",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSa.",
     "queHace": "Estudia la diversidad cultural, social y biológica de los grupos humanos: pueblos originarios, patrimonio cultural, arqueología y dinámicas sociales contemporáneas.",
     "problemasQueResuelve": "Necesidad de comprender y documentar la diversidad cultural de una región con fuerte presencia de pueblos originarios, como el norte argentino, y de asesorar en políticas públicas relacionadas.",
     "perfilRecomendado": "Interés en las culturas, los pueblos originarios, la arqueología y el trabajo de campo etnográfico.",
@@ -7510,10 +7723,13 @@ const CAREERS = [
       "Técnicas de trabajo de campo"
     ],
     "ventajas": [
-      "Salta y el NOA tienen una fuerte presencia de pueblos originarios y patrimonio arqueológico, lo que da relevancia local a esta carrera"
+      "Salta y el NOA tienen una fuerte presencia de pueblos originarios y patrimonio arqueológico, lo que da relevancia local a esta carrera",
+      "Se puede estudiar en UNSa — Facultad de Humanidades, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "Mercado laboral acotado fuera de la investigación y la consultoría específica"
+      "Mercado laboral acotado fuera de la investigación y la consultoría específica",
+      "Es una carrera larga: 5 años de cursada",
+      "Se cursa en Salta: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Los estudios de impacto sociocultural que exige la legislación minera y de hidrocarburos generan una demanda específica de antropólogos en el norte argentino.",
@@ -7532,7 +7748,7 @@ const CAREERS = [
       "nota": "Buena parte de las salidas de esta familia (investigación, docencia universitaria) dependen de becas o cargos concursados, con ingresos que crecen lento pero de forma más previsible que en el sector privado."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -7549,7 +7765,7 @@ const CAREERS = [
     "icono": "🧑‍🤝‍🧑",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 4 años, virtual. La carga horaria total figura en el plan de estudios oficial de Siglo 21.",
     "queHace": "Analiza hábitos, valores, creencias y conflictos socioculturales de los grupos humanos y su impacto en las organizaciones y las relaciones laborales. Diseña políticas para mejorar la cultura organizacional y facilita el diálogo entre generaciones, sectores y comunidades dentro de una empresa o institución.",
     "problemasQueResuelve": "Conflictos de convivencia y comunicación entre distintas generaciones y culturas dentro de una misma organización, resistencia al cambio cultural, y necesidad de políticas de bienestar e inclusión con base científica (no solo intuitiva).",
     "perfilRecomendado": "Estudiantes con interés en las ciencias sociales, la cultura y el comportamiento humano, que quieran aplicar esa mirada al mundo del trabajo y las organizaciones (en vez de la investigación académica pura).",
@@ -7602,11 +7818,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Mirada distinta y complementaria a la de Recursos Humanos tradicional",
-      "Aplicable tanto a empresas privadas como a organizaciones sociales y estatales"
+      "Aplicable tanto a empresas privadas como a organizaciones sociales y estatales",
+      "Hay cursado a distancia o virtual, así que podés estudiar sin mudarte"
     ],
     "desafios": [
       "Es un perfil profesional todavía poco conocido en el mercado argentino, lo que puede exigir explicar el rol al buscar trabajo",
-      "Salida laboral menos estructurada que la de carreras más tradicionales de RRHH"
+      "Salida laboral menos estructurada que la de carreras más tradicionales de RRHH",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Es una de las pocas licenciaturas del país que aplica específicamente la antropología (y no solo la psicología o la administración) al mundo de las organizaciones."
@@ -7627,7 +7845,7 @@ const CAREERS = [
       "nota": "Al ser un rol que suele integrarse a equipos de Recursos Humanos, los sueldos tienden a seguir esa escala salarial."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -7644,7 +7862,7 @@ const CAREERS = [
     "icono": "🎭",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 4 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNNE.",
     "queHace": "Forma artistas e investigadores en artes con una mirada integradora entre distintos lenguajes artísticos (visuales, escénicos, musicales), orientada tanto a la creación como a la gestión y crítica del arte.",
     "problemasQueResuelve": "Necesidad de profesionales con una formación artística amplia, capaces de trabajar en proyectos que combinan distintas disciplinas artísticas.",
     "perfilRecomendado": "Interés en el arte en general, con apertura a trabajar entre distintas disciplinas en vez de especializarse en una sola.",
@@ -7689,10 +7907,12 @@ const CAREERS = [
       "Técnicas de curaduría"
     ],
     "ventajas": [
-      "Formación amplia que permite moverse entre distintas disciplinas artísticas"
+      "Formación amplia que permite moverse entre distintas disciplinas artísticas",
+      "Se puede estudiar en UNNE — Facultad de Artes, Diseño y Cienc, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "La salida laboral depende en gran parte de la propia producción y red de contactos del artista"
+      "La salida laboral depende en gran parte de la propia producción y red de contactos del artista",
+      "Se cursa en Resistencia: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es una carrera poco común en el país, con un enfoque integrador entre disciplinas en vez de una sola especialidad artística.",
@@ -7711,7 +7931,7 @@ const CAREERS = [
       "nota": "Es uno de los rubros con mayor variabilidad: trabajar en relación de dependencia para una empresa local da sueldos en la parte baja del rango, mientras que el freelance para clientes de otras provincias o del exterior puede superar ampliamente el techo mostrado."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -7729,7 +7949,7 @@ const CAREERS = [
     "icono": "🧬",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 4 años, virtual. La carga horaria total figura en el plan de estudios oficial de Siglo 21.",
     "queHace": "Combina biología e informática para analizar grandes volúmenes de datos biológicos y genómicos, desarrollar software aplicado a la salud y la investigación, y trabajar con bases de datos científicas.",
     "problemasQueResuelve": "Análisis de grandes volúmenes de datos genéticos y biológicos que requieren herramientas computacionales, un campo en fuerte crecimiento en biotecnología y salud.",
     "perfilRecomendado": "Interés combinado por la biología, la genética y la programación o el análisis de datos.",
@@ -7778,10 +7998,13 @@ const CAREERS = [
       "Software de análisis genómico"
     ],
     "ventajas": [
-      "Es una carrera nueva y con poca oferta, lo que reduce la competencia entre graduados"
+      "Es una carrera nueva y con poca oferta, lo que reduce la competencia entre graduados",
+      "Hay cursado a distancia o virtual, así que podés estudiar sin mudarte"
     ],
     "desafios": [
-      "El mercado laboral argentino para bioinformática es todavía chico y concentrado en pocas instituciones"
+      "El mercado laboral argentino para bioinformática es todavía chico y concentrado en pocas instituciones",
+      "La cursada a distancia exige organización y autodisciplina",
+      "Se estudia en una institución privada: hay que contar con el costo de la cuota"
     ],
     "datosInteresantes": [
       "Es de las pocas licenciaturas en Bioinformática dictadas 100% a distancia en Argentina.",
@@ -7801,7 +8024,7 @@ const CAREERS = [
       "nota": "Es un campo muy nuevo en el país, con pocos puestos específicos; muchos graduados terminan compitiendo por sueldos similares a los de ciencia de datos general."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -7833,7 +8056,7 @@ const CAREERS = [
     "icono": "🧬",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Aplica conocimientos de biología molecular, genética y microbiología para desarrollar productos y procesos: desde medicamentos y vacunas hasta mejoras genéticas en cultivos o procesos industriales más limpios. Trabaja en investigación, desarrollo de producto y control de calidad.",
     "problemasQueResuelve": "Desarrollo de nuevos medicamentos y vacunas, mejoramiento genético de cultivos y animales, procesos industriales más sustentables, diagnóstico biotecnológico de enfermedades, tratamiento biológico de residuos.",
     "perfilRecomendado": "Estudiantes con fuerte interés en biología, química y genética, curiosidad científica y gusto por el trabajo de laboratorio y la investigación.",
@@ -7950,7 +8173,7 @@ const CAREERS = [
     "icono": "🍲",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Controla la calidad e higiene de los alimentos: análisis bromatológico, control sanitario de plantas alimenticias y asesoramiento en seguridad alimentaria.",
     "problemasQueResuelve": "Garantizar la seguridad e higiene de los alimentos que se producen y consumen, previniendo enfermedades transmitidas por alimentos.",
     "perfilRecomendado": "Interés en la química, la salud y el control de calidad de alimentos.",
@@ -7996,10 +8219,13 @@ const CAREERS = [
       "Software de gestión de calidad"
     ],
     "ventajas": [
-      "Salida laboral asegurada en organismos públicos de control bromatológico"
+      "Salida laboral asegurada en organismos públicos de control bromatológico",
+      "Se dicta en 2 instituciones de la región, así que podés comparar y elegir dónde cursarla"
     ],
     "desafios": [
-      "Carrera exigente con fuerte base de química"
+      "Carrera exigente con fuerte base de química",
+      "Es una carrera larga: 5 años de cursada",
+      "Los planes, la duración y las condiciones pueden variar según la institución: conviene compararlos antes de elegir"
     ],
     "datosInteresantes": [
       "Todo municipio necesita profesionales de bromatología para habilitar y controlar comercios de alimentos, lo que asegura demanda constante.",
@@ -8096,7 +8322,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Formación exigente que combina matemática, estadística y programación",
-      "Gran dispersión entre fuentes en pesos argentinos, por lo que muchas referencias de 2026 se dan directamente en dólares"
+      "Gran dispersión entre fuentes en pesos argentinos, por lo que muchas referencias de 2026 se dan directamente en dólares",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Según Talently (2026), un Data Scientist/Data Engineer junior en Argentina gana en promedio USD 1.120–1.480 por mes, un semi-senior USD 1.400–1.850, y un senior USD 1.820–2.405, cifras alineadas a contratos remotos con clientes internacionales.",
@@ -8120,7 +8347,7 @@ const CAREERS = [
       "nota": "A diferencia de otras carreras de este sitio, en el sector de datos y tecnología es habitual que las referencias salariales se expresen directamente en dólares, dada la alta proporción de contratos remotos con empresas del exterior y la volatilidad del peso argentino. El equivalente en pesos es orientativo y depende del tipo de cambio del momento."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -8195,7 +8422,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Las fuentes salariales disponibles muestran cifras muy bajas y con pocas muestras, lo que dificulta dar una cifra confiable",
-      "La estabilidad laboral en el sector público puede depender de los cambios de gestión de gobierno"
+      "La estabilidad laboral en el sector público puede depender de los cambios de gestión de gobierno",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Según una nota especializada de 2025, en Argentina el salario mensual promedio de los licenciados en ciencias políticas rondaba los $354.000, con un rango entre $340.000 y $406.000 según experiencia y empleador, aunque los relevamientos disponibles para esta carrera en general muestran mucha dispersión y pocas muestras."
@@ -8216,7 +8444,7 @@ const CAREERS = [
       "nota": "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -8247,7 +8475,7 @@ const CAREERS = [
     "icono": "🧬",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Investiga los seres vivos y los ecosistemas: biología molecular, ecología, biodiversidad, y aplica ese conocimiento a la conservación ambiental y la biotecnología.",
     "problemasQueResuelve": "Estudio y conservación de la biodiversidad regional, y aplicación del conocimiento biológico a la biotecnología, la salud y el medio ambiente.",
     "perfilRecomendado": "Interés en la naturaleza, los seres vivos y la investigación científica.",
@@ -8295,10 +8523,14 @@ const CAREERS = [
       "Técnicas de trabajo de campo"
     ],
     "ventajas": [
-      "El NEA y el NOA tienen una biodiversidad muy rica (Esteros del Iberá, Chaco, Yungas), lo que da un campo de estudio amplio"
+      "El NEA y el NOA tienen una biodiversidad muy rica (Esteros del Iberá, Chaco, Yungas), lo que da un campo de estudio amplio",
+      "Se puede estudiar en UNNE — Facultad de Ciencias Exactas y Na y UNSa — Facultad de Ciencias Naturales, institución pública: sin arancel de cursado",
+      "Se dicta en 2 instituciones de la región, así que podés comparar y elegir dónde cursarla"
     ],
     "desafios": [
-      "Salida laboral concentrada en investigación y docencia, con pocas becas disponibles"
+      "Salida laboral concentrada en investigación y docencia, con pocas becas disponibles",
+      "Es una carrera larga: 5 años de cursada",
+      "Los planes, la duración y las condiciones pueden variar según la institución: conviene compararlos antes de elegir"
     ],
     "datosInteresantes": [
       "La riqueza de ecosistemas del norte argentino (Esteros del Iberá, Impenetrable chaqueño, Yungas salteñas) convierte a esta región en un polo de investigación en biología y conservación.",
@@ -8317,7 +8549,7 @@ const CAREERS = [
       "nota": "La salida en investigación pura (CONICET, universidades) crece lento y depende de becas; en cambio, quienes se insertan en industrias como la minería o el petróleo (frecuente para Geología) pueden acceder a sueldos bastante más altos."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -8340,7 +8572,7 @@ const CAREERS = [
     "icono": "📡",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 4 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSa.",
     "queHace": "Forma profesionales en comunicación para trabajar en medios, comunicación institucional y gestión de contenido digital, con formación teórica y práctica sobre los procesos comunicacionales.",
     "problemasQueResuelve": "Necesidad de profesionales que gestionen la comunicación de organizaciones y que trabajen en medios de comunicación con formación específica.",
     "perfilRecomendado": "Interés en los medios, la comunicación institucional y las redes sociales.",
@@ -8388,7 +8620,8 @@ const CAREERS = [
       "Perfil versátil, con salida en medios, empresas y organismos públicos"
     ],
     "desafios": [
-      "El periodismo tradicional tiene salarios dispares; conviene sumar habilidades digitales"
+      "El periodismo tradicional tiene salarios dispares; conviene sumar habilidades digitales",
+      "Se cursa en Salta: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Comparte buena parte del primer tramo con la Tecnicatura en Comunicación Social, dictada en Tartagal.",
@@ -8407,7 +8640,7 @@ const CAREERS = [
       "nota": "Es uno de los rubros con mayor variabilidad: trabajar en relación de dependencia para una empresa local da sueldos en la parte baja del rango, mientras que el freelance para clientes de otras provincias o del exterior puede superar ampliamente el techo mostrado."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -8439,7 +8672,7 @@ const CAREERS = [
     "icono": "🎓",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Investiga, diseña y gestiona políticas y proyectos educativos: currículum, capacitación docente, evaluación de sistemas educativos y gestión de instituciones.",
     "problemasQueResuelve": "Necesidad de profesionales con mirada integral sobre el sistema educativo, más allá del aula, para planificar políticas, currículums y programas de formación docente.",
     "perfilRecomendado": "Interés en la educación desde una perspectiva de gestión, investigación y política educativa, más que en la docencia de aula.",
@@ -8486,10 +8719,14 @@ const CAREERS = [
       "Metodologías de investigación educativa"
     ],
     "ventajas": [
-      "Salida laboral orientada a gestión, con posibilidad de crecer hacia cargos directivos y técnicos"
+      "Salida laboral orientada a gestión, con posibilidad de crecer hacia cargos directivos y técnicos",
+      "Se puede estudiar en UNNE — Facultad de Humanidades y UNSa — Facultad de Humanidades, institución pública: sin arancel de cursado",
+      "Se dicta en 2 instituciones de la región, así que podés comparar y elegir dónde cursarla"
     ],
     "desafios": [
-      "Mercado laboral más chico que el de un profesorado de aula"
+      "Mercado laboral más chico que el de un profesorado de aula",
+      "Es una carrera larga: 5 años de cursada",
+      "Los planes, la duración y las condiciones pueden variar según la institución: conviene compararlos antes de elegir"
     ],
     "datosInteresantes": [
       "Es habitual que quienes la cursan ya tengan un profesorado y busquen ampliar su perfil hacia la gestión educativa.",
@@ -8509,7 +8746,7 @@ const CAREERS = [
       "nota": "El sueldo docente depende mucho de la cantidad de horas cátedra o cargos que se tomen, la antigüedad y la provincia. La cifra mostrada es para un cargo inicial de jornada estándar; sumando horas extra o un segundo cargo, el ingreso puede ser bastante mayor. Los valores exactos cambian con cada paritaria (cada 2-3 meses aprox.), así que conviene tomarlos como orientativos."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -8526,7 +8763,7 @@ const CAREERS = [
     "icono": "🗃️",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNNE.",
     "queHace": "Forma profesionales de grado en gestión de la información, con orientación en Archivología o Bibliotecología, para dirigir archivos, bibliotecas y centros de documentación.",
     "problemasQueResuelve": "Necesidad de profesionales con formación de grado (no solo técnica) para dirigir y planificar sistemas de información documental en instituciones grandes.",
     "perfilRecomendado": "Egresados de Archivista o Bibliotecario que quieren profundizar su formación, o quien empieza directamente buscando el título de grado.",
@@ -8569,10 +8806,13 @@ const CAREERS = [
       "Sistemas de preservación digital"
     ],
     "ventajas": [
-      "Habilita a cargos de dirección que el título de pregrado no cubre"
+      "Habilita a cargos de dirección que el título de pregrado no cubre",
+      "Se puede estudiar en UNNE — Facultad de Humanidades, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "Mercado laboral acotado y muy ligado a instituciones grandes"
+      "Mercado laboral acotado y muy ligado a instituciones grandes",
+      "Es una carrera larga: 5 años de cursada",
+      "Se cursa en Resistencia: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Permite especializarse en Archivología o en Bibliotecología dentro de la misma licenciatura.",
@@ -8591,7 +8831,7 @@ const CAREERS = [
       "nota": "Buena parte de las salidas de esta familia (investigación, docencia universitaria) dependen de becas o cargos concursados, con ingresos que crecen lento pero de forma más previsible que en el sector privado."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -8608,7 +8848,7 @@ const CAREERS = [
     "icono": "⚛️",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNNE.",
     "queHace": "Investiga y aplica los principios de la física a problemas científicos y tecnológicos: desde física teórica hasta aplicaciones en energía, instrumentación y tecnología.",
     "problemasQueResuelve": "Desarrollo de investigación científica básica y aplicada, y formación de especialistas para sectores que requieren modelado físico avanzado (energía, tecnología, instrumentación).",
     "perfilRecomendado": "Fuerte interés en matemática y física teórica, con vocación de investigación.",
@@ -8653,10 +8893,13 @@ const CAREERS = [
       "Métodos matemáticos avanzados"
     ],
     "ventajas": [
-      "Formación muy sólida en matemática y modelado, útil también para áreas de datos y tecnología"
+      "Formación muy sólida en matemática y modelado, útil también para áreas de datos y tecnología",
+      "Se puede estudiar en UNNE — Facultad de Ciencias Exactas y Na, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "Salida laboral concentrada en investigación y docencia, con pocas becas disponibles"
+      "Salida laboral concentrada en investigación y docencia, con pocas becas disponibles",
+      "Es una carrera larga: 5 años de cursada",
+      "Se cursa en Corrientes: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Muchos licenciados en Física terminan trabajando en ciencia de datos o finanzas cuantitativas por la solidez de su formación matemática.",
@@ -8675,7 +8918,7 @@ const CAREERS = [
       "nota": "La salida en investigación pura (CONICET, universidades) crece lento y depende de becas; en cambio, quienes se insertan en industrias como la minería o el petróleo (frecuente para Geología) pueden acceder a sueldos bastante más altos."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -8692,7 +8935,7 @@ const CAREERS = [
     "icono": "🧪",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNNE.",
     "queHace": "Investiga y aplica la química a distintos campos: análisis de sustancias, desarrollo de nuevos materiales, control de calidad industrial y ambiental.",
     "problemasQueResuelve": "Análisis y desarrollo de sustancias químicas para la industria, control de calidad de productos y monitoreo ambiental.",
     "perfilRecomendado": "Interés en química, trabajo de laboratorio y experimentación.",
@@ -8740,10 +8983,13 @@ const CAREERS = [
       "Normas de calidad y seguridad química"
     ],
     "ventajas": [
-      "Formación versátil, con salida tanto en industria como en investigación"
+      "Formación versátil, con salida tanto en industria como en investigación",
+      "Se puede estudiar en UNNE — Facultad de Ciencias Exactas y Na, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "Carrera exigente con alta carga de laboratorio"
+      "Carrera exigente con alta carga de laboratorio",
+      "Es una carrera larga: 5 años de cursada",
+      "Se cursa en Corrientes: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Comparte buena parte del primer tramo de la carrera con el Profesorado en Ciencias Químicas de la misma facultad.",
@@ -8762,7 +9008,7 @@ const CAREERS = [
       "nota": "La salida en investigación pura (CONICET, universidades) crece lento y depende de becas; en cambio, quienes se insertan en industrias como la minería o el petróleo (frecuente para Geología) pueden acceder a sueldos bastante más altos."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -8789,7 +9035,7 @@ const CAREERS = [
     "icono": "🥫",
     "investigado": true,
     "duracionAnios": 1.5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Ciclo de complementación curricular de 1,5 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNL.",
     "queHace": "Diseña y formula nuevos productos alimenticios, participa en proyectos de investigación, actúa en arbitrajes y peritajes, integra organismos de control del área alimenticia, y puede proyectar, instalar y dirigir laboratorios de análisis de alimentos.",
     "problemasQueResuelve": "Permite a técnicos en tecnología de alimentos ya recibidos sumar el título universitario de grado, con capacidad de dirigir laboratorios y proyectos que el título de pregrado no habilita.",
     "perfilRecomendado": "Técnicos en Tecnología de Alimentos (egresados del CU-RA o del Centro Universitario Gálvez) que quieren profundizar su formación y acceder a roles de mayor responsabilidad.",
@@ -8837,10 +9083,12 @@ const CAREERS = [
     ],
     "ventajas": [
       "Se dicta con materias en modalidad híbrida, pensada para minimizar los viajes a la sede central de Santa Fe",
-      "Habilita a dirigir laboratorios, algo que el título de técnico no permite"
+      "Habilita a dirigir laboratorios, algo que el título de técnico no permite",
+      "Se puede estudiar en CU-RA, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "Solo accesible para quienes ya tienen el título de técnico previo (del CU-RA o del CU-Gálvez)"
+      "Solo accesible para quienes ya tienen el título de técnico previo (del CU-RA o del CU-Gálvez)",
+      "Se cursa en Reconquista: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es una carrera compartida entre varias facultades de la UNL (Ingeniería Química, Bioquímica y Ciencias Biológicas, Ciencias Veterinarias, Ciencias Agrarias) y los dos centros universitarios que forman a los técnicos previos: Reconquista-Avellaneda y Gálvez."
@@ -8858,7 +9106,7 @@ const CAREERS = [
       "nota": "Al habilitar la dirección técnica de laboratorios y plantas, el título de licenciatura permite acceder a sueldos más altos que el de técnico solo."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -8934,7 +9182,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Enorme dispersión salarial entre fuentes: desde valores muy bajos hasta cifras millonarias para el mismo puesto según el tipo de empresa",
-      "Alta competencia y necesidad de actualización constante en herramientas digitales"
+      "Alta competencia y necesidad de actualización constante en herramientas digitales",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Según el Instituto SABER, un asistente/analista junior de marketing en Argentina gana entre $550.000 y $750.000 mensuales en 2026, mientras que especialistas en marketing digital (SEO/SEM, e-commerce) pueden ganar entre $700.000 y $1.600.000.",
@@ -8958,7 +9207,7 @@ const CAREERS = [
       "nota": "Enorme dispersión entre fuentes: Glassdoor muestra promedios muy bajos (basados en pocas muestras), mientras que la nota especializada de Instituto SABER y los autorreportes de trabajadores reflejan mejor la realidad de 2026, con una brecha grande entre marketing tradicional y marketing digital especializado."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -8986,7 +9235,7 @@ const CAREERS = [
     "icono": "🚢",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Forma especialistas en operaciones de importación y exportación: logística internacional, normativa aduanera, negociación internacional y gestión de comercio exterior para empresas.",
     "problemasQueResuelve": "Necesidad de profesionales que gestionen las operaciones de comercio exterior de empresas exportadoras e importadoras, un área clave en una región productora de materias primas.",
     "perfilRecomendado": "Interés en el comercio internacional, la logística y la negociación.",
@@ -9034,10 +9283,14 @@ const CAREERS = [
       "Incoterms y documentación de comercio exterior"
     ],
     "ventajas": [
-      "Se dicta en Paso de los Libres, ciudad de frontera con fuerte actividad de comercio internacional"
+      "Se dicta en Paso de los Libres, ciudad de frontera con fuerte actividad de comercio internacional",
+      "Se puede estudiar en UNNE — Facultad de Ciencias Económicas y UNaF — Facultad de Administración, Econo, institución pública: sin arancel de cursado",
+      "Se dicta en 2 instituciones de la región, así que podés comparar y elegir dónde cursarla"
     ],
     "desafios": [
-      "La demanda está muy ligada al ritmo de las exportaciones regionales, que dependen de precios internacionales"
+      "La demanda está muy ligada al ritmo de las exportaciones regionales, que dependen de precios internacionales",
+      "Es una carrera larga: 5 años de cursada",
+      "Los planes, la duración y las condiciones pueden variar según la institución: conviene compararlos antes de elegir"
     ],
     "datosInteresantes": [
       "Se dicta específicamente en Paso de los Libres, una de las principales ciudades de frontera con Brasil, lo que le da una salida laboral directa en logística de frontera.",
@@ -9083,7 +9336,7 @@ const CAREERS = [
     "icono": "🌎",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 4 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Gestiona operaciones de comercio exterior: importación, exportación, logística internacional, normativa aduanera y negociación con clientes y proveedores de otros países. Participa en áreas de supply chain, compliance aduanero y desarrollo de nuevos mercados.",
     "problemasQueResuelve": "Gestión de trámites aduaneros y normativa de comercio exterior, apertura de nuevos mercados internacionales para empresas, optimización de la logística de importación/exportación, cumplimiento normativo en operaciones internacionales.",
     "perfilRecomendado": "Estudiantes con interés en negocios internacionales, idiomas, geografía económica y una mirada global; se valora el manejo de inglés y disposición a interactuar con distintas culturas.",
@@ -9144,7 +9397,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Normativa aduanera cambiante que exige actualización constante",
-      "Sueldos iniciales muy variables según el tamaño de la empresa (desde valores moderados en PyMEs hasta bastante más en multinacionales)"
+      "Sueldos iniciales muy variables según el tamaño de la empresa (desde valores moderados en PyMEs hasta bastante más en multinacionales)",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Según la Guía Salarial de Adecco (2026), un analista de comercio exterior en una empresa mediana de CABA/AMBA puede cobrar un sueldo base bruto de $1.350.000, mientras que en una PyME ronda los $800.000 y en una empresa grande los $1.460.000.",
@@ -9189,7 +9443,7 @@ const CAREERS = [
     "icono": "📡",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 4 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNNE.",
     "queHace": "Forma profesionales en comunicación para trabajar en medios, comunicación institucional, publicidad y gestión de redes sociales, con una mirada crítica sobre los procesos comunicacionales.",
     "problemasQueResuelve": "Necesidad de profesionales que gestionen la comunicación de organizaciones (públicas y privadas) y que trabajen en medios de comunicación con formación teórica y práctica.",
     "perfilRecomendado": "Interés en los medios, la comunicación institucional y las redes sociales.",
@@ -9238,7 +9492,8 @@ const CAREERS = [
       "Perfil versátil, con salida en medios, empresas y organismos públicos"
     ],
     "desafios": [
-      "El periodismo tradicional tiene salarios dispares; conviene sumar habilidades digitales"
+      "El periodismo tradicional tiene salarios dispares; conviene sumar habilidades digitales",
+      "Se cursa en Resistencia: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Se dicta en Resistencia y forma parte de una facultad que también incluye a la Tecnicatura en Periodismo, como salida más corta.",
@@ -9257,7 +9512,7 @@ const CAREERS = [
       "nota": "Es uno de los rubros con mayor variabilidad: trabajar en relación de dependencia para una empresa local da sueldos en la parte baja del rango, mientras que el freelance para clientes de otras provincias o del exterior puede superar ampliamente el techo mostrado."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -9274,7 +9529,7 @@ const CAREERS = [
     "icono": "🤝",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": "Carrera de grado. Modalidad: a distancia (SIED-UNSE). Duración a confirmar con la facultad.",
+    "cargaHoraria": "Carrera de grado de 4 años, a distancia (SIED-UNSE). La carga horaria total figura en el plan de estudios oficial de la UNSE.",
     "queHace": "Forma profesionales para gestionar, asesorar y promover cooperativas y mutuales: administración, aspectos legales, contables y de organización de este tipo particular de entidades sin fines de lucro.",
     "problemasQueResuelve": "Necesidad de gestión profesional en cooperativas y mutuales (de trabajo, agropecuarias, de crédito, de servicios), un sector con reglas y lógicas distintas a las de una empresa tradicional.",
     "perfilRecomendado": "Interés en la economía social y solidaria, la gestión de organizaciones y el trabajo comunitario o rural.",
@@ -9319,10 +9574,13 @@ const CAREERS = [
       "Normas del INAES"
     ],
     "ventajas": [
-      "Es una carrera con poca oferta en el país, lo que reduce la competencia"
+      "Es una carrera con poca oferta en el país, lo que reduce la competencia",
+      "Se puede estudiar en UNSE — Facultad de Humanidades, Ciencias, institución pública: sin arancel de cursado",
+      "Hay cursado a distancia o virtual, así que podés estudiar sin mudarte"
     ],
     "desafios": [
-      "Mercado laboral acotado, dependiente del tamaño del sector cooperativo local"
+      "Mercado laboral acotado, dependiente del tamaño del sector cooperativo local",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Es una de las pocas licenciaturas específicas en cooperativismo y mutualismo de universidades públicas argentinas.",
@@ -9342,7 +9600,7 @@ const CAREERS = [
       "nota": "Como en toda el área de administración y economía, los sueldos varían mucho según se trabaje para una PyME, una empresa grande o el sector público, y según la provincia."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -9374,7 +9632,7 @@ const CAREERS = [
     "icono": "🔎",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 4 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Analiza científicamente la escena de un hecho delictivo: recolecta, preserva y estudia evidencia física (huellas, documentos, armas, rastros) para reconstruir cómo ocurrieron los hechos y aportar pruebas objetivas a la investigación judicial. A diferencia de la criminología (que estudia las causas sociales del delito), la criminalística se apoya en técnicas de ciencias naturales.",
     "problemasQueResuelve": "Necesidad de pruebas objetivas y científicas en investigaciones judiciales, verificación de la autenticidad de documentos y firmas, identificación de personas mediante huellas u otros rastros, reconstrucción de la mecánica de un hecho delictivo.",
     "perfilRecomendado": "Estudiantes con interés en las ciencias exactas y naturales aplicadas a la investigación, atención al detalle, rigurosidad metodológica y estabilidad emocional para trabajar con escenas de delitos.",
@@ -9535,7 +9793,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Los relevamientos salariales disponibles muestran mucha dispersión y pocas muestras, similar a la carrera de Criminalística",
-      "Puede confundirse en el mercado laboral con la Criminalística (forense), lo que a veces genera superposición de roles"
+      "Puede confundirse en el mercado laboral con la Criminalística (forense), lo que a veces genera superposición de roles",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "La Criminología (ciencia social que estudia las causas del delito) y la Criminalística (ciencia forense que analiza evidencia física) suelen confundirse, pero son disciplinas distintas con formación y salida laboral diferenciada, aunque en la práctica argentina a veces se superponen roles entre ambas."
@@ -9557,7 +9816,7 @@ const CAREERS = [
       "nota": "Al igual que con Criminalística, las fuentes muestran pocas muestras y bastante dispersión; los valores mostrados son una referencia conservadora y orientativa, no un dato definitivo del mercado."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -9572,7 +9831,7 @@ const CAREERS = [
     "icono": "🏘️",
     "investigado": true,
     "duracionAnios": 2,
-    "cargaHoraria": null,
+    "cargaHoraria": "Ciclo de complementación curricular de 2 años, virtual. La carga horaria total figura en el plan de estudios oficial de Siglo 21.",
     "queHace": "Forma profesionales para representar y gestionar todo el negocio inmobiliario: desde el desarrollo y la comercialización de proyectos hasta la administración de la propiedad horizontal y los conjuntos inmobiliarios, con una mirada integral (jurídica, financiera y comercial).",
     "problemasQueResuelve": "Necesidad de profesionalizar el desarrollo, la comercialización y la gestión de negocios inmobiliarios (loteos, countries, edificios), un sector que en la práctica muchas veces se maneja con formación exclusivamente técnica o empírica.",
     "perfilRecomendado": "Egresados de tecnicaturas afines (martillero y corredor público, corretaje inmobiliario, administración de empresas, entre otras) que ya trabajan o quieren especializarse en el sector inmobiliario y buscan un título de licenciatura sin volver a cursar desde cero.",
@@ -9620,11 +9879,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Permite obtener un título de licenciatura en solo 2 años a partir de una tecnicatura previa",
-      "Alta aplicabilidad práctica y local"
+      "Alta aplicabilidad práctica y local",
+      "Hay cursado a distancia o virtual, así que podés estudiar sin mudarte"
     ],
     "desafios": [
       "Requiere ya contar con un título terciario afín para poder cursarlo",
-      "Ingresos con alta dependencia de comisiones y del ciclo del mercado inmobiliario"
+      "Ingresos con alta dependencia de comisiones y del ciclo del mercado inmobiliario",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Es un Ciclo de Complementación Curricular (CCC): no se cursa desde el ingreso a la universidad, sino que está pensado para quienes ya tienen un título terciario relacionado."
@@ -9645,7 +9906,7 @@ const CAREERS = [
       "nota": "En el rubro inmobiliario una parte importante (a veces la mayor parte) del ingreso proviene de comisiones por operaciones, no de un sueldo fijo."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -9668,7 +9929,7 @@ const CAREERS = [
     "icono": "🛋️",
     "investigado": true,
     "duracionAnios": 4.5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 4,5 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UCP.",
     "queHace": "Diseña muebles y espacios interiores: viviendas, oficinas y locales comerciales, combinando estética, funcionalidad y conocimiento de materiales y procesos de fabricación.",
     "problemasQueResuelve": "Necesidad de diseño profesional de interiores y mobiliario para viviendas y espacios comerciales, un área en crecimiento en la decoración y el diseño de espacios.",
     "perfilRecomendado": "Interés en el diseño de espacios interiores, el mobiliario y la decoración.",
@@ -9715,10 +9976,12 @@ const CAREERS = [
       "Herramientas de prototipado"
     ],
     "ventajas": [
-      "Es una carrera nueva en la región, con poca oferta y competencia todavía"
+      "Es una carrera nueva en la región, con poca oferta y competencia todavía",
+      "Se puede cursar en Presidencia Roque Sáenz Peña, sin mudarte de ciudad"
     ],
     "desafios": [
-      "El mercado de diseño de interiores en el NEA es más chico que en grandes ciudades como Buenos Aires"
+      "El mercado de diseño de interiores en el NEA es más chico que en grandes ciudades como Buenos Aires",
+      "Se estudia en una institución privada: hay que contar con el costo de la cuota"
     ],
     "datosInteresantes": [
       "Es una de las dos carreras nuevas que la UCP sumó a su oferta en Resistencia en 2026, junto con la Licenciatura en Farmacia.",
@@ -9764,7 +10027,7 @@ const CAREERS = [
     "icono": "🎨",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 4 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UCP.",
     "queHace": "Diseña piezas visuales y de contenido multimedia (impresas y digitales) para empresas, marcas y medios, combinando diseño gráfico con producción audiovisual básica.",
     "problemasQueResuelve": "Necesidad de comunicación visual y multimedia profesional para marcas y proyectos digitales.",
     "perfilRecomendado": "Interés en el diseño visual y la producción de contenido multimedia (video, animación básica, redes).",
@@ -9809,10 +10072,12 @@ const CAREERS = [
       "Herramientas de animación y motion graphics"
     ],
     "ventajas": [
-      "Buena posibilidad de trabajo remoto e independiente"
+      "Buena posibilidad de trabajo remoto e independiente",
+      "Se puede cursar en Presidencia Roque Sáenz Peña, sin mudarte de ciudad"
     ],
     "desafios": [
-      "Mercado competitivo, con necesidad de un portfolio sólido"
+      "Mercado competitivo, con necesidad de un portfolio sólido",
+      "Se estudia en una institución privada: hay que contar con el costo de la cuota"
     ],
     "datosInteresantes": [
       "Combina diseño gráfico tradicional con producción multimedia, un perfil cada vez más buscado por el crecimiento del contenido digital.",
@@ -9848,7 +10113,7 @@ const CAREERS = [
     "icono": "🛠️",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNNE.",
     "queHace": "Diseña productos y objetos de uso cotidiano e industrial: desde muebles hasta electrodomésticos, con foco en la función, la ergonomía y los procesos de fabricación.",
     "problemasQueResuelve": "Necesidad de diseñar productos funcionales, ergonómicos y fabricables en serie, mejorando la experiencia de uso y la producción industrial.",
     "perfilRecomendado": "Interés en el diseño de objetos, la ergonomía y los procesos de fabricación.",
@@ -9894,10 +10159,13 @@ const CAREERS = [
       "Herramientas de prototipado"
     ],
     "ventajas": [
-      "Formación versátil que combina diseño e ingeniería, útil también para emprender con productos propios"
+      "Formación versátil que combina diseño e ingeniería, útil también para emprender con productos propios",
+      "Se puede estudiar en UNNE — Facultad de Arquitectura y Urbani, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "Mercado laboral más chico y menos desarrollado en el NEA que en otras regiones del país"
+      "Mercado laboral más chico y menos desarrollado en el NEA que en otras regiones del país",
+      "Es una carrera larga: 5 años de cursada",
+      "Se cursa en Resistencia: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Combina conocimientos de diseño y de ingeniería, lo que le da un perfil híbrido poco común en la región.",
@@ -9916,7 +10184,7 @@ const CAREERS = [
       "nota": "Es uno de los rubros con mayor variabilidad: trabajar en relación de dependencia para una empresa local da sueldos en la parte baja del rango, mientras que el freelance para clientes de otras provincias o del exterior puede superar ampliamente el techo mostrado."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -9992,7 +10260,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Enorme dispersión salarial: desde valores muy bajos en diseño gráfico junior tradicional hasta cifras millonarias en especializaciones digitales",
-      "Alta competencia, con mercado saturado en diseño gráfico genérico"
+      "Alta competencia, con mercado saturado en diseño gráfico genérico",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Autorreportes de trabajadores de diseño muestran sueldos que van desde $850.000 hasta $2.800.000 mensuales según la especialización y si se trabaja en relación de dependencia o freelance para varios clientes.",
@@ -10016,7 +10285,7 @@ const CAREERS = [
       "nota": "Una de las carreras con MAYOR dispersión salarial del sitio: los portales automáticos (Glassdoor) muestran promedios muy bajos por mezclar diseño gráfico genérico de baja especialización, mientras que los autorreportes reales de trabajadores y Computrabajo muestran cifras bastante más altas, sobre todo en roles digitales especializados o freelance."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -10031,7 +10300,7 @@ const CAREERS = [
     "icono": "🌿",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": "Carrera de grado. Modalidad: presencial. Duración a confirmar con la facultad.",
+    "cargaHoraria": "Carrera de grado de 5 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSE.",
     "queHace": "Estudia los ecosistemas y su conservación: biodiversidad, impacto ambiental de actividades productivas, y diseño de estrategias de conservación.",
     "problemasQueResuelve": "Necesidad de proteger ecosistemas frente al avance de la actividad agropecuaria y forestal, evaluando el impacto ambiental de proyectos productivos.",
     "perfilRecomendado": "Interés en la naturaleza, la conservación ambiental y el trabajo de campo.",
@@ -10077,10 +10346,13 @@ const CAREERS = [
       "Instrumental de monitoreo de biodiversidad"
     ],
     "ventajas": [
-      "Alta relevancia en una región con fuerte presión sobre sus ecosistemas por el avance agropecuario"
+      "Alta relevancia en una región con fuerte presión sobre sus ecosistemas por el avance agropecuario",
+      "Se puede estudiar en UNSE — Facultad de Ciencias Forestales, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "El trabajo de campo puede requerir viajes a zonas rurales alejadas"
+      "El trabajo de campo puede requerir viajes a zonas rurales alejadas",
+      "Es una carrera larga: 5 años de cursada",
+      "Se cursa en Santiago del Estero: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Santiago del Estero fue una de las provincias con mayor deforestación de Argentina, lo que le da a esta carrera una fuerte demanda de especialistas en conservación.",
@@ -10130,7 +10402,7 @@ const CAREERS = [
     "icono": "📈",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Analiza el funcionamiento de la economía: mercados, políticas públicas, comercio internacional, y asesora a empresas y organismos en la toma de decisiones económicas.",
     "problemasQueResuelve": "Necesidad de análisis económico para la toma de decisiones en empresas, bancos y organismos públicos: inflación, políticas fiscales, comercio exterior.",
     "perfilRecomendado": "Interés en la economía, la matemática aplicada y el análisis de datos.",
@@ -10178,10 +10450,13 @@ const CAREERS = [
       "Bases de datos macroeconómicas"
     ],
     "ventajas": [
-      "Formación muy transferible entre sector público, financiero y privado"
+      "Formación muy transferible entre sector público, financiero y privado",
+      "Se dicta en 2 instituciones de la región, así que podés comparar y elegir dónde cursarla"
     ],
     "desafios": [
-      "Carrera exigente en matemática y estadística"
+      "Carrera exigente en matemática y estadística",
+      "Es una carrera larga: 5 años de cursada",
+      "Los planes, la duración y las condiciones pueden variar según la institución: conviene compararlos antes de elegir"
     ],
     "datosInteresantes": [
       "Muchos economistas del NEA terminan trabajando para organismos o empresas de otras provincias, dado que el análisis económico se puede hacer a distancia.",
@@ -10217,8 +10492,8 @@ const CAREERS = [
       "siglo21",
       "uncaus"
     ],
-    "modalidadInstituciones": "Virtual en Universidad Siglo 21 (CAU Sáenz Peña) · Ciclo de Complementación Curricular del área de Posgrado de UNCAUS (modalidad a confirmar)",
-    "duracionInstituciones": "2 años en Siglo 21 · duración en UNCAUS a confirmar",
+    "modalidadInstituciones": "Virtual en Universidad Siglo 21 (CAU Sáenz Peña) · Ciclo de Complementación Curricular del área de Posgrado de UNCAUS (la modalidad no figura en las fuentes oficiales consultadas)",
+    "duracionInstituciones": "2 años en Siglo 21 · UNCAUS: la duración no figura en las fuentes oficiales consultadas; consultala en la universidad",
     "descripcionBreve": "Ciclo de complementación que permite a docentes con título terciario obtener el título universitario de grado en Educación.",
     "icono": "🎓",
     "investigado": true,
@@ -10276,7 +10551,8 @@ const CAREERS = [
     ],
     "desafios": [
       "No constituye una salida laboral en sí misma sino un complemento al título docente ya obtenido",
-      "El sueldo depende del cargo docente o de gestión al que se acceda, con la misma escala regional que el resto de la docencia"
+      "El sueldo depende del cargo docente o de gestión al que se acceda, con la misma escala regional que el resto de la docencia",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Este tipo de Ciclo de Complementación Curricular (CCC) es una modalidad muy usada en Argentina para que docentes con título terciario obtengan el título de grado universitario sin cursar la carrera completa nuevamente, similar al de Licenciatura en Historia o Psicopedagogía ya investigados en este sitio."
@@ -10297,7 +10573,7 @@ const CAREERS = [
       "nota": "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -10314,7 +10590,7 @@ const CAREERS = [
     "icono": "🤝",
     "investigado": true,
     "duracionAnios": 2,
-    "cargaHoraria": "Ciclo de Complementación Curricular dictado por el área de Posgrado de UNCAUS, para quienes ya tienen un título de nivel superior. Duración y requisitos a confirmar con la universidad.",
+    "cargaHoraria": "Ciclo de complementación curricular de 2 años, presencial. La carga horaria total figura en el plan de estudios oficial de UNCAUS.",
     "queHace": "Ciclo de complementación para docentes de Educación Especial que ya tienen un título terciario y quieren obtener el título universitario de grado.",
     "problemasQueResuelve": "Permite a profesores de Educación Especial ya recibidos sumar el título universitario sin cursar la carrera completa desde el inicio.",
     "perfilRecomendado": "Docentes de Educación Especial que buscan profundizar su formación y sumar el título de grado.",
@@ -10355,7 +10631,9 @@ const CAREERS = [
       "Materiales de comunicación alternativa y aumentativa"
     ],
     "ventajas": [
-      "Permite acceder a cargos técnicos y de gestión que el título terciario no habilita"
+      "Permite acceder a cargos técnicos y de gestión que el título terciario no habilita",
+      "Se puede estudiar en UNCAUS, institución pública: sin arancel de cursado",
+      "Es un ciclo de complementación: se aprovecha el título previo para completar la licenciatura"
     ],
     "desafios": [
       "Solo accesible para quienes ya tienen el título terciario previo en la especialidad"
@@ -10394,7 +10672,7 @@ const CAREERS = [
     "icono": "🏃",
     "investigado": true,
     "duracionAnios": 2,
-    "cargaHoraria": "Ciclo de Complementación Curricular dictado por el área de Posgrado de UNCAUS, para quienes ya tienen un título de nivel superior. Duración y requisitos a confirmar con la universidad.",
+    "cargaHoraria": "Ciclo de complementación curricular de 2 años, presencial. La carga horaria total figura en el plan de estudios oficial de UNCAUS.",
     "queHace": "Ciclo de complementación para profesores de Educación Física que ya tienen un título terciario y quieren obtener el título universitario de grado.",
     "problemasQueResuelve": "Permite a profesores de Educación Física ya recibidos sumar el título de grado, con formación adicional en gestión e investigación del área.",
     "perfilRecomendado": "Profesores de Educación Física que buscan profundizar su formación hacia la gestión deportiva o la investigación.",
@@ -10434,7 +10712,9 @@ const CAREERS = [
       "Evaluación del desarrollo motor"
     ],
     "ventajas": [
-      "Permite acceder a cargos de gestión deportiva que el título terciario no habilita"
+      "Permite acceder a cargos de gestión deportiva que el título terciario no habilita",
+      "Se puede estudiar en UNCAUS, institución pública: sin arancel de cursado",
+      "Es un ciclo de complementación: se aprovecha el título previo para completar la licenciatura"
     ],
     "desafios": [
       "Solo accesible para quienes ya tienen el título terciario previo"
@@ -10487,13 +10767,13 @@ const CAREERS = [
         "provincia": "Santiago del Estero"
       }
     ],
-    "modalidadInstituciones": "Presencial en la UNNE (Facultad de Humanidades, Resistencia) · Ciclo de Complementación Curricular del área de Posgrado de UNCAUS (modalidad a confirmar) · Presencial en la UNSE (Escuela para la Innovación Educativa, Santiago del Estero, ciclo de complementación curricular)",
-    "duracionInstituciones": "5 años en UNNE (Resistencia) · duración del ciclo de complementación en UNCAUS a confirmar",
+    "modalidadInstituciones": "Presencial en la UNNE (Facultad de Humanidades, Resistencia) · Ciclo de Complementación Curricular del área de Posgrado de UNCAUS (la modalidad no figura en las fuentes oficiales consultadas) · Presencial en la UNSE (Escuela para la Innovación Educativa, Santiago del Estero, ciclo de complementación curricular)",
+    "duracionInstituciones": "5 años en UNNE (Resistencia, carrera de grado) · UNCAUS (ciclo de complementación): la duración no figura en las fuentes oficiales consultadas; consultala en la universidad",
     "descripcionBreve": "Licenciatura en Educación Inicial: la UNNE la dicta como carrera de grado de 5 años en Resistencia, y UNCAUS la ofrece como ciclo de complementación curricular para quienes ya tienen un título de nivel superior.",
     "icono": "🧸",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": "UNNE: carrera de grado de 5 años. UNCAUS: Ciclo de Complementación Curricular dictado por el área de Posgrado, para quienes ya tienen un título de nivel superior (duración y requisitos a confirmar con la universidad).",
+    "cargaHoraria": "Ciclo de complementación curricular. En la UNNE la carrera de grado dura 5 años; en UNCAUS y UNSE se cursa como ciclo y su duración depende de cada plan, así que consultala en cada universidad.",
     "queHace": "Forma docentes de nivel inicial (grado, en la UNNE) o profundiza la formación de maestras jardineras ya recibidas (ciclo de complementación, en UNCAUS y la UNSE) para trabajar con niños de 45 días a 5 años.",
     "problemasQueResuelve": "Necesidad de docentes formados en el desarrollo infantil temprano, una etapa clave para el aprendizaje posterior.",
     "perfilRecomendado": "Vocación por el trabajo con niños pequeños, paciencia y creatividad para el juego y la enseñanza temprana.",
@@ -10535,10 +10815,14 @@ const CAREERS = [
       "Metodologías de investigación educativa"
     ],
     "ventajas": [
-      "Estabilidad laboral del sector docente, con alta demanda en el nivel inicial"
+      "Estabilidad laboral del sector docente, con alta demanda en el nivel inicial",
+      "Se puede estudiar en UNCAUS, UNNE — Facultad de Humanidades y UNSE — Escuela para la Innovación Educat, institución pública: sin arancel de cursado",
+      "Es un ciclo de complementación: se aprovecha el título previo para completar la licenciatura"
     ],
     "desafios": [
-      "Sueldo docente moderado en la región"
+      "Sueldo docente moderado en la región",
+      "Es una carrera larga: 5 años de cursada",
+      "Los planes, la duración y las condiciones pueden variar según la institución: conviene compararlos antes de elegir"
     ],
     "datosInteresantes": [
       "El ciclo de complementación (UNCAUS, UNSE) permite a maestras jardineras con título terciario sumar el título de licenciatura sin cursar la carrera completa de nuevo."
@@ -10574,7 +10858,7 @@ const CAREERS = [
     "icono": "🌾",
     "investigado": true,
     "duracionAnios": 2,
-    "cargaHoraria": "Ciclo de complementación curricular. Modalidad: presencial. Duración a confirmar con la facultad.",
+    "cargaHoraria": "Ciclo de complementación curricular de 2 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSE.",
     "queHace": "Ciclo de complementación para docentes que quieren especializarse en educación intercultural, orientado a trabajar en contextos con población de pueblos originarios y diversidad cultural.",
     "problemasQueResuelve": "Necesidad de docentes formados para trabajar en escuelas con alta diversidad cultural y presencia de comunidades originarias, muy presente en Santiago del Estero.",
     "perfilRecomendado": "Docentes interesados en la educación intercultural y el trabajo con comunidades originarias.",
@@ -10614,10 +10898,13 @@ const CAREERS = [
       "Metodologías de educación popular"
     ],
     "ventajas": [
-      "Formación específica y poco común, valorada en escuelas con alta diversidad cultural"
+      "Formación específica y poco común, valorada en escuelas con alta diversidad cultural",
+      "Se puede estudiar en UNSE — Facultad de Humanidades, Ciencias, institución pública: sin arancel de cursado",
+      "Es un ciclo de complementación: se aprovecha el título previo para completar la licenciatura"
     ],
     "desafios": [
-      "Mercado laboral acotado a zonas y escuelas con este perfil de población"
+      "Mercado laboral acotado a zonas y escuelas con este perfil de población",
+      "Se cursa en Santiago del Estero: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Santiago del Estero tiene una importante población de habla quichua, lo que le da a esta formación una fuerte relevancia local.",
@@ -10637,7 +10924,7 @@ const CAREERS = [
       "nota": "Quien cursa un ciclo de complementación curricular ya suele estar trabajando como docente; el título de licenciatura no cambia el sueldo de un cargo de aula, pero habilita a concursar cargos de gestión, supervisión o coordinación mejor pagos que el profesorado terciario solo."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -10654,7 +10941,7 @@ const CAREERS = [
     "icono": "🩺",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": "Carrera de grado. Modalidad: presencial. Duración a confirmar con la facultad.",
+    "cargaHoraria": "Carrera de grado de 4 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSE.",
     "queHace": "Diseña, coordina y evalúa programas de educación y promoción de la salud en escuelas, centros de salud y comunidad, con foco en prevención más que en enseñanza de aula.",
     "problemasQueResuelve": "Necesidad de planificar políticas y programas de prevención de salud (no solo dar clases sobre el tema), coordinando entre el sistema educativo y el de salud.",
     "perfilRecomendado": "Interés en gestión y planificación de programas de salud comunitaria, más que en la docencia de aula.",
@@ -10698,10 +10985,12 @@ const CAREERS = [
       "Herramientas de gestión de programas sociales"
     ],
     "ventajas": [
-      "Salida más orientada a gestión que la del profesorado equivalente"
+      "Salida más orientada a gestión que la del profesorado equivalente",
+      "Se puede estudiar en UNSE — Facultad de Humanidades, Ciencias, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "Mercado laboral más chico y específico que otras licenciaturas en salud"
+      "Mercado laboral más chico y específico que otras licenciaturas en salud",
+      "Se cursa en Santiago del Estero: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Comparte buena parte del plan de estudios con el Profesorado en Educación para la Salud, pero con salida a gestión en vez de aula.",
@@ -10721,7 +11010,7 @@ const CAREERS = [
       "nota": "Quien cursa un ciclo de complementación curricular ya suele estar trabajando como docente; el título de licenciatura no cambia el sueldo de un cargo de aula, pero habilita a concursar cargos de gestión, supervisión o coordinación mejor pagos que el profesorado terciario solo."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -10738,7 +11027,7 @@ const CAREERS = [
     "icono": "🩺",
     "investigado": true,
     "duracionAnios": 2,
-    "cargaHoraria": "Ciclo de Complementación Curricular dictado por el área de Posgrado de UNCAUS, para quienes ya tienen un título de nivel superior. Duración y requisitos a confirmar con la universidad.",
+    "cargaHoraria": "Ciclo de complementación curricular de 2 años, presencial. La carga horaria total figura en el plan de estudios oficial de UNCAUS.",
     "queHace": "Ciclo de complementación para quienes ya tienen un título terciario y quieren especializarse en la planificación y gestión de programas de educación y promoción de la salud.",
     "problemasQueResuelve": "Necesidad de planificar políticas y programas de prevención de salud, coordinando entre el sistema educativo y el de salud en la región de Sáenz Peña y el Chaco.",
     "perfilRecomendado": "Interés en gestión y planificación de programas de salud comunitaria, más que en la docencia de aula.",
@@ -10779,7 +11068,9 @@ const CAREERS = [
       "Gestión de programas de promoción de la salud"
     ],
     "ventajas": [
-      "Permite a profesionales de la región sumar esta especialización sin necesidad de viajar"
+      "Permite a profesionales de la región sumar esta especialización sin necesidad de viajar",
+      "Se puede estudiar en UNCAUS, institución pública: sin arancel de cursado",
+      "Es un ciclo de complementación: se aprovecha el título previo para completar la licenciatura"
     ],
     "desafios": [
       "Mercado laboral más chico y específico que otras licenciaturas en salud"
@@ -10818,7 +11109,7 @@ const CAREERS = [
     "icono": "📗",
     "investigado": true,
     "duracionAnios": 2,
-    "cargaHoraria": "Ciclo de complementación curricular. Modalidad: a distancia (SIED-UNSE). Duración a confirmar con la facultad.",
+    "cargaHoraria": "Ciclo de complementación curricular de 2 años, a distancia (SIED-UNSE). La carga horaria total figura en el plan de estudios oficial de la UNSE.",
     "queHace": "Ciclo de complementación a distancia para maestros de nivel primario que ya tienen título terciario y quieren obtener el título universitario de grado.",
     "problemasQueResuelve": "Permite a maestros de primaria ya recibidos sumar el título de grado sin cursar la carrera completa desde el inicio.",
     "perfilRecomendado": "Maestros de nivel primario que buscan profundizar su formación y sumar el título universitario.",
@@ -10860,10 +11151,13 @@ const CAREERS = [
       "Software de gestión educativa"
     ],
     "ventajas": [
-      "Se cursa 100% a distancia, ideal para quien ya trabaja como maestro"
+      "Se cursa 100% a distancia, ideal para quien ya trabaja como maestro",
+      "Se puede estudiar en UNSE — Escuela para la Innovación Educat, institución pública: sin arancel de cursado",
+      "Es un ciclo de complementación: se aprovecha el título previo para completar la licenciatura"
     ],
     "desafios": [
-      "Solo accesible para quienes ya tienen el título terciario previo"
+      "Solo accesible para quienes ya tienen el título terciario previo",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Es uno de los ciclos de complementación a distancia de la Escuela para la Innovación Educativa de la UNSE, pensada para docentes en ejercicio.",
@@ -10883,7 +11177,7 @@ const CAREERS = [
       "nota": "Quien cursa un ciclo de complementación curricular ya suele estar trabajando como docente; el título de licenciatura no cambia el sueldo de un cargo de aula, pero habilita a concursar cargos de gestión, supervisión o coordinación mejor pagos que el profesorado terciario solo."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -10955,7 +11249,8 @@ const CAREERS = [
     ],
     "desafios": [
       "No se encontró un relevamiento salarial específico y separado para este título en particular",
-      "Es un perfil relativamente nuevo, con menos reconocimiento en el mercado que el de un profesorado tradicional"
+      "Es un perfil relativamente nuevo, con menos reconocimiento en el mercado que el de un profesorado tradicional",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "El diseño instruccional y el e-learning corporativo (capacitación de empleados en empresas) es un campo de salida laboral para esta carrera que va más allá del sistema educativo formal tradicional."
@@ -10976,7 +11271,7 @@ const CAREERS = [
       "nota": "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -11038,10 +11333,14 @@ const CAREERS = [
       "Herramientas de gestión de proyectos"
     ],
     "ventajas": [
-      "Formación pensada específicamente para quienes ya tienen experiencia profesional y quieren emprender"
+      "Formación pensada específicamente para quienes ya tienen experiencia profesional y quieren emprender",
+      "Hay cursado a distancia o virtual, así que podés estudiar sin mudarte",
+      "Es un ciclo de complementación: se aprovecha el título previo para completar la licenciatura"
     ],
     "desafios": [
-      "El éxito depende en gran parte del propio proyecto que se desarrolle, no solo del título"
+      "El éxito depende en gran parte del propio proyecto que se desarrolle, no solo del título",
+      "La cursada a distancia exige organización y autodisciplina",
+      "Se estudia en una institución privada: hay que contar con el costo de la cuota"
     ],
     "datosInteresantes": [
       "Es un ciclo de solo 2 años, pensado para sumar el título de grado a profesionales ya recibidos."
@@ -11060,7 +11359,7 @@ const CAREERS = [
       "nota": "Como en toda el área de administración y economía, los sueldos varían mucho según se trabaje para una PyME, una empresa grande o el sector público, y según la provincia."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -11083,7 +11382,7 @@ const CAREERS = [
     "icono": "🎓",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 4 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSa.",
     "queHace": "Diseña, desarrolla y gestiona proyectos de energías renovables: solar, eólica, biomasa, con foco en evaluación de recursos, diseño de instalaciones y gestión de proyectos energéticos.",
     "problemasQueResuelve": "Necesidad de diversificar la matriz energética hacia fuentes renovables, un campo con fuerte potencial en Salta por su alta radiación solar.",
     "perfilRecomendado": "Interés en energía, sustentabilidad y proyectos de infraestructura energética.",
@@ -11128,10 +11427,12 @@ const CAREERS = [
       "Software de gestión de proyectos energéticos"
     ],
     "ventajas": [
-      "Salta es una de las provincias con mayor desarrollo de energía solar del país, lo que da salida laboral local"
+      "Salta es una de las provincias con mayor desarrollo de energía solar del país, lo que da salida laboral local",
+      "Se puede estudiar en UNSa — Facultad de Ciencias Exactas, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "El sector depende en parte de políticas públicas de incentivo a las renovables, que pueden variar"
+      "El sector depende en parte de políticas públicas de incentivo a las renovables, que pueden variar",
+      "Se cursa en Salta: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "La UNSa también ofrece la Tecnicatura en Energía Solar, dictada en Cafayate, una de las zonas con mayor radiación solar del país.",
@@ -11150,7 +11451,7 @@ const CAREERS = [
       "nota": "Salta tiene uno de los mayores desarrollos de energía solar de Argentina, lo que sostiene una demanda fuerte de este perfil."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -11195,7 +11496,7 @@ const CAREERS = [
     "icono": "💉",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Forma enfermeros de grado con capacidad de gestión: además del cuidado directo de pacientes, pueden liderar equipos de enfermería, gestionar servicios de salud y participar en la planificación de políticas sanitarias.",
     "problemasQueResuelve": "Necesidad de enfermeros con formación de grado para ocupar puestos de gestión y liderazgo en el sistema de salud, además de cubrir el déficit general de personal de enfermería.",
     "perfilRecomendado": "Vocación de cuidado combinada con interés en la gestión y liderazgo de equipos de salud.",
@@ -11240,10 +11541,14 @@ const CAREERS = [
       "Protocolos de atención hospitalaria"
     ],
     "ventajas": [
-      "Habilita a cargos de jefatura y gestión que el pregrado de Enfermería no cubre, con altísima empleabilidad"
+      "Habilita a cargos de jefatura y gestión que el pregrado de Enfermería no cubre, con altísima empleabilidad",
+      "Se puede estudiar en UNNE — Facultad de Medicina, UNSE — Facultad de Humanidades, Ciencias, UNaF — Facultad de Ciencias de la Salud y UNSa — Facultad de Ciencias de la Salud, institución pública: sin arancel de cursado",
+      "Se dicta en 4 instituciones de la región, así que podés comparar y elegir dónde cursarla"
     ],
     "desafios": [
-      "Carrera más larga y exigente que el pregrado de Enfermería"
+      "Carrera más larga y exigente que el pregrado de Enfermería",
+      "Los planes, la duración y las condiciones pueden variar según la institución: conviene compararlos antes de elegir",
+      "Se cursa en Corrientes, Santiago del Estero, Formosa y Salta: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Se dicta en cuatro universidades de la región (UNNE, UNSE, UNaF y UNSa), lo que refleja la alta prioridad que tiene cubrir el déficit de enfermería en el país.",
@@ -11263,7 +11568,7 @@ const CAREERS = [
       "nota": "Los valores corresponden a convenios de sanidad privada (clínicas y sanatorios); en el sector público varían según la provincia. Un Licenciado en Enfermería, al ser profesional de grado, suele cobrar un básico más alto que un enfermero de pregrado o un auxiliar."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -11281,7 +11586,7 @@ const CAREERS = [
     "icono": "🧬",
     "investigado": true,
     "duracionAnios": 2,
-    "cargaHoraria": "Ciclo de complementación curricular. Modalidad: presencial. Duración a confirmar con la facultad.",
+    "cargaHoraria": "Ciclo de complementación curricular de 2 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSE.",
     "queHace": "Ciclo de complementación para profesores de Biología que ya tienen un título terciario y quieren obtener el título universitario de grado.",
     "problemasQueResuelve": "Permite a profesores de Biología ya recibidos sumar el título de grado, con formación adicional en investigación educativa.",
     "perfilRecomendado": "Profesores de Biología que buscan profundizar su formación hacia la investigación o la docencia universitaria.",
@@ -11323,10 +11628,13 @@ const CAREERS = [
       "Software de gestión educativa"
     ],
     "ventajas": [
-      "Habilita a la docencia universitaria y la investigación, que el profesorado terciario no cubre"
+      "Habilita a la docencia universitaria y la investigación, que el profesorado terciario no cubre",
+      "Se puede estudiar en UNSE — Facultad de Ciencias Forestales, institución pública: sin arancel de cursado",
+      "Es un ciclo de complementación: se aprovecha el título previo para completar la licenciatura"
     ],
     "desafios": [
-      "Mercado laboral acotado fuera de la docencia universitaria"
+      "Mercado laboral acotado fuera de la docencia universitaria",
+      "Se cursa en Santiago del Estero: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Se dicta en la Facultad de Ciencias Forestales de la UNSE, vinculando la enseñanza de la biología con el fuerte perfil ambiental de esa facultad.",
@@ -11345,7 +11653,7 @@ const CAREERS = [
       "nota": "Buena parte de las salidas de esta familia (investigación, docencia universitaria) dependen de becas o cargos concursados, con ingresos que crecen lento pero de forma más previsible que en el sector privado."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -11369,7 +11677,7 @@ const CAREERS = [
     "icono": "🌐",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 4 años, presencial. La carga horaria total figura en el plan de estudios oficial de UNCAUS.",
     "queHace": "Estudia la relación entre actores locales, regionales y globales, con foco en integración regional, comercio internacional y diplomacia, para analizar y participar en procesos políticos y económicos internacionales.",
     "problemasQueResuelve": "Necesidad de profesionales que entiendan la dinámica internacional para asesorar en política exterior, comercio internacional y cooperación regional, un campo poco cubierto en el norte argentino antes de esta carrera.",
     "perfilRecomendado": "Interés en política internacional, economía global y procesos de integración regional (Mercosur y similares).",
@@ -11417,7 +11725,9 @@ const CAREERS = [
       "Herramientas de negociación internacional"
     ],
     "ventajas": [
-      "Poca competencia por ser una carrera nueva en la región"
+      "Poca competencia por ser una carrera nueva en la región",
+      "Se puede estudiar en UNCAUS, institución pública: sin arancel de cursado",
+      "Se puede cursar en Presidencia Roque Sáenz Peña, sin mudarte de ciudad"
     ],
     "desafios": [
       "Salida laboral concentrada en organismos específicos, con pocos puestos disponibles localmente"
@@ -11476,7 +11786,7 @@ const CAREERS = [
     "icono": "🤔",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Investiga y profundiza en problemas filosóficos: ética, epistemología, filosofía política y del lenguaje, orientada a la investigación académica más que a la docencia de aula.",
     "problemasQueResuelve": "Formación de investigadores y especialistas en filosofía para la academia, la edición y el análisis crítico de problemas sociales y culturales.",
     "perfilRecomendado": "Fuerte interés en la lectura, la argumentación y la investigación teórica.",
@@ -11521,10 +11831,14 @@ const CAREERS = [
       "Técnicas de escritura académica"
     ],
     "ventajas": [
-      "Formación en pensamiento crítico y argumentación, valorada en muchos otros campos profesionales"
+      "Formación en pensamiento crítico y argumentación, valorada en muchos otros campos profesionales",
+      "Se puede estudiar en UNNE — Facultad de Humanidades, UNSE — Facultad de Humanidades, Ciencias y UNSa — Facultad de Humanidades, institución pública: sin arancel de cursado",
+      "Se dicta en 3 instituciones de la región, así que podés comparar y elegir dónde cursarla"
     ],
     "desafios": [
-      "Mercado laboral acotado fuera de la docencia y la investigación"
+      "Mercado laboral acotado fuera de la docencia y la investigación",
+      "Es una carrera larga: 5 años de cursada",
+      "Los planes, la duración y las condiciones pueden variar según la institución: conviene compararlos antes de elegir"
     ],
     "datosInteresantes": [
       "Muchos licenciados en Filosofía terminan trabajando en áreas de comunicación, edición o análisis de políticas públicas, por la formación en argumentación.",
@@ -11543,7 +11857,7 @@ const CAREERS = [
       "nota": "Buena parte de las salidas de esta familia (investigación, docencia universitaria) dependen de becas o cargos concursados, con ingresos que crecen lento pero de forma más previsible que en el sector privado."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -11560,7 +11874,7 @@ const CAREERS = [
     "icono": "🤔",
     "investigado": true,
     "duracionAnios": 2,
-    "cargaHoraria": "Ciclo de complementación curricular. Modalidad: presencial. Duración a confirmar con la facultad.",
+    "cargaHoraria": "Ciclo de complementación curricular de 2 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSE.",
     "queHace": "Ciclo de complementación para quienes ya tienen un Profesorado en Filosofía y quieren obtener el título de Licenciado/a, habilitante para investigación y docencia universitaria.",
     "problemasQueResuelve": "Permite a profesores de Filosofía ya recibidos sumar el título de licenciatura sin volver a cursar toda la carrera desde el principio.",
     "perfilRecomendado": "Profesores de Filosofía que quieren orientarse a la investigación o a la docencia universitaria.",
@@ -11601,10 +11915,13 @@ const CAREERS = [
       "Software de gestión bibliográfica"
     ],
     "ventajas": [
-      "Habilita a dar clases en el nivel universitario, a diferencia del profesorado solo"
+      "Habilita a dar clases en el nivel universitario, a diferencia del profesorado solo",
+      "Se puede estudiar en UNSE — Facultad de Humanidades, Ciencias, institución pública: sin arancel de cursado",
+      "Es un ciclo de complementación: se aprovecha el título previo para completar la licenciatura"
     ],
     "desafios": [
-      "Mercado laboral acotado fuera de la docencia y la investigación"
+      "Mercado laboral acotado fuera de la docencia y la investigación",
+      "Se cursa en Santiago del Estero: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es un ciclo pensado específicamente para profesores ya recibidos, no para quien empieza de cero.",
@@ -11623,7 +11940,7 @@ const CAREERS = [
       "nota": "Buena parte de las salidas de esta familia (investigación, docencia universitaria) dependen de becas o cargos concursados, con ingresos que crecen lento pero de forma más previsible que en el sector privado."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -11700,7 +12017,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Enorme dispersión entre fuentes: desde promedios muy bajos hasta cifras millonarias para roles similares",
-      "Requiere actualización constante dado el contexto económico cambiante"
+      "Requiere actualización constante dado el contexto económico cambiante",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Según el Instituto SABER, un analista financiero junior (0-2 años) en Argentina se mueve en un rango de $1.178.000 a $1.488.000 mensuales en 2026, con sueldos que superan los $3.000.000 en roles de jefatura.",
@@ -11724,7 +12042,7 @@ const CAREERS = [
       "nota": "Existe una diferencia muy grande entre las estimaciones de portales tradicionales (Glassdoor muestra promedios bajos por pocas muestras) y las notas especializadas del sector financiero, que reflejan mejor la realidad de 2026. Se priorizaron estas últimas por ser más recientes y metodológicamente más completas."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -11745,7 +12063,7 @@ const CAREERS = [
     "icono": "⚛️",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSa.",
     "queHace": "Investiga y aplica los principios de la física a problemas científicos y tecnológicos, desde física teórica hasta aplicaciones en energía e instrumentación.",
     "problemasQueResuelve": "Desarrollo de investigación científica básica y aplicada, y formación de especialistas para sectores que requieren modelado físico avanzado.",
     "perfilRecomendado": "Fuerte interés en matemática y física teórica, con vocación de investigación.",
@@ -11789,10 +12107,13 @@ const CAREERS = [
       "Métodos matemáticos avanzados"
     ],
     "ventajas": [
-      "Formación muy sólida en matemática y modelado, con aplicación directa al desarrollo energético de la región"
+      "Formación muy sólida en matemática y modelado, con aplicación directa al desarrollo energético de la región",
+      "Se puede estudiar en UNSa — Facultad de Ciencias Exactas, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "Salida laboral concentrada en investigación y docencia, con pocas becas disponibles"
+      "Salida laboral concentrada en investigación y docencia, con pocas becas disponibles",
+      "Es una carrera larga: 5 años de cursada",
+      "Se cursa en Salta: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "En Salta, muchos licenciados en Física se orientan hacia proyectos de energía solar, por el fuerte desarrollo de este sector en la provincia.",
@@ -11811,7 +12132,7 @@ const CAREERS = [
       "nota": "La salida en investigación pura (CONICET, universidades) crece lento y depende de becas; en cambio, quienes se insertan en industrias como la minería o el petróleo (frecuente para Geología) pueden acceder a sueldos bastante más altos."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -11843,7 +12164,7 @@ const CAREERS = [
     "icono": "🌎",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Estudia el territorio, la población y el ambiente desde una perspectiva integral: ordenamiento territorial, cartografía, geografía urbana y rural, y planificación regional.",
     "problemasQueResuelve": "Necesidad de planificar el uso del territorio, gestionar el crecimiento urbano y analizar problemas ambientales y sociales desde una perspectiva espacial.",
     "perfilRecomendado": "Interés en el territorio, los mapas, el urbanismo y los problemas ambientales.",
@@ -11889,10 +12210,14 @@ const CAREERS = [
       "Imágenes satelitales"
     ],
     "ventajas": [
-      "El manejo de SIG es una habilidad muy demandada también fuera del ámbito de la geografía tradicional"
+      "El manejo de SIG es una habilidad muy demandada también fuera del ámbito de la geografía tradicional",
+      "Se puede estudiar en UNNE — Facultad de Humanidades y UNaF — Facultad de Humanidades, institución pública: sin arancel de cursado",
+      "Se dicta en 2 instituciones de la región, así que podés comparar y elegir dónde cursarla"
     ],
     "desafios": [
-      "Mercado laboral más chico que otras licenciaturas, concentrado en organismos de planificación"
+      "Mercado laboral más chico que otras licenciaturas, concentrado en organismos de planificación",
+      "Es una carrera larga: 5 años de cursada",
+      "Los planes, la duración y las condiciones pueden variar según la institución: conviene compararlos antes de elegir"
     ],
     "datosInteresantes": [
       "El manejo de sistemas de información geográfica (SIG) que se aprende en esta carrera es una habilidad muy valorada en áreas de planificación urbana y ambiental.",
@@ -11911,7 +12236,7 @@ const CAREERS = [
       "nota": "Buena parte de las salidas de esta familia (investigación, docencia universitaria) dependen de becas o cargos concursados, con ingresos que crecen lento pero de forma más previsible que en el sector privado."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -11986,7 +12311,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Las fuentes salariales disponibles son muy escasas y poco confiables para esta carrera específica en Argentina",
-      "Carga emocional del trabajo con personas mayores y situaciones de fin de vida"
+      "Carga emocional del trabajo con personas mayores y situaciones de fin de vida",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Es importante no confundir la Gerontología (disciplina que estudia el envejecimiento desde una mirada integral: biológica, psicológica y social) con la Geriatría (especialidad médica). El Licenciado en Gerontología no es médico, pero sí puede coordinar equipos interdisciplinarios que sí incluyen profesionales de la salud."
@@ -12007,7 +12333,7 @@ const CAREERS = [
       "nota": "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -12024,7 +12350,7 @@ const CAREERS = [
     "icono": "🌱",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 4 años, virtual. La carga horaria total figura en el plan de estudios oficial de Siglo 21.",
     "queHace": "Analiza problemáticas ambientales y propone soluciones sostenibles, evalúa el impacto ambiental de proyectos con herramientas técnicas y normativas, y participa en iniciativas interdisciplinarias de conservación y desarrollo sostenible.",
     "problemasQueResuelve": "Presión de las actividades humanas y productivas sobre los recursos naturales, necesidad de evaluar y mitigar el impacto ambiental de proyectos, y de diseñar políticas ambientales para empresas, municipios y organismos.",
     "perfilRecomendado": "Estudiantes preocupados por el cuidado del ambiente y los recursos naturales, con interés en un enfoque de gestión (más que de investigación biológica pura) que busque equilibrar conservación y desarrollo.",
@@ -12075,11 +12401,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Título aplicable tanto al sector público como privado",
-      "Demanda creciente por mayor regulación ambiental"
+      "Demanda creciente por mayor regulación ambiental",
+      "Hay cursado a distancia o virtual, así que podés estudiar sin mudarte"
     ],
     "desafios": [
       "Mercado laboral todavía en desarrollo en ciudades del interior",
-      "Requiere manejo de normativa que cambia con frecuencia"
+      "Requiere manejo de normativa que cambia con frecuencia",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "El título intermedio a los 3 años es Técnico/a Universitario/a en Gestión Ambiental, lo que permite una salida laboral parcial antes de terminar la licenciatura."
@@ -12100,7 +12428,7 @@ const CAREERS = [
       "nota": "Los sueldos varían mucho según se trabaje en una consultora, una empresa industrial grande o en el sector público."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -12174,7 +12502,8 @@ const CAREERS = [
     ],
     "desafios": [
       "No se encontró un relevamiento salarial específico y separado para este título en particular",
-      "Menos conocido en el mercado laboral argentino que otros títulos de sistemas más tradicionales"
+      "Menos conocido en el mercado laboral argentino que otros títulos de sistemas más tradicionales",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "La gestión de la información como disciplina ganó relevancia en los últimos años ante la necesidad de las empresas de cumplir normativas de protección de datos y aprovechar la información como activo estratégico."
@@ -12270,7 +12599,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Sueldos iniciales moderados en tareas operativas (liquidación, administración de legajos)",
-      "Gran dispersión salarial según el tamaño y rubro de la empresa"
+      "Gran dispersión salarial según el tamaño y rubro de la empresa",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Según Aprender21 (2026), las especializaciones de Compensaciones y Beneficios, People Analytics y HR Business Partner son las de mayor demanda y mejor remuneración dentro de RR.HH.",
@@ -12295,7 +12625,7 @@ const CAREERS = [
       "nota": "Los portales tradicionales (Glassdoor, Computrabajo) muestran promedios bajos por mezclar puestos operativos de entrada con roles de gestión; se complementó con autorreportes y notas especializadas de RR.HH. que reflejan mejor la variedad real de sueldos según especialización y tipo de empresa."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -12310,7 +12640,7 @@ const CAREERS = [
     "icono": "🏫",
     "investigado": true,
     "duracionAnios": 2,
-    "cargaHoraria": "Ciclo de complementación curricular. Modalidad: a distancia (SIED-UNSE). Duración a confirmar con la facultad.",
+    "cargaHoraria": "Ciclo de complementación curricular de 2 años, a distancia (SIED-UNSE). La carga horaria total figura en el plan de estudios oficial de la UNSE.",
     "queHace": "Ciclo de complementación a distancia para docentes que quieren especializarse en gestión de instituciones educativas: dirección de escuelas, planificación institucional y liderazgo pedagógico.",
     "problemasQueResuelve": "Necesidad de directivos escolares formados específicamente en gestión educativa, más allá de la experiencia docente en el aula.",
     "perfilRecomendado": "Docentes que aspiran a cargos directivos o de gestión en instituciones educativas.",
@@ -12351,10 +12681,13 @@ const CAREERS = [
       "Normativa educativa"
     ],
     "ventajas": [
-      "Formación específica que da ventaja para acceder a cargos directivos por concurso"
+      "Formación específica que da ventaja para acceder a cargos directivos por concurso",
+      "Se puede estudiar en UNSE — Escuela para la Innovación Educat, institución pública: sin arancel de cursado",
+      "Hay cursado a distancia o virtual, así que podés estudiar sin mudarte"
     ],
     "desafios": [
-      "El acceso a cargos directivos suele depender de concursos con antigüedad requerida"
+      "El acceso a cargos directivos suele depender de concursos con antigüedad requerida",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Se dicta 100% a distancia, lo que permite a docentes de cualquier punto del país cursarla mientras siguen trabajando.",
@@ -12373,7 +12706,7 @@ const CAREERS = [
       "nota": "Buena parte de las salidas de esta familia (investigación, docencia universitaria) dependen de becas o cargos concursados, con ingresos que crecen lento pero de forma más previsible que en el sector privado."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -12390,7 +12723,7 @@ const CAREERS = [
     "icono": "🏫",
     "investigado": true,
     "duracionAnios": 2,
-    "cargaHoraria": "Ciclo de Complementación Curricular dictado por el área de Posgrado de UNCAUS, para quienes ya tienen un título de nivel superior. Duración y requisitos a confirmar con la universidad.",
+    "cargaHoraria": "Ciclo de complementación curricular de 2 años, presencial. La carga horaria total figura en el plan de estudios oficial de UNCAUS.",
     "queHace": "Ciclo de complementación para docentes que ya tienen un título terciario y quieren especializarse en gestión de instituciones educativas.",
     "problemasQueResuelve": "Necesidad de directivos escolares formados específicamente en gestión educativa, en la región de Sáenz Peña y el Chaco.",
     "perfilRecomendado": "Docentes de la región que aspiran a cargos directivos o de gestión en instituciones educativas.",
@@ -12431,7 +12764,9 @@ const CAREERS = [
       "Normativa educativa"
     ],
     "ventajas": [
-      "Permite a docentes de Sáenz Peña y la región acceder a esta formación sin necesidad de viajar"
+      "Permite a docentes de Sáenz Peña y la región acceder a esta formación sin necesidad de viajar",
+      "Se puede estudiar en UNCAUS, institución pública: sin arancel de cursado",
+      "Es un ciclo de complementación: se aprovecha el título previo para completar la licenciatura"
     ],
     "desafios": [
       "El acceso a cargos directivos suele depender de concursos con antigüedad requerida"
@@ -12470,7 +12805,7 @@ const CAREERS = [
     "icono": "🧳",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 4 años, virtual. La carga horaria total figura en el plan de estudios oficial de Siglo 21.",
     "queHace": "Genera y gestiona emprendimientos turísticos propios o para empresas de todos los tamaños, diseña políticas de turismo sustentable para el desarrollo local, y proyecta nuevas áreas de negocio turístico a nivel local, nacional e internacional.",
     "problemasQueResuelve": "Necesidad de planificar el desarrollo turístico de una región de forma sostenible (evitando el impacto negativo del turismo mal gestionado), y de profesionalizar la gestión de destinos y proyectos turísticos.",
     "perfilRecomendado": "Estudiantes con interés en viajes, cultura y gestión de proyectos, con vocación de trabajar tanto en el sector público (planificación turística) como en emprendimientos propios o empresas del rubro.",
@@ -12520,11 +12855,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Doble titulación posible con Licenciatura en Administración Hotelera",
-      "Alta posibilidad de emprendimiento propio"
+      "Alta posibilidad de emprendimiento propio",
+      "Hay cursado a distancia o virtual, así que podés estudiar sin mudarte"
     ],
     "desafios": [
       "Sector sensible a los ciclos económicos (el turismo suele ser de los primeros gastos que las familias recortan en crisis)",
-      "Estacionalidad de la actividad en muchos destinos"
+      "Estacionalidad de la actividad en muchos destinos",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "La carrera contempla un título intermedio a los 3 años (Técnico/a Universitario/a en Turismo) y la posibilidad de doble titulación con Administración Hotelera."
@@ -12545,7 +12882,7 @@ const CAREERS = [
       "nota": "Los sueldos en turismo suelen ser estacionales y varían mucho entre temporada alta y baja, sobre todo para quienes trabajan en emprendimientos propios."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -12562,7 +12899,7 @@ const CAREERS = [
     "icono": "🎪",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNNE.",
     "queHace": "Forma profesionales para planificar, gestionar y evaluar proyectos y políticas culturales: festivales, museos, centros culturales, y programas de promoción de la cultura local.",
     "problemasQueResuelve": "Necesidad de gestión profesional de la cultura, más allá de la producción artística en sí: planificación de recursos, públicos y sustentabilidad de proyectos culturales.",
     "perfilRecomendado": "Interés en la cultura y el arte, con perfil de gestión y organización más que de producción artística individual.",
@@ -12611,7 +12948,9 @@ const CAREERS = [
       "Salida laboral tanto en el sector público como en proyectos independientes"
     ],
     "desafios": [
-      "El sector cultural suele tener presupuestos acotados y variables"
+      "El sector cultural suele tener presupuestos acotados y variables",
+      "Es una carrera larga: 5 años de cursada",
+      "Se cursa en Resistencia: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es una de las pocas licenciaturas en gestión cultural con sede en el NEA, además de su versión de tecnicatura más corta.",
@@ -12630,7 +12969,7 @@ const CAREERS = [
       "nota": "El sector cultural suele tener presupuestos acotados; los ingresos crecen sobre todo al acceder a cargos de dirección o coordinación."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -12647,7 +12986,7 @@ const CAREERS = [
     "icono": "⛽",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 4 años, virtual. La carga horaria total figura en el plan de estudios oficial de Siglo 21.",
     "queHace": "Coordina equipos multidisciplinarios en todas las etapas técnicas de la industria de los hidrocarburos, dirige tareas de perforación y producción en yacimientos petroleros y gasíferos, y asesora sobre normativa legal y ambiental aplicable a la industria energética.",
     "problemasQueResuelve": "Necesidad de personal técnico y de gestión capacitado para el desarrollo de yacimientos convencionales y no convencionales (como Vaca Muerta), en un sector clave para el autoabastecimiento energético del país.",
     "perfilRecomendado": "Estudiantes interesados en la industria energética, con buena base de matemática y química, y disposición a trabajar en yacimientos (a veces alejados de los grandes centros urbanos).",
@@ -12698,11 +13037,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Fuerte conexión con empresas multinacionales que invierten en Vaca Muerta, con acceso a prácticas y empleos",
-      "Sueldos entre los más altos del mercado laboral argentino en el sector privado"
+      "Sueldos entre los más altos del mercado laboral argentino en el sector privado",
+      "Hay cursado a distancia o virtual, así que podés estudiar sin mudarte"
     ],
     "desafios": [
       "Suele requerir traslado o residencia en zonas de yacimientos (Neuquén, Río Negro), lejos del Chaco",
-      "Trabajo con esquemas de guardia rotativa (roles) alejado de la familia por períodos"
+      "Trabajo con esquemas de guardia rotativa (roles) alejado de la familia por períodos",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Vaca Muerta, en la Cuenca Neuquina, es uno de los yacimientos de shale gas y shale oil más importantes del mundo, y explica gran parte del crecimiento de esta carrera en los últimos años."
@@ -12723,7 +13064,7 @@ const CAREERS = [
       "nota": "El sector de hidrocarburos, especialmente en Vaca Muerta, es reconocido por pagar algunos de los sueldos más altos de la industria en Argentina, muchas veces con adicionales por trabajo en yacimiento."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -12740,7 +13081,7 @@ const CAREERS = [
     "icono": "💧",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": "Carrera de grado. Modalidad: presencial. Duración a confirmar con la facultad.",
+    "cargaHoraria": "Carrera de grado de 5 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSE.",
     "queHace": "Estudia y gestiona el agua subterránea: exploración de acuíferos, perforación de pozos, calidad del agua y su aprovechamiento sostenible para consumo humano, riego y ganadería.",
     "problemasQueResuelve": "Acceso al agua en zonas donde el agua superficial escasea y la principal fuente disponible es subterránea, una situación muy común en el Chaco y Santiago del Estero.",
     "perfilRecomendado": "Interés en geología, hidrología y trabajo de campo en zonas rurales.",
@@ -12786,10 +13127,13 @@ const CAREERS = [
       "Geofísica aplicada"
     ],
     "ventajas": [
-      "Es una carrera única en el país, sin equivalentes en otras universidades"
+      "Es una carrera única en el país, sin equivalentes en otras universidades",
+      "Se puede estudiar en UNSE — Facultad de Ciencias Exactas y Te, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "Salida laboral muy especializada y ligada a organismos o empresas específicas del sector"
+      "Salida laboral muy especializada y ligada a organismos o empresas específicas del sector",
+      "Es una carrera larga: 5 años de cursada",
+      "Se cursa en Santiago del Estero: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es la única licenciatura de este tipo en Argentina; la UNSE también ofrece la tecnicatura equivalente como salida más corta.",
@@ -12843,7 +13187,7 @@ const CAREERS = [
     "icono": "🦺",
     "investigado": true,
     "duracionAnios": 2,
-    "cargaHoraria": null,
+    "cargaHoraria": "Ciclo de complementación curricular de 2 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Implementa, evalúa, organiza y conduce sistemas de higiene, seguridad y medio ambiente del trabajo, aplicando técnicas, recursos humanos y materiales para disminuir los daños a la salud de los trabajadores y las pérdidas económicas derivadas de accidentes y enfermedades profesionales. Cumple funciones tanto en la gestión de evaluación y análisis de riesgos como en el desarrollo de técnicas de prevención.",
     "problemasQueResuelve": "Necesidad de jerarquizar el título de técnico/a en Higiene y Seguridad con una licenciatura universitaria, ampliando sus incumbencias hacia la gestión estratégica de la seguridad laboral y no solo la aplicación técnica de normas.",
     "perfilRecomendado": "Técnicos/as en Higiene y Seguridad ya recibidos/as (con plan de estudios de 2 años y medio o más) que busquen jerarquizar su título y sumar herramientas de gestión, auditoría y liderazgo de equipos.",
@@ -12896,7 +13240,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Requiere ya contar con el título de técnico/a en Higiene y Seguridad (2 años y medio o más) para poder inscribirse",
-      "Exige presentar una tesina final además del cursado"
+      "Exige presentar una tesina final además del cursado",
+      "Los planes, la duración y las condiciones pueden variar según la institución: conviene compararlos antes de elegir"
     ],
     "datosInteresantes": [
       "Este ciclo de licenciatura se dicta en modalidad a distancia en la mayoría de las facultades regionales de la UTN que lo ofrecen, a través de un consorcio de regionales que comparten la propuesta académica."
@@ -12917,7 +13262,7 @@ const CAREERS = [
       "nota": "El título de licenciatura suele habilitar el salto a cargos de auditoría, gerencia o consultoría senior, con sueldos notablemente más altos que los del técnico de base."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -12934,7 +13279,7 @@ const CAREERS = [
     "icono": "🦺",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 4 años, virtual. La carga horaria total figura en el plan de estudios oficial de Siglo 21.",
     "queHace": "Gestiona, previene y controla los riesgos laborales y ambientales en organizaciones, investiga incidentes de trabajo, capacita equipos en normas de higiene y seguridad, y asesora a empresas públicas y privadas para el cumplimiento de la normativa vigente.",
     "problemasQueResuelve": "Accidentes de trabajo y enfermedades laborales evitables, incumplimiento de normativa de higiene y seguridad (que expone a las empresas a sanciones y juicios), y falta de cultura de prevención en los ambientes de trabajo.",
     "perfilRecomendado": "Estudiantes con interés en la prevención, el detalle normativo y el cuidado de las personas en el ámbito laboral, con perfil metódico y observador.",
@@ -12983,11 +13328,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Demanda garantizada por ley en prácticamente toda empresa formal",
-      "Buena combinación entre trabajo en relación de dependencia y asesoramiento independiente"
+      "Buena combinación entre trabajo en relación de dependencia y asesoramiento independiente",
+      "Hay cursado a distancia o virtual, así que podés estudiar sin mudarte"
     ],
     "desafios": [
       "Responsabilidad legal significativa en caso de accidentes laborales",
-      "Sueldos con mucha dispersión según el rubro y el tamaño de la empresa"
+      "Sueldos con mucha dispersión según el rubro y el tamaño de la empresa",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Casi toda empresa formal en Argentina está obligada por ley a contar con un servicio de Higiene y Seguridad, lo que le da a este título una base de demanda estructural."
@@ -13008,7 +13355,7 @@ const CAREERS = [
       "nota": "Los sueldos muestran gran dispersión según el rubro y si el ejercicio es en relación de dependencia o freelance para varias empresas."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -13102,7 +13449,8 @@ const CAREERS = [
     ],
     "desafios": [
       "No se encontró un relevamiento salarial específico para 'Licenciado en Historia' en Argentina, diferenciado del cargo docente de Profesor",
-      "La salida en investigación académica de tiempo completo suele requerir estudios de posgrado adicionales (maestría, doctorado) y/o becas de CONICET"
+      "La salida en investigación académica de tiempo completo suele requerir estudios de posgrado adicionales (maestría, doctorado) y/o becas de CONICET",
+      "Los planes, la duración y las condiciones pueden variar según la institución: conviene compararlos antes de elegir"
     ],
     "datosInteresantes": [
       "Este tipo de Ciclo de Complementación Curricular es una modalidad muy usada en Argentina para que egresados de profesorados terciarios puedan obtener el título universitario de grado sin cursar la carrera completa nuevamente."
@@ -13199,7 +13547,8 @@ const CAREERS = [
     ],
     "desafios": [
       "El mercado a veces valora más el título de 'Ingeniero' por sobre el de 'Licenciado' en ciertas búsquedas laborales, aunque en la práctica ambos compiten por los mismos puestos",
-      "Actualización tecnológica permanente"
+      "Actualización tecnológica permanente",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "En el mercado laboral IT argentino, los sueldos dependen mucho más de la tecnología (stack), los años de experiencia y si el empleador es local o extranjero que del nombre específico del título universitario obtenido."
@@ -13220,7 +13569,7 @@ const CAREERS = [
       "nota": "Al igual que con Ingeniería en Sistemas, los valores varían mucho según si el empleador es nacional o extranjero. Se usó la misma referencia salarial que esa carrera, ya que en el mercado laboral de TI argentino ambos títulos acceden a los mismos puestos."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -13318,7 +13667,7 @@ const CAREERS = [
       "nota": "Es uno de los campos con mayor dispersión salarial y de datos poco estandarizados en pesos argentinos, dado que gran parte del mercado de IA se maneja en dólares por la cantidad de contratos remotos con el exterior. Los valores mostrados son una referencia orientativa en pesos."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -13333,7 +13682,7 @@ const CAREERS = [
     "icono": "📊",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 4 años, virtual. La carga horaria total figura en el plan de estudios oficial de Siglo 21.",
     "queHace": "Diseña soluciones de negocio basadas en datos e inteligencia artificial, gestiona productos y servicios digitales, y lidera procesos de transformación digital en organizaciones usando herramientas de análisis (Python, SQL, Power BI, Tableau).",
     "problemasQueResuelve": "La necesidad de las empresas de tomar decisiones basadas en datos y no solo en intuición, de digitalizar procesos de negocio y de aprovechar la inteligencia artificial para generar valor comercial.",
     "perfilRecomendado": "Estudiantes con gusto por los números, la tecnología y los negocios en partes iguales; buen perfil para quien no quiere programar full-time pero sí entender y aplicar datos e IA a decisiones de negocio.",
@@ -13395,7 +13744,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Al ser una carrera nueva, todavía tiene poco recorrido de egresados en el mercado argentino",
-      "Requiere actualización constante en herramientas de análisis e IA"
+      "Requiere actualización constante en herramientas de análisis e IA",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Fue aprobada por Resolución Ministerial N.° 1464/2023, por lo que es una de las carreras más nuevas de la oferta de Siglo 21."
@@ -13416,7 +13766,7 @@ const CAREERS = [
       "nota": "Al compartir salida laboral con roles de análisis de datos y BI, los sueldos siguen de cerca a esos perfiles, que están entre los mejor pagos del área de negocios."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -13433,7 +13783,7 @@ const CAREERS = [
     "icono": "🦵",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNNE.",
     "queHace": "Evalúa y trata problemas del movimiento y la función física: rehabilitación de lesiones, kinesiología deportiva, y tratamiento de pacientes con discapacidad motora.",
     "problemasQueResuelve": "Recuperación funcional de pacientes con lesiones, cirugías, enfermedades neurológicas o discapacidad motora.",
     "perfilRecomendado": "Interés en el movimiento humano, la anatomía y el trabajo directo con pacientes.",
@@ -13481,10 +13831,13 @@ const CAREERS = [
       "Protocolos de rehabilitación"
     ],
     "ventajas": [
-      "Alta posibilidad de trabajo independiente y salida en el ámbito deportivo"
+      "Alta posibilidad de trabajo independiente y salida en el ámbito deportivo",
+      "Se puede estudiar en UNNE — Facultad de Medicina, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "El trabajo físico constante puede generar desgaste corporal a largo plazo"
+      "El trabajo físico constante puede generar desgaste corporal a largo plazo",
+      "Es una carrera larga: 5 años de cursada",
+      "Se cursa en Corrientes: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "La kinesiología deportiva creció mucho como salida laboral en los últimos años, de la mano del crecimiento de clubes y gimnasios.",
@@ -13503,7 +13856,7 @@ const CAREERS = [
       "nota": "Gran parte de los kinesiólogos combina relación de dependencia (hospital, obra social) con consultorio propio, donde el ingreso por sesión puede ser más alto pero menos estable."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -13543,7 +13896,7 @@ const CAREERS = [
     "icono": "📚",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Investiga la lengua y la literatura desde una perspectiva académica: análisis literario, lingüística, crítica y edición de textos, orientada a la investigación más que a la docencia de aula.",
     "problemasQueResuelve": "Formación de investigadores, críticos y editores especializados en literatura y lengua española.",
     "perfilRecomendado": "Fuerte interés en la lectura, la escritura y el análisis crítico de textos.",
@@ -13590,10 +13943,14 @@ const CAREERS = [
       "Metodología de la investigación literaria"
     ],
     "ventajas": [
-      "Formación muy sólida en escritura, útil también en comunicación institucional y edición"
+      "Formación muy sólida en escritura, útil también en comunicación institucional y edición",
+      "Se puede estudiar en UNNE — Facultad de Humanidades, UNSE — Facultad de Humanidades, Ciencias y UNSa — Facultad de Humanidades, institución pública: sin arancel de cursado",
+      "Se dicta en 3 instituciones de la región, así que podés comparar y elegir dónde cursarla"
     ],
     "desafios": [
-      "Mercado laboral acotado fuera de la docencia, la investigación y la edición"
+      "Mercado laboral acotado fuera de la docencia, la investigación y la edición",
+      "Es una carrera larga: 5 años de cursada",
+      "Los planes, la duración y las condiciones pueden variar según la institución: conviene compararlos antes de elegir"
     ],
     "datosInteresantes": [
       "Muchos correctores y editores profesionales del país tienen formación en Letras, aunque trabajen fuera del ámbito académico.",
@@ -13612,7 +13969,7 @@ const CAREERS = [
       "nota": "Buena parte de las salidas de esta familia (investigación, docencia universitaria) dependen de becas o cargos concursados, con ingresos que crecen lento pero de forma más previsible que en el sector privado."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -13688,7 +14045,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Trabajo mayormente presencial en depósitos y centros de distribución",
-      "Alta exigencia operativa en épocas de pico de demanda (fin de año, ofertas)"
+      "Alta exigencia operativa en épocas de pico de demanda (fin de año, ofertas)",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Según una nota de abril de 2026, el crecimiento de las compras online llevó a que el sector logístico ofrezca vacantes con sueldos base desde $1.000.000, con técnicos de mantenimiento cobrando cerca de $1.300.000 y analistas de ruteo entre $1.000.000 y $1.100.000.",
@@ -13712,7 +14070,7 @@ const CAREERS = [
       "nota": "Los portales de empleo tradicionales muestran promedios más bajos, mientras que notas especializadas de 2026 y autorreportes de trabajadores en puestos de jefatura muestran cifras bastante más altas, reflejando el crecimiento del sector impulsado por el e-commerce."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -13752,7 +14110,7 @@ const CAREERS = [
     "icono": "➗",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 4 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Desarrolla modelos matemáticos aplicados a ciencia, tecnología y economía, y aplica herramientas estadísticas y computacionales para analizar datos.",
     "problemasQueResuelve": "Necesidad de profesionales con sólida formación matemática para modelar problemas científicos, tecnológicos y económicos, y para trabajar en análisis de datos.",
     "perfilRecomendado": "Fuerte interés y aptitud para la matemática, con gusto por la resolución de problemas abstractos.",
@@ -13799,10 +14157,14 @@ const CAREERS = [
       "Modelos de simulación"
     ],
     "ventajas": [
-      "La sólida base matemática abre puertas a campos con alta demanda como la ciencia de datos y las finanzas cuantitativas"
+      "La sólida base matemática abre puertas a campos con alta demanda como la ciencia de datos y las finanzas cuantitativas",
+      "Se puede estudiar en UNNE — Facultad de Ciencias Exactas y Na, UNSE — Facultad de Ciencias Exactas y Te y UNSa — Facultad de Ciencias Exactas, institución pública: sin arancel de cursado",
+      "Hay cursado a distancia o virtual, así que podés estudiar sin mudarte"
     ],
     "desafios": [
-      "Es una de las carreras más exigentes en términos de razonamiento abstracto"
+      "Es una de las carreras más exigentes en términos de razonamiento abstracto",
+      "La cursada a distancia exige organización y autodisciplina",
+      "Los planes, la duración y las condiciones pueden variar según la institución: conviene compararlos antes de elegir"
     ],
     "datosInteresantes": [
       "Se dicta en cuatro instituciones de la región (Siglo 21, UNNE, UNSE y UNSa), lo que muestra el fuerte interés regional en esta formación.",
@@ -13821,7 +14183,7 @@ const CAREERS = [
       "nota": "El sueldo en investigación o docencia universitaria pura tiende a la parte baja del rango; en ciencia de datos o finanzas cuantitativas, donde la formación matemática es muy valorada, puede superar ampliamente el techo mostrado."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -13839,7 +14201,7 @@ const CAREERS = [
     "icono": "🎓",
     "investigado": true,
     "duracionAnios": 2,
-    "cargaHoraria": "Ciclo de complementación curricular. Modalidad: presencial. Duración a confirmar con la facultad.",
+    "cargaHoraria": "Ciclo de complementación curricular de 2 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSE.",
     "queHace": "Ciclo de complementación para profesores de Matemática que ya tienen un título terciario y quieren obtener el título universitario de grado.",
     "problemasQueResuelve": "Permite a profesores de Matemática ya recibidos sumar el título de grado, con formación adicional en investigación matemática.",
     "perfilRecomendado": "Profesores de Matemática que buscan profundizar su formación hacia la investigación o la docencia universitaria.",
@@ -13880,10 +14242,13 @@ const CAREERS = [
       "Métodos de investigación en matemática"
     ],
     "ventajas": [
-      "Habilita a la docencia universitaria, que el profesorado terciario no cubre"
+      "Habilita a la docencia universitaria, que el profesorado terciario no cubre",
+      "Se puede estudiar en UNSE — Facultad de Ciencias Exactas y Te, institución pública: sin arancel de cursado",
+      "Es un ciclo de complementación: se aprovecha el título previo para completar la licenciatura"
     ],
     "desafios": [
-      "Mercado laboral acotado fuera de la docencia universitaria y la investigación"
+      "Mercado laboral acotado fuera de la docencia universitaria y la investigación",
+      "Se cursa en Santiago del Estero: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es el ciclo que permite a un profesor de Matemática terciario acceder a la docencia en el nivel universitario.",
@@ -13948,7 +14313,7 @@ const CAREERS = [
     "icono": "🥗",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Evalúa el estado nutricional de personas y comunidades, diseña planes de alimentación adaptados a distintas condiciones de salud, y promueve hábitos alimentarios saludables tanto en el ámbito clínico como comunitario.",
     "problemasQueResuelve": "Desnutrición o malnutrición, manejo nutricional de enfermedades crónicas (diabetes, hipertensión, obesidad), planificación de dietas terapéuticas en internación hospitalaria, promoción de hábitos saludables en la comunidad.",
     "perfilRecomendado": "Estudiantes con interés en la salud, la biología y la química, junto con vocación de acompañamiento a personas en el cuidado de su alimentación.",
@@ -14050,7 +14415,7 @@ const CAREERS = [
     "icono": "👶",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": "Carrera de grado. Modalidad: presencial. Duración a confirmar con la facultad.",
+    "cargaHoraria": "Carrera de grado de 5 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSE.",
     "queHace": "Atiende el embarazo, parto y puerperio de bajo riesgo, hace controles ginecológicos y de salud sexual y reproductiva, y participa en programas de planificación familiar y educación sexual.",
     "problemasQueResuelve": "Falta de profesionales para la atención del parto y la salud sexual y reproductiva, sobre todo en zonas con escaso acceso a especialistas médicos.",
     "perfilRecomendado": "Personas con vocación de cuidado, buen manejo del estrés en situaciones de urgencia y capacidad de trabajar en guardias y turnos rotativos.",
@@ -14101,7 +14466,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Guardias y horarios rotativos exigentes",
-      "Salario inicial moderado en el sector público"
+      "Salario inicial moderado en el sector público",
+      "Es una carrera larga: 5 años de cursada"
     ],
     "datosInteresantes": [
       "Es una de las pocas carreras de grado en Obstetricia que se dictan en universidades públicas del NOA.",
@@ -14120,7 +14486,7 @@ const CAREERS = [
       "nota": "Las guardias y los partos fuera de horario suelen sumar un adicional importante al básico."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -14195,7 +14561,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Los sueldos en medios locales pequeños suelen ser más bajos que en medios nacionales grandes",
-      "Precarización en algunos segmentos del periodismo tradicional"
+      "Precarización en algunos segmentos del periodismo tradicional",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Se toma como referencia el mismo mercado laboral investigado para la Tecnicatura Superior en Comunicación Social con Especialización en Periodismo de este sitio, dado que ambas formaciones compiten por los mismos puestos en medios."
@@ -14216,7 +14583,7 @@ const CAREERS = [
       "nota": "No se encontró un relevamiento salarial separado para 'Licenciado en Periodismo' respecto a la tecnicatura en comunicación social ya investigada; en la práctica ambas formaciones compiten por los mismos puestos en medios de comunicación."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -14231,7 +14598,7 @@ const CAREERS = [
     "icono": "📰",
     "investigado": true,
     "duracionAnios": 2,
-    "cargaHoraria": "Ciclo de complementación curricular. Modalidad: presencial. Duración a confirmar con la facultad.",
+    "cargaHoraria": "Ciclo de complementación curricular de 2 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSE.",
     "queHace": "Ciclo de complementación para quienes ya tienen un título terciario o de pregrado en Periodismo o Comunicación y quieren obtener la licenciatura.",
     "problemasQueResuelve": "Permite a periodistas con título terciario sumar el título universitario de licenciatura sin cursar la carrera completa de nuevo.",
     "perfilRecomendado": "Periodistas o comunicadores ya recibidos que buscan profundizar su formación y sumar el título de grado.",
@@ -14275,10 +14642,13 @@ const CAREERS = [
       "Ética y verificación periodística"
     ],
     "ventajas": [
-      "Permite acceder a cargos de coordinación editorial y docencia con el título de grado"
+      "Permite acceder a cargos de coordinación editorial y docencia con el título de grado",
+      "Se puede estudiar en UNSE — Facultad de Humanidades, Ciencias, institución pública: sin arancel de cursado",
+      "Es un ciclo de complementación: se aprovecha el título previo para completar la licenciatura"
     ],
     "desafios": [
-      "El periodismo en sí es un mercado con salarios dispares y alta rotación"
+      "El periodismo en sí es un mercado con salarios dispares y alta rotación",
+      "Se cursa en Santiago del Estero: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Está pensado para quienes ya ejercen el periodismo y buscan el título universitario completo.",
@@ -14297,7 +14667,7 @@ const CAREERS = [
       "nota": "El periodismo tiene salarios muy dispares: en medios locales chicos son bajos, mientras que en medios nacionales o especializados pueden ser bastante mayores."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -14314,7 +14684,7 @@ const CAREERS = [
     "icono": "🩻",
     "investigado": true,
     "duracionAnios": 2,
-    "cargaHoraria": null,
+    "cargaHoraria": "Ciclo de complementación curricular de 2 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UTN.",
     "queHace": "Opera y gestiona equipamiento de diagnóstico por imágenes (radiología, tomografía, resonancia y otras técnicas), con una formación ampliada respecto del técnico de base en gestión de servicios de diagnóstico, control de calidad de imágenes, protección radiológica y coordinación de equipos.",
     "problemasQueResuelve": "Necesidad de jerarquizar y profesionalizar el rol del técnico/a radiólogo/a con una licenciatura universitaria, que amplíe sus incumbencias hacia la gestión de servicios de diagnóstico por imágenes y no solo la operación técnica del equipamiento.",
     "perfilRecomendado": "Técnicos/as radiólogos/as ya recibidos/as que busquen jerarquizar su título con una licenciatura universitaria y ampliar sus posibilidades de gestión dentro de servicios de diagnóstico por imágenes.",
@@ -14368,7 +14738,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Requiere ya contar con el título de técnico/a radiólogo/a (u equivalente) para poder inscribirse",
-      "Exige presentar una tesina final además del cursado"
+      "Exige presentar una tesina final además del cursado",
+      "Se cursa en Resistencia: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Para ingresar a este ciclo, el título previo de técnico/a radiólogo/a debe tener una carga horaria mínima de 1.800 horas reloj y una duración de al menos 3 años, según lo exige la propia Facultad."
@@ -14389,7 +14760,7 @@ const CAREERS = [
       "nota": "El título de licenciatura suele traducirse en acceso a cargos de jefatura o coordinación dentro del mismo servicio de salud, más que en un cambio total de actividad."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -14415,7 +14786,7 @@ const CAREERS = [
     "icono": "🧠",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Evalúa, diagnostica y aborda procesos psicológicos y de salud mental en distintos ámbitos: clínico (consultorio, hospitales), educativo (escuelas), laboral (empresas) y forense (peritajes judiciales).",
     "problemasQueResuelve": "Malestar psicológico y trastornos de salud mental, dificultades de aprendizaje o vinculares, selección y desarrollo de personal en organizaciones, evaluación psicológica en procesos judiciales.",
     "perfilRecomendado": "Estudiantes con interés en la escucha, la conducta humana y el bienestar emocional propio y ajeno, con buena tolerancia a la carga emocional que implica acompañar a otras personas.",
@@ -14530,12 +14901,12 @@ const CAREERS = [
       }
     ],
     "modalidadInstituciones": "Presencial y digital en Universidad de la Cuenca del Plata (UCP), como carrera de grado y también como Ciclo de Complementación Curricular · Virtual en Universidad Siglo 21 (CAU Sáenz Peña), como Ciclo de Complementación Curricular · A distancia en UNCAUS (UNCAUS Virtual), como Ciclo de Complementación Curricular · Presencial en UNaF — Facultad de Humanidades",
-    "duracionInstituciones": "4 años en UCP (grado; el ciclo de complementación dura 2 años) · 2 años en Siglo 21 (Ciclo de Complementación Curricular) · duración en UNCAUS a confirmar · UNaF — Facultad de Humanidades: 4 años",
+    "duracionInstituciones": "4 años en UCP (grado; el ciclo de complementación dura 2 años) · 2 años en Siglo 21 (Ciclo de Complementación Curricular) · duración en UNCAUS: no figura en las fuentes oficiales consultadas · UNaF — Facultad de Humanidades: 4 años",
     "descripcionBreve": "Forma profesionales para el diagnóstico e intervención en procesos de aprendizaje, con perspectiva psicológica y pedagógica.",
     "icono": "📚",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 4 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Evalúa, diagnostica e interviene en dificultades de aprendizaje de niños, adolescentes y adultos, combinando conocimientos de psicología y pedagogía. Puede trabajar en el ámbito clínico, educativo o institucional.",
     "problemasQueResuelve": "Dificultades de aprendizaje (lectoescritura, cálculo, atención), necesidad de orientación vocacional, problemas de vínculo entre el estudiante y la institución educativa.",
     "perfilRecomendado": "Estudiantes con interés en el aprendizaje humano, la psicología y la pedagogía, con vocación de acompañamiento a niños y adolescentes.",
@@ -14592,7 +14963,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Sueldos en relación de dependencia reportados como bajos por buena parte de las fuentes consultadas",
-      "Construir una cartera de pacientes en consultorio propio lleva tiempo al recibirse"
+      "Construir una cartera de pacientes en consultorio propio lleva tiempo al recibirse",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Un relevamiento de Glassdoor sobre 'Psicopedagogo' en Argentina mostró una gran dispersión: desde un promedio bajo de unos $91.875 anuales en la estimación general hasta un percentil 90 de más de $630.000 anuales, lo que refleja lo poco estandarizado que está este dato."
@@ -14690,7 +15062,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Datos salariales específicos de esta profesión están algo desactualizados en las fuentes disponibles",
-      "Industria competitiva y en transformación, que exige actualización constante en lo digital"
+      "Industria competitiva y en transformación, que exige actualización constante en lo digital",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Un relevamiento especializado del sector describe que la carrera del publicista tiene múltiples caminos posibles: desde creativo, redactor o experto en arte, hasta director de cuentas o líder de agencia, cada uno con su propia progresión salarial."
@@ -14713,7 +15086,7 @@ const CAREERS = [
       "nota": "Las fuentes específicas sobre 'publicista' o 'creativo publicitario' en Argentina son limitadas y algunas datan de años anteriores a 2026. Se usó como base más confiable el relevamiento de Elsalario.com.ar para la categoría general de profesionales de publicidad y marketing, complementado con la nota de iProfesional sobre progresión de carrera en la industria. [Actualizado 2026-08-11: cifra ajustada +36.2% respecto a la fuente original citada, según inflación acumulada real (INDEC) hasta julio 2026. El valor en USD se recalculó al tipo de cambio oficial de referencia de agosto 2026 (~$1520).]"
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -14744,7 +15117,7 @@ const CAREERS = [
     "icono": "🎓",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": "Carrera de grado. Modalidad: presencial. Duración a confirmar con la facultad.",
+    "cargaHoraria": "Carrera de grado de 5 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Investiga y aplica la química a distintos campos: análisis de sustancias, desarrollo de nuevos materiales, control de calidad industrial y agroindustrial.",
     "problemasQueResuelve": "Análisis y desarrollo de sustancias químicas para la industria agroalimentaria y el control de calidad, un sector relevante en Santiago del Estero.",
     "perfilRecomendado": "Interés en química, trabajo de laboratorio y experimentación.",
@@ -14789,10 +15162,14 @@ const CAREERS = [
       "Normas de calidad y seguridad química"
     ],
     "ventajas": [
-      "Formación versátil, con salida tanto en industria como en investigación"
+      "Formación versátil, con salida tanto en industria como en investigación",
+      "Se puede estudiar en UNSE — Facultad de Agronomía y Agroindus y UNSa — Facultad de Ciencias Exactas, institución pública: sin arancel de cursado",
+      "Se dicta en 2 instituciones de la región, así que podés comparar y elegir dónde cursarla"
     ],
     "desafios": [
-      "Carrera exigente con alta carga de laboratorio"
+      "Carrera exigente con alta carga de laboratorio",
+      "Es una carrera larga: 5 años de cursada",
+      "Los planes, la duración y las condiciones pueden variar según la institución: conviene compararlos antes de elegir"
     ],
     "datosInteresantes": [
       "Comparte buena parte del primer tramo con el Profesorado en Química de la misma facultad.",
@@ -14811,7 +15188,7 @@ const CAREERS = [
       "nota": "La industria agroalimentaria y química paga mejor que la investigación pura; el rango combina ambas salidas."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -14887,7 +15264,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Las fuentes disponibles muestran cifras muy inconsistentes entre sí, algunas con errores evidentes de carga de datos, lo que dificulta dar una cifra confiable",
-      "El ingreso al servicio exterior diplomático requiere aprobar un concurso público competitivo"
+      "El ingreso al servicio exterior diplomático requiere aprobar un concurso público competitivo",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "El ingreso a la carrera diplomática en Argentina (Instituto del Servicio Exterior de la Nación) se realiza mediante concurso público, independientemente del título universitario previo.",
@@ -14909,7 +15287,7 @@ const CAREERS = [
       "nota": "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -14933,7 +15311,7 @@ const CAREERS = [
     "icono": "🤝",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNNE.",
     "queHace": "Gestiona las relaciones entre empresas y trabajadores: negociación colectiva, políticas de recursos humanos, mediación de conflictos laborales y asesoramiento en legislación del trabajo.",
     "problemasQueResuelve": "Necesidad de gestión profesional de las relaciones laborales dentro de empresas y organismos, y mediación en conflictos entre empleadores y trabajadores.",
     "perfilRecomendado": "Interés en el mundo del trabajo, la negociación y la gestión de personas.",
@@ -14978,10 +15356,13 @@ const CAREERS = [
       "Técnicas de negociación colectiva"
     ],
     "ventajas": [
-      "Salida laboral en un área presente en toda organización con empleados"
+      "Salida laboral en un área presente en toda organización con empleados",
+      "Se puede estudiar en UNNE — Facultad de Ciencias Económicas, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "El mercado es más chico que el de Recursos Humanos genérico, y compite con otras formaciones (Relaciones del Trabajo, Administración)"
+      "El mercado es más chico que el de Recursos Humanos genérico, y compite con otras formaciones (Relaciones del Trabajo, Administración)",
+      "Es una carrera larga: 5 años de cursada",
+      "Se cursa en Resistencia: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Se dicta en la Facultad de Ciencias Económicas de la UNNE. Más información: https://www.eco.unne.edu.ar"
@@ -15075,7 +15456,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Los relevamientos salariales disponibles muestran mucha dispersión y pocas muestras confiables",
-      "El éxito profesional depende mucho de la red de contactos construida"
+      "El éxito profesional depende mucho de la red de contactos construida",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Muchos profesionales de relaciones públicas en Argentina combinan esta función con la organización de eventos institucionales, dado que ambas tareas están estrechamente vinculadas en la práctica."
@@ -15096,7 +15478,7 @@ const CAREERS = [
       "nota": "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -15171,7 +15553,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Enorme dispersión salarial entre fuentes: desde estimaciones bajas hasta cifras millonarias para el mismo puesto",
-      "Requiere actualización constante ante nuevas amenazas y tecnologías"
+      "Requiere actualización constante ante nuevas amenazas y tecnologías",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Un caso real difundido en 2026: una analista pasó de soporte técnico a Analista SOC Semi-Senior en menos de 6 meses de capacitación (sin título universitario previo en IT), alcanzando un sueldo de $480.000 mensuales, un aumento del 50% respecto a su puesto anterior.",
@@ -15195,7 +15578,7 @@ const CAREERS = [
       "nota": "Enorme dispersión entre fuentes, típica de roles tecnológicos especializados: algunas estimaciones automáticas muestran cifras muy bajas o muy altas por pocas muestras. Se priorizó un caso real documentado en 2026 (analista SOC semi-senior) como ancla más confiable, complementado con rangos generales del mercado."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -15228,7 +15611,7 @@ const CAREERS = [
     "icono": "🚨",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 4 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Diseña, gestiona y evalúa estrategias de prevención del delito y de seguridad pública y privada. Organiza dispositivos de vigilancia y protección, interviene en la gestión de crisis, siniestros y catástrofes, y asesora a organismos públicos y privados en políticas de seguridad.",
     "problemasQueResuelve": "Falta de estrategias efectivas de prevención del delito, necesidad de planificación de la seguridad en espacios públicos y privados, gestión de situaciones de riesgo, siniestro o catástrofe, coordinación entre fuerzas de seguridad y la comunidad.",
     "perfilRecomendado": "Estudiantes con interés en la seguridad pública, el orden social y las políticas públicas, con capacidad de trabajo en contextos de presión y compromiso con los derechos humanos y la democracia.",
@@ -15342,7 +15725,7 @@ const CAREERS = [
     "icono": "🖥️",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Diseña, desarrolla e implementa sistemas de software para empresas y organismos: desde aplicaciones de gestión hasta sistemas complejos, con foco en el análisis de requerimientos y la arquitectura de software.",
     "problemasQueResuelve": "Necesidad de digitalizar y automatizar procesos de negocio, gestionar datos y desarrollar software a medida para organizaciones.",
     "perfilRecomendado": "Interés en programación, resolución lógica de problemas y trabajo con sistemas complejos.",
@@ -15388,10 +15771,14 @@ const CAREERS = [
       "Metodologías ágiles (Scrum)"
     ],
     "ventajas": [
-      "Muy buena empleabilidad y posibilidad de trabajo remoto e internacional"
+      "Muy buena empleabilidad y posibilidad de trabajo remoto e internacional",
+      "Se puede estudiar en UNNE — Facultad de Ciencias Exactas y Na y UNSE — Facultad de Ciencias Exactas y Te, institución pública: sin arancel de cursado",
+      "Se dicta en 2 instituciones de la región, así que podés comparar y elegir dónde cursarla"
     ],
     "desafios": [
-      "Requiere actualización constante ante los cambios tecnológicos"
+      "Requiere actualización constante ante los cambios tecnológicos",
+      "Es una carrera larga: 5 años de cursada",
+      "Los planes, la duración y las condiciones pueden variar según la institución: conviene compararlos antes de elegir"
     ],
     "datosInteresantes": [
       "Es una de las licenciaturas con mejor relación entre demanda laboral y cantidad de egresados en Argentina.",
@@ -15411,7 +15798,7 @@ const CAREERS = [
       "nota": "Es uno de los sectores con mayor variabilidad: un desarrollador que trabaja para una empresa argentina cobra en pesos dentro de este rango, pero uno que trabaja en remoto para una empresa extranjera puede cobrar en dólares, muy por encima de estos valores."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -15445,7 +15832,7 @@ const CAREERS = [
     "icono": "🏛️",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 4 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Estudia y analiza el comportamiento social de individuos y grupos: cómo se organizan las sociedades, qué las transforma y cómo inciden en ellas factores como la economía, la cultura, la política y las instituciones. Aplica métodos cuantitativos y cualitativos de investigación social.",
     "problemasQueResuelve": "Necesidad de diagnósticos sociales para el diseño de políticas públicas, análisis de clima laboral y dinámicas organizacionales en empresas, estudios de mercado y comportamiento del consumidor, investigación sobre problemáticas sociales (pobreza, educación, salud).",
     "perfilRecomendado": "Estudiantes con curiosidad por entender la sociedad y sus dinámicas, buena capacidad de lectura y escritura, y comodidad tanto con el trabajo de campo como con el análisis de datos.",
@@ -15505,7 +15892,8 @@ const CAREERS = [
     ],
     "desafios": [
       "No se encontraron relevamientos salariales recientes y confiables específicos para Argentina en 2026, lo que dificulta dar una cifra de referencia",
-      "Menor reconocimiento inmediato en el mercado laboral privado en comparación con perfiles de administración o economía"
+      "Menor reconocimiento inmediato en el mercado laboral privado en comparación con perfiles de administración o economía",
+      "Los planes, la duración y las condiciones pueden variar según la institución: conviene compararlos antes de elegir"
     ],
     "datosInteresantes": [
       "Según especialistas consultados en medios universitarios argentinos, el sector privado —y no solo el Estado o la investigación académica— es un empleador importante de sociólogos, sobre todo en áreas de procesamiento de datos estadísticos (Big Data) para segmentación de mercado."
@@ -15526,7 +15914,7 @@ const CAREERS = [
       "nota": "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -15546,7 +15934,7 @@ const CAREERS = [
     "icono": "🖥️",
     "investigado": true,
     "duracionAnios": 2,
-    "cargaHoraria": null,
+    "cargaHoraria": "Ciclo de complementación curricular de 2 años, a distancia. La carga horaria total figura en el plan de estudios oficial de la UTN.",
     "queHace": "Diseña, planifica e implementa proyectos de tecnología educativa con fines formativos en instituciones del sistema educativo y del ámbito socio-productivo. Asesora a instituciones sobre el uso de tecnología con fines formativos, produce material educativo y participa en equipos de investigación sobre tecnología educativa.",
     "problemasQueResuelve": "Necesidad de los/as docentes de asumir la transformación digital de la enseñanza, integrando de forma efectiva las TIC (tecnologías de la información y la comunicación) a sus prácticas pedagógicas.",
     "perfilRecomendado": "Profesores/as ya recibidos/as (con título docente de nivel superior) que quieran sumar una licenciatura enfocada en tecnología educativa, sumar puntaje docente y especializarse en el uso pedagógico de la tecnología.",
@@ -15620,7 +16008,7 @@ const CAREERS = [
       "nota": "En la mayoría de los casos esta licenciatura se suma al sueldo docente de base (mejora el puntaje y habilita cargos de coordinación), más que reemplazarlo por un sueldo totalmente distinto."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -15640,7 +16028,7 @@ const CAREERS = [
     "icono": "♿",
     "investigado": true,
     "duracionAnios": 2,
-    "cargaHoraria": null,
+    "cargaHoraria": "Ciclo de complementación curricular de 2 años, a distancia. La carga horaria total figura en el plan de estudios oficial de la UTN.",
     "queHace": "Diseña, interviene y evalúa procesos de enseñanza y aprendizaje en el marco de la educación inclusiva, incorporando tecnologías inclusivas. Elabora y evalúa propuestas y modelos curriculares que favorecen la inclusión educativa, y brinda asesoramiento pedagógico, didáctico y tecnológico a instituciones de todos los niveles del sistema educativo desde la perspectiva de la inclusión.",
     "problemasQueResuelve": "Necesidad de que las instituciones educativas cuenten con profesionales capacitados para incluir efectivamente a estudiantes con discapacidad u otras necesidades educativas específicas, usando tecnología como herramienta de inclusión y no solo de accesibilidad básica.",
     "perfilRecomendado": "Profesores/as de Educación Especial que quieran profundizar su formación en el cruce entre tecnología e inclusión educativa, y sumar un título de licenciatura a su carrera docente.",
@@ -15686,11 +16074,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Es una carrera desarrollada íntegramente por la propia FRRE, con identidad regional propia",
-      "Complementa y jerarquiza la formación de Profesor/a de Educación Especial con un título de licenciatura"
+      "Complementa y jerarquiza la formación de Profesor/a de Educación Especial con un título de licenciatura",
+      "Se puede estudiar en UTN FRRE, institución pública: sin arancel de cursado"
     ],
     "desafios": [
       "Requisito de ingreso exigente: título de Profesor/a de Educación Especial con plan de 3 años o más",
-      "Campo laboral específico, más chico que el de la docencia general"
+      "Campo laboral específico, más chico que el de la docencia general",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Es uno de los pocos ciclos de licenciatura del país enfocado específicamente en el cruce entre tecnología e inclusión educativa, y se desarrolla íntegramente en la FRRE (no es una propuesta compartida con otras facultades regionales)."
@@ -15711,7 +16101,7 @@ const CAREERS = [
       "nota": "Al igual que en Tecnología Educativa, esta licenciatura suele sumarse al sueldo docente de base mejorando el puntaje y habilitando roles de asesoramiento, más que reemplazarlo."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -15786,7 +16176,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Las fuentes salariales disponibles para esta profesión en Argentina son extremadamente inconsistentes entre sí, lo que dificulta dar una cifra confiable",
-      "Carga emocional del trabajo con personas con discapacidad o en rehabilitación"
+      "Carga emocional del trabajo con personas con discapacidad o en rehabilitación",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Pese a llamarse carrera 'virtual', la Terapia Ocupacional es una de las que la propia universidad aclara que exige instancias presenciales obligatorias por su componente clínico, a diferencia de otras licenciaturas 100% a distancia de la misma oferta académica."
@@ -15807,7 +16198,7 @@ const CAREERS = [
       "nota": "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -15824,7 +16215,7 @@ const CAREERS = [
     "icono": "🤝",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": "Carrera de grado. Modalidad: presencial. Duración a confirmar con la facultad.",
+    "cargaHoraria": "Carrera de grado de 5 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSE.",
     "queHace": "Interviene con personas, familias, grupos y comunidades en situación de vulnerabilidad social: pobreza, violencia, adicciones, niñez y adolescencia, adultos mayores, discapacidad. Diseña y ejecuta proyectos sociales, hace diagnósticos comunitarios, articula con otras políticas públicas y acompaña procesos de organización colectiva.",
     "problemasQueResuelve": "Falta de acceso a derechos básicos (vivienda, salud, educación, trabajo), conflictos familiares y comunitarios, y necesidad de articular recursos estatales, judiciales y comunitarios para sostener a personas en situación de vulnerabilidad.",
     "perfilRecomendado": "Personas con sensibilidad social, tolerancia a la frustración, capacidad de escucha y de trabajar en contextos de alta carga emocional, y compromiso con los derechos humanos.",
@@ -15903,7 +16294,7 @@ const CAREERS = [
       "nota": "Buena parte de las salidas de esta familia (investigación, docencia universitaria) dependen de becas o cargos concursados, con ingresos que crecen lento pero de forma más previsible que en el sector privado."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -15926,7 +16317,7 @@ const CAREERS = [
     "icono": "🧳",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNNE.",
     "queHace": "Forma profesionales para planificar y gestionar proyectos turísticos: desarrollo de destinos, promoción turística, gestión de empresas del sector y políticas públicas de turismo.",
     "problemasQueResuelve": "Necesidad de planificación profesional del turismo como actividad económica, con foco en el desarrollo sostenible de destinos y la promoción de la región.",
     "perfilRecomendado": "Interés en viajes, gestión de proyectos y desarrollo económico local a través del turismo.",
@@ -15973,10 +16364,13 @@ const CAREERS = [
       "Planificación de destinos turísticos"
     ],
     "ventajas": [
-      "Región con potencial turístico en desarrollo (Esteros del Iberá, Chaco, cataratas cercanas)"
+      "Región con potencial turístico en desarrollo (Esteros del Iberá, Chaco, cataratas cercanas)",
+      "Se puede estudiar en UNNE — Facultad de Artes, Diseño y Cienc, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "El sector turístico es sensible a la situación económica general del país"
+      "El sector turístico es sensible a la situación económica general del país",
+      "Es una carrera larga: 5 años de cursada",
+      "Se cursa en Resistencia: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Comparte buena parte del plan de estudios con la Tecnicatura en Turismo de la misma facultad, que es la salida más corta.",
@@ -15995,7 +16389,7 @@ const CAREERS = [
       "nota": "Al ser un título de grado, habilita a cargos de planificación y dirección que la tecnicatura no cubre."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -16012,7 +16406,7 @@ const CAREERS = [
     "icono": "💼",
     "investigado": true,
     "duracionAnios": null,
-    "cargaHoraria": null,
+    "cargaHoraria": "Maestría de la UTN (Ordenanza CSU 1402/13): 18 seminarios más tesis, con un mínimo de 700 horas según el estándar nacional de maestrías y plazo máximo de 4 años. El tiempo real depende de la tesis.",
     "queHace": "Desarrolla capacidades directivas para actuar en ambientes de negocios complejos y diversos: planificación, organización, gestión y control de organizaciones comerciales o productivas, diseño e implementación de soluciones innovadoras, y liderazgo de equipos interdisciplinarios.",
     "problemasQueResuelve": "Necesidad de ingenieros/as y otros profesionales de sumar una formación de gestión y negocios de nivel de posgrado para acceder a puestos directivos o gerenciales, un salto que su formación de grado (más técnica) no siempre cubre.",
     "perfilRecomendado": "Ingenieros/as, licenciados/as en administración y otros profesionales con título de grado que aspiren a puestos directivos o gerenciales, o a liderar sus propios emprendimientos.",
@@ -16065,7 +16459,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Requiere ya contar con un título de grado (ingeniería, licenciatura u equivalente) para poder inscribirse",
-      "Es un posgrado exigente en tiempo, que exige compatibilizarlo con el trabajo"
+      "Es un posgrado exigente en tiempo, que exige compatibilizarlo con el trabajo",
+      "Se cursa en Resistencia: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "En la red de facultades regionales de la UTN, la Especialización en Ingeniería Gerencial y la Maestría en Administración de Negocios suelen dictarse como un único trayecto: primero se cursa la especialización (aproximadamente 2 años) y luego, quienes quieren el título de magíster, suman seminarios adicionales y una tesis de maestría."
@@ -16086,7 +16481,7 @@ const CAREERS = [
       "nota": "Un MBA se cursa generalmente sobre una carrera de grado y experiencia laboral previa. El rango mostrado estima el sueldo de un perfil gerencial/directivo con MBA en Argentina, por comparación con el mercado — no un sueldo propio del título en sí."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -16103,7 +16498,7 @@ const CAREERS = [
     "icono": "📈",
     "investigado": true,
     "duracionAnios": null,
-    "cargaHoraria": null,
+    "cargaHoraria": "Maestría de la UTN con cursado presencial dos días por semana, de 18 a 22 h, más tesis. La duración total depende de la cohorte y de la tesis.",
     "queHace": "Forma especialistas en el diseño, la implementación y la gestión de sistemas de calidad en organizaciones industriales y de servicios, aplicando normas internacionales de calidad, herramientas estadísticas y metodologías de mejora continua.",
     "problemasQueResuelve": "Necesidad de las empresas de contar con profesionales de alto nivel capacitados para liderar procesos de certificación y mejora continua de la calidad, cada vez más exigidos por los mercados nacionales e internacionales.",
     "perfilRecomendado": "Ingenieros/as y otros profesionales con título de grado, interesados en especializarse en gestión de calidad, mejora continua y certificación de procesos.",
@@ -16149,11 +16544,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Título de posgrado con reconocimiento en toda la red de facultades regionales de la UTN",
-      "Muy valorado en industrias con procesos de exportación o certificación internacional"
+      "Muy valorado en industrias con procesos de exportación o certificación internacional",
+      "Se puede estudiar en UTN FRRE, institución pública: sin arancel de cursado"
     ],
     "desafios": [
       "Requiere ya contar con un título de grado para poder inscribirse",
-      "Exige buena base de estadística y gestión de procesos"
+      "Exige buena base de estadística y gestión de procesos",
+      "Se cursa en Resistencia: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "La Maestría en Ingeniería en Calidad ha sido reacreditada por la CONEAU con categorías altas en distintas facultades regionales de la UTN, lo que respalda la calidad académica de este posgrado a nivel nacional."
@@ -16174,7 +16571,7 @@ const CAREERS = [
       "nota": "Estimación aproximada del sueldo de un/a ingeniero/a especializado en gestión de calidad que suma esta maestría, por comparación con puestos senior de calidad en la industria — no un sueldo propio e independiente de la maestría."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -16237,10 +16634,12 @@ const CAREERS = [
       "Software de gestión de subastas"
     ],
     "ventajas": [
-      "Título corto (2 años) con posibilidad de ejercicio independiente inmediato"
+      "Título corto (2 años) con posibilidad de ejercicio independiente inmediato",
+      "Se puede estudiar en UNNE — Facultad de Derecho y Ciencias So, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "Los ingresos dependen de la actividad comercial e inmobiliaria de la zona, que puede ser variable"
+      "Los ingresos dependen de la actividad comercial e inmobiliaria de la zona, que puede ser variable",
+      "Se cursa en Corrientes: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Muchos martilleros complementan esta actividad con la de corredor inmobiliario o inmobiliaria propia.",
@@ -16259,7 +16658,7 @@ const CAREERS = [
       "nota": "El ingreso de un martillero depende casi enteramente de las comisiones por remates y operaciones inmobiliarias que gestione; no hay un 'sueldo' fijo salvo que trabaje en relación de dependencia para una inmobiliaria o rematador establecido."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -16359,7 +16758,7 @@ const CAREERS = [
       "nota": "A diferencia de la mayoría de las carreras de este sitio, esta profesión NO tiene un sueldo fijo de mercado: el ingreso depende directamente de las operaciones inmobiliarias que se concreten y del honorario pactado (típicamente 1,5%-3% del valor de la operación), además de los costos fijos de matrícula y cuota del colegio profesional correspondiente a la jurisdicción."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -16546,10 +16945,13 @@ const CAREERS = [
       "Sistemas de gestión notarial"
     ],
     "ventajas": [
-      "Permite sumar una segunda incumbencia profesional (notariado) a la de abogado"
+      "Permite sumar una segunda incumbencia profesional (notariado) a la de abogado",
+      "Se puede estudiar en UNNE — Facultad de Derecho y Ciencias So, institución pública: sin arancel de cursado",
+      "Es un ciclo de complementación: se aprovecha el título previo para completar la licenciatura"
     ],
     "desafios": [
-      "El número de escribanías habilitadas por zona suele estar limitado por el colegio profesional"
+      "El número de escribanías habilitadas por zona suele estar limitado por el colegio profesional",
+      "Se cursa en Corrientes: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es un ciclo pensado específicamente para abogados, no para quien empieza sin ningún título previo.",
@@ -16586,7 +16988,7 @@ const CAREERS = [
     "icono": "🦷",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNNE.",
     "queHace": "Diagnostica, previene y trata enfermedades bucales y dentales: desde controles de rutina hasta cirugías, ortodoncia y prótesis.",
     "problemasQueResuelve": "Atención de la salud bucal de la población, que impacta directamente en la salud general y la calidad de vida.",
     "perfilRecomendado": "Interés en la salud, la anatomía y el trabajo manual de precisión.",
@@ -16635,10 +17037,13 @@ const CAREERS = [
       "Software de gestión de consultorio"
     ],
     "ventajas": [
-      "Alta posibilidad de trabajo independiente con consultorio propio"
+      "Alta posibilidad de trabajo independiente con consultorio propio",
+      "Se puede estudiar en UNNE — Facultad de Odontología, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "Requiere una inversión inicial importante en equipamiento para montar un consultorio propio"
+      "Requiere una inversión inicial importante en equipamiento para montar un consultorio propio",
+      "Es una carrera larga: 5 años de cursada",
+      "Se cursa en Corrientes: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es una de las pocas carreras de Odontología de grado en universidades públicas del NEA.",
@@ -16657,7 +17062,7 @@ const CAREERS = [
       "nota": "El ingreso de un odontólogo varía enormemente según trabaje para obras sociales (peor pago por prestación) o con consultorio propio y pacientes particulares (mejor pago, pero requiere armar cartera de pacientes)."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -16674,7 +17079,7 @@ const CAREERS = [
     "icono": "👓",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 3 años, presencial. La carga horaria total figura en el plan de estudios oficial de UNCAUS.",
     "queHace": "Interpreta y ejecuta recetas prescriptas por oftalmólogos, mide parámetros corneales y adapta lentes de contacto, fabrica y ajusta armazones y cristales oftálmicos, y puede gestionar ópticas o empresas que fabriquen o comercialicen productos afines (lentes de contacto, prótesis oculares).",
     "problemasQueResuelve": "Necesidad de corrección visual mediante anteojos o lentes de contacto correctamente adaptados, mantenimiento y reparación de instrumental óptico, asesoramiento técnico en la elección de cristales y armazones.",
     "perfilRecomendado": "Estudiantes con interés en la salud visual, la óptica y la precisión manual/técnica, con buena atención al detalle y algo de vocación comercial si piensan gestionar una óptica propia.",
@@ -16768,7 +17173,7 @@ const CAREERS = [
     "icono": "👮",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": null,
+    "cargaHoraria": "Formación institucional de 3 años, presencial, con régimen propio de la fuerza. La carga horaria la define el plan de formación de cada escuela.",
     "modalidadInstituciones": "Presencial en el Instituto Superior de Educación Policial y Seguridad Pública (Resistencia, Chaco), con régimen de instituto policial.",
     "duracionInstituciones": "Oficiales (Tecnicatura Superior en Seguridad Pública y Ciudadana): 3 años lectivos · Agentes (Curso de Formación Inicial): 1 año lectivo",
     "queHace": "Un/a policía chaqueño/a previene delitos y contravenciones, mantiene el orden público, patrulla y responde a emergencias, colabora con la investigación de delitos bajo dirección judicial, regula el tránsito y brinda seguridad en eventos y espacios públicos de la provincia. Los Oficiales, además, cumplen funciones de mando y conducción de personal dentro de las distintas dependencias (comisarías, divisiones, unidades especiales).",
@@ -16844,15 +17249,16 @@ const CAREERS = [
     "experienciaPersonal": "",
     "salario": {
       "junior": "1.210.000",
-      "semiSenior": null,
+      "semiSenior": "1.400.000",
       "senior": "5.170.000",
       "moneda": "ARS",
       "fechaReferencia": "Septiembre 2026 (ajustado +3,5% por inflación estimada desde julio 2026, según IPC INDEC; dato base originalmente relevado en julio 2026)",
       "fuentes": [
         "Escala de sueldos de la Policía de la Provincia del Chaco difundida en abril 2026 (diariozona.com, baxternoticias.top)",
-        "comunicacion.chaco.gov.ar (anuncios de recomposición salarial 2026)"
+        "comunicacion.chaco.gov.ar (anuncios de recomposición salarial 2026)",
+        "diariozona.com, «Policía del Chaco: el nuevo incremento salarial del 2 %…» (abril 2026): Oficial Ayudante $1.356.806,15 de haber puro, ajustado con el mismo +3,5 % que el resto de la escala"
       ],
-      "nota": "El monto \"junior\" corresponde al haber puro de un/a Agente (el escalafón más bajo) y el \"senior\" al de un/a Comisario/a General (la jerarquía máxima), según la escala vigente desde abril de 2026, con un incremento del 2% sobre el básico. No hay datos públicos y desglosados de los escalafones intermedios (Oficial, Comisario Inspector, etc.). Además del básico, los haberes incluyen adicionales como Riesgo Profesional (100% del básico del Agente) y Dedicación Especial, que representan una parte importante del sueldo de bolsillo."
+      "nota": "El monto \"junior\" corresponde al haber puro de un/a Agente (el escalafón más bajo) y el \"senior\" al de un/a Comisario/a General (la jerarquía máxima), según la escala vigente desde abril de 2026, con un incremento del 2% sobre el básico. El monto «semiSenior» corresponde al haber puro de un/a Oficial Ayudante (primer grado de oficial). No hay datos públicos completos de los demás escalafones intermedios. Además del básico, los haberes incluyen adicionales como Riesgo Profesional (100% del básico del Agente) y Dedicación Especial, que representan una parte importante del sueldo de bolsillo."
     },
     "pdfs": {
       "plan": null,
@@ -16874,7 +17280,7 @@ const CAREERS = [
     "icono": "🛂",
     "investigado": true,
     "duracionAnios": 1,
-    "cargaHoraria": null,
+    "cargaHoraria": "Formación institucional de 1 año, presencial, con régimen propio de la fuerza. La carga horaria la define el plan de formación de cada escuela.",
     "modalidadInstituciones": "Presencial en el Instituto Superior de Seguridad Aeroportuaria (ISSA), Ezeiza, Buenos Aires.",
     "duracionInstituciones": "Curso de Oficiales de la PSA: aproximadamente 1 año, con un proceso de selección previo (examen virtual y curso de ingreso presencial de tres semanas en el ISSA)",
     "queHace": "Un/a agente de la PSA resguarda y garantiza la seguridad interior en el ámbito jurisdiccional aeroportuario: previene, conjura e investiga delitos e infracciones que ocurren en los aeropuertos y su entorno (salvo los que ya están previstos específicamente en el Código Aeronáutico). Está presente en los aeropuertos del país a través de las Unidades Operacionales de Seguridad Aeroportuaria Preventiva (UOSP), agrupadas en cinco regiones.",
@@ -16940,18 +17346,16 @@ const CAREERS = [
     ],
     "experienciaPersonal": "",
     "salario": {
-      "junior": "220.000",
-      "semiSenior": null,
-      "senior": "1.570.000",
-      "juniorUSD": "US$ 140",
-      "seniorUSD": "US$ 995",
+      "junior": "253.424",
+      "semiSenior": "787.094",
+      "senior": "1.804.514",
       "moneda": "ARS",
-      "fechaReferencia": "Septiembre 2026 (ajustado +3,5% por inflación estimada desde julio 2026, según IPC INDEC; dato base originalmente relevado en julio 2026 (ajustado por inflación respecto a la fuente original; ver nota))",
+      "fechaReferencia": "Octubre 2026 (escala oficial del Ministerio de Seguridad, Resolución 844/2026)",
       "fuentes": [
-        "elestrategico.com (escala salarial completa de las cinco fuerzas de seguridad federales, marzo-abril 2026)",
-        "argentina.gob.ar/psa (información institucional)"
+        "elestrategico.com, «Fuerzas Federales: cuánto cobran… en octubre de 2026» (17/10/2026), con la escala por grado de la Resolución 844/2026",
+        "iprofesional.com (escalas de octubre a diciembre de 2026 de la PSA)"
       ],
-      "nota": "El monto \"junior\" corresponde al haber básico de un/a Aspirante a Oficial (etapa de formación en el ISSA) y el \"senior\" al de un/a Comisionado/a General (la jerarquía máxima del personal policial). Son haberes básicos, sin adicionales por antigüedad, riesgo o función. La cifra original ($197.804,77 y $1.408.477,52) estaba vigente desde noviembre de 2025 según las fuentes consultadas; se actualizó +7,4% para reflejar la inflación acumulada real (INDEC) hasta julio de 2026, y el valor en USD se calculó al tipo de cambio oficial de referencia de agosto 2026 (~$1520). No encontramos una cifra confiable para un rango intermedio (semiSenior)."
+      "nota": "El monto «junior» es el sueldo básico de un/a Cadete (etapa de formación), el «semiSenior» el de un/a Oficial Principal y el «senior» el de un/a Comisionado/a General (la jerarquía máxima). Son sueldos básicos: la PSA les suma suplementos por tarea jerárquica, exigencia de servicio, actividad riesgosa y recargo de servicio, así que no son comparables de forma directa con el haber mensual de otras fuerzas. La escala sube en noviembre y diciembre de 2026."
     },
     "pdfs": {
       "plan": null,
@@ -16976,7 +17380,7 @@ const CAREERS = [
     "icono": "🚔",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": null,
+    "cargaHoraria": "Formación institucional de 3 años, con régimen propio de la fuerza. La carga horaria la define el plan de formación de cada escuela.",
     "modalidadInstituciones": "Presencial, régimen de internado, en la Escuela de Cadetes \"Comisario General Juan Ángel Pirker\" (Villa Lugano, CABA) · Presencial en la Escuela Federal de Suboficiales y Agentes \"Don Enrique O'Gorman\" (CABA)",
     "duracionInstituciones": "Escuela de Cadetes (Oficiales): 3 años (egresan con el grado de Oficial Ayudante y título técnico) · Escuela de Suboficiales y Agentes: 9 meses en modalidad externa (egresan como Agentes)",
     "queHace": "Un/a policía federal previene delitos, mantiene el orden público, investiga delitos de competencia federal en todo el país (y de competencia ordinaria en CABA), controla el tránsito, custodia edificios públicos y brinda seguridad en eventos. Según el escalafón elegido, también puede desempeñarse en Bomberos, Comunicaciones o el Cuerpo Pericial (investigación científica del delito). Los Oficiales, además, cumplen funciones de conducción de personal.",
@@ -17082,7 +17486,7 @@ const CAREERS = [
     "icono": "⚓",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Formación institucional de 4 años, con régimen propio de la fuerza. La carga horaria la define el plan de formación de cada escuela.",
     "modalidadInstituciones": "Presencial, régimen de internado, en la Escuela de Oficiales \"General Matías de Irigoyen\" (Zárate, Buenos Aires) · Presencial, régimen de internado, en la Escuela de Suboficiales \"Coronel Martín Jacobo Thompson\" (Zárate, Buenos Aires)",
     "duracionInstituciones": "Escuela de Oficiales: 3 años de formación académica (Cuerpo General/Escalafón Intendencia) o 2 años (Cuerpo Complementario, Escalafón Técnica General), egresando como Oficial Ayudante, más una pasantía profesional posterior para obtener el título universitario · Escuela de Suboficiales: 2 años (egresan como Cabos Segundos)",
     "queHace": "Un/a prefecturiano/a controla y da seguridad a la navegación en el mar, los ríos y los lagos navegables del país, combate la pesca ilegal, el narcotráfico y el contrabando por vía acuática, participa en operativos de búsqueda y rescate, protege el ambiente acuático y controla los puertos. Los Oficiales, además, conducen personal y dependencias, y pueden orientarse a la administración (Escalafón Intendencia) o a especialidades técnicas.",
@@ -17155,16 +17559,16 @@ const CAREERS = [
     ],
     "experienciaPersonal": "",
     "salario": {
-      "junior": "1.040.000",
-      "semiSenior": null,
-      "senior": null,
+      "junior": "1.003.308",
+      "semiSenior": "1.571.674",
+      "senior": "3.376.188",
       "moneda": "ARS",
-      "fechaReferencia": "Septiembre 2026 (ajustado +3,5% por inflación estimada desde julio 2026, según IPC INDEC; dato base originalmente relevado en julio 2026 (actualizado por inflación estimada respecto a la fuente original; ver nota))",
+      "fechaReferencia": "Octubre 2026 (escala oficial del Ministerio de Seguridad, Resolución 844/2026)",
       "fuentes": [
-        "La Opinión Austral (convocatoria de suboficiales con estado policial, agosto 2024)",
-        "argentina.gob.ar/prefecturanaval/transparencia/salarios (portal oficial de escalas salariales, sin desglose público simple por jerarquía al momento de esta consulta)"
+        "elestrategico.com, «Fuerzas Federales: cuánto cobran… en octubre de 2026» (17/10/2026), con la escala por grado de la Resolución 844/2026",
+        "elobservador.com e iprofesional.com (escalas de septiembre a diciembre de 2026 de Prefectura)"
       ],
-      "nota": "El único dato con algo de respaldo que encontramos es un piso de ingreso de suboficial (cabo segundo/marinero) de $574.153 en agosto de 2024, ya desactualizado por la inflación. Prefectura publica sus escalas salariales oficiales en argentina.gob.ar/prefecturanaval/transparencia/salarios, pero en un formato de resolución que no permite extraer fácilmente un número confiable y actualizado por jerarquía; el resto de las fuentes encontradas (sitios de estimación de sueldos) mostraban cifras muy dispares entre sí. Preferimos no inventar un rango 2026 y dejamos este dato pendiente de una fuente oficial más clara. [Actualizado 2026-08-11: cifra ajustada +75.1% respecto a la fuente original citada, según inflación acumulada real (INDEC) hasta julio 2026. El valor en USD se recalculó al tipo de cambio oficial de referencia de agosto 2026 (~$1520).]"
+      "nota": "El monto «junior» es el haber mensual de un/a Marinero (el piso del escalafón de suboficiales), el «semiSenior» el de un/a Oficial Principal y el «senior» el de un/a Prefecto/a General (la jerarquía máxima). Son haberes mensuales de la escala oficial, que sube en noviembre y diciembre de 2026; el monto final varía según suplementos, recargo de servicio, destino y zona."
     },
     "pdfs": {
       "plan": null,
@@ -17196,7 +17600,7 @@ const CAREERS = [
       }
     ],
     "modalidadInstituciones": "Virtual en Universidad Siglo 21 (CAU Sáenz Peña) · Presencial en la UNNE (Facultad de Derecho y Ciencias Sociales y Políticas, Corrientes; figura como \"Carrera de Procuración\" en las inscripciones 2026, según NEA HOY)",
-    "duracionInstituciones": "3 años en Siglo 21 (CAU Sáenz Peña) · duración a confirmar en UNNE (Corrientes)",
+    "duracionInstituciones": "3 años en Siglo 21 (CAU Sáenz Peña) · UNNE (Corrientes): la duración no figura en las fuentes oficiales consultadas; consultala en la universidad",
     "descripcionBreve": "Título intermedio que habilita a representar procesalmente a las partes en trámites judiciales, sin necesidad de ser abogado.",
     "icono": "📑",
     "investigado": true,
@@ -17274,7 +17678,7 @@ const CAREERS = [
       "nota": "Datos con pocas muestras y bastante variabilidad según la jurisdicción; en general los sueldos de esta profesión son más bajos que los de un abogado matriculado, dado su menor incumbencia legal. [Actualizado 2026-08-11: cifra ajustada +13.1% respecto a la fuente original citada, según inflación acumulada real (INDEC) hasta julio 2026. El valor en USD se recalculó al tipo de cambio oficial de referencia de agosto 2026 (~$1520).]"
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -17289,7 +17693,7 @@ const CAREERS = [
     "icono": "🧩",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera terciaria de 4 años, presencial. La carga horaria total figura en el plan de estudios oficial de el IES Juan Mantovani.",
     "queHace": "Enseña y acompaña a estudiantes con discapacidad o necesidades educativas especiales, adaptando estrategias didácticas y trabajando en conjunto con familias y equipos interdisciplinarios para favorecer la inclusión educativa.",
     "problemasQueResuelve": "Barreras de acceso a la educación para personas con discapacidad, necesidad de adaptaciones curriculares y apoyos específicos para la inclusión educativa.",
     "perfilRecomendado": "Estudiantes con fuerte vocación de inclusión y compromiso social, paciencia, creatividad para adaptar estrategias pedagógicas a necesidades diversas.",
@@ -17364,7 +17768,7 @@ const CAREERS = [
       "nota": "Escala regional NEA; el ingreso real depende de la cantidad de cargos que tenga el/la docente."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -17379,7 +17783,7 @@ const CAREERS = [
     "icono": "🧏",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera terciaria de 4 años, presencial. La carga horaria total figura en el plan de estudios oficial de el Instituto Don Orione.",
     "queHace": "Forma docentes especializados en la educación de personas sordas e hipoacúsicas: enseñanza de lengua de señas, estrategias de comunicación y apoyo pedagógico específico.",
     "problemasQueResuelve": "Necesidad de docentes formados específicamente para trabajar con estudiantes sordos e hipoacúsicos, un perfil poco común y muy demandado en escuelas de educación especial.",
     "perfilRecomendado": "Interés en la educación especial, la lengua de señas y la inclusión educativa.",
@@ -17421,10 +17825,12 @@ const CAREERS = [
       "Didáctica para alumnos sordos"
     ],
     "ventajas": [
-      "Es una especialidad poco común, con alta demanda y poca competencia entre docentes"
+      "Es una especialidad poco común, con alta demanda y poca competencia entre docentes",
+      "Se puede cursar en Presidencia Roque Sáenz Peña, sin mudarte de ciudad"
     ],
     "desafios": [
-      "Requiere un aprendizaje específico de la lengua de señas, que lleva tiempo dominar con fluidez"
+      "Requiere un aprendizaje específico de la lengua de señas, que lleva tiempo dominar con fluidez",
+      "Se estudia en una institución privada: hay que contar con el costo de la cuota"
     ],
     "datosInteresantes": [
       "Los intérpretes de lengua de señas formados en este tipo de profesorados son cada vez más buscados también fuera del ámbito escolar, en medios y eventos públicos.",
@@ -17444,7 +17850,7 @@ const CAREERS = [
       "nota": "El sueldo docente depende mucho de la cantidad de horas cátedra o cargos que se tomen, la antigüedad y la provincia. La cifra mostrada es para un cargo inicial de jornada estándar; sumando horas extra o un segundo cargo, el ingreso puede ser bastante mayor. Los valores exactos cambian con cada paritaria (cada 2-3 meses aprox.), así que conviene tomarlos como orientativos."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -17461,7 +17867,7 @@ const CAREERS = [
     "icono": "✏️",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera terciaria de 4 años, presencial. La carga horaria total figura en el plan de estudios oficial de el IES Juan Mantovani.",
     "queHace": "Enseña todas las materias del nivel primario (lengua, matemática, ciencias sociales y naturales, entre otras) a niños y niñas, acompañando su proceso de alfabetización y desarrollo integral.",
     "problemasQueResuelve": "Necesidad de educación básica de calidad para niños y niñas, alfabetización inicial, acompañamiento del desarrollo cognitivo y socioemocional en la infancia.",
     "perfilRecomendado": "Estudiantes con vocación por trabajar con niños, paciencia, creatividad para enseñar contenidos variados y compromiso social.",
@@ -17536,7 +17942,7 @@ const CAREERS = [
       "nota": "Escala regional NEA; el ingreso real depende de la cantidad de cargos que tenga el/la docente y de si accede a cargos de gestión (dirección, vicedirección)."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -17551,7 +17957,7 @@ const CAREERS = [
     "icono": "📖",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera terciaria de 4 años, presencial. La carga horaria total figura en el plan de estudios oficial de el Instituto Nuestra Señora de la Misericordia.",
     "queHace": "Enseña lengua y literatura en el nivel secundario, promueve la comprensión y producción de textos, y forma lectores críticos a través del análisis de obras literarias.",
     "problemasQueResuelve": "Dificultades de comprensión lectora y escritura en los estudiantes, necesidad de formación de lectores y desarrollo del pensamiento crítico a través de la literatura.",
     "perfilRecomendado": "Estudiantes con gusto por la lectura y la escritura, interés en la literatura y vocación docente.",
@@ -17603,7 +18009,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Salario docente de la región NEA entre los más bajos del país según relevamientos de 2026",
-      "Alta carga de corrección de trabajos escritos fuera del horario de clase"
+      "Alta carga de corrección de trabajos escritos fuera del horario de clase",
+      "Se estudia en una institución privada: hay que contar con el costo de la cuota"
     ],
     "datosInteresantes": [
       "Lengua y Literatura, junto con Matemática, es una de las materias con mayor carga horaria en el diseño curricular secundario argentino, lo que garantiza buena disponibilidad de horas cátedra para los egresados."
@@ -17625,7 +18032,7 @@ const CAREERS = [
       "nota": "Escala regional NEA; el ingreso real depende de la cantidad de cargos u horas cátedra acumuladas por el/la docente."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -17640,7 +18047,7 @@ const CAREERS = [
     "icono": "🎨",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera terciaria de 5 años, presencial. La carga horaria total figura en el plan de estudios oficial de el IES Juan Mantovani.",
     "queHace": "Forma docentes especializados en artes visuales, con orientación en grabado, pintura o escultura, para enseñar en el nivel secundario y en institutos de formación artística.",
     "problemasQueResuelve": "Necesidad de profesores formados específicamente en artes visuales para escuelas secundarias y espacios de enseñanza artística.",
     "perfilRecomendado": "Interés combinado por el arte (dibujo, pintura, escultura o grabado) y la docencia.",
@@ -17684,10 +18091,13 @@ const CAREERS = [
       "Didáctica de las artes visuales"
     ],
     "ventajas": [
-      "Permite combinar la docencia estable con la producción artística propia"
+      "Permite combinar la docencia estable con la producción artística propia",
+      "Se puede estudiar en Instituto de Educación Superior \"Juan Ma, institución pública: sin arancel de cursado",
+      "Se puede cursar en Presidencia Roque Sáenz Peña, sin mudarte de ciudad"
     ],
     "desafios": [
-      "Sueldo docente moderado en comparación con la inversión en materiales artísticos"
+      "Sueldo docente moderado en comparación con la inversión en materiales artísticos",
+      "Es una carrera larga: 5 años de cursada"
     ],
     "datosInteresantes": [
       "Permite elegir orientación entre Grabado, Pintura o Escultura, algo poco común en profesorados de artes visuales del país.",
@@ -17708,7 +18118,7 @@ const CAREERS = [
       "nota": "El sueldo docente depende mucho de la cantidad de horas cátedra o cargos que se tomen, la antigüedad y la provincia. La cifra mostrada es para un cargo inicial de jornada estándar; sumando horas extra o un segundo cargo, el ingreso puede ser bastante mayor. Los valores exactos cambian con cada paritaria (cada 2-3 meses aprox.), así que conviene tomarlos como orientativos."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -17725,7 +18135,7 @@ const CAREERS = [
     "icono": "🗣️",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera terciaria de 5 años, presencial. La carga horaria total figura en el plan de estudios oficial de el IES Juan Mantovani.",
     "queHace": "Enseña el idioma inglés en los distintos niveles del sistema educativo, diseña estrategias didácticas para el desarrollo de las cuatro habilidades lingüísticas (comprensión oral y escrita, expresión oral y escrita).",
     "problemasQueResuelve": "Necesidad de formación en idiomas extranjeros para el acceso a estudios superiores, trabajo y movilidad internacional; escasez de profesores de inglés titulados en muchas escuelas del interior del país.",
     "perfilRecomendado": "Estudiantes con buen manejo o interés en aprender inglés, gusto por los idiomas y la comunicación, y vocación docente.",
@@ -17778,7 +18188,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Salario del cargo docente en escuelas de la región NEA entre los más bajos del país según relevamientos de 2026",
-      "Alta competencia en la oferta de clases particulares e institutos de idiomas"
+      "Alta competencia en la oferta de clases particulares e institutos de idiomas",
+      "Es una carrera larga: 5 años de cursada"
     ],
     "datosInteresantes": [
       "El Profesorado de Inglés es una de las pocas carreras docentes cuya formación (el dominio del idioma) tiene salida laboral directa también fuera del sistema educativo formal, por ejemplo en empresas o como traductor/intérprete informal."
@@ -17800,7 +18211,7 @@ const CAREERS = [
       "nota": "El valor mostrado corresponde al cargo docente en escuelas (escala regional NEA). El ingreso por clases particulares o en institutos de idiomas privados no está estandarizado y puede variar mucho según la zona y la demanda."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -17817,7 +18228,7 @@ const CAREERS = [
     "icono": "📕",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera terciaria de 3 años, presencial. La carga horaria total figura en el plan de estudios oficial de el IES Juan Mantovani.",
     "queHace": "Organiza, clasifica y gestiona el acervo de bibliotecas escolares, públicas o especializadas; media entre la información y los usuarios, y puede dictar contenidos relacionados con la búsqueda de información en el nivel secundario.",
     "problemasQueResuelve": "Desorganización de acervos bibliográficos, necesidad de mediación de lectura y alfabetización informacional, gestión de centros de documentación.",
     "perfilRecomendado": "Estudiantes con gusto por la lectura, el orden y la organización de la información, con interés en la mediación cultural.",
@@ -17865,7 +18276,8 @@ const CAREERS = [
     ],
     "ventajas": [
       "Salida laboral clara en instituciones educativas y bibliotecas públicas",
-      "Rol de mediación cultural valorado en la comunidad"
+      "Rol de mediación cultural valorado en la comunidad",
+      "Se puede cursar en Presidencia Roque Sáenz Peña, sin mudarte de ciudad"
     ],
     "desafios": [
       "No se encontró un relevamiento salarial específico y confiable para esta carrera en particular",
@@ -17927,7 +18339,7 @@ const CAREERS = [
     "icono": "🔬",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera terciaria de 4 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Enseña biología y ciencias naturales en el nivel secundario, diseña actividades de laboratorio y de campo, y promueve la alfabetización científica de sus estudiantes.",
     "problemasQueResuelve": "Necesidad de formación científica sólida en los estudiantes secundarios, comprensión de temas de salud, ambiente y biología aplicados a la vida cotidiana.",
     "perfilRecomendado": "Estudiantes con interés en las ciencias naturales, la biología y el cuidado del ambiente, con vocación docente.",
@@ -17979,7 +18391,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Salario docente de la región NEA entre los más bajos del país según relevamientos de 2026",
-      "Necesidad de sumar varios cargos para un ingreso competitivo"
+      "Necesidad de sumar varios cargos para un ingreso competitivo",
+      "Los planes, la duración y las condiciones pueden variar según la institución: conviene compararlos antes de elegir"
     ],
     "datosInteresantes": [
       "La Biología es una de las materias donde los contenidos sobre ambiente y sustentabilidad vienen cobrando cada vez más peso en los diseños curriculares secundarios de Argentina."
@@ -18001,7 +18414,7 @@ const CAREERS = [
       "nota": "Escala regional NEA; el ingreso real depende de la cantidad de cargos u horas cátedra acumuladas por el/la docente."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -18022,7 +18435,7 @@ const CAREERS = [
     "icono": "🧬",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSa.",
     "queHace": "Forma docentes para enseñar biología en el nivel secundario y terciario.",
     "problemasQueResuelve": "Necesidad de profesores formados específicamente en biología para las escuelas secundarias.",
     "perfilRecomendado": "Interés combinado por la biología y la docencia.",
@@ -18065,10 +18478,13 @@ const CAREERS = [
       "Recursos de educación ambiental"
     ],
     "ventajas": [
-      "Estabilidad laboral del sector docente"
+      "Estabilidad laboral del sector docente",
+      "Se puede estudiar en UNSa — Facultad de Ciencias Naturales, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "Sueldo docente moderado en comparación con otras salidas de la biología (investigación, industria)"
+      "Sueldo docente moderado en comparación con otras salidas de la biología (investigación, industria)",
+      "Es una carrera larga: 5 años de cursada",
+      "Se cursa en Salta: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Comparte buena parte del primer tramo de la carrera con la Licenciatura en Ciencias Biológicas de la misma facultad.",
@@ -18125,7 +18541,7 @@ const CAREERS = [
     "icono": "🏫",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera terciaria de 4 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Analiza y enseña contenidos vinculados a la pedagogía, la didáctica general y la política educativa; puede desempeñarse en la formación de otros docentes y en la gestión de instituciones educativas.",
     "problemasQueResuelve": "Necesidad de formación pedagógica de calidad para otros docentes, diseño e implementación de políticas y proyectos educativos institucionales.",
     "perfilRecomendado": "Estudiantes con interés en la educación desde una mirada teórica y de gestión, más que en el dictado de una materia disciplinar específica.",
@@ -18179,7 +18595,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Salida laboral más acotada que otros profesorados de aula, ya que no forma para dictar una materia específica del secundario común",
-      "Salario docente de la región NEA entre los más bajos del país según relevamientos de 2026"
+      "Salario docente de la región NEA entre los más bajos del país según relevamientos de 2026",
+      "Los planes, la duración y las condiciones pueden variar según la institución: conviene compararlos antes de elegir"
     ],
     "datosInteresantes": [
       "A diferencia de otros profesorados orientados a una materia específica (Matemática, Historia, etc.), este profesorado se orienta a la formación de otros docentes y a la gestión y el análisis del sistema educativo en su conjunto."
@@ -18216,7 +18633,7 @@ const CAREERS = [
     "icono": "🗳️",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera terciaria de 4 años, presencial. La carga horaria total figura en el plan de estudios oficial de el Instituto Don Orione.",
     "queHace": "Enseña contenidos de ciencias políticas, formación ética y ciudadana en el nivel secundario, promoviendo la comprensión del sistema político y los derechos y deberes ciudadanos.",
     "problemasQueResuelve": "Necesidad de formación ciudadana y comprensión del sistema político democrático en los estudiantes secundarios.",
     "perfilRecomendado": "Estudiantes con interés en la política, el funcionamiento del Estado y la actualidad social, con vocación docente.",
@@ -18260,11 +18677,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Estabilidad laboral del sector docente",
-      "Formación con fuerte anclaje en la actualidad social y política"
+      "Formación con fuerte anclaje en la actualidad social y política",
+      "Se puede cursar en Presidencia Roque Sáenz Peña, sin mudarte de ciudad"
     ],
     "desafios": [
       "Salario docente de la región NEA entre los más bajos del país según relevamientos de 2026",
-      "Menor cantidad de horas cátedra disponibles en comparación con materias troncales como Matemática o Lengua"
+      "Menor cantidad de horas cátedra disponibles en comparación con materias troncales como Matemática o Lengua",
+      "Se estudia en una institución privada: hay que contar con el costo de la cuota"
     ],
     "datosInteresantes": [
       "Este profesorado suele habilitar principalmente para el dictado de materias de Formación Ética y Ciudadana y Construcción de la Ciudadanía en el nivel secundario."
@@ -18286,7 +18705,7 @@ const CAREERS = [
       "nota": "Escala regional NEA; el ingreso real depende de la cantidad de cargos u horas cátedra acumuladas por el/la docente."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -18303,7 +18722,7 @@ const CAREERS = [
     "icono": "🧪",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 4 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNNE.",
     "queHace": "Forma docentes especializados en enseñar química y temas ambientales en el nivel secundario.",
     "problemasQueResuelve": "Necesidad de profesores formados en química con una mirada actualizada sobre problemas ambientales, cada vez más presentes en los programas secundarios.",
     "perfilRecomendado": "Interés combinado por la química y la docencia, con sensibilidad por temas ambientales.",
@@ -18346,10 +18765,12 @@ const CAREERS = [
       "Recursos de educación ambiental"
     ],
     "ventajas": [
-      "Estabilidad laboral del sector docente"
+      "Estabilidad laboral del sector docente",
+      "Se puede estudiar en UNNE — Facultad de Ciencias Exactas y Na, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "Sueldo docente moderado en la región NEA"
+      "Sueldo docente moderado en la región NEA",
+      "Se cursa en Corrientes: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es uno de los pocos profesorados que integra explícitamente la temática ambiental en su título.",
@@ -18369,7 +18790,7 @@ const CAREERS = [
       "nota": "El sueldo docente depende mucho de la cantidad de horas cátedra o cargos que se tomen, la antigüedad y la provincia. La cifra mostrada es para un cargo inicial de jornada estándar; sumando horas extra o un segundo cargo, el ingreso puede ser bastante mayor. Los valores exactos cambian con cada paritaria (cada 2-3 meses aprox.), así que conviene tomarlos como orientativos."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -18386,7 +18807,7 @@ const CAREERS = [
     "icono": "🤝",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 4 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNaF.",
     "queHace": "Forma docentes para trabajar con estudiantes con discapacidad, en escuelas especiales o en la integración de estudiantes con discapacidad en escuelas comunes.",
     "problemasQueResuelve": "Necesidad de docentes formados para garantizar el derecho a la educación de personas con discapacidad, en escuelas especiales y en la integración escolar.",
     "perfilRecomendado": "Interés en la inclusión educativa y el trabajo con personas con discapacidad.",
@@ -18429,10 +18850,12 @@ const CAREERS = [
       "Adaptaciones curriculares"
     ],
     "ventajas": [
-      "Salida laboral relativamente segura por la obligatoriedad de garantizar la inclusión educativa"
+      "Salida laboral relativamente segura por la obligatoriedad de garantizar la inclusión educativa",
+      "Se puede estudiar en UNaF — Facultad de Humanidades, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "Requiere mucha formación continua ante la diversidad de discapacidades que puede encontrar en el aula"
+      "Requiere mucha formación continua ante la diversidad de discapacidades que puede encontrar en el aula",
+      "Se cursa en Formosa: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es una de las especialidades docentes con mayor demanda actual, por la creciente matrícula de estudiantes con discapacidad integrados en escuelas comunes.",
@@ -18485,7 +18908,7 @@ const CAREERS = [
     "icono": "🤔",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Forma docentes para enseñar filosofía en el nivel secundario.",
     "problemasQueResuelve": "Necesidad de profesores formados específicamente en filosofía para las escuelas secundarias, donde la materia suele ser obligatoria en los últimos años.",
     "perfilRecomendado": "Interés en la filosofía, el pensamiento crítico y la docencia.",
@@ -18526,10 +18949,14 @@ const CAREERS = [
       "Recursos de pensamiento crítico"
     ],
     "ventajas": [
-      "Estabilidad laboral del sector docente"
+      "Estabilidad laboral del sector docente",
+      "Se puede estudiar en UNNE — Facultad de Humanidades y UNSa — Facultad de Humanidades, institución pública: sin arancel de cursado",
+      "Se dicta en 2 instituciones de la región, así que podés comparar y elegir dónde cursarla"
     ],
     "desafios": [
-      "Sueldo docente moderado en la región NEA"
+      "Sueldo docente moderado en la región NEA",
+      "Es una carrera larga: 5 años de cursada",
+      "Los planes, la duración y las condiciones pueden variar según la institución: conviene compararlos antes de elegir"
     ],
     "datosInteresantes": [
       "Comparte buena parte del plan de estudios con la Licenciatura en Filosofía de la misma facultad.",
@@ -18549,7 +18976,7 @@ const CAREERS = [
       "nota": "El sueldo docente depende mucho de la cantidad de horas cátedra o cargos que se tomen, la antigüedad y la provincia. La cifra mostrada es para un cargo inicial de jornada estándar; sumando horas extra o un segundo cargo, el ingreso puede ser bastante mayor. Los valores exactos cambian con cada paritaria (cada 2-3 meses aprox.), así que conviene tomarlos como orientativos."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -18596,7 +19023,7 @@ const CAREERS = [
     "icono": "🧲",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera terciaria de 4 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Enseña física en el nivel secundario, diseña experiencias de laboratorio y estrategias didácticas para acercar conceptos físicos abstractos a los estudiantes.",
     "problemasQueResuelve": "Escasez de profesores titulados en física en las escuelas secundarias, dificultades de aprendizaje en una materia considerada abstracta y compleja por gran parte de los estudiantes.",
     "perfilRecomendado": "Estudiantes con gusto por la física y la matemática, e interés en la docencia y la divulgación científica.",
@@ -18650,7 +19077,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Salario docente de la región NEA entre los más bajos del país según relevamientos de 2026",
-      "Necesidad de sumar varios cargos para un ingreso competitivo"
+      "Necesidad de sumar varios cargos para un ingreso competitivo",
+      "Los planes, la duración y las condiciones pueden variar según la institución: conviene compararlos antes de elegir"
     ],
     "datosInteresantes": [
       "Junto con Matemática y Química, Física es una de las especialidades docentes con mayor déficit de profesores titulados en las escuelas secundarias argentinas, lo que favorece la rápida inserción laboral de los egresados."
@@ -18672,7 +19100,7 @@ const CAREERS = [
       "nota": "Igual que en el resto de los profesorados, el salario depende de la escala regional NEA y de la cantidad de cargos u horas cátedra acumuladas."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -18702,7 +19130,7 @@ const CAREERS = [
     "icono": "🌎",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Forma docentes para enseñar geografía en el nivel secundario.",
     "problemasQueResuelve": "Necesidad de profesores formados específicamente en geografía para las escuelas secundarias.",
     "perfilRecomendado": "Interés combinado por la geografía y la docencia.",
@@ -18743,10 +19171,14 @@ const CAREERS = [
       "Cartografía escolar"
     ],
     "ventajas": [
-      "Estabilidad laboral del sector docente"
+      "Estabilidad laboral del sector docente",
+      "Se puede estudiar en UNNE — Facultad de Humanidades y UNaF — Facultad de Humanidades, institución pública: sin arancel de cursado",
+      "Se dicta en 2 instituciones de la región, así que podés comparar y elegir dónde cursarla"
     ],
     "desafios": [
-      "Sueldo docente moderado en la región"
+      "Sueldo docente moderado en la región",
+      "Es una carrera larga: 5 años de cursada",
+      "Los planes, la duración y las condiciones pueden variar según la institución: conviene compararlos antes de elegir"
     ],
     "datosInteresantes": [
       "Comparte buena parte del plan de estudios con la Licenciatura en Geografía de la misma facultad.",
@@ -18766,7 +19198,7 @@ const CAREERS = [
       "nota": "El sueldo docente depende mucho de la cantidad de horas cátedra o cargos que se tomen, la antigüedad y la provincia. La cifra mostrada es para un cargo inicial de jornada estándar; sumando horas extra o un segundo cargo, el ingreso puede ser bastante mayor. Los valores exactos cambian con cada paritaria (cada 2-3 meses aprox.), así que conviene tomarlos como orientativos."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -18808,7 +19240,7 @@ const CAREERS = [
     "icono": "🏺",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera terciaria de 4 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Enseña historia en el nivel secundario, promueve el pensamiento crítico sobre procesos históricos y desarrolla en los estudiantes la capacidad de análisis de fuentes históricas.",
     "problemasQueResuelve": "Necesidad de comprensión histórica y pensamiento crítico en los estudiantes, formación ciudadana basada en el conocimiento del pasado.",
     "perfilRecomendado": "Estudiantes con gusto por la lectura, el análisis de procesos sociales y políticos, y vocación docente.",
@@ -18860,7 +19292,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Salario docente de la región NEA entre los más bajos del país según relevamientos de 2026",
-      "Necesidad de sumar varios cargos para un ingreso competitivo"
+      "Necesidad de sumar varios cargos para un ingreso competitivo",
+      "Los planes, la duración y las condiciones pueden variar según la institución: conviene compararlos antes de elegir"
     ],
     "datosInteresantes": [
       "Muchos institutos, como el Don Orione, articulan este profesorado con un Ciclo de Complementación Curricular hacia la Licenciatura en Historia, permitiendo a los egresados continuar su formación de grado."
@@ -18882,7 +19315,7 @@ const CAREERS = [
       "nota": "Escala regional NEA; el ingreso real depende de la cantidad de cargos u horas cátedra acumuladas por el/la docente."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -18897,7 +19330,7 @@ const CAREERS = [
     "icono": "🎓",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": "Carrera de grado. Modalidad: presencial. Duración a confirmar con la facultad.",
+    "cargaHoraria": "Carrera de grado de 4 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSE.",
     "queHace": "Forma docentes para enseñar informática y programación en el nivel secundario y en institutos terciarios.",
     "problemasQueResuelve": "Falta de profesores formados específicamente en informática, en un contexto donde la materia se volvió parte central de los planes de estudio secundarios.",
     "perfilRecomendado": "Interés combinado por la programación/tecnología y la docencia.",
@@ -18940,10 +19373,12 @@ const CAREERS = [
       "Plataformas educativas digitales"
     ],
     "ventajas": [
-      "Salida laboral relativamente asegurada por la faltante de profesores de la materia"
+      "Salida laboral relativamente asegurada por la faltante de profesores de la materia",
+      "Se puede estudiar en UNSE — Facultad de Ciencias Exactas y Te, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "Sueldo docente moderado frente a la demanda del mercado de programadores"
+      "Sueldo docente moderado frente a la demanda del mercado de programadores",
+      "Se cursa en Santiago del Estero: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Muchos profesores de informática en el NOA también trabajan en paralelo como programadores, aprovechando la doble formación.",
@@ -18963,7 +19398,7 @@ const CAREERS = [
       "nota": "El sueldo docente depende mucho de la cantidad de horas cátedra o cargos que se tomen, la antigüedad y la provincia. La cifra mostrada es para un cargo inicial de jornada estándar; sumando horas extra o un segundo cargo, el ingreso puede ser bastante mayor. Los valores exactos cambian con cada paritaria (cada 2-3 meses aprox.), así que conviene tomarlos como orientativos."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -19004,7 +19439,7 @@ const CAREERS = [
     "icono": "📚",
     "investigado": true,
     "duracionAnios": 5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 5 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Forma docentes para enseñar lengua y literatura en el nivel secundario.",
     "problemasQueResuelve": "Necesidad de profesores formados específicamente en lengua y literatura para las escuelas secundarias.",
     "perfilRecomendado": "Interés en la lectura, la escritura y la docencia.",
@@ -19047,10 +19482,14 @@ const CAREERS = [
       "Software de corrección de textos"
     ],
     "ventajas": [
-      "Estabilidad laboral del sector docente, con alta carga horaria disponible por ser una materia central del plan de estudios"
+      "Estabilidad laboral del sector docente, con alta carga horaria disponible por ser una materia central del plan de estudios",
+      "Se puede estudiar en UNNE — Facultad de Humanidades, UNaF — Facultad de Humanidades y UNSa — Facultad de Humanidades, institución pública: sin arancel de cursado",
+      "Se dicta en 3 instituciones de la región, así que podés comparar y elegir dónde cursarla"
     ],
     "desafios": [
-      "Sueldo docente moderado en la región"
+      "Sueldo docente moderado en la región",
+      "Es una carrera larga: 5 años de cursada",
+      "Los planes, la duración y las condiciones pueden variar según la institución: conviene compararlos antes de elegir"
     ],
     "datosInteresantes": [
       "Es uno de los profesorados con mayor carga horaria disponible en las escuelas, por ser Lengua y Literatura una materia central del plan de estudios secundario.",
@@ -19070,7 +19509,7 @@ const CAREERS = [
       "nota": "El sueldo docente depende mucho de la cantidad de horas cátedra o cargos que se tomen, la antigüedad y la provincia. La cifra mostrada es para un cargo inicial de jornada estándar; sumando horas extra o un segundo cargo, el ingreso puede ser bastante mayor. Los valores exactos cambian con cada paritaria (cada 2-3 meses aprox.), así que conviene tomarlos como orientativos."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -19122,7 +19561,7 @@ const CAREERS = [
     "icono": "➗",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera terciaria de 4 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Enseña matemática en el nivel secundario, diseña estrategias didácticas para abordar contenidos matemáticos, y evalúa el aprendizaje de sus estudiantes.",
     "problemasQueResuelve": "Dificultades de aprendizaje en matemática, necesidad de docentes especializados en la materia con más dificultad de cobertura en las escuelas secundarias del país.",
     "perfilRecomendado": "Estudiantes con gusto por la matemática y por enseñar, paciencia para explicar conceptos abstractos de formas distintas.",
@@ -19175,7 +19614,8 @@ const CAREERS = [
     ],
     "desafios": [
       "El salario docente en la región NEA (que incluye Chaco) se ubica entre los más bajos del país según relevamientos nacionales de 2026",
-      "Necesidad de sumar varios cargos u horas cátedra para lograr un ingreso competitivo"
+      "Necesidad de sumar varios cargos u horas cátedra para lograr un ingreso competitivo",
+      "Los planes, la duración y las condiciones pueden variar según la institución: conviene compararlos antes de elegir"
     ],
     "datosInteresantes": [
       "Un informe de abril de 2026 señaló que la brecha salarial docente entre provincias argentinas puede superar el 100% para el mismo cargo y antigüedad, ubicando a la región NEA (que incluye Chaco) entre las de salarios iniciales más bajos del país."
@@ -19228,7 +19668,7 @@ const CAREERS = [
     "icono": "🧸",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera terciaria de 4 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Enseña y acompaña el desarrollo integral de niños y niñas en el nivel inicial (jardín de infantes), a través del juego y actividades pedagógicas adaptadas a la primera infancia.",
     "problemasQueResuelve": "Necesidad de estimulación temprana y desarrollo integral en la primera infancia, preparación para el ingreso al nivel primario.",
     "perfilRecomendado": "Estudiantes con mucha vocación por trabajar con niños pequeños, paciencia, creatividad y sensibilidad para el trabajo con la primera infancia.",
@@ -19280,7 +19720,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Salario docente de la región NEA entre los más bajos del país según relevamientos de 2026",
-      "Alta exigencia física y emocional del trabajo con primera infancia"
+      "Alta exigencia física y emocional del trabajo con primera infancia",
+      "Los planes, la duración y las condiciones pueden variar según la institución: conviene compararlos antes de elegir"
     ],
     "datosInteresantes": [
       "En los últimos años, Argentina avanzó en la obligatoriedad de la sala de 4 años del nivel inicial, lo que generó mayor demanda de docentes especializados en esta etapa."
@@ -19302,7 +19743,7 @@ const CAREERS = [
       "nota": "Escala regional NEA; el ingreso real depende de la cantidad de cargos que tenga el/la docente."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -19336,7 +19777,7 @@ const CAREERS = [
     "icono": "🧪",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 4 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Forma docentes para enseñar química en el nivel secundario.",
     "problemasQueResuelve": "Necesidad de profesores formados específicamente en química para las escuelas secundarias.",
     "perfilRecomendado": "Interés combinado por la química y la docencia.",
@@ -19377,10 +19818,14 @@ const CAREERS = [
       "Material de laboratorio escolar"
     ],
     "ventajas": [
-      "Estabilidad laboral del sector docente"
+      "Estabilidad laboral del sector docente",
+      "Se puede estudiar en UNaF — Facultad de Humanidades, UNSE — Facultad de Agronomía y Agroindus y UNSa — Facultad de Ciencias Exactas, institución pública: sin arancel de cursado",
+      "Se dicta en 3 instituciones de la región, así que podés comparar y elegir dónde cursarla"
     ],
     "desafios": [
-      "Sueldo docente moderado en la región"
+      "Sueldo docente moderado en la región",
+      "Los planes, la duración y las condiciones pueden variar según la institución: conviene compararlos antes de elegir",
+      "Se cursa en Formosa, Santiago del Estero y Salta: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Se dicta en tres universidades de la región (UNaF, UNSE y UNSa), lo que asegura buena disponibilidad de esta formación en el norte argentino.",
@@ -19419,7 +19864,7 @@ const CAREERS = [
     "icono": "🎭",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera terciaria de 4 años, presencial. La carga horaria total figura en el plan de estudios oficial de el IES Juan Mantovani.",
     "queHace": "Enseña teatro y expresión corporal en el nivel primario y secundario, y puede dirigir talleres y grupos de teatro escolares y comunitarios, promoviendo la expresión artística y creativa de sus estudiantes.",
     "problemasQueResuelve": "Necesidad de espacios de expresión artística y creativa en la educación formal, desarrollo de habilidades de comunicación y expresión corporal en niños y jóvenes.",
     "perfilRecomendado": "Estudiantes con interés en las artes escénicas, la actuación y la expresión corporal, con vocación docente.",
@@ -19493,7 +19938,7 @@ const CAREERS = [
       "nota": "El valor mostrado corresponde al cargo docente en escuelas (escala regional NEA). El ingreso por talleres de teatro propios no está estandarizado y depende de la cantidad de alumnos y la zona."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -19508,7 +19953,7 @@ const CAREERS = [
     "icono": "🖥️",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera terciaria de 4 años, presencial. La carga horaria total figura en el plan de estudios oficial de el Instituto Don Orione.",
     "queHace": "Enseña contenidos de informática y tecnología en el nivel secundario, e integra herramientas digitales a la enseñanza de otras materias, capacitando también a otros docentes en el uso de TICs.",
     "problemasQueResuelve": "Necesidad de alfabetización digital en los estudiantes, integración de tecnología en las aulas, capacitación docente en herramientas digitales.",
     "perfilRecomendado": "Estudiantes con interés en la tecnología y la educación, cómodos usando herramientas digitales y con vocación docente.",
@@ -19560,7 +20005,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Salario docente de la región NEA entre los más bajos del país según relevamientos de 2026",
-      "Menor cantidad de cargos históricos disponibles en comparación con materias troncales, aunque en expansión"
+      "Menor cantidad de cargos históricos disponibles en comparación con materias troncales, aunque en expansión",
+      "Se estudia en una institución privada: hay que contar con el costo de la cuota"
     ],
     "datosInteresantes": [
       "Es uno de los profesorados más nuevos dentro de la oferta educativa tradicional, en respuesta a la creciente demanda de alfabetización digital en las escuelas."
@@ -19582,7 +20028,7 @@ const CAREERS = [
       "nota": "Escala regional NEA; el ingreso real depende de la cantidad de cargos u horas cátedra acumuladas por el/la docente."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -19599,7 +20045,7 @@ const CAREERS = [
     "icono": "🩺",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": "Carrera de grado. Modalidad: presencial. Duración a confirmar con la facultad.",
+    "cargaHoraria": "Carrera de grado de 4 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSE.",
     "queHace": "Forma docentes especializados en enseñar hábitos y contenidos de salud (prevención de enfermedades, alimentación, salud sexual, adicciones) en escuelas y espacios comunitarios.",
     "problemasQueResuelve": "Necesidad de educación sanitaria preventiva en el sistema educativo, para reducir problemas de salud pública que se previenen con información y hábitos.",
     "perfilRecomendado": "Interés combinado por la docencia y la salud, con vocación de trabajo comunitario.",
@@ -19643,10 +20089,12 @@ const CAREERS = [
       "Herramientas de promoción de la salud escolar"
     ],
     "ventajas": [
-      "Combina docencia (estabilidad) con un campo en crecimiento (promoción de la salud)"
+      "Combina docencia (estabilidad) con un campo en crecimiento (promoción de la salud)",
+      "Se puede estudiar en UNSE — Facultad de Humanidades, Ciencias, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "Es una salida laboral más acotada que un profesorado tradicional"
+      "Es una salida laboral más acotada que un profesorado tradicional",
+      "Se cursa en Santiago del Estero: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es una titulación poco común fuera de Santiago del Estero, que la UNSE ofrece tanto como profesorado como licenciatura.",
@@ -19666,7 +20114,7 @@ const CAREERS = [
       "nota": "El sueldo docente depende mucho de la cantidad de horas cátedra o cargos que se tomen, la antigüedad y la provincia. La cifra mostrada es para un cargo inicial de jornada estándar; sumando horas extra o un segundo cargo, el ingreso puede ser bastante mayor. Los valores exactos cambian con cada paritaria (cada 2-3 meses aprox.), así que conviene tomarlos como orientativos."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -19734,7 +20182,8 @@ const CAREERS = [
     ],
     "desafios": [
       "El sueldo, al ser un cargo docente, se rige por la escala docente de cada jurisdicción y no por el mercado de la profesión de origen",
-      "Requiere ya tener un título profesional previo para poder cursarlo"
+      "Requiere ya tener un título profesional previo para poder cursarlo",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Este tipo de título es muy buscado por escuelas técnicas argentinas, que necesitan profesionales (ingenieros, contadores, técnicos) con formación pedagógica para dar materias específicas de sus especialidades."
@@ -19755,7 +20204,7 @@ const CAREERS = [
       "nota": "Al ser un título que habilita para cargos docentes, se rige por la misma escala salarial docente de la región NEA usada en el resto de los profesorados de este sitio. El ingreso total de la persona suele combinar este sueldo docente con el de su profesión de origen (abogacía, ingeniería, etc.), que se puede consultar en la ficha correspondiente de este mismo sitio."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -19770,7 +20219,7 @@ const CAREERS = [
     "icono": "🎓",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": "Carrera de pregrado. Modalidad: presencial. Duración a confirmar con la facultad.",
+    "cargaHoraria": "Carrera de pregrado de 3 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSE.",
     "queHace": "Formación técnica en desarrollo de software: programación, bases de datos y mantenimiento de sistemas, con salida laboral corta.",
     "problemasQueResuelve": "Necesidad de programadores para empresas y organismos que no requieren (al menos en un primer puesto) el título completo de ingeniero o licenciado en sistemas.",
     "perfilRecomendado": "Personas que quieren entrar rápido al mercado laboral de programación, con la posibilidad de seguir después la Licenciatura en Sistemas.",
@@ -19815,10 +20264,12 @@ const CAREERS = [
     ],
     "ventajas": [
       "Título corto (3 años) con salida laboral inmediata",
-      "Buena base para seguir la licenciatura completa"
+      "Buena base para seguir la licenciatura completa",
+      "Se puede estudiar en UNSE — Facultad de Ciencias Exactas y Te, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "Con un título de pregrado, algunos puestos senior pueden pedir el título de grado completo"
+      "Con un título de pregrado, algunos puestos senior pueden pedir el título de grado completo",
+      "Se cursa en Santiago del Estero: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es el ciclo básico que después se puede continuar con la Licenciatura en Sistemas de Información en la misma facultad.",
@@ -19854,7 +20305,7 @@ const CAREERS = [
     "icono": "🧩",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de grado de 4 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNaF.",
     "queHace": "Diagnostica y trata dificultades de aprendizaje en niños, adolescentes y adultos, trabajando en el vínculo entre el aprendizaje y los procesos psicológicos.",
     "problemasQueResuelve": "Detección y abordaje de dificultades de aprendizaje en el ámbito escolar y clínico.",
     "perfilRecomendado": "Interés en el aprendizaje, la psicología y el trabajo con niños y adolescentes.",
@@ -19899,10 +20350,12 @@ const CAREERS = [
       "Técnicas de reeducación"
     ],
     "ventajas": [
-      "Alta posibilidad de ejercicio independiente con consultorio propio"
+      "Alta posibilidad de ejercicio independiente con consultorio propio",
+      "Se puede estudiar en UNaF — Facultad de Humanidades, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "Requiere formación continua para mantenerse actualizado en distintas dificultades de aprendizaje"
+      "Requiere formación continua para mantenerse actualizado en distintas dificultades de aprendizaje",
+      "Se cursa en Formosa: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es una de las carreras de salud/educación con mayor posibilidad de ejercicio profesional independiente.",
@@ -19940,7 +20393,7 @@ const CAREERS = [
     "icono": "🧩",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera terciaria de 3 años, presencial. La carga horaria total figura en el plan de estudios oficial de el ISET.",
     "queHace": "Aplica herramientas de diagnóstico e intervención en dificultades de aprendizaje, con una formación terciaria más breve que la Licenciatura universitaria en Psicopedagogía.",
     "problemasQueResuelve": "Necesidad de personal capacitado en psicopedagogía a nivel institucional (escolar), con una formación más corta y orientada a la práctica.",
     "perfilRecomendado": "Estudiantes que buscan una salida laboral más rápida (3 años) en el campo de la psicopedagogía, con posibilidad de continuar estudios universitarios más adelante.",
@@ -19983,11 +20436,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Salida laboral más rápida (3 años) que la Licenciatura universitaria completa",
-      "Buena base para continuar hacia el título de grado más adelante"
+      "Buena base para continuar hacia el título de grado más adelante",
+      "Se puede cursar en Presidencia Roque Sáenz Peña, sin mudarte de ciudad"
     ],
     "desafios": [
       "No habilita para todas las incumbencias profesionales de un psicopedagogo con título de Licenciatura (según la jurisdicción y el colegio profesional)",
-      "Sueldos de entrada probablemente más bajos que los de un Licenciado, aunque no se encontró un relevamiento específico que lo confirme con números"
+      "Sueldos de entrada probablemente más bajos que los de un Licenciado, aunque no se encontró un relevamiento específico que lo confirme con números",
+      "Se estudia en una institución privada: hay que contar con el costo de la cuota"
     ],
     "datosInteresantes": [
       "Es habitual que quienes completan esta formación terciaria continúen luego hacia una Licenciatura en Psicopedagogía mediante un Ciclo de Complementación Curricular, como el que ofrece la UCP en la misma ciudad."
@@ -20008,7 +20463,7 @@ const CAREERS = [
       "nota": "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -20025,7 +20480,7 @@ const CAREERS = [
     "icono": "🔒",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": null,
+    "cargaHoraria": "Formación institucional de 3 años, presencial, con régimen propio de la fuerza. La carga horaria la define el plan de formación de cada escuela.",
     "modalidadInstituciones": "Presencial en el Instituto de Formación Penitenciaria (Barranqueras, Chaco), con régimen de instituto de gestión pública.",
     "duracionInstituciones": "Oficiales (Tecnicatura en Seguridad Penitenciaria): 3 años lectivos · Agentes / Suboficiales (subalternos): 1 año lectivo",
     "queHace": "El personal del Servicio Penitenciario custodia y garantiza la seguridad de las unidades penitenciarias de la provincia, aplica los programas de tratamiento y readaptación social de las personas privadas de libertad, realiza traslados y custodias, y cumple tareas técnicas y administrativas (áreas de psicología, trabajo social, educación y salud dentro del sistema penitenciario). Los Oficiales, además, cumplen funciones de conducción de personal y gestión de las unidades.",
@@ -20128,7 +20583,7 @@ const CAREERS = [
     "icono": "⛓️",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": null,
+    "cargaHoraria": "Formación institucional de 3 años, con régimen propio de la fuerza. La carga horaria la define el plan de formación de cada escuela.",
     "modalidadInstituciones": "Presencial, régimen de internado, en la Escuela Penitenciaria de la Nación \"Dr. Juan José O'Connor\" (Ezeiza, Buenos Aires) · Presencial, régimen de internado, en la Escuela de Suboficiales \"Coronel Rómulo Páez\" (Ezeiza, Buenos Aires)",
     "duracionInstituciones": "Escuela Penitenciaria de la Nación (Oficiales): 3 años lectivos (egresan como Subadjutores) · Escuela de Suboficiales: 6 meses a 1 año (egresan como Subayudantes) · existe además un curso intensivo de 2 meses para profesionales (médicos, psicólogos, abogados, ingenieros, entre otros) que se incorporan como Oficiales",
     "queHace": "El personal del Servicio Penitenciario Federal custodia y da seguridad a las unidades penitenciarias federales de todo el país, aplica los programas de tratamiento penitenciario orientados a la reinserción social, realiza traslados y custodias de personas privadas de libertad, y cumple tareas técnicas y administrativas en áreas como salud, educación y trabajo social. Tras la formación, los agentes pueden desempeñarse en funciones como Guardia Armada, Seguridad Interna, o Traslados y Custodias, además de áreas de soporte administrativo y técnico.",
@@ -20198,16 +20653,15 @@ const CAREERS = [
     ],
     "experienciaPersonal": "",
     "salario": {
-      "junior": "680.000",
-      "semiSenior": null,
-      "senior": "3.390.000",
+      "junior": "793.982",
+      "semiSenior": "1.778.370",
+      "senior": "3.979.279",
       "moneda": "ARS",
-      "fechaReferencia": "Septiembre 2026 (ajustado +3,5% por inflación estimada desde julio 2026, según IPC INDEC; dato base originalmente relevado en julio 2026 (actualizado por inflación estimada respecto a la fuente original; ver nota))",
+      "fechaReferencia": "Octubre 2026 (escala oficial del Ministerio de Seguridad, Resolución 844/2026)",
       "fuentes": [
-        "elestrategico.com (escala salarial completa de las 5 fuerzas de seguridad federales, abril 2026)",
-        "calcularsueldo.com.ar (nota sobre sueldos del Servicio Penitenciario Federal, marzo 2026)"
+        "elestrategico.com, «Fuerzas Federales: cuánto cobran… en octubre de 2026» (17/10/2026), con la escala por grado de la Resolución 844/2026"
       ],
-      "nota": "El monto \"junior\" corresponde al haber de un/a Cadete de Segundo Año (etapa de formación) y el \"senior\" al de un/a Inspector General (jerarquía alta dentro del escalafón). Son haberes básicos, vigentes desde noviembre de 2025 y sin actualizar hasta al menos mayo de 2026 según las fuentes consultadas, por lo que no incluyen la recomposición salarial que las fuerzas venían reclamando durante 2026. No encontramos una cifra confiable para un rango intermedio (semiSenior). [Actualizado 2026-08-11: cifra ajustada +4.6% respecto a la fuente original citada, según inflación acumulada real (INDEC) hasta julio 2026. El valor en USD se recalculó al tipo de cambio oficial de referencia de agosto 2026 (~$1520).]"
+      "nota": "El monto «junior» es el haber mensual de un/a Cadete de Segundo Año (etapa de formación), el «semiSenior» el de un/a Subalcaide (uno de los grados intermedios del escalafón de oficiales) y el «senior» el de un/a Inspector/a General (la jerarquía máxima). La escala sube en noviembre y diciembre de 2026; el monto final varía con compensaciones y suplementos (zona, título académico, función ejecutiva, recargo de servicio)."
     },
     "pdfs": {
       "plan": null,
@@ -20282,7 +20736,8 @@ const CAREERS = [
     ],
     "desafios": [
       "No se encontró un relevamiento salarial específico para este título en particular",
-      "Actualización normativa impositiva constante y frecuente"
+      "Actualización normativa impositiva constante y frecuente",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Esta tecnicatura puede servir como puerta de entrada para quienes luego deciden continuar hacia la carrera de Contador Público, dado que comparte buena parte de sus contenidos básicos."
@@ -20303,7 +20758,7 @@ const CAREERS = [
       "nota": "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -20320,7 +20775,7 @@ const CAREERS = [
     "icono": "📖",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": "Carrera de pregrado. Modalidad: presencial. Duración a confirmar con la facultad.",
+    "cargaHoraria": "Carrera de pregrado de 3 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSE.",
     "queHace": "Da una formación general en ciencias sociales (sociología, historia, economía, política) con salida laboral corta, para trabajar en investigación social básica, gestión pública o como paso previo a una licenciatura.",
     "problemasQueResuelve": "Necesidad de personal con formación social de nivel superior para tareas de relevamiento, gestión y apoyo técnico en organismos públicos y sociales.",
     "perfilRecomendado": "Estudiantes que quieren una formación social de grado corto, o que buscan un primer título antes de seguir una licenciatura.",
@@ -20363,10 +20818,12 @@ const CAREERS = [
       "Software de análisis estadístico básico"
     ],
     "ventajas": [
-      "Título corto (3 años) para empezar a trabajar antes"
+      "Título corto (3 años) para empezar a trabajar antes",
+      "Se puede estudiar en UNSE — Facultad de Humanidades, Ciencias, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "Salida laboral más limitada que una licenciatura completa"
+      "Salida laboral más limitada que una licenciatura completa",
+      "Se cursa en Santiago del Estero: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Funciona como un primer ciclo que después se puede continuar con licenciaturas de la misma facultad.",
@@ -20385,7 +20842,7 @@ const CAREERS = [
       "nota": "Es una tecnicatura corta (2-3 años), con salida laboral más rápida pero un techo salarial menor que el de una licenciatura equivalente."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -20402,7 +20859,7 @@ const CAREERS = [
     "icono": "🛍️",
     "investigado": true,
     "duracionAnios": 2,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de pregrado de 2 años, virtual. La carga horaria total figura en el plan de estudios oficial de Siglo 21.",
     "queHace": "Dirige y capacita equipos de venta, diseña estrategias comerciales, y gestiona el proceso de ventas de una empresa combinando técnicas de liderazgo, planificación de recursos humanos y nociones de marketing.",
     "problemasQueResuelve": "Necesidad de las empresas de contar con líderes de venta capacitados (y no solo buenos vendedores individuales) que puedan formar, motivar y medir el desempeño de un equipo comercial.",
     "perfilRecomendado": "Estudiantes con buena capacidad de comunicación y liderazgo, interesados en el mundo comercial y en dirigir personas más que en la venta puramente individual.",
@@ -20452,11 +20909,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Título corto (2 años) con salida laboral rápida",
-      "Aplicable a prácticamente cualquier rubro con área comercial"
+      "Aplicable a prácticamente cualquier rubro con área comercial",
+      "Hay cursado a distancia o virtual, así que podés estudiar sin mudarte"
     ],
     "desafios": [
       "Los ingresos suelen depender en parte de comisiones o bonos por objetivos, lo que genera variabilidad",
-      "Alta rotación y presión por resultados en algunos rubros comerciales"
+      "Alta rotación y presión por resultados en algunos rubros comerciales",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Es una de las tecnicaturas más cortas y con salida laboral más inmediata de la oferta de Siglo 21, orientada 100% a la práctica comercial."
@@ -20477,7 +20936,7 @@ const CAREERS = [
       "nota": "Gran parte de la remuneración en roles comerciales incluye comisiones o bonos por cumplimiento de objetivos, además del sueldo fijo."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -20550,7 +21009,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Como organizador/a independiente, el ingreso depende del volumen de eventos y no de un sueldo fijo",
-      "Trabajo con alta exigencia física y de disponibilidad horaria (fines de semana, feriados)"
+      "Trabajo con alta exigencia física y de disponibilidad horaria (fines de semana, feriados)",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Según Elsalario.com.ar, un organizador de conferencias y eventos en Argentina gana en 2026 entre $464.599 y $1.466.597 mensuales según experiencia, mientras que un organizador con agencia propia puede facturar en promedio unos $804.159 mensuales con márgenes netos del 10-20% sobre cada evento.",
@@ -20574,7 +21034,7 @@ const CAREERS = [
       "nota": "El ingreso de esta profesión tiene dos caminos muy distintos: sueldo fijo en relación de dependencia (más predecible) o ingreso variable por evento como organizador/a independiente con agencia propia (con mayor techo pero también mayor riesgo, ya que hay que cubrir costos fijos como seguros y herramientas de gestión)."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -20635,10 +21095,12 @@ const CAREERS = [
       "Software de animación básica"
     ],
     "ventajas": [
-      "Título corto (3 años) con salida laboral flexible y posibilidad de trabajo remoto"
+      "Título corto (3 años) con salida laboral flexible y posibilidad de trabajo remoto",
+      "Se puede estudiar en UNNE — Facultad de Artes, Diseño y Cienc, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "Es un mercado con mucha competencia y alta rotación de herramientas y tendencias"
+      "Es un mercado con mucha competencia y alta rotación de herramientas y tendencias",
+      "Se cursa en Resistencia: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es una de las tecnicaturas con más demanda actual por el crecimiento del contenido audiovisual para redes y plataformas digitales.",
@@ -20657,7 +21119,7 @@ const CAREERS = [
       "nota": "El freelance para clientes de otras provincias o del exterior puede superar ampliamente el techo mostrado."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -20675,7 +21137,7 @@ const CAREERS = [
     "icono": "🧾",
     "investigado": true,
     "duracionAnios": 2.5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de pregrado de 2,5 años, virtual. La carga horaria total figura en el plan de estudios oficial de Siglo 21.",
     "queHace": "Forma técnicos en liquidación de impuestos, gestión contable e implementación de procesos impositivos para empresas y organismos recaudadores.",
     "problemasQueResuelve": "Necesidad de personal técnico para la gestión contable e impositiva de pequeñas y medianas empresas.",
     "perfilRecomendado": "Interés práctico en números, impuestos y gestión administrativa, con salida laboral rápida.",
@@ -20719,10 +21181,13 @@ const CAREERS = [
       "Planillas de cálculo"
     ],
     "ventajas": [
-      "Formación corta (2 años y medio) con salida laboral rápida en un área siempre necesaria"
+      "Formación corta (2 años y medio) con salida laboral rápida en un área siempre necesaria",
+      "Hay cursado a distancia o virtual, así que podés estudiar sin mudarte"
     ],
     "desafios": [
-      "El techo de crecimiento es menor que el de un Contador Público"
+      "El techo de crecimiento es menor que el de un Contador Público",
+      "La cursada a distancia exige organización y autodisciplina",
+      "Se estudia en una institución privada: hay que contar con el costo de la cuota"
     ],
     "datosInteresantes": [
       "Es un buen primer paso hacia el Contador Público, si después se quiere seguir la carrera completa.",
@@ -20741,7 +21206,7 @@ const CAREERS = [
       "nota": "Toda empresa necesita gestión impositiva, lo que da una salida laboral relativamente estable para este perfil técnico."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -20758,7 +21223,7 @@ const CAREERS = [
     "icono": "👨‍👩‍👧",
     "investigado": true,
     "duracionAnios": 2,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de pregrado de 2 años, virtual. La carga horaria total figura en el plan de estudios oficial de Siglo 21.",
     "queHace": "Gestiona las necesidades específicas de una empresa familiar: organización administrativa, protocolo familiar, planificación de la sucesión generacional y resolución de conflictos entre familia y negocio.",
     "problemasQueResuelve": "Conflictos típicos de las empresas familiares (superposición entre lo familiar y lo laboral, falta de planificación de la sucesión, ausencia de protocolos claros) que afectan la continuidad del negocio de generación en generación.",
     "perfilRecomendado": "Estudiantes que forman parte de una empresa familiar (propia o de su entorno) y quieren profesionalizar su gestión, o que buscan especializarse en el asesoramiento a este tipo de organizaciones, que son mayoría en la economía argentina.",
@@ -20803,11 +21268,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Aplicable directamente al propio negocio familiar del estudiante",
-      "Título corto con foco muy práctico"
+      "Título corto con foco muy práctico",
+      "Hay cursado a distancia o virtual, así que podés estudiar sin mudarte"
     ],
     "desafios": [
       "Al trabajar con dinámicas familiares, requiere manejo de conflictos interpersonales además de conocimientos técnicos",
-      "Salida laboral como asesor externo puede ser más difícil de instalar al principio"
+      "Salida laboral como asesor externo puede ser más difícil de instalar al principio",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Se estima que la mayoría de las empresas privadas en Argentina son de origen o gestión familiar, lo que le da a esta tecnicatura una base de demanda muy amplia."
@@ -20828,7 +21295,7 @@ const CAREERS = [
       "nota": "Muchos egresados de esta tecnicatura no perciben un sueldo de mercado sino que gestionan (y viven de) el propio negocio familiar."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -20886,10 +21353,13 @@ const CAREERS = [
       "Redacción de actos administrativos"
     ],
     "ventajas": [
-      "Formación específica y práctica para el ingreso y ascenso en el Estado"
+      "Formación específica y práctica para el ingreso y ascenso en el Estado",
+      "Se puede estudiar en UNNE — Facultad de Derecho y Ciencias So, institución pública: sin arancel de cursado",
+      "Hay cursado a distancia o virtual, así que podés estudiar sin mudarte"
     ],
     "desafios": [
-      "El ingreso a la administración pública puede depender de concursos o vacantes limitadas"
+      "El ingreso a la administración pública puede depender de concursos o vacantes limitadas",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Forma parte de un conjunto de tecnicaturas de gestión pública que la Facultad de Derecho de la UNNE ofrece para distintas áreas del Estado.",
@@ -20966,10 +21436,13 @@ const CAREERS = [
       "Mesa de entradas digital"
     ],
     "ventajas": [
-      "Formación específica que da ventaja para el ingreso al Poder Judicial"
+      "Formación específica que da ventaja para el ingreso al Poder Judicial",
+      "Se puede estudiar en UNNE — Facultad de Derecho y Ciencias So, institución pública: sin arancel de cursado",
+      "Hay cursado a distancia o virtual, así que podés estudiar sin mudarte"
     ],
     "desafios": [
-      "El ingreso puede depender de concursos con pocas vacantes"
+      "El ingreso puede depender de concursos con pocas vacantes",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Es una buena base también para quien luego quiera seguir la carrera de Abogacía.",
@@ -21047,10 +21520,13 @@ const CAREERS = [
       "Redacción de actos administrativos"
     ],
     "ventajas": [
-      "Salida laboral en cualquier municipio de la región, con formación específica para ese ámbito"
+      "Salida laboral en cualquier municipio de la región, con formación específica para ese ámbito",
+      "Se puede estudiar en UNNE — Facultad de Derecho y Ciencias So, institución pública: sin arancel de cursado",
+      "Hay cursado a distancia o virtual, así que podés estudiar sin mudarte"
     ],
     "desafios": [
-      "El ingreso al empleo municipal puede depender de factores políticos o de concursos"
+      "El ingreso al empleo municipal puede depender de factores políticos o de concursos",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Es útil también para quienes ya trabajan en un municipio y buscan profesionalizar su puesto.",
@@ -21129,10 +21605,13 @@ const CAREERS = [
       "Sistemas de seguimiento parlamentario"
     ],
     "ventajas": [
-      "Formación específica poco común, útil para quien busca trabajar en el ámbito legislativo"
+      "Formación específica poco común, útil para quien busca trabajar en el ámbito legislativo",
+      "Se puede estudiar en UNNE — Facultad de Derecho y Ciencias So, institución pública: sin arancel de cursado",
+      "Hay cursado a distancia o virtual, así que podés estudiar sin mudarte"
     ],
     "desafios": [
-      "Los puestos en despachos legislativos suelen depender de designaciones políticas, no solo de concursos"
+      "Los puestos en despachos legislativos suelen depender de designaciones políticas, no solo de concursos",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Es una salida laboral distinta a la de las otras tecnicaturas de gestión pública, orientada al Poder Legislativo en vez del Ejecutivo o Judicial.",
@@ -21209,10 +21688,12 @@ const CAREERS = [
       "Software de administración de eventos"
     ],
     "ventajas": [
-      "Título corto con salida laboral rápida en producción de eventos"
+      "Título corto con salida laboral rápida en producción de eventos",
+      "Se puede estudiar en UNNE — Facultad de Artes, Diseño y Cienc, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "El trabajo suele ser por proyecto, con menor estabilidad que un puesto fijo"
+      "El trabajo suele ser por proyecto, con menor estabilidad que un puesto fijo",
+      "Se cursa en Resistencia: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es el ciclo básico que después se puede continuar con la Licenciatura en Gestión y Desarrollo Cultural de la misma facultad.",
@@ -21231,7 +21712,7 @@ const CAREERS = [
       "nota": "El freelance para clientes de otras provincias o del exterior puede superar ampliamente el techo mostrado."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -21254,7 +21735,7 @@ const CAREERS = [
     "icono": "🖥️",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de pregrado de 3 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSa.",
     "queHace": "Formación técnica corta en informática aplicada a la gestión de empresas: desarrollo y mantenimiento de sistemas administrativos, bases de datos y soporte informático.",
     "problemasQueResuelve": "Necesidad de personal técnico para digitalizar y sostener sistemas de gestión en pequeñas y medianas empresas.",
     "perfilRecomendado": "Interés práctico en informática aplicada a la administración, con salida laboral rápida.",
@@ -21298,10 +21779,12 @@ const CAREERS = [
       "Redes básicas"
     ],
     "ventajas": [
-      "Título corto con salida laboral rápida en informática de gestión"
+      "Título corto con salida laboral rápida en informática de gestión",
+      "Se puede estudiar en UNSa — Facultad de Ciencias Exactas, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "Formación más acotada que una tecnicatura en programación pura"
+      "Formación más acotada que una tecnicatura en programación pura",
+      "Se cursa en Salta: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Se dicta en la sede de Orán, una de las ciudades más importantes del norte salteño.",
@@ -21320,7 +21803,7 @@ const CAREERS = [
       "nota": "Como en toda la familia de programación, el trabajo remoto para empresas de otras provincias o del exterior puede superar ampliamente estos valores."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -21383,11 +21866,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Formación corta (2 años) orientada a un rol técnico específico dentro de la investigación criminal",
-      "Buena base para continuar hacia la Licenciatura en Criminalística"
+      "Buena base para continuar hacia la Licenciatura en Criminalística",
+      "Hay cursado a distancia o virtual, así que podés estudiar sin mudarte"
     ],
     "desafios": [
       "El sueldo depende del escalafón de la fuerza de seguridad o el Poder Judicial al que se ingrese, no de un mercado laboral privado tradicional",
-      "Exposición a escenas de delitos, con la carga emocional que eso implica"
+      "Exposición a escenas de delitos, con la carga emocional que eso implica",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Este tipo de tecnicaturas suele ser una puerta de entrada para quienes luego evalúan continuar sus estudios hacia la Licenciatura en Criminalística o Criminología."
@@ -21408,7 +21893,7 @@ const CAREERS = [
       "nota": "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -21425,7 +21910,7 @@ const CAREERS = [
     "icono": "🌿",
     "investigado": true,
     "duracionAnios": 2,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de pregrado de 2 años, virtual. La carga horaria total figura en el plan de estudios oficial de Siglo 21.",
     "queHace": "Gestiona y comercializa emprendimientos de producción agroecológica y orgánica, aplicando criterios de sustentabilidad ambiental a la administración de negocios agropecuarios a pequeña y mediana escala.",
     "problemasQueResuelve": "Necesidad de profesionalizar la gestión y comercialización de producciones agroecológicas y orgánicas, un nicho de mercado en crecimiento que muchas veces carece de canales de venta y gestión organizados.",
     "perfilRecomendado": "Estudiantes vinculados a la producción agropecuaria familiar o de pequeña escala, con interés en la sustentabilidad ambiental y en dar valor agregado y salida comercial a productos agroecológicos.",
@@ -21472,11 +21957,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Muy aplicable a la agricultura familiar y de pequeña escala típica de muchas zonas del interior del país",
-      "Responde a una tendencia de consumo en crecimiento"
+      "Responde a una tendencia de consumo en crecimiento",
+      "Hay cursado a distancia o virtual, así que podés estudiar sin mudarte"
     ],
     "desafios": [
       "Mercado todavía chico comparado con la producción agropecuaria convencional",
-      "Requiere desarrollar canales de comercialización propios en muchos casos"
+      "Requiere desarrollar canales de comercialización propios en muchos casos",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "El INTA cuenta con programas específicos de fomento a la agroecología, lo que da un marco de apoyo público a este tipo de emprendimientos."
@@ -21497,7 +21984,7 @@ const CAREERS = [
       "nota": "Gran parte de quienes se forman en esta tecnicatura no perciben un sueldo de mercado sino que viven de su propio emprendimiento agroecológico."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -21560,10 +22047,12 @@ const CAREERS = [
       "Software de edición básica de audio y video"
     ],
     "ventajas": [
-      "Título corto (3 años) con salida laboral inmediata en medios"
+      "Título corto (3 años) con salida laboral inmediata en medios",
+      "Se puede estudiar en UNNE — Facultad de Humanidades, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "El periodismo local suele tener salarios más bajos que en medios de otras provincias"
+      "El periodismo local suele tener salarios más bajos que en medios de otras provincias",
+      "Se cursa en Resistencia: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es un buen primer paso hacia la Licenciatura en Comunicación Social, que se dicta en la misma facultad.",
@@ -21582,7 +22071,7 @@ const CAREERS = [
       "nota": "El freelance para clientes de otras provincias o del exterior puede superar ampliamente el techo mostrado."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -21595,11 +22084,11 @@ const CAREERS = [
     "nombre": "Tecnicatura en Prótesis Dental",
     "categoria": "Tecnicaturas",
     "institucion": "unaf-salud",
-    "descripcionBreve": "Carrera de duración a confirmar, presencial, que se dicta en Facultad de Ciencias de la Salud de la Universidad Nacional de Formosa (UNaF), en la ciudad de Formosa.",
+    "descripcionBreve": "Tecnicatura presencial de la UNaF que forma técnicos en el diseño y la elaboración de prótesis odontológicas. La UNaF reabrió la cohorte 2026: inscripciones desde el 16 de marzo y clases desde abril.",
     "icono": "🦷",
     "investigado": true,
     "duracionAnios": null,
-    "cargaHoraria": null,
+    "cargaHoraria": "La UNaF todavía no publicó en su web la duración total ni la carga horaria del plan. Se cursa por cuatrimestres, con una etapa práctica de laboratorio.",
     "queHace": "Formación técnica en la fabricación de prótesis dentales: diseño y elaboración de piezas dentales artificiales bajo indicación de un odontólogo.",
     "problemasQueResuelve": "Necesidad de técnicos especializados en la fabricación de prótesis dentales para laboratorios odontológicos.",
     "perfilRecomendado": "Interés en el trabajo manual de precisión y la odontología, sin necesariamente atender pacientes directamente.",
@@ -21614,30 +22103,47 @@ const CAREERS = [
       "Anatomía Dental"
     ],
     "dificultad": "Media.",
-    "especializaciones": [],
+    "especializaciones": [
+      "Prótesis fija, removible y total (áreas clásicas del oficio)",
+      "Prótesis sobre implantes",
+      "Diseño y fabricación digital de prótesis (CAD/CAM e impresión 3D)"
+    ],
     "salidasLaborales": [
       "Laboratorios de prótesis dental",
       "Consultorios odontológicos",
       "Emprendimiento propio de laboratorio"
     ],
-    "empresasArgentinas": [],
-    "organismosPublicos": [],
+    "empresasArgentinas": [
+      "Laboratorios de prótesis dental",
+      "Clínicas y consultorios odontológicos privados",
+      "Casas de insumos y proveedores odontológicos"
+    ],
+    "organismosPublicos": [
+      "Servicios de odontología de hospitales y centros de salud públicos que cuenten con laboratorio de prótesis"
+    ],
     "trabajoIndependiente": "Muy frecuente: muchos técnicos protesistas tienen su propio laboratorio.",
     "trabajoRemoto": "No aplica: es trabajo manual de taller.",
-    "trabajoExterior": "",
+    "trabajoExterior": "Poco frecuente como empleo formal: en Argentina la actividad se rige por la Ley 23.752 y su decreto reglamentario 800/1995, y en cada país el ejercicio depende de su propia normativa.",
     "demandaActual": "Demanda estable, ligada a la cantidad de consultorios odontológicos de la zona.",
-    "proyeccion": "",
-    "herramientas": [],
+    "proyeccion": "Salida laboral rápida: la coordinación de la carrera destaca que ya hay estudiantes de la primera cohorte trabajando en laboratorios. Se puede crecer montando un laboratorio propio o sumando prótesis digital.",
+    "herramientas": [
+      "Instrumental y materiales de laboratorio dental",
+      "Articuladores y equipos de colado y pulido",
+      "Software CAD/CAM e impresión 3D (tendencia creciente del sector)"
+    ],
     "ventajas": [
-      "Buena posibilidad de montar un laboratorio propio con equipamiento relativamente accesible"
+      "Buena posibilidad de montar un laboratorio propio con equipamiento relativamente accesible",
+      "Se puede estudiar en UNaF — Facultad de Ciencias de la Salud, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "El trabajo depende de la demanda de los consultorios odontológicos a los que se les provee el servicio"
+      "El trabajo depende de la demanda de los consultorios odontológicos a los que se les provee el servicio",
+      "Se cursa en Formosa: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es un oficio técnico que se puede ejercer de forma independiente, proveyendo a varios consultorios odontológicos a la vez.",
-      "Universidad pública. Más información: https://www.unf.edu.ar",
-      "Los datos de esta carrera vienen de fuentes secundarias, no del sitio oficial de la facultad; hay que confirmarlos con la universidad."
+      "La UNaF anunció el 9 de marzo de 2026 una nueva cohorte, describiéndola como una segunda apertura de la carrera; la coordina el Téc. en Laboratorio Dental Johnny Franco.",
+      "Pueden inscribirse también mayores de 25 años sin secundario completo, con constancia de trabajo vinculado a los estudios (Ley de Educación Superior).",
+      "Universidad pública. Más información: https://www.unf.edu.ar"
     ],
     "experienciaPersonal": "",
     "salario": {
@@ -21657,7 +22163,8 @@ const CAREERS = [
       "info": null
     },
     "faltaInvestigar": [
-      "La UNaF abrió la cohorte 2026 (prensa oficial, marzo de 2026), pero falta confirmar con la facultad la duración exacta y el plan de estudios"
+      "La duración total y el plan de estudios oficial todavía no están publicados en la web de la UNaF: consultalos en la universidad antes de inscribirte",
+      "Confirmar fechas de inscripción del ciclo 2027 cuando la universidad las publique"
     ]
   },
   {
@@ -21669,7 +22176,7 @@ const CAREERS = [
     "icono": "🧑‍💼",
     "investigado": true,
     "duracionAnios": 2.5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de pregrado de 2,5 años, virtual. La carga horaria total figura en el plan de estudios oficial de Siglo 21.",
     "queHace": "Organiza y optimiza la gestión de recursos humanos en PyMEs: selecciona, contrata y forma personal, revisa manuales y procesos, mide productividad, y previene y media conflictos laborales, asegurando el cumplimiento de las normas laborales y de seguridad.",
     "problemasQueResuelve": "Falta de un área formal de gestión de personas en pequeñas y medianas empresas, conflictos laborales mal gestionados, e incumplimientos de normativa laboral que generan riesgos legales para la empresa.",
     "perfilRecomendado": "Estudiantes con interés en el trato con personas, la mediación de conflictos y el funcionamiento de las normas laborales, que busquen una salida laboral rápida en el área de Recursos Humanos.",
@@ -21718,11 +22225,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Salida laboral amplia porque casi toda empresa necesita gestión de personal",
-      "Título de duración intermedia (2 años y medio) con buena empleabilidad"
+      "Título de duración intermedia (2 años y medio) con buena empleabilidad",
+      "Hay cursado a distancia o virtual, así que podés estudiar sin mudarte"
     ],
     "desafios": [
       "En empresas chicas el rol puede combinarse con otras tareas administrativas, diluyendo la especialización",
-      "Requiere estar al día con cambios frecuentes en la legislación laboral argentina"
+      "Requiere estar al día con cambios frecuentes en la legislación laboral argentina",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "A diferencia de una Licenciatura en Recursos Humanos, esta tecnicatura tiene foco específico en la aplicación práctica de la legislación laboral en PyMEs."
@@ -21743,7 +22252,7 @@ const CAREERS = [
       "nota": "Los sueldos en PyMEs del interior tienden a ubicarse en la parte más baja de estos rangos respecto de Buenos Aires."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -21760,7 +22269,7 @@ const CAREERS = [
     "icono": "🤝",
     "investigado": true,
     "duracionAnios": 2,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de pregrado de 2 años, virtual. La carga horaria total figura en el plan de estudios oficial de Siglo 21.",
     "queHace": "Diseña, implementa y evalúa políticas de responsabilidad social empresaria (RSE) y proyectos con impacto social, articulando empresas, organizaciones sociales y comunidad.",
     "problemasQueResuelve": "Necesidad de las empresas y organizaciones de gestionar de forma profesional (y no solo declarativa) su impacto social y ambiental, y de canalizar proyectos de vinculación con la comunidad de manera sostenible.",
     "perfilRecomendado": "Estudiantes con sensibilidad social y vocación de trabajo comunitario, que además quieran adquirir herramientas de gestión para trabajar tanto en empresas como en ONGs o el Estado.",
@@ -21807,11 +22316,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Permite combinar vocación social con formación en gestión",
-      "Aplicable tanto al sector privado como al público y al tercer sector"
+      "Aplicable tanto al sector privado como al público y al tercer sector",
+      "Hay cursado a distancia o virtual, así que podés estudiar sin mudarte"
     ],
     "desafios": [
       "Mercado laboral más chico y menos estructurado que otras áreas de gestión",
-      "En muchas PyMEs el rol de RSE todavía no está formalizado como puesto de trabajo"
+      "En muchas PyMEs el rol de RSE todavía no está formalizado como puesto de trabajo",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Cada vez más empresas argentinas alinean sus proyectos sociales con los Objetivos de Desarrollo Sostenible (ODS) de la ONU, un marco que se estudia en esta tecnicatura."
@@ -21832,7 +22343,7 @@ const CAREERS = [
       "nota": "En ONGs y fundaciones los sueldos suelen ser más bajos que en las áreas de RSE de grandes empresas privadas."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -21896,10 +22407,12 @@ const CAREERS = [
       "Geografía turística regional"
     ],
     "ventajas": [
-      "Título corto con salida laboral rápida en agencias y oficinas de turismo"
+      "Título corto con salida laboral rápida en agencias y oficinas de turismo",
+      "Se puede estudiar en UNNE — Facultad de Artes, Diseño y Cienc, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "La actividad turística suele ser estacional en varias zonas del NEA"
+      "La actividad turística suele ser estacional en varias zonas del NEA",
+      "Se cursa en Resistencia: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es el ciclo básico que después se puede continuar con la Licenciatura en Turismo de la misma facultad.",
@@ -21918,7 +22431,7 @@ const CAREERS = [
       "nota": "La actividad turística suele ser estacional, con ingresos más altos en temporada alta."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -21950,7 +22463,7 @@ const CAREERS = [
     "icono": "💼",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": null,
+    "cargaHoraria": "Tecnicatura superior de 3 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Aplica herramientas de gestión administrativa, contable básica y organización de procesos en empresas de distinto tamaño, con una formación más corta y aplicada que una Licenciatura.",
     "problemasQueResuelve": "Necesidad de personal capacitado en tareas de gestión administrativa de nivel intermedio en PyMEs y empresas de todo tipo.",
     "perfilRecomendado": "Estudiantes que buscan una salida laboral rápida (3 años) en el área de administración, con posibilidad de continuar estudios universitarios más adelante.",
@@ -21994,11 +22507,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Salida laboral más rápida (3 años) que una Licenciatura completa",
-      "Formación aplicada, orientada directamente a la práctica en empresas"
+      "Formación aplicada, orientada directamente a la práctica en empresas",
+      "Se puede estudiar en UNNE — Facultad de Ciencias Veterinarias, institución pública: sin arancel de cursado"
     ],
     "desafios": [
       "Sueldos de entrada probablemente más bajos que los de un Licenciado en Administración",
-      "Menor margen de decisión y crecimiento sin continuar estudios"
+      "Menor margen de decisión y crecimiento sin continuar estudios",
+      "Los planes, la duración y las condiciones pueden variar según la institución: conviene compararlos antes de elegir"
     ],
     "datosInteresantes": [
       "Este tipo de tecnicaturas son una opción muy elegida en ciudades del interior como Sáenz Peña, donde muchas PyMEs valoran perfiles de gestión con una formación más corta y aplicada."
@@ -22019,7 +22534,7 @@ const CAREERS = [
       "nota": "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -22040,7 +22555,7 @@ const CAREERS = [
     "icono": "🧑‍💼",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": null,
+    "cargaHoraria": "Tecnicatura superior de 3 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Aplica herramientas de selección, capacitación, liquidación de sueldos y administración de personal en empresas y organizaciones de distinto tamaño.",
     "problemasQueResuelve": "Necesidad de gestión eficiente del personal en empresas: búsqueda y selección de candidatos, capacitación, liquidación de sueldos, clima laboral.",
     "perfilRecomendado": "Estudiantes con interés en el trabajo con personas, la gestión organizacional y los procesos de selección y capacitación de personal.",
@@ -22095,7 +22610,8 @@ const CAREERS = [
     ],
     "desafios": [
       "No se encontró un relevamiento salarial específico y confiable para este título técnico en particular en Argentina",
-      "Menor techo de crecimiento sin continuar hacia una Licenciatura en Administración o Relaciones Laborales"
+      "Menor techo de crecimiento sin continuar hacia una Licenciatura en Administración o Relaciones Laborales",
+      "Los planes, la duración y las condiciones pueden variar según la institución: conviene compararlos antes de elegir"
     ],
     "datosInteresantes": [
       "Esta tecnicatura se ofrece en más de una institución de Sáenz Peña, lo que sugiere una demanda sostenida de este perfil técnico en el mercado laboral local."
@@ -22116,7 +22632,7 @@ const CAREERS = [
       "nota": "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -22134,7 +22650,7 @@ const CAREERS = [
     "icono": "🏛️",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": null,
+    "cargaHoraria": "Tecnicatura superior de 3 años, presencial. La carga horaria total figura en el plan de estudios oficial de el Instituto Nuestra Señora de la Misericordia.",
     "queHace": "Aplica herramientas de gestión administrativa específicas del sector público: trámites, normativa administrativa, atención al ciudadano y gestión de expedientes en organismos estatales.",
     "problemasQueResuelve": "Necesidad de personal capacitado en la gestión y los procedimientos específicos de la administración pública (municipal, provincial o nacional).",
     "perfilRecomendado": "Estudiantes con interés en trabajar en organismos del Estado y en la gestión de trámites y políticas públicas a nivel administrativo.",
@@ -22179,11 +22695,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Salida laboral orientada específicamente al empleo público, con cierta estabilidad si se logra ingresar",
-      "Formación aplicada y de corta duración (3 años)"
+      "Formación aplicada y de corta duración (3 años)",
+      "Se puede cursar en Presidencia Roque Sáenz Peña, sin mudarte de ciudad"
     ],
     "desafios": [
       "El ingreso a organismos públicos suele depender de concursos, convocatorias o vacantes específicas, no siempre disponibles",
-      "No se encontró un relevamiento salarial específico y confiable para este título en particular"
+      "No se encontró un relevamiento salarial específico y confiable para este título en particular",
+      "Se estudia en una institución privada: hay que contar con el costo de la cuota"
     ],
     "datosInteresantes": [
       "Muchos organismos públicos argentinos avanzaron en los últimos años hacia la gestión electrónica de expedientes y trámites a distancia, lo que va modificando el perfil de tareas de este tipo de puestos."
@@ -22204,7 +22722,7 @@ const CAREERS = [
       "nota": "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -22222,7 +22740,7 @@ const CAREERS = [
     "icono": "🗂️",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": null,
+    "cargaHoraria": "Tecnicatura superior de 3 años, presencial. La carga horaria total figura en el plan de estudios oficial de el Instituto Don Orione.",
     "queHace": "Organiza procesos administrativos, de gestión y de control dentro de empresas, con foco en la eficiencia organizacional y el manejo de recursos.",
     "problemasQueResuelve": "Desorganización de procesos administrativos en PyMEs, necesidad de sistematización de tareas de gestión.",
     "perfilRecomendado": "Estudiantes con gusto por el orden, la organización y la gestión de procesos administrativos.",
@@ -22263,11 +22781,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Formación corta (3 años) con salida laboral rápida",
-      "Aplicable a PyMEs de distintos rubros"
+      "Aplicable a PyMEs de distintos rubros",
+      "Se puede cursar en Presidencia Roque Sáenz Peña, sin mudarte de ciudad"
     ],
     "desafios": [
       "No se encontró un relevamiento salarial específico para este título en particular",
-      "Similar en contenidos a otras tecnicaturas de administración, lo que puede generar competencia por los mismos puestos"
+      "Similar en contenidos a otras tecnicaturas de administración, lo que puede generar competencia por los mismos puestos",
+      "Se estudia en una institución privada: hay que contar con el costo de la cuota"
     ],
     "datosInteresantes": [
       "Esta tecnicatura comparte buena parte de sus contenidos con la Tecnicatura en Administración de Empresas ofrecida en otras instituciones de la ciudad."
@@ -22305,7 +22825,7 @@ const CAREERS = [
     "icono": "📰",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": null,
+    "cargaHoraria": "Tecnicatura superior de 3 años, presencial. La carga horaria total figura en el plan de estudios oficial de el Instituto Don Orione.",
     "queHace": "Investiga, redacta y comunica noticias y contenidos periodísticos para distintos medios (gráficos, radiales, televisivos y digitales), y puede desempeñarse en comunicación institucional.",
     "problemasQueResuelve": "Necesidad de informar a la comunidad sobre hechos de interés público, comunicación institucional de organizaciones públicas y privadas.",
     "perfilRecomendado": "Estudiantes con gusto por la escritura, la actualidad y la comunicación, curiosidad e interés por investigar y contar historias.",
@@ -22358,7 +22878,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Los sueldos en medios locales pequeños suelen ser más bajos que en medios de las grandes ciudades",
-      "Alta competencia y precarización en algunos segmentos del periodismo tradicional"
+      "Alta competencia y precarización en algunos segmentos del periodismo tradicional",
+      "Se estudia en una institución privada: hay que contar con el costo de la cuota"
     ],
     "datosInteresantes": [
       "Según un relevamiento de BeBee de 2026, el salario medio de un periodista en Argentina rondó entre $500.000 y $1.200.000 anuales según la oferta, aunque otras fuentes (como Wageindicator) muestran cifras mensuales bastante más altas para periodistas 'altamente cualificados' en medios grandes."
@@ -22398,7 +22919,7 @@ const CAREERS = [
     "icono": "💻",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": null,
+    "cargaHoraria": "Tecnicatura superior de 3 años, presencial. La carga horaria total figura en el plan de estudios oficial de el IES Juan Mantovani.",
     "queHace": "Forma técnicos en desarrollo de software: programación, integración a equipos de desarrollo y resolución de sistemas de baja complejidad para pequeñas organizaciones.",
     "problemasQueResuelve": "Necesidad de programadores para el desarrollo y mantenimiento de sistemas en empresas y organizaciones locales.",
     "perfilRecomendado": "Interés en la programación y el desarrollo de software, con salida laboral rápida.",
@@ -22440,7 +22961,9 @@ const CAREERS = [
       "Git y control de versiones"
     ],
     "ventajas": [
-      "Título corto con salida laboral inmediata y buena posibilidad de trabajo remoto"
+      "Título corto con salida laboral inmediata y buena posibilidad de trabajo remoto",
+      "Se puede estudiar en Instituto de Educación Superior \"Juan Ma, institución pública: sin arancel de cursado",
+      "Se puede cursar en Presidencia Roque Sáenz Peña, sin mudarte de ciudad"
     ],
     "desafios": [
       "Requiere actualización constante ante los cambios tecnológicos"
@@ -22479,7 +23002,7 @@ const CAREERS = [
     "icono": "🌾",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": "Carrera de pregrado. Modalidad: presencial. Duración a confirmar con la facultad.",
+    "cargaHoraria": "Carrera de pregrado de 3 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSE.",
     "queHace": "Forma técnicos en educación intercultural bilingüe con mención en lengua quichua, para trabajar en escuelas con población de habla quichua.",
     "problemasQueResuelve": "Necesidad de docentes y auxiliares capacitados en quichua, lengua originaria con fuerte presencia en Santiago del Estero, para garantizar la educación intercultural bilingüe.",
     "perfilRecomendado": "Interés en la lengua y cultura quichua, y en el trabajo con comunidades originarias.",
@@ -22518,10 +23041,13 @@ const CAREERS = [
       "Recursos de educación intercultural"
     ],
     "ventajas": [
-      "Es una formación única en el país por su foco en el quichua santiagueño"
+      "Es una formación única en el país por su foco en el quichua santiagueño",
+      "Se puede estudiar en UNSE — Facultad de Humanidades, Ciencias, institución pública: sin arancel de cursado",
+      "Es una carrera corta (3 años), que permite empezar a trabajar antes"
     ],
     "desafios": [
-      "La salida laboral está muy concentrada en la provincia y en escuelas con esta modalidad específica"
+      "La salida laboral está muy concentrada en la provincia y en escuelas con esta modalidad específica",
+      "Se cursa en Santiago del Estero: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Santiago del Estero es la provincia con mayor cantidad de hablantes de quichua de Argentina, lo que hace a esta tecnicatura única en el país.",
@@ -22540,7 +23066,7 @@ const CAREERS = [
       "nota": "Es una tecnicatura corta (2-3 años), con salida laboral más rápida pero un techo salarial menor que el de una licenciatura equivalente."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -22557,7 +23083,7 @@ const CAREERS = [
     "icono": "🖥️",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": null,
+    "cargaHoraria": "Tecnicatura superior de 3 años, presencial. La carga horaria total figura en el plan de estudios oficial de el Instituto Don Orione.",
     "queHace": "Brinda soporte técnico a usuarios y sistemas, administra redes y equipos informáticos básicos, y puede participar en tareas de programación y desarrollo de software según la orientación de la tecnicatura.",
     "problemasQueResuelve": "Fallas de hardware y software en equipos y redes, necesidad de soporte técnico ágil en empresas, mantenimiento de infraestructura informática básica.",
     "perfilRecomendado": "Estudiantes con interés en tecnología que buscan una salida laboral más rápida (3 años) que una ingeniería o licenciatura, con posibilidad de seguir estudiando después.",
@@ -22613,7 +23139,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Sueldos iniciales bajos según portales de empleo tradicionales, aunque autorreportes de trabajadores muestran cifras más altas",
-      "Menor techo salarial que un perfil de desarrollo de software si no se continúa estudiando"
+      "Menor techo salarial que un perfil de desarrollo de software si no se continúa estudiando",
+      "Se estudia en una institución privada: hay que contar con el costo de la cuota"
     ],
     "datosInteresantes": [
       "La diferencia de sueldo reportada para 'soporte técnico' varía enormemente según la fuente: desde unos $72.500 al año según Glassdoor hasta más de $800.000 al mes según Computrabajo para el mismo tipo de puesto, lo que muestra lo poco estandarizado que está este dato.",
@@ -22655,7 +23182,7 @@ const CAREERS = [
     "icono": "🚜",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": null,
+    "cargaHoraria": "Tecnicatura superior de 3 años, presencial. La carga horaria total figura en el plan de estudios oficial de el IES Juan Mantovani.",
     "queHace": "Gestiona y ejecuta tareas de manejo de cultivos y/o ganado a nivel técnico y operativo, colaborando con ingenieros agrónomos o zootecnistas en la administración de establecimientos rurales.",
     "problemasQueResuelve": "Necesidad de personal técnico capacitado para la gestión operativa diaria de establecimientos agropecuarios, en un sector clave de la economía chaqueña.",
     "perfilRecomendado": "Estudiantes con interés en el campo, la producción agropecuaria y el trabajo rural, cómodos con tareas tanto de campo como de gestión básica.",
@@ -22702,7 +23229,8 @@ const CAREERS = [
     ],
     "ventajas": [
       "Fuerte demanda regional dado el peso del agro en la economía del Chaco",
-      "Formación técnica aplicada y de corta duración (3 años)"
+      "Formación técnica aplicada y de corta duración (3 años)",
+      "Se puede estudiar en Instituto de Educación Superior \"Juan Ma, institución pública: sin arancel de cursado"
     ],
     "desafios": [
       "No se encontró un relevamiento salarial específico y confiable para este título en particular",
@@ -22727,7 +23255,7 @@ const CAREERS = [
       "nota": "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -22744,7 +23272,7 @@ const CAREERS = [
     "icono": "🚦",
     "investigado": true,
     "duracionAnios": 2,
-    "cargaHoraria": null,
+    "cargaHoraria": "Tecnicatura superior de 2 años, presencial. La carga horaria total figura en el plan de estudios oficial de el Instituto Don Orione.",
     "queHace": "Forma técnicos en seguridad vial y transporte: educación vial, control del tránsito y gestión de proyectos de movilidad segura.",
     "problemasQueResuelve": "Necesidad de personal capacitado en seguridad vial, un tema crítico dado el alto índice de siniestros de tránsito en el país.",
     "perfilRecomendado": "Interés en la seguridad vial, el tránsito y la educación comunitaria sobre movilidad segura.",
@@ -22786,10 +23314,13 @@ const CAREERS = [
       "Gestión de siniestros viales"
     ],
     "ventajas": [
-      "Es una formación específica con salida en organismos de tránsito municipales"
+      "Es una formación específica con salida en organismos de tránsito municipales",
+      "Se puede cursar en Presidencia Roque Sáenz Peña, sin mudarte de ciudad",
+      "Es una carrera corta (2 años), que permite empezar a trabajar antes"
     ],
     "desafios": [
-      "Mercado laboral acotado, concentrado en el sector público"
+      "Mercado laboral acotado, concentrado en el sector público",
+      "Se estudia en una institución privada: hay que contar con el costo de la cuota"
     ],
     "datosInteresantes": [
       "La seguridad vial es una de las principales causas de muerte evitable en Argentina, lo que le da relevancia social a esta formación técnica.",
@@ -22825,7 +23356,7 @@ const CAREERS = [
     "icono": "🦺",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": null,
+    "cargaHoraria": "Tecnicatura superior de 3 años, presencial. La carga horaria total figura en el plan de estudios oficial de el IES Juan Mantovani.",
     "queHace": "Identifica y previene riesgos laborales en empresas e industrias, diseña e implementa medidas de seguridad e higiene, y controla el cumplimiento de normativas de seguridad laboral y ambiental.",
     "problemasQueResuelve": "Accidentes de trabajo y enfermedades profesionales, incumplimiento de normativas de seguridad e higiene laboral, riesgos ambientales en procesos industriales.",
     "perfilRecomendado": "Estudiantes con atención al detalle, responsabilidad y compromiso con la seguridad y el bienestar de otras personas en el ámbito laboral.",
@@ -22901,7 +23432,7 @@ const CAREERS = [
       "nota": "Es una de las carreras con MAYOR dispersión salarial entre fuentes de todo el sitio: los relevamientos automáticos de portales de empleo (Glassdoor) muestran promedios muy bajos, mientras que los autorreportes reales de trabajadores muestran cifras mucho más altas, especialmente para quienes trabajan de forma independiente para varias empresas o en minería/industria pesada."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -22916,7 +23447,7 @@ const CAREERS = [
     "icono": "🔧",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": null,
+    "cargaHoraria": "Tecnicatura superior de 3 años, presencial. La carga horaria total figura en el plan de estudios oficial de el IES Juan Mantovani.",
     "queHace": "Instala, configura y mantiene redes, servidores y equipos informáticos; brinda soporte técnico a usuarios y gestiona la infraestructura tecnológica de organizaciones.",
     "problemasQueResuelve": "Fallas de hardware, software y redes en empresas e instituciones, necesidad de soporte técnico y administración de infraestructura informática.",
     "perfilRecomendado": "Estudiantes con interés en redes, hardware e infraestructura tecnológica, que buscan una salida laboral rápida (3 años) en el sector IT.",
@@ -22991,7 +23522,7 @@ const CAREERS = [
       "nota": "Se usaron las mismas fuentes generales de soporte técnico IT relevadas para la Tecnicatura en Informática, dado que ambas formaciones comparten un núcleo de salida laboral similar (soporte y mesa de ayuda), con esta tecnicatura algo más orientada a redes e infraestructura."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -23006,7 +23537,7 @@ const CAREERS = [
     "icono": "📜",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": null,
+    "cargaHoraria": "Tecnicatura superior de 3 años, presencial. La carga horaria total figura en el plan de estudios oficial de el Instituto Don Orione.",
     "queHace": "Colabora en tareas de gestión de expedientes judiciales, redacción de escritos básicos y trámites administrativos vinculados al ámbito jurídico, en apoyo a abogados, escribanos o el propio Poder Judicial.",
     "problemasQueResuelve": "Necesidad de personal técnico capacitado para la gestión administrativa de estudios jurídicos y dependencias judiciales.",
     "perfilRecomendado": "Estudiantes con interés en el derecho y la gestión administrativa, que buscan una salida laboral más rápida (3 años) que la carrera de Abogacía.",
@@ -23048,11 +23579,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Salida laboral más rápida (3 años) que la carrera de Abogacía completa",
-      "Buena base para eventualmente continuar hacia Abogacía"
+      "Buena base para eventualmente continuar hacia Abogacía",
+      "Se puede cursar en Presidencia Roque Sáenz Peña, sin mudarte de ciudad"
     ],
     "desafios": [
       "No se encontró un relevamiento salarial específico para este título en particular",
-      "Menor margen de acción profesional que un abogado matriculado (no puede litigar ni patrocinar)"
+      "Menor margen de acción profesional que un abogado matriculado (no puede litigar ni patrocinar)",
+      "Se estudia en una institución privada: hay que contar con el costo de la cuota"
     ],
     "datosInteresantes": [
       "Este tipo de tecnicaturas suelen ser una puerta de entrada al ámbito judicial para quienes luego evalúan continuar sus estudios hacia la carrera de Abogacía."
@@ -23104,7 +23637,7 @@ const CAREERS = [
     "icono": "🔌",
     "investigado": true,
     "duracionAnios": 2.5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de pregrado de 2,5 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSa.",
     "queHace": "Formación técnica corta en electrónica: mantenimiento y reparación de equipos electrónicos, instalación de sistemas de control y automatización básica.",
     "problemasQueResuelve": "Necesidad de técnicos para el mantenimiento de equipos electrónicos industriales y domésticos.",
     "perfilRecomendado": "Interés práctico en electrónica y el armado/reparación de circuitos y equipos.",
@@ -23147,10 +23680,12 @@ const CAREERS = [
       "Software de diagnóstico de equipos"
     ],
     "ventajas": [
-      "Título corto (2 años y medio) con salida laboral rápida en varias sedes de la provincia"
+      "Título corto (2 años y medio) con salida laboral rápida en varias sedes de la provincia",
+      "Se puede estudiar en UNSa — Facultad de Ciencias Exactas, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "El techo de crecimiento es menor que el de una ingeniería en electrónica"
+      "El techo de crecimiento es menor que el de una ingeniería en electrónica",
+      "Se cursa en Salta: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es una de las pocas tecnicaturas de la UNSa que se dicta en tres sedes distintas (Salta, Orán y Metán).",
@@ -23169,7 +23704,7 @@ const CAREERS = [
       "nota": "El trabajo de mantenimiento y control de obra en la industria suele pagar mejor que en pequeñas empresas o estudios."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -23192,7 +23727,7 @@ const CAREERS = [
     "icono": "🚜",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de pregrado de 3 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSa.",
     "queHace": "Forma técnicos en gestión administrativa y económica de empresas agropecuarias: costos de producción, comercialización y organización de establecimientos rurales.",
     "problemasQueResuelve": "Necesidad de gestión profesional en establecimientos agropecuarios, un sector clave en la economía del norte salteño.",
     "perfilRecomendado": "Interés en el campo, la producción agropecuaria y la gestión de negocios rurales.",
@@ -23233,10 +23768,13 @@ const CAREERS = [
       "Planillas de costos y comercialización"
     ],
     "ventajas": [
-      "Se dicta en Orán, en el corazón de una zona agropecuaria muy productiva"
+      "Se dicta en Orán, en el corazón de una zona agropecuaria muy productiva",
+      "Se puede estudiar en UNSa — Facultad de Ciencias Naturales, institución pública: sin arancel de cursado",
+      "Es una carrera corta (3 años), que permite empezar a trabajar antes"
     ],
     "desafios": [
-      "Los ingresos del sector agropecuario pueden ser variables según el clima y los precios internacionales"
+      "Los ingresos del sector agropecuario pueden ser variables según el clima y los precios internacionales",
+      "Se cursa en Salta: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "El norte de Salta es una de las zonas agrícolas más productivas del NOA, con fuerte producción de poroto y soja.",
@@ -23255,7 +23793,7 @@ const CAREERS = [
       "nota": "Los ingresos de este sector son variables según el clima y los precios internacionales de los productos agropecuarios; quienes gestionan un establecimiento propio pueden superar ampliamente estos valores en buenas campañas."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -23272,7 +23810,7 @@ const CAREERS = [
     "icono": "🏢",
     "investigado": true,
     "duracionAnios": 2.5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de pregrado de 2,5 años, virtual. La carga horaria total figura en el plan de estudios oficial de Siglo 21.",
     "queHace": "Representa y administra propiedades horizontales (consorcios de edificios) y conjuntos inmobiliarios (countries, barrios cerrados, parques industriales): gestiona expensas y fondos, supervisa mantenimiento y servicios, y asegura el cumplimiento de la normativa vigente (Código Civil y Comercial).",
     "problemasQueResuelve": "Necesidad de administración profesional de edificios y countries: cobro y control de expensas, mantenimiento de infraestructura común, cumplimiento de normativa y resolución de conflictos entre propietarios/vecinos.",
     "perfilRecomendado": "Estudiantes organizados, con buen trato con las personas y capacidad de gestión administrativa, interesados en el sector inmobiliario y en el crecimiento de countries, barrios privados y edificios en altura.",
@@ -23318,11 +23856,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Salida laboral concreta e independiente (armar la propia cartera de consorcios)",
-      "Demanda estable en cualquier ciudad con crecimiento edilicio"
+      "Demanda estable en cualquier ciudad con crecimiento edilicio",
+      "Hay cursado a distancia o virtual, así que podés estudiar sin mudarte"
     ],
     "desafios": [
       "Requiere trato constante con conflictos entre vecinos/consorcistas",
-      "Ingresos iniciales atados a la cantidad de consorcios que se logren administrar"
+      "Ingresos iniciales atados a la cantidad de consorcios que se logren administrar",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "El Código Civil y Comercial de la Nación (2015) incorporó a los conjuntos inmobiliarios (countries, barrios cerrados) como un derecho real específico, ampliando el campo de esta profesión más allá de los edificios tradicionales."
@@ -23405,11 +23945,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Formación corta (2 años) orientada al empleo público",
-      "Buena base para continuar hacia la Licenciatura en Administración Pública"
+      "Buena base para continuar hacia la Licenciatura en Administración Pública",
+      "Hay cursado a distancia o virtual, así que podés estudiar sin mudarte"
     ],
     "desafios": [
       "No se encontró un relevamiento salarial específico para este título en particular",
-      "El sueldo depende del escalafón público de cada jurisdicción, al igual que la Licenciatura relacionada"
+      "El sueldo depende del escalafón público de cada jurisdicción, al igual que la Licenciatura relacionada",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Esta tecnicatura puede articularse con la Licenciatura en Administración Pública de la misma universidad para quienes deseen continuar sus estudios."
@@ -23430,7 +23972,7 @@ const CAREERS = [
       "nota": "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -23504,10 +24046,14 @@ const CAREERS = [
       "Técnicas de sanidad apícola"
     ],
     "ventajas": [
-      "Alta posibilidad de emprendimiento propio, con baja inversión inicial en comparación con otras producciones"
+      "Alta posibilidad de emprendimiento propio, con baja inversión inicial en comparación con otras producciones",
+      "Se puede estudiar en UNNE — Facultad de Ciencias Agrarias y UNSE — Facultad de Agronomía y Agroindus, institución pública: sin arancel de cursado",
+      "Se dicta en 2 instituciones de la región, así que podés comparar y elegir dónde cursarla"
     ],
     "desafios": [
-      "La producción de miel depende de factores climáticos y de la salud de las colmenas"
+      "La producción de miel depende de factores climáticos y de la salud de las colmenas",
+      "Los planes, la duración y las condiciones pueden variar según la institución: conviene compararlos antes de elegir",
+      "Se cursa en Corrientes y Santiago del Estero: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "La miel argentina es un producto de exportación reconocido, lo que le da a esta tecnicatura una salida ligada también al mercado internacional.",
@@ -23526,7 +24072,7 @@ const CAREERS = [
       "nota": "Los ingresos de este sector son variables según el clima y los precios internacionales de los productos agropecuarios; quienes gestionan un establecimiento propio pueden superar ampliamente estos valores en buenas campañas."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -23549,7 +24095,7 @@ const CAREERS = [
     "icono": "📡",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de pregrado de 3 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSa.",
     "queHace": "Formación técnica corta en comunicación: redacción, producción de contenido y manejo básico de medios digitales, para el trabajo en medios locales y comunicación institucional.",
     "problemasQueResuelve": "Necesidad de personal técnico en comunicación para medios y organismos de la región, con salida laboral más rápida que la licenciatura.",
     "perfilRecomendado": "Interés en los medios de comunicación y la producción de contenido, con salida laboral rápida.",
@@ -23588,10 +24134,12 @@ const CAREERS = [
       "Software de edición básica de audio y video"
     ],
     "ventajas": [
-      "Título corto con salida laboral rápida en medios locales"
+      "Título corto con salida laboral rápida en medios locales",
+      "Se puede estudiar en UNSa — Facultad de Humanidades, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "Salida laboral más acotada que la de la licenciatura completa"
+      "Salida laboral más acotada que la de la licenciatura completa",
+      "Se cursa en Salta: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Se dicta en Tartagal, y es un buen primer paso hacia la Licenciatura en Ciencias de la Comunicación de la sede central.",
@@ -23610,7 +24158,7 @@ const CAREERS = [
       "nota": "El freelance para clientes de otras provincias o del exterior puede superar ampliamente el techo mostrado."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -23627,7 +24175,7 @@ const CAREERS = [
     "icono": "🏗️",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": "Carrera de pregrado. Modalidad: presencial. Duración a confirmar con la facultad.",
+    "cargaHoraria": "Carrera de pregrado de 3 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSE.",
     "queHace": "Forma técnicos para la ejecución, dirección de obra y control de calidad de construcciones civiles: viviendas, edificios y obras de infraestructura básica.",
     "problemasQueResuelve": "Necesidad de personal técnico calificado para dirigir y controlar obras, sin requerir el título completo de ingeniero civil.",
     "perfilRecomendado": "Interés práctico en la construcción, más orientado a la ejecución de obra que al cálculo estructural avanzado.",
@@ -23671,10 +24219,12 @@ const CAREERS = [
       "Software de cómputo y presupuesto"
     ],
     "ventajas": [
-      "Título corto con salida laboral rápida en un sector con demanda constante"
+      "Título corto con salida laboral rápida en un sector con demanda constante",
+      "Se puede estudiar en UNSE — Facultad de Ciencias Exactas y Te, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "El techo de responsabilidad profesional es menor que el de un ingeniero civil"
+      "El techo de responsabilidad profesional es menor que el de un ingeniero civil",
+      "Se cursa en Santiago del Estero: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es una buena puerta de entrada al sector de la construcción antes de decidir si seguir Ingeniería Civil.",
@@ -23760,7 +24310,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Sueldos de entrada probablemente más bajos que los de un diseñador con título completo",
-      "Alta competencia dado el bajo umbral de entrada al diseño digital básico"
+      "Alta competencia dado el bajo umbral de entrada al diseño digital básico",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "El diseño para redes sociales es una de las tareas freelance más demandadas por PyMEs y emprendimientos en plataformas digitales de trabajo independiente."
@@ -23781,7 +24332,7 @@ const CAREERS = [
       "nota": "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -23854,7 +24405,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Los sueldos en pesos argentinos muestran mucha dispersión en portales tradicionales, aunque las fuentes especializadas del sector dan cifras más altas y confiables",
-      "Mercado con alta competencia global, dado que se compite por proyectos con desarrolladores de todo el mundo"
+      "Mercado con alta competencia global, dado que se compite por proyectos con desarrolladores de todo el mundo",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Según la Asociación de Desarrolladores de Videojuegos de Argentina (ADVA), el país cuenta con casi 1.500 profesionales en actividad, mientras que la Cámara Argentina de Desarrolladores de Videojuegos (CADEVI) contabiliza más de 200 estudios de desarrollo activos.",
@@ -23877,7 +24429,7 @@ const CAREERS = [
       "nota": "Los portales de empleo tradicionales (Glassdoor) muestran cifras muy bajas para este rol específico, con pocas muestras. Se priorizó una nota especializada del sector que cita fuentes sectoriales (ADVA, CADEVI) y menciona sueldos desde $1.500.000 mensuales, más representativa de esta industria particular donde el trabajo remoto internacional en dólares es la norma."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -23891,8 +24443,8 @@ const CAREERS = [
     "descripcionBreve": "Carrera de pregrado, presencial, de la Facultad de Humanidades, Ciencias Sociales y de la Salud de la Universidad Nacional de Santiago del Estero (UNSE).",
     "icono": "🩺",
     "investigado": true,
-    "duracionAnios": null,
-    "cargaHoraria": "Carrera de pregrado. Modalidad: presencial. Duración a confirmar con la facultad.",
+    "duracionAnios": 3,
+    "cargaHoraria": "Carrera de pregrado de 3 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSE.",
     "queHace": "Formación técnica corta en educación y promoción de la salud: talleres de prevención, campañas sanitarias y trabajo comunitario en salud.",
     "problemasQueResuelve": "Necesidad de agentes técnicos de salud comunitaria para llevar adelante campañas de prevención, con salida laboral más rápida que la licenciatura o el profesorado.",
     "perfilRecomendado": "Interés en el trabajo comunitario y la promoción de la salud, con salida laboral rápida.",
@@ -23932,10 +24484,12 @@ const CAREERS = [
       "Herramientas de trabajo comunitario"
     ],
     "ventajas": [
-      "Título corto con salida laboral en programas de salud pública"
+      "Título corto con salida laboral en programas de salud pública",
+      "Es una carrera corta (3 años), que permite empezar a trabajar antes"
     ],
     "desafios": [
-      "Salida laboral acotada casi exclusivamente al sector público y ONGs"
+      "Salida laboral acotada casi exclusivamente al sector público y ONGs",
+      "Se cursa en Santiago del Estero: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es el título de pregrado equivalente al Profesorado y a la Licenciatura en Educación para la Salud de la misma facultad.",
@@ -23954,7 +24508,7 @@ const CAREERS = [
       "nota": "Son perfiles técnicos que suelen trabajar bajo la dirección de un profesional de grado (bioquímico, odontólogo), lo que limita el techo salarial."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -23981,7 +24535,7 @@ const CAREERS = [
     "icono": "☀️",
     "investigado": true,
     "duracionAnios": 2.5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de pregrado de 2,5 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSa.",
     "queHace": "Formación técnica corta en instalación y mantenimiento de sistemas de energía solar: paneles fotovoltaicos, calentadores solares y sistemas de generación distribuida.",
     "problemasQueResuelve": "Necesidad de técnicos instaladores y de mantenimiento para el creciente mercado de energía solar en la región.",
     "perfilRecomendado": "Interés práctico en energías renovables e instalaciones eléctricas.",
@@ -24023,10 +24577,13 @@ const CAREERS = [
       "Equipos de medición de radiación solar"
     ],
     "ventajas": [
-      "Se dicta en Cafayate, zona de alta radiación solar y con proyectos de energía en desarrollo"
+      "Se dicta en Cafayate, zona de alta radiación solar y con proyectos de energía en desarrollo",
+      "Se puede estudiar en UNSa — Facultad de Ciencias Exactas, institución pública: sin arancel de cursado",
+      "Es una carrera corta (2.5 años), que permite empezar a trabajar antes"
     ],
     "desafios": [
-      "El mercado depende en parte de incentivos y políticas de energía renovable"
+      "El mercado depende en parte de incentivos y políticas de energía renovable",
+      "Se cursa en Salta: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Cafayate, además de zona vitivinícola, se está posicionando como un polo de desarrollo de energía solar en Salta.",
@@ -24045,7 +24602,7 @@ const CAREERS = [
       "nota": "El desarrollo de proyectos de energía solar y de agua subterránea está en crecimiento en el norte argentino, lo que sostiene la demanda de estos perfiles."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -24068,7 +24625,7 @@ const CAREERS = [
     "icono": "🍇",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de pregrado de 3 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSa.",
     "queHace": "Forma técnicos para el cultivo de la vid y la elaboración de vino: manejo de viñedos, procesos de vinificación y control de calidad del vino.",
     "problemasQueResuelve": "Necesidad de técnicos capacitados para la industria vitivinícola, muy desarrollada en los Valles Calchaquíes salteños.",
     "perfilRecomendado": "Interés en el mundo del vino, la agronomía y los procesos productivos vitivinícolas.",
@@ -24112,10 +24669,13 @@ const CAREERS = [
       "Software de trazabilidad vitivinícola"
     ],
     "ventajas": [
-      "Se dicta en Cafayate, una de las zonas vitivinícolas de mayor prestigio de Argentina (torrontés)"
+      "Se dicta en Cafayate, una de las zonas vitivinícolas de mayor prestigio de Argentina (torrontés)",
+      "Se puede estudiar en UNSa — Facultad de Ciencias Naturales, institución pública: sin arancel de cursado",
+      "Es una carrera corta (3 años), que permite empezar a trabajar antes"
     ],
     "desafios": [
-      "Es una salida laboral concentrada geográficamente en la zona vitivinícola"
+      "Es una salida laboral concentrada geográficamente en la zona vitivinícola",
+      "Se cursa en Salta: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Cafayate es reconocida internacionalmente por su vino torrontés, lo que le da a esta tecnicatura una salida laboral directa en la región.",
@@ -24157,7 +24717,7 @@ const CAREERS = [
     "icono": "📊",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de pregrado de 3 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSa.",
     "queHace": "Formación técnica en recolección, procesamiento y análisis de datos estadísticos para estudios de mercado, investigación social y toma de decisiones en empresas y organismos.",
     "problemasQueResuelve": "Necesidad de personal técnico capacitado en análisis de datos, un campo en fuerte crecimiento con el auge del análisis de datos y la toma de decisiones basada en evidencia.",
     "perfilRecomendado": "Interés en matemática, análisis de datos y trabajo con números.",
@@ -24202,10 +24762,13 @@ const CAREERS = [
       "Planillas de cálculo avanzadas"
     ],
     "ventajas": [
-      "Formación con aplicación directa al campo en crecimiento del análisis de datos"
+      "Formación con aplicación directa al campo en crecimiento del análisis de datos",
+      "Se puede estudiar en UNSa — Facultad de Ciencias Exactas, institución pública: sin arancel de cursado",
+      "Es una carrera corta (3 años), que permite empezar a trabajar antes"
     ],
     "desafios": [
-      "Es una carrera técnica menos conocida, con menos oferta educativa específica en el país"
+      "Es una carrera técnica menos conocida, con menos oferta educativa específica en el país",
+      "Se cursa en Salta: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es una buena base para quien después quiera avanzar hacia la ciencia de datos, un campo con alta demanda laboral.",
@@ -24224,7 +24787,7 @@ const CAREERS = [
       "nota": "Es una buena base para avanzar hacia ciencia de datos, campo con sueldos bastante más altos que el promedio técnico."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -24294,7 +24857,8 @@ const CAREERS = [
     ],
     "desafios": [
       "No se encontró un relevamiento salarial específico para este título en particular",
-      "Menor techo salarial que un perfil de Ciencia de Datos completo si no se continúa estudiando"
+      "Menor techo salarial que un perfil de Ciencia de Datos completo si no se continúa estudiando",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Esta tecnicatura puede servir como puerta de entrada hacia la Licenciatura en Ciencia de Datos de la misma universidad para quienes luego quieran profundizar en programación y machine learning."
@@ -24315,7 +24879,7 @@ const CAREERS = [
       "nota": "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -24378,11 +24942,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Salida laboral rápida (2 años) en un sector esencial y con demanda sostenida",
-      "Buena base para continuar hacia la Licenciatura en Administración de Servicios de Salud"
+      "Buena base para continuar hacia la Licenciatura en Administración de Servicios de Salud",
+      "Hay cursado a distancia o virtual, así que podés estudiar sin mudarte"
     ],
     "desafios": [
       "Sueldos de entrada probablemente más bajos que los de un Licenciado en Administración de Servicios de Salud",
-      "Alta carga de tareas administrativas repetitivas"
+      "Alta carga de tareas administrativas repetitivas",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Esta tecnicatura puede servir de puerta de entrada hacia la Licenciatura en Administración de Servicios de Salud de la misma universidad."
@@ -24403,7 +24969,7 @@ const CAREERS = [
       "nota": "No se encontró un relevamiento salarial separado para este título técnico en particular; se usó como referencia el mismo campo laboral investigado para la Licenciatura en Administración de Servicios de Salud de este sitio."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -24421,7 +24987,7 @@ const CAREERS = [
     "icono": "🌱",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de pregrado de 3 años, a distancia. La carga horaria total figura en el plan de estudios oficial de UNCAUS.",
     "queHace": "Aplica herramientas técnicas para la gestión ambiental: monitoreo de recursos naturales, gestión de residuos, cumplimiento de normativa ambiental en empresas y organismos públicos.",
     "problemasQueResuelve": "Incumplimiento de normativa ambiental, necesidad de gestión responsable de residuos y recursos naturales, monitoreo de impacto ambiental de actividades productivas.",
     "perfilRecomendado": "Estudiantes con interés en el cuidado del ambiente y los recursos naturales, con perfil técnico y de gestión.",
@@ -24472,7 +25038,8 @@ const CAREERS = [
     ],
     "desafios": [
       "No se encontró un relevamiento salarial específico y confiable para este título en particular",
-      "Es una carrera relativamente nueva, con menor tradición en el mercado laboral que otras"
+      "Es una carrera relativamente nueva, con menor tradición en el mercado laboral que otras",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Esta tecnicatura forma parte de la oferta a distancia de UNCAUS, lo que permite cursarla desde distintos puntos del país."
@@ -24551,10 +25118,13 @@ const CAREERS = [
       "Legislación sanitaria"
     ],
     "ventajas": [
-      "Salida laboral en el sector salud sin necesidad de una carrera clínica larga"
+      "Salida laboral en el sector salud sin necesidad de una carrera clínica larga",
+      "Se puede estudiar en UNNE — Facultad de Odontología, institución pública: sin arancel de cursado",
+      "Es una carrera corta (2 años), que permite empezar a trabajar antes"
     ],
     "desafios": [
-      "El techo de crecimiento es menor que el de una licenciatura en administración de salud"
+      "El techo de crecimiento es menor que el de una licenciatura en administración de salud",
+      "Se cursa en Corrientes: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Se dicta desde la Facultad de Odontología de la UNNE, aunque su salida laboral abarca la gestión de instituciones de salud en general, no solo odontológicas.",
@@ -24573,7 +25143,7 @@ const CAREERS = [
       "nota": "Son perfiles técnicos que suelen trabajar bajo la dirección de un profesional de grado (bioquímico, odontólogo), lo que limita el techo salarial."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -24640,11 +25210,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Formación corta (2 años) orientada a la gestión de un sector con fuerte identidad cultural en Argentina",
-      "Aplicable tanto a marcas establecidas como a emprendimientos propios"
+      "Aplicable tanto a marcas establecidas como a emprendimientos propios",
+      "Hay cursado a distancia o virtual, así que podés estudiar sin mudarte"
     ],
     "desafios": [
       "No se encontró un relevamiento salarial específico para este título en particular",
-      "Sector con alta informalidad laboral en muchos casos, lo que dificulta encontrar datos salariales estandarizados"
+      "Sector con alta informalidad laboral en muchos casos, lo que dificulta encontrar datos salariales estandarizados",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Esta tecnicatura se enfoca en la gestión y el negocio de la moda, y no en el diseño técnico de indumentaria (patronaje, confección), que es una disciplina distinta con formación específica propia."
@@ -24665,7 +25237,7 @@ const CAREERS = [
       "nota": "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -24682,7 +25254,7 @@ const CAREERS = [
     "icono": "🗺️",
     "investigado": true,
     "duracionAnios": 2,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de pregrado de 2 años, virtual. La carga horaria total figura en el plan de estudios oficial de Siglo 21.",
     "queHace": "Releva, gestiona y pone en valor los recursos turísticos naturales y culturales de una localidad o región, colabora en el diseño de productos y circuitos turísticos, y apoya la gestión de organismos y empresas de turismo.",
     "problemasQueResuelve": "Necesidad de identificar y organizar de forma profesional los atractivos turísticos de una región (muchas veces subutilizados), y de convertirlos en productos turísticos concretos y sostenibles.",
     "perfilRecomendado": "Estudiantes con interés en el turismo, la cultura y la naturaleza de su región, que busquen una salida laboral más rápida que la licenciatura completa en Gestión Turística.",
@@ -24727,11 +25299,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Título corto (2 años) con aplicación directa a la puesta en valor turística de la propia región",
-      "Buena puerta de entrada para quien luego quiera seguir la Licenciatura en Gestión Turística"
+      "Buena puerta de entrada para quien luego quiera seguir la Licenciatura en Gestión Turística",
+      "Hay cursado a distancia o virtual, así que podés estudiar sin mudarte"
     ],
     "desafios": [
       "Mercado laboral más chico en localidades sin desarrollo turístico consolidado",
-      "Salida laboral muchas veces ligada a la gestión pública municipal, sujeta a cambios de gestión"
+      "Salida laboral muchas veces ligada a la gestión pública municipal, sujeta a cambios de gestión",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Esta tecnicatura tiene foco específico en identificar y relevar recursos turísticos, un paso previo necesario para cualquier estrategia de desarrollo turístico regional."
@@ -24752,7 +25326,7 @@ const CAREERS = [
       "nota": "En localidades del interior con turismo poco desarrollado, buena parte de la salida laboral es en organismos públicos municipales."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -24775,7 +25349,7 @@ const CAREERS = [
     "icono": "🧳",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de pregrado de 3 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSa.",
     "queHace": "Forma técnicos para la gestión de servicios turísticos: agencias de viajes, oficinas de información turística y organización de actividades turísticas regionales.",
     "problemasQueResuelve": "Necesidad de personal técnico para gestionar el turismo en una zona con fuerte atractivo turístico como los Valles Calchaquíes.",
     "perfilRecomendado": "Interés en el turismo, la atención al público y la organización de actividades.",
@@ -24817,10 +25391,13 @@ const CAREERS = [
       "Atención al cliente en turismo"
     ],
     "ventajas": [
-      "Se dicta en Cafayate, uno de los destinos turísticos más visitados del norte argentino"
+      "Se dicta en Cafayate, uno de los destinos turísticos más visitados del norte argentino",
+      "Se puede estudiar en UNSa — Facultad de Ciencias Económicas, , institución pública: sin arancel de cursado",
+      "Es una carrera corta (3 años), que permite empezar a trabajar antes"
     ],
     "desafios": [
-      "La actividad turística es estacional, con picos y valles según la época del año"
+      "La actividad turística es estacional, con picos y valles según la época del año",
+      "Se cursa en Salta: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Cafayate combina turismo enológico y de naturaleza, lo que le da a esta tecnicatura una salida laboral muy activa durante gran parte del año.",
@@ -24839,7 +25416,7 @@ const CAREERS = [
       "nota": "La actividad turística suele ser estacional, con ingresos más altos en temporada alta."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -24856,7 +25433,7 @@ const CAREERS = [
     "icono": "🌤️",
     "investigado": true,
     "duracionAnios": 2,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de pregrado de 2 años, virtual. La carga horaria total figura en el plan de estudios oficial de Siglo 21.",
     "queHace": "Diseña, aplica y analiza encuestas y diagnósticos de clima laboral, propone planes de acción para mejorar el bienestar y la motivación de los equipos, y acompaña procesos de cambio organizacional desde la mirada del bienestar de las personas.",
     "problemasQueResuelve": "Alta rotación de personal, baja motivación y productividad, y conflictos internos que muchas empresas no logran diagnosticar ni abordar de forma sistemática por falta de un profesional dedicado a esto.",
     "perfilRecomendado": "Estudiantes interesados en el bienestar de las personas en el trabajo, con buena capacidad de escucha y análisis, que quieran especializarse dentro del área de Recursos Humanos en esta problemática específica.",
@@ -24902,11 +25479,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Especialización puntual y diferenciada dentro del amplio campo de Recursos Humanos",
-      "Título corto con aplicación directa"
+      "Título corto con aplicación directa",
+      "Hay cursado a distancia o virtual, así que podés estudiar sin mudarte"
     ],
     "desafios": [
       "En empresas chicas esta función suele diluirse dentro de un rol más generalista de Recursos Humanos",
-      "Mercado laboral más chico y específico que el de RRHH generalista"
+      "Mercado laboral más chico y específico que el de RRHH generalista",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Es una tecnicatura muy puntual dentro de la oferta de Siglo 21, enfocada en un solo aspecto (el clima laboral) de la gestión de personas."
@@ -24927,7 +25506,7 @@ const CAREERS = [
       "nota": "Suele integrarse como una función dentro de un puesto más amplio de Recursos Humanos, más que como un puesto exclusivo, especialmente en empresas chicas."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -24944,7 +25523,7 @@ const CAREERS = [
     "icono": "🌱",
     "investigado": true,
     "duracionAnios": 2,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de pregrado de 2 años, virtual. La carga horaria total figura en el plan de estudios oficial de Siglo 21.",
     "queHace": "Implementa sistemas de gestión ambiental alineados con normas internacionales (como ISO 14001), realiza auditorías ambientales y diagnósticos de impacto, y aplica herramientas tecnológicas para el monitoreo de indicadores ambientales en organizaciones públicas y privadas.",
     "problemasQueResuelve": "Necesidad de las empresas de contar con personal capacitado para auditar y monitorear el cumplimiento de normas ambientales, disminuir, mitigar y remediar los impactos que sus procesos generan en el entorno.",
     "perfilRecomendado": "Estudiantes metódicos, con interés en el ambiente y la normativa técnica, que busquen una salida laboral más rápida que la de la licenciatura completa en Gestión Ambiental.",
@@ -24990,11 +25569,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Título corto (2 años) con salida laboral concreta en auditoría ambiental",
-      "Aplicable tanto a consultoras como a empresas con área de sustentabilidad propia"
+      "Aplicable tanto a consultoras como a empresas con área de sustentabilidad propia",
+      "Hay cursado a distancia o virtual, así que podés estudiar sin mudarte"
     ],
     "desafios": [
       "Mercado laboral más chico que el de auditoría contable o financiera",
-      "Requiere actualización constante en normativa ambiental"
+      "Requiere actualización constante en normativa ambiental",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Las auditorías ambientales bajo normas ISO 14001 son cada vez más exigidas a empresas argentinas que exportan a mercados con estándares ambientales estrictos, como la Unión Europea."
@@ -25015,7 +25596,7 @@ const CAREERS = [
       "nota": "Los sueldos suelen ser más altos en consultoras que trabajan para grandes exportadoras que en organismos públicos."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -25032,7 +25613,7 @@ const CAREERS = [
     "icono": "⛽",
     "investigado": true,
     "duracionAnios": 2,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de pregrado de 2 años, virtual. La carga horaria total figura en el plan de estudios oficial de Siglo 21.",
     "queHace": "Participa en la coordinación y supervisión de equipos de trabajo en yacimientos e instalaciones de procesamiento de hidrocarburos, colabora en tareas de perforación, terminación, producción, almacenaje y transporte de petróleo y gas.",
     "problemasQueResuelve": "Alta demanda de personal técnico capacitado en la industria de los hidrocarburos, en un contexto de expansión de proyectos como Vaca Muerta y de incorporación de nuevas tecnologías y recursos no convencionales.",
     "perfilRecomendado": "Estudiantes interesados en trabajar de forma directa en la operación de yacimientos, con disposición a trabajar en zonas de explotación petrolera (a veces alejadas del Chaco) y en esquemas de guardia rotativa.",
@@ -25077,11 +25658,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Título corto (2 años) con muy buena salida laboral e ingresos altos para el nivel de pregrado",
-      "Fuerte demanda por la expansión de Vaca Muerta"
+      "Fuerte demanda por la expansión de Vaca Muerta",
+      "Hay cursado a distancia o virtual, así que podés estudiar sin mudarte"
     ],
     "desafios": [
       "Requiere traslado o residencia en zonas de yacimientos, lejos del Chaco",
-      "Trabajo físico y en esquemas de guardia rotativa"
+      "Trabajo físico y en esquemas de guardia rotativa",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Es una de las tecnicaturas con mejores sueldos iniciales de todo el sistema universitario argentino, debido a la fuerte demanda de la industria petrolera."
@@ -25102,7 +25685,7 @@ const CAREERS = [
       "nota": "Muchas empresas del sector pagan adicionales por trabajo en yacimiento (viáticos, roles) que se suman al sueldo de bolsillo."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -25119,7 +25702,7 @@ const CAREERS = [
     "icono": "💧",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": "Carrera de pregrado. Modalidad: presencial. Duración a confirmar con la facultad.",
+    "cargaHoraria": "Carrera de pregrado de 3 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSE.",
     "queHace": "Formación técnica corta en la búsqueda, perforación y control de pozos de agua subterránea, como salida laboral rápida antes o en lugar de la licenciatura completa.",
     "problemasQueResuelve": "Necesidad de personal técnico para tareas de perforación y control de calidad de agua subterránea en el ámbito rural.",
     "perfilRecomendado": "Interés práctico en el trabajo de campo con agua subterránea, sin necesariamente completar la licenciatura.",
@@ -25159,10 +25742,12 @@ const CAREERS = [
       "Instrumental de medición hidrogeológica básica"
     ],
     "ventajas": [
-      "Título corto (3 años) con salida laboral directa en un sector de alta necesidad regional"
+      "Título corto (3 años) con salida laboral directa en un sector de alta necesidad regional",
+      "Se puede estudiar en UNSE — Facultad de Ciencias Exactas y Te, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "Salida laboral acotada a un sector específico (agua subterránea)"
+      "Salida laboral acotada a un sector específico (agua subterránea)",
+      "Se cursa en Santiago del Estero: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es el título de pregrado equivalente a la Licenciatura en Hidrología Subterránea, para quienes buscan una formación más corta.",
@@ -25181,7 +25766,7 @@ const CAREERS = [
       "nota": "El desarrollo de proyectos de energía solar y de agua subterránea está en crecimiento en el norte argentino, lo que sostiene la demanda de estos perfiles."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -25269,7 +25854,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Enorme dispersión salarial entre fuentes para este tipo de puesto (ver detalle en la ficha de la Tecnicatura Superior en Seguridad, Higiene y del Medio Ambiente de otra institución de la ciudad, con contenidos equivalentes)",
-      "Exposición a riesgos propios de las inspecciones en obra o planta"
+      "Exposición a riesgos propios de las inspecciones en obra o planta",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Esta es una de las pocas tecnicaturas de la UNCAUS pensada específicamente para cursarse a distancia, lo que la hace accesible para quienes ya trabajan y buscan formalizar su formación en seguridad e higiene."
@@ -25307,7 +25893,7 @@ const CAREERS = [
     "icono": "🦺",
     "investigado": true,
     "duracionAnios": 2.5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de pregrado de 2,5 años, virtual. La carga horaria total figura en el plan de estudios oficial de Siglo 21.",
     "queHace": "Colabora en la identificación y prevención de riesgos laborales, asiste en la investigación de accidentes de trabajo, y apoya la implementación de normas de higiene y seguridad en organizaciones públicas y privadas.",
     "problemasQueResuelve": "Necesidad de personal técnico de apoyo en las áreas de higiene y seguridad de las empresas, para cumplir con la normativa vigente y prevenir accidentes laborales.",
     "perfilRecomendado": "Estudiantes con interés en la prevención de riesgos y el trabajo de campo (visitas a plantas y obras), que buscan una salida laboral más rápida que la de la licenciatura completa.",
@@ -25353,11 +25939,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Salida laboral rápida (2 años y medio) como puerta de entrada al área de higiene y seguridad",
-      "Alta demanda estructural del rubro"
+      "Alta demanda estructural del rubro",
+      "Hay cursado a distancia o virtual, así que podés estudiar sin mudarte"
     ],
     "desafios": [
       "Rol de apoyo, con menor autonomía y responsabilidad legal que un profesional matriculado en Higiene y Seguridad",
-      "Trabajo de campo con exposición a ambientes industriales o de obra"
+      "Trabajo de campo con exposición a ambientes industriales o de obra",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Funciona como puerta de entrada al área de higiene y seguridad para quienes luego quieran continuar hacia la Licenciatura en Higiene, Seguridad y Medio Ambiente del Trabajo."
@@ -25378,7 +25966,7 @@ const CAREERS = [
       "nota": "Los sueldos muestran gran dispersión según fuente y rubro; en general el piso salarial es algo menor al de la licenciatura completa, dado el menor alcance de responsabilidades."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -25401,7 +25989,7 @@ const CAREERS = [
     "icono": "🔬",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de pregrado de 3 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSa.",
     "queHace": "Realiza análisis clínicos y microbiológicos de laboratorio para el diagnóstico médico, bajo supervisión bioquímica.",
     "problemasQueResuelve": "Necesidad de técnicos que realicen los análisis de rutina en laboratorios clínicos de la región.",
     "perfilRecomendado": "Interés en la salud, la química y el trabajo de precisión en laboratorio.",
@@ -25441,10 +26029,12 @@ const CAREERS = [
       "Normas de bioseguridad"
     ],
     "ventajas": [
-      "Título corto con salida laboral relativamente rápida en el sistema de salud"
+      "Título corto con salida laboral relativamente rápida en el sistema de salud",
+      "Se puede estudiar en UNSa — Facultad de Ciencias de la Salud, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "El ejercicio profesional está limitado a trabajar bajo la dirección de un bioquímico"
+      "El ejercicio profesional está limitado a trabajar bajo la dirección de un bioquímico",
+      "Se cursa en Salta: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Se dicta en Orán, una de las ciudades más importantes del norte salteño, con hospital de referencia regional.",
@@ -25480,7 +26070,7 @@ const CAREERS = [
     "icono": "📦",
     "investigado": true,
     "duracionAnios": 2,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de pregrado de 2 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UTN.",
     "queHace": "Planifica, organiza y controla el conjunto de actividades de movimiento y almacenamiento que facilitan el flujo de materiales, productos e información desde el proveedor hasta el cliente. Gestiona procesos logísticos modernos, con foco en operación, planificación y atención al cliente, incluyendo e-commerce.",
     "problemasQueResuelve": "Necesidad creciente de empresas de todos los rubros (comercio electrónico, agro, industria, energía) de contar con profesionales capacitados para coordinar cadenas de abastecimiento, distribución y transporte de forma eficiente.",
     "perfilRecomendado": "Estudiantes organizados, con capacidad de planificación y gusto por la coordinación de procesos, interesados en el comercio, el transporte y la cadena de suministro.",
@@ -25538,7 +26128,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Al ser una propuesta nueva en la Facultad, todavía tiene poco recorrido de egresados en el mercado local",
-      "La operación logística de base (depósito, transporte) puede implicar horarios extendidos o rotativos"
+      "La operación logística de base (depósito, transporte) puede implicar horarios extendidos o rotativos",
+      "Se cursa en Resistencia: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Esta tecnicatura se lanzó en la red de facultades regionales de la UTN con el respaldo del Grupo Logística Andreani, que aporta docentes con experiencia real del sector."
@@ -25559,7 +26150,7 @@ const CAREERS = [
       "nota": "Los sueldos en logística suelen ser más altos en empresas grandes de distribución y e-commerce que en depósitos pequeños."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -25632,7 +26223,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Sueldos de entrada moderados en tareas operativas de redes sociales",
-      "Alta competencia dado el bajo umbral de entrada al marketing digital básico"
+      "Alta competencia dado el bajo umbral de entrada al marketing digital básico",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Esta tecnicatura comparte campo laboral con la Licenciatura en Comercialización - Marketing de la misma universidad, siendo una opción de entrada más rápida al mundo del marketing digital."
@@ -25653,7 +26245,7 @@ const CAREERS = [
       "nota": "No se encontró un relevamiento salarial separado para este título técnico en particular; se usó como referencia el mercado de marketing digital investigado para la Licenciatura afín de este sitio, ajustando levemente hacia abajo por tratarse de un título de menor duración."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -25710,10 +26302,13 @@ const CAREERS = [
       "Manuales técnicos de equipos"
     ],
     "ventajas": [
-      "Salida laboral práctica en un sector (agropecuario) siempre necesitado de mantenimiento técnico de maquinaria"
+      "Salida laboral práctica en un sector (agropecuario) siempre necesitado de mantenimiento técnico de maquinaria",
+      "Se puede estudiar en UNNE — Facultad de Ciencias Agrarias, institución pública: sin arancel de cursado",
+      "Es una carrera corta (3 años), que permite empezar a trabajar antes"
     ],
     "desafios": [
-      "Los ingresos del sector agropecuario pueden ser variables según el clima y los precios internacionales"
+      "Los ingresos del sector agropecuario pueden ser variables según el clima y los precios internacionales",
+      "Se cursa en Corrientes: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "La cada vez mayor tecnificación de la maquinaria agrícola (GPS, sistemas electrónicos) hace que este perfil técnico sea cada vez más demandado.",
@@ -25732,7 +26327,7 @@ const CAREERS = [
       "nota": "Los ingresos de este sector son variables según el clima y los precios internacionales de los productos agropecuarios; quienes gestionan un establecimiento propio pueden superar ampliamente estos valores en buenas campañas."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -25755,7 +26350,7 @@ const CAREERS = [
     "icono": "🤖",
     "investigado": true,
     "duracionAnios": 2.5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de pregrado de 2,5 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UTN.",
     "queHace": "Diseña, opera y mantiene sistemas automatizados que combinan mecánica, electrónica y control por software: líneas de producción automatizadas, brazos robóticos industriales y sistemas de sensores y actuadores.",
     "problemasQueResuelve": "Necesidad de técnicos capacitados en automatización industrial, un campo que crece a medida que las plantas incorporan más robótica y control automatizado.",
     "perfilRecomendado": "Interés en la robótica, la electrónica y la programación aplicada a máquinas, con gusto por el trabajo práctico en plantas industriales.",
@@ -25800,10 +26395,12 @@ const CAREERS = [
       "Instrumental de medición electrónica"
     ],
     "ventajas": [
-      "Es una formación técnica corta (2 años y medio) en un campo en expansión, poco común en la región"
+      "Es una formación técnica corta (2 años y medio) en un campo en expansión, poco común en la región",
+      "Se puede estudiar en FRRQ, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "Requiere actualización constante ante la rápida evolución de la tecnología de automatización"
+      "Requiere actualización constante ante la rápida evolución de la tecnología de automatización",
+      "Se cursa en Reconquista: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es una de las tecnicaturas más nuevas de la oferta de UTN Reconquista, pensada para responder a la automatización creciente en la industria regional."
@@ -25821,7 +26418,7 @@ const CAREERS = [
       "nota": "La automatización industrial es uno de los campos técnicos con sueldos más altos dentro de las tecnicaturas, por la escasez relativa de técnicos formados específicamente en esta área."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -25838,7 +26435,7 @@ const CAREERS = [
     "icono": "🤖",
     "investigado": true,
     "duracionAnios": 2.5,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de pregrado de 2,5 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UTN.",
     "queHace": "Participa del mantenimiento y montaje de sistemas mecánicos, electrónicos, neumáticos e hidráulicos en plantas industriales. Diseña y colabora en proyectos de automatización, programa y opera controladores lógicos programables (PLC) y máquinas de control numérico computarizado (CNC), y colabora en planes de producción.",
     "problemasQueResuelve": "Necesidad de la industria de contar con técnicos capacitados en automatización y control, un área que combina disciplinas antes separadas (mecánica, electrónica e informática) y que crece con la modernización de las plantas industriales.",
     "perfilRecomendado": "Estudiantes con interés en cómo funcionan las máquinas automatizadas y los robots industriales, con buena base de matemática y física, y perfil práctico orientado al trabajo en planta.",
@@ -25895,7 +26492,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Exige buena base de matemática y física desde el inicio",
-      "El trabajo es mayormente presencial en planta, sin posibilidad de modalidad remota"
+      "El trabajo es mayormente presencial en planta, sin posibilidad de modalidad remota",
+      "Se cursa en Resistencia: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "El plan de estudios (Ordenanza N° 893) es común a toda la red de facultades regionales de la UTN, por lo que el título tiene el mismo reconocimiento en cualquier provincia del país."
@@ -25916,7 +26514,7 @@ const CAREERS = [
       "nota": "Los sueldos suelen ser más altos en industrias grandes con procesos automatizados que en talleres pequeños."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -25933,7 +26531,7 @@ const CAREERS = [
     "icono": "🔌",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de pregrado de 3 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UTN.",
     "queHace": "Planifica y controla el seguimiento de la operación y el mantenimiento de redes eléctricas de transporte y distribución. Aplica conocimientos de tecnología eléctrica, calidad, seguridad e higiene y preservación ambiental, y colabora con el sector de seguridad e higiene en la elaboración de programas relativos al cuidado del ambiente.",
     "problemasQueResuelve": "Surge de la necesidad de la industria eléctrica de reforzar la formación de sus técnicos y reducir la brecha entre el ingeniero y el técnico de nivel medio en el ejercicio profesional, formando mandos medios capacitados para las empresas de energía.",
     "perfilRecomendado": "Estudiantes interesados en la industria eléctrica y energética, con buena base de matemática y física, e interés en trabajar tanto en tareas técnicas de campo como en la gestión de equipos de operación y mantenimiento.",
@@ -25988,7 +26586,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Trabajo de campo, a veces en condiciones climáticas adversas o de riesgo eléctrico",
-      "Salida laboral concentrada en un número relativamente acotado de empleadores (empresas de energía de la región)"
+      "Salida laboral concentrada en un número relativamente acotado de empleadores (empresas de energía de la región)",
+      "Se cursa en Resistencia: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Esta tecnicatura nació de convenios específicos entre la UTN y empresas distribuidoras de energía eléctrica (como la EPE en Santa Fe), pensada para capacitar personal técnico que luego se convierte en mando medio dentro de esas empresas."
@@ -26009,7 +26608,7 @@ const CAREERS = [
       "nota": "En empresas de energía con convenios colectivos de trabajo, los sueldos suelen ser más altos y estables que en el sector privado general."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -26026,7 +26625,7 @@ const CAREERS = [
     "icono": "🏭",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": "Carrera de pregrado. Modalidad: presencial. Duración a confirmar con la facultad.",
+    "cargaHoraria": "Carrera de pregrado de 3 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSE.",
     "queHace": "Forma técnicos para organizar, planificar y controlar procesos productivos en fábricas e industrias: control de calidad, gestión de stock y mejora de procesos.",
     "problemasQueResuelve": "Necesidad de personal técnico intermedio entre operarios e ingenieros industriales, para optimizar procesos productivos en plantas industriales.",
     "perfilRecomendado": "Interés práctico en procesos industriales y organización, con perfil orientado a la gestión más que al diseño técnico.",
@@ -26070,10 +26669,13 @@ const CAREERS = [
       "Normas de control de calidad"
     ],
     "ventajas": [
-      "Título corto con salida directa en industrias regionales"
+      "Título corto con salida directa en industrias regionales",
+      "Se puede estudiar en UNSE — Facultad de Ciencias Exactas y Te, institución pública: sin arancel de cursado",
+      "Es una carrera corta (3 años), que permite empezar a trabajar antes"
     ],
     "desafios": [
-      "Salida laboral dependiente del nivel de actividad industrial local"
+      "Salida laboral dependiente del nivel de actividad industrial local",
+      "Se cursa en Santiago del Estero: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Santiago del Estero tiene un polo agroindustrial creciente, lo que sostiene la demanda de este perfil técnico.",
@@ -26115,7 +26717,7 @@ const CAREERS = [
     "icono": "⛏️",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de pregrado de 3 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSa.",
     "queHace": "Formación técnica corta en operaciones de perforación de pozos petroleros y gasíferos, como salida laboral rápida en la industria de hidrocarburos.",
     "problemasQueResuelve": "Necesidad de técnicos para las operaciones de perforación en la industria petrolera y gasífera, sin requerir el título completo de ingeniero.",
     "perfilRecomendado": "Interés práctico en la industria del petróleo y gas, con disposición a trabajar en yacimientos.",
@@ -26155,10 +26757,12 @@ const CAREERS = [
       "Normas de seguridad industrial del sector petrolero"
     ],
     "ventajas": [
-      "Título corto (3 años) con salida laboral rápida y salarios altos en comparación con otras tecnicaturas"
+      "Título corto (3 años) con salida laboral rápida y salarios altos en comparación con otras tecnicaturas",
+      "Se puede estudiar en UNSa — Facultad de Ciencias Naturales, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "El trabajo implica largos períodos en yacimientos, lejos de las ciudades"
+      "El trabajo implica largos períodos en yacimientos, lejos de las ciudades",
+      "Se cursa en Salta: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es el título de pregrado equivalente a la Ingeniería en Perforaciones, para quienes buscan una salida más rápida.",
@@ -26177,7 +26781,7 @@ const CAREERS = [
       "nota": "La industria de hidrocarburos paga bastante más que el promedio técnico, con adicionales por trabajo en yacimientos."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -26200,7 +26804,7 @@ const CAREERS = [
     "icono": "🏭",
     "investigado": true,
     "duracionAnios": 2,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de pregrado de 2 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UTN.",
     "queHace": "Organiza y controla procesos productivos en plantas industriales: planifica la producción, controla la calidad de los procesos y colabora en la mejora continua de líneas de fabricación.",
     "problemasQueResuelve": "Necesidad de personal técnico intermedio entre operarios e ingenieros, capaz de organizar y controlar procesos productivos en las industrias de la zona.",
     "perfilRecomendado": "Interés práctico en procesos industriales y organización de la producción, con perfil orientado a la gestión de planta.",
@@ -26244,10 +26848,12 @@ const CAREERS = [
       "Normas de control de calidad"
     ],
     "ventajas": [
-      "Título corto (2 años) con salida directa en industrias de la zona, sin necesidad de viajar a Reconquista para cursar"
+      "Título corto (2 años) con salida directa en industrias de la zona, sin necesidad de viajar a Reconquista para cursar",
+      "Se puede estudiar en FRRQ, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "Salida laboral dependiente del nivel de actividad industrial local"
+      "Salida laboral dependiente del nivel de actividad industrial local",
+      "Se cursa en Reconquista: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Se dicta en la Extensión Áulica de Avellaneda, para que los estudiantes de esa ciudad no tengan que viajar hasta la sede de Reconquista."
@@ -26292,7 +26898,7 @@ const CAREERS = [
     "icono": "💻",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de pregrado de 3 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSa.",
     "queHace": "Formación técnica corta en programación y desarrollo de software, con salida laboral rápida en un mercado de alta demanda.",
     "problemasQueResuelve": "Necesidad de programadores para el desarrollo y mantenimiento de software, sin requerir el título completo de licenciado.",
     "perfilRecomendado": "Personas que buscan entrar rápido al mercado de programación.",
@@ -26333,10 +26939,12 @@ const CAREERS = [
       "Git y control de versiones"
     ],
     "ventajas": [
-      "Título corto (3 años) con salida laboral inmediata, y se dicta también en Orán"
+      "Título corto (3 años) con salida laboral inmediata, y se dicta también en Orán",
+      "Se puede estudiar en UNSa — Facultad de Ciencias Exactas, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "Algunos puestos senior piden el título de grado completo"
+      "Algunos puestos senior piden el título de grado completo",
+      "Se cursa en Salta: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es el primer ciclo que después se puede continuar con la Licenciatura en Análisis de Sistemas de la misma facultad.",
@@ -26355,7 +26963,7 @@ const CAREERS = [
       "nota": "Como en toda la familia de programación, el trabajo remoto para empresas de otras provincias o del exterior puede superar ampliamente estos valores."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -26434,7 +27042,8 @@ const CAREERS = [
     ],
     "desafios": [
       "El sector tecnológico exige actualización constante en nuevas herramientas y lenguajes",
-      "La competencia con autodidactas y bootcamps privados es alta, por lo que conviene sumar experiencia práctica"
+      "La competencia con autodidactas y bootcamps privados es alta, por lo que conviene sumar experiencia práctica",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "El plan de estudios de esta tecnicatura es común a nivel nacional en toda la red de facultades regionales de la UTN, con el mismo título (Técnico/a Universitario/a en Programación) reconocido en todo el país."
@@ -26455,7 +27064,7 @@ const CAREERS = [
       "nota": "Los valores varían MUCHO según si el empleador es nacional o extranjero: trabajar en remoto para el exterior suele cobrarse en dólares, lo que eleva fuertemente el equivalente en pesos."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -26520,11 +27129,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Formación corta (2 años) orientada a un rol social específico y de alto compromiso comunitario",
-      "Buena base para continuar hacia Trabajo Social u otras carreras sociales"
+      "Buena base para continuar hacia Trabajo Social u otras carreras sociales",
+      "Hay cursado a distancia o virtual, así que podés estudiar sin mudarte"
     ],
     "desafios": [
       "No se encontró un relevamiento salarial específico para este título en particular",
-      "Carga emocional del trabajo con infancias en contextos de vulnerabilidad"
+      "Carga emocional del trabajo con infancias en contextos de vulnerabilidad",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Esta tecnicatura comparte espíritu y campo de acción con la carrera de Trabajo Social ya investigada en este sitio, aunque con foco específico en niñez y adolescencia y una formación más corta (2 años)."
@@ -26545,7 +27156,7 @@ const CAREERS = [
       "nota": "No se encontró un relevamiento salarial específico y verificable para este título al momento de esta actualización. El rango mostrado es una estimación aproximada por comparación con carreras de perfil, duración y área similares — no un dato relevado de una fuente puntual."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -26568,7 +27179,7 @@ const CAREERS = [
     "icono": "🌲",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de pregrado de 3 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSa.",
     "queHace": "Forma técnicos en manejo y aprovechamiento sostenible de bosques: inventario forestal, planes de manejo y control de la explotación maderera.",
     "problemasQueResuelve": "Necesidad de gestionar de forma sostenible los bosques del norte salteño, una zona con importante actividad forestal y también con problemas de desmonte.",
     "perfilRecomendado": "Interés en el medio ambiente, los bosques y el trabajo de campo.",
@@ -26609,10 +27220,13 @@ const CAREERS = [
       "Instrumental de medición forestal"
     ],
     "ventajas": [
-      "Formación específica y necesaria en una región con fuerte presión sobre los bosques nativos"
+      "Formación específica y necesaria en una región con fuerte presión sobre los bosques nativos",
+      "Se puede estudiar en UNSa — Facultad de Ciencias Naturales, institución pública: sin arancel de cursado",
+      "Es una carrera corta (3 años), que permite empezar a trabajar antes"
     ],
     "desafios": [
-      "El trabajo de campo puede ser en zonas rurales alejadas y de difícil acceso"
+      "El trabajo de campo puede ser en zonas rurales alejadas y de difícil acceso",
+      "Se cursa en Salta: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Se dicta en Orán, en una zona con fuerte tensión entre el avance agrícola y la conservación del bosque nativo.",
@@ -26631,7 +27245,7 @@ const CAREERS = [
       "nota": "Los ingresos de este sector son variables según el clima y los precios internacionales de los productos agropecuarios; quienes gestionan un establecimiento propio pueden superar ampliamente estos valores en buenas campañas."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -26700,7 +27314,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Trabajo mayormente presencial para la instalación física de redes",
-      "Menor techo salarial que roles de desarrollo o ciberseguridad si no se continúa estudiando"
+      "Menor techo salarial que roles de desarrollo o ciberseguridad si no se continúa estudiando",
+      "La cursada a distancia exige organización y autodisciplina"
     ],
     "datosInteresantes": [
       "Esta tecnicatura comparte buena parte de su campo laboral con la Tecnicatura Superior en Soporte de la Infraestructura de la Información, ya investigada en este sitio para otra institución de Sáenz Peña."
@@ -26721,7 +27336,7 @@ const CAREERS = [
       "nota": "No se encontró un relevamiento salarial separado para este título en particular; se usó como referencia el mercado de soporte técnico e infraestructura de redes ya investigado en este sitio para una tecnicatura de contenido equivalente."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -26736,7 +27351,7 @@ const CAREERS = [
     "icono": "🤝",
     "investigado": true,
     "duracionAnios": 2,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de pregrado de 2 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UTN.",
     "queHace": "Aplica técnicas de mediación, negociación y comunicación para la resolución pacífica de conflictos en el ámbito laboral, comunitario, familiar o institucional. Identifica y diferencia conceptos de conflicto, problema y diferencia, y desarrolla estrategias para gestionar conflictos de manera constructiva.",
     "problemasQueResuelve": "Necesidad de mediadores/as y facilitadores/as capacitados/as para resolver disputas sin llegar a instancias judiciales, tanto en organizaciones como en comunidades, promoviendo acuerdos y relaciones más armónicas.",
     "perfilRecomendado": "Estudiantes con buena capacidad de escucha, empatía y comunicación, interesados en la mediación, la mirada comunitaria y la resolución alternativa de disputas.",
@@ -26782,11 +27397,13 @@ const CAREERS = [
     ],
     "ventajas": [
       "Perfil poco común y diferenciado, útil tanto en lo laboral como en lo comunitario",
-      "Aplicable a distintos ámbitos: empresas, municipios, comunidades, familias"
+      "Aplicable a distintos ámbitos: empresas, municipios, comunidades, familias",
+      "Se puede estudiar en UTN FRRE, institución pública: sin arancel de cursado"
     ],
     "desafios": [
       "Menor información pública disponible sobre esta carrera respecto del resto de la oferta de la FRRE: conviene confirmar directamente con la Facultad si sigue con inscripción abierta y en qué modalidad",
-      "Mercado laboral específico más chico que el de otras tecnicaturas"
+      "Mercado laboral específico más chico que el de otras tecnicaturas",
+      "Se cursa en Resistencia: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Esta tecnicatura aparece registrada en el campus virtual histórico de la Facultad Regional Resistencia (cvfrre.com.ar) junto a otras carreras como la Tecnicatura en Obras Viales."
@@ -26824,7 +27441,7 @@ const CAREERS = [
     "icono": "🚦",
     "investigado": true,
     "duracionAnios": 2,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de pregrado de 2 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UTN.",
     "queHace": "Se desempeña en un equipo interdisciplinario con responsabilidad en tareas de gestión, control, prevención y asesoramiento en seguridad vial. Analiza los factores que intervienen en los siniestros viales (comportamiento humano, fallas mecánicas, infracciones, factores climáticos, estado del pavimento) e interpreta estadísticas para aplicar normas y programas preventivos.",
     "problemasQueResuelve": "Alta siniestralidad vial en Argentina y necesidad de personal técnico capacitado para la prevención, el control de tránsito y el peritaje de siniestros, en un campo donde tradicionalmente predominaba la formación empírica.",
     "perfilRecomendado": "Estudiantes interesados en el tránsito, la seguridad pública y la prevención, especialmente quienes ya trabajan o aspiran a trabajar en fuerzas de seguridad, municipios o áreas de tránsito.",
@@ -26881,7 +27498,8 @@ const CAREERS = [
     ],
     "desafios": [
       "Salida laboral bastante concentrada en organismos públicos y fuerzas de seguridad, con menor desarrollo en el sector privado",
-      "Exposición a situaciones de siniestros viales, que pueden ser emocionalmente exigentes"
+      "Exposición a situaciones de siniestros viales, que pueden ser emocionalmente exigentes",
+      "Se cursa en Resistencia: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "El plan de estudios de esta tecnicatura tiene reconocimiento oficial del Ministerio de Educación de la Nación desde 2006 (Resolución ME N° 1342/06), lo que le da validez nacional al título en todo el país."
@@ -26902,7 +27520,7 @@ const CAREERS = [
       "nota": "Gran parte de quienes egresan ya trabajan en el organismo público o fuerza de seguridad de origen, por lo que el título suele traducirse en un ascenso o adicional salarial más que en un cambio de empleador."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -26925,7 +27543,7 @@ const CAREERS = [
     "icono": "🐄",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de pregrado de 3 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSa.",
     "queHace": "Forma técnicos en manejo de sistemas ganaderos: producción de carne y leche, sanidad animal básica y gestión de establecimientos ganaderos.",
     "problemasQueResuelve": "Necesidad de personal técnico capacitado para mejorar la productividad de los establecimientos ganaderos de la región.",
     "perfilRecomendado": "Interés en la producción animal y el trabajo de campo en establecimientos rurales.",
@@ -26968,10 +27586,13 @@ const CAREERS = [
       "Protocolos de sanidad animal"
     ],
     "ventajas": [
-      "Se dicta en una zona con fuerte tradición ganadera del interior salteño"
+      "Se dicta en una zona con fuerte tradición ganadera del interior salteño",
+      "Se puede estudiar en UNSa — Facultad de Ciencias Naturales, institución pública: sin arancel de cursado",
+      "Es una carrera corta (3 años), que permite empezar a trabajar antes"
     ],
     "desafios": [
-      "Los ingresos del sector pueden variar según el clima y los precios de la carne"
+      "Los ingresos del sector pueden variar según el clima y los precios de la carne",
+      "Se cursa en Salta: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es una de las pocas tecnicaturas específicas en producción ganadera que se dictan en el interior de Salta, fuera de la capital.",
@@ -26990,7 +27611,7 @@ const CAREERS = [
       "nota": "Los ingresos de este sector son variables según el clima y los precios internacionales de los productos agropecuarios; quienes gestionan un establecimiento propio pueden superar ampliamente estos valores en buenas campañas."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -27026,7 +27647,7 @@ const CAREERS = [
     "icono": "🍞",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de pregrado de 3 años (la más común). La carga horaria total depende del plan de cada institución donde se dicta: consultala en su sede.",
     "queHace": "Forma técnicos en procesos de elaboración y control de calidad de alimentos: producción industrial de alimentos, conservación y normativa bromatológica.",
     "problemasQueResuelve": "Necesidad de personal técnico capacitado para la industria alimenticia, garantizando calidad y seguridad en los procesos de producción.",
     "perfilRecomendado": "Interés en la industria alimenticia y el control de calidad de procesos productivos.",
@@ -27067,10 +27688,14 @@ const CAREERS = [
       "Normas de seguridad alimentaria (HACCP)"
     ],
     "ventajas": [
-      "Se dicta en Salta y Metán, en una zona con fuerte desarrollo agroindustrial"
+      "Se dicta en Salta y Metán, en una zona con fuerte desarrollo agroindustrial",
+      "Se puede estudiar en UNSa — Facultad de Ingeniería y CU-RA, institución pública: sin arancel de cursado",
+      "Se dicta en 2 instituciones de la región, así que podés comparar y elegir dónde cursarla"
     ],
     "desafios": [
-      "El mercado depende del nivel de actividad de la industria alimenticia regional"
+      "El mercado depende del nivel de actividad de la industria alimenticia regional",
+      "Los planes, la duración y las condiciones pueden variar según la institución: conviene compararlos antes de elegir",
+      "Se cursa en Salta y Reconquista: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Salta tiene un importante desarrollo agroindustrial (ingenios azucareros, tabacaleras), lo que sostiene la demanda de este perfil técnico.",
@@ -27089,7 +27714,7 @@ const CAREERS = [
       "nota": "Los ingresos de este sector son variables según el clima y los precios internacionales de los productos agropecuarios; quienes gestionan un establecimiento propio pueden superar ampliamente estos valores en buenas campañas."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -27112,7 +27737,7 @@ const CAREERS = [
     "icono": "⚙️",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de pregrado de 3 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSa.",
     "queHace": "Forma técnicos en mantenimiento y operación de sistemas electromecánicos industriales: motores, sistemas eléctricos y mecánicos de plantas industriales y mineras.",
     "problemasQueResuelve": "Necesidad de técnicos capacitados en mantenimiento electromecánico para la industria minera y de altura, muy presente en la Puna salteña.",
     "perfilRecomendado": "Interés práctico en mecánica, electricidad y el mantenimiento de equipos industriales.",
@@ -27152,10 +27777,13 @@ const CAREERS = [
       "Normas de seguridad industrial minera"
     ],
     "ventajas": [
-      "Se dicta en San Antonio de los Cobres, en el corazón de la Puna minera, con salarios atractivos en el sector"
+      "Se dicta en San Antonio de los Cobres, en el corazón de la Puna minera, con salarios atractivos en el sector",
+      "Se puede estudiar en UNSa — Facultad de Ingeniería, institución pública: sin arancel de cursado",
+      "Es una carrera corta (3 años), que permite empezar a trabajar antes"
     ],
     "desafios": [
-      "El trabajo se desarrolla en altura y en condiciones climáticas exigentes"
+      "El trabajo se desarrolla en altura y en condiciones climáticas exigentes",
+      "Se cursa en Salta: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "San Antonio de los Cobres está en pleno corazón de la zona del litio, lo que convierte a esta tecnicatura en una de las de mayor demanda laboral actual de la provincia.",
@@ -27174,7 +27802,7 @@ const CAREERS = [
       "nota": "Se dicta en San Antonio de los Cobres, en pleno corazón de la minería del litio, un sector que paga bastante mejor que el promedio industrial."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -27191,7 +27819,7 @@ const CAREERS = [
     "icono": "🛣️",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": "Carrera de pregrado. Modalidad: presencial. Duración a confirmar con la facultad.",
+    "cargaHoraria": "Carrera de pregrado de 3 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNSE.",
     "queHace": "Formación técnica corta para el control y ejecución de obras viales: caminos, pavimentos y señalización, como salida laboral rápida.",
     "problemasQueResuelve": "Necesidad de personal técnico para el control de obra vial, sin requerir el título completo de ingeniero vial.",
     "perfilRecomendado": "Interés práctico en obra vial, con salida laboral más rápida que la ingeniería completa.",
@@ -27231,10 +27859,13 @@ const CAREERS = [
       "Software básico de diseño vial"
     ],
     "ventajas": [
-      "Título corto con salida laboral en organismos viales del Estado"
+      "Título corto con salida laboral en organismos viales del Estado",
+      "Se puede estudiar en UNSE — Facultad de Ciencias Exactas y Te, institución pública: sin arancel de cursado",
+      "Es una carrera corta (3 años), que permite empezar a trabajar antes"
     ],
     "desafios": [
-      "Depende del nivel de inversión pública en caminos, que varía según el año"
+      "Depende del nivel de inversión pública en caminos, que varía según el año",
+      "Se cursa en Santiago del Estero: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es el título de pregrado equivalente a la Ingeniería Vial, para quienes buscan una salida más rápida.",
@@ -27266,11 +27897,11 @@ const CAREERS = [
     "nombre": "Técnico en Laboratorio de Análisis Clínicos",
     "categoria": "Tecnicaturas",
     "institucion": "unaf-salud",
-    "descripcionBreve": "Carrera de duración a confirmar, presencial, que se dicta en Facultad de Ciencias de la Salud de la Universidad Nacional de Formosa (UNaF), en la ciudad de Formosa.",
+    "descripcionBreve": "Carrera de 3 años, presencial, que se dicta en Facultad de Ciencias de la Salud de la Universidad Nacional de Formosa (UNaF), en la ciudad de Formosa.",
     "icono": "🔬",
     "investigado": true,
     "duracionAnios": 3,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera de pregrado de 3 años, presencial. La carga horaria total figura en el plan de estudios oficial de la UNaF.",
     "queHace": "Realiza análisis clínicos de laboratorio (sangre, orina, entre otros) bajo supervisión bioquímica, para asistir en el diagnóstico médico.",
     "problemasQueResuelve": "Necesidad de técnicos que realicen los análisis de rutina en laboratorios clínicos, bajo la dirección de un bioquímico.",
     "perfilRecomendado": "Interés en la salud, la química y el trabajo de precisión en laboratorio.",
@@ -27311,10 +27942,12 @@ const CAREERS = [
       "Normas de bioseguridad"
     ],
     "ventajas": [
-      "Título corto con salida laboral relativamente rápida en el sistema de salud"
+      "Título corto con salida laboral relativamente rápida en el sistema de salud",
+      "Se puede estudiar en UNaF — Facultad de Ciencias de la Salud, institución pública: sin arancel de cursado"
     ],
     "desafios": [
-      "El ejercicio profesional está limitado a trabajar bajo la dirección de un bioquímico"
+      "El ejercicio profesional está limitado a trabajar bajo la dirección de un bioquímico",
+      "Se cursa en Formosa: si vivís en Sáenz Peña puede implicar viajar o mudarte"
     ],
     "datosInteresantes": [
       "Es una buena puerta de entrada al mundo de los análisis clínicos, con posibilidad de seguir después la Licenciatura en Bioquímica.",
@@ -27334,7 +27967,7 @@ const CAREERS = [
       "nota": "Son perfiles técnicos que suelen trabajar bajo la dirección de un profesional de grado (bioquímico, odontólogo), lo que limita el techo salarial."
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -27352,7 +27985,7 @@ const CAREERS = [
     "icono": "🤝",
     "investigado": true,
     "duracionAnios": 4,
-    "cargaHoraria": null,
+    "cargaHoraria": "Carrera terciaria de 4 años, presencial. La carga horaria total figura en el plan de estudios oficial de el ISET.",
     "queHace": "Interviene en problemáticas sociales de personas, familias, grupos y comunidades: pobreza, violencia, adicciones, situaciones de vulnerabilidad, discapacidad, entre otras. Diseña y ejecuta proyectos de intervención social, articula recursos institucionales y acompaña procesos de inclusión social.",
     "problemasQueResuelve": "Situaciones de vulnerabilidad social, violencia familiar o de género, falta de acceso a derechos básicos (salud, vivienda, educación), necesidad de articulación entre personas/familias y organismos del Estado.",
     "perfilRecomendado": "Estudiantes con fuerte compromiso social, empatía, tolerancia a la frustración y capacidad de trabajar en contextos de alta demanda emocional y social.",
@@ -27434,7 +28067,7 @@ const CAREERS = [
       "nota": "La dispersión es muy alta incluso dentro de la misma fuente, según el organismo público específico que emplea al profesional (ministerios provinciales, gobiernos de ciudad, etc.). Se prefirió mostrar un rango amplio y conservador en lugar de un promedio único poco representativo. [Actualizado 2026-08-11: cifra ajustada +22.5% respecto a la fuente original citada, según inflación acumulada real (INDEC) hasta julio 2026. El valor en USD se recalculó al tipo de cambio oficial de referencia de agosto 2026 (~$1520).]"
     },
     "pdfs": {
-      "plan": null,
+      "plan": "plan-de-estudios.pdf",
       "programa": null,
       "info": null
     },
@@ -27446,21 +28079,32 @@ const CAREERS = [
       "programa": null,
       "info": null
     },
-    "cargaHoraria": null,
+    "cargaHoraria": "Plan de 2 años con materias cuatrimestrales. La carga horaria total no figura en la web de la UNaF.",
     "experienciaPersonal": "",
-    "especializaciones": [],
-    "empresasArgentinas": [],
-    "organismosPublicos": [],
-    "herramientas": [
-      "Planillas de costos y presupuestos (tal vez)",
-      "Estadística aplicada (tal vez)"
+    "especializaciones": [
+      "Continuar con carreras agropecuarias afines (por ejemplo, las ingenierías de la misma facultad); el reconocimiento de materias lo define la facultad",
+      "Comercialización y logística de productos agroalimentarios"
     ],
-    "trabajoIndependiente": "Tal vez posible: asesoramiento o gestión de emprendimientos agropecuarios propios.",
-    "trabajoRemoto": "Tal vez poco frecuente: es un trabajo con mucha actividad de campo y visitas a productores.",
-    "trabajoExterior": "Tal vez limitado: depende de la exportación de productos agroalimentarios.",
-    "demandaActual": "Tal vez estable: el sector agropecuario y agroindustrial publica puestos técnico-comerciales (asesor de insumos, originación de granos, comercialización), muchas veces con sueldo básico más comisiones. Conviene investigar la oferta en Formosa y el NEA.",
-    "proyeccion": "Tal vez: se puede continuar con una licenciatura o ingeniería del área agropecuaria (tal vez con reconocimiento de materias). Consultalo en la facultad.",
-    "dificultad": "Baja a media (tal vez)",
+    "empresasArgentinas": [
+      "Empresas y corporaciones del sistema agroalimentario",
+      "Compañías de transporte y logística de carga de productos agropecuarios",
+      "Empresas agropecuarias y agroindustriales de la región"
+    ],
+    "organismosPublicos": [
+      "Organismos encargados de aplicar las políticas agrarias del Estado",
+      "Organismos de estudio de la oferta, la demanda y los precios de productos agropecuarios"
+    ],
+    "herramientas": [
+      "Costos y presupuestos agrícolas y agroindustriales",
+      "Estadística aplicada",
+      "Herramientas informáticas (Computación es materia de primer año)"
+    ],
+    "trabajoIndependiente": "Es una salida posible: el plan incluye Marketing, Costos y Organización de Empresas Silvoagropecuarias, útiles para gestionar un emprendimiento propio o asesorar en comercialización.",
+    "trabajoRemoto": "Poco frecuente: combina gestión con trabajo de campo y visitas a productores, por lo que gran parte de la tarea es presencial.",
+    "trabajoExterior": "Limitado: el trabajo está ligado al sistema agroalimentario de cada región, aunque el perfil contempla el comercio nacional e internacional de productos agropecuarios.",
+    "demandaActual": "Los puestos típicos son técnico-comerciales (asesor de insumos, originación de granos, comercialización), muchas veces con sueldo básico más comisiones. La oferta en Formosa y el NEA suele ser más acotada que en la zona pampeana.",
+    "proyeccion": "Se puede seguir estudiando una carrera del área agropecuaria; el reconocimiento de materias lo define la facultad, así que conviene consultarlo en la FRN.",
+    "dificultad": "Baja a media: carrera corta de 2 años con materias de gestión y comercialización, y ciencias básicas en primer año (matemática, física, biología, química).",
     "salario": {
       "junior": "750.000 – 1.100.000",
       "semiSenior": "1.100.000 – 1.700.000",
@@ -27470,7 +28114,7 @@ const CAREERS = [
       "fuentes": [
         "Estimación interna por comparación con la Tecnicatura Superior en Producción Agropecuaria y la Licenciatura en Administración y Gestión Agropecuaria de este catálogo. Referencia: oferta laboral publicada en 2026 (Indeed) para técnicos en producción agropecuaria, con $1.300.000 fijos más comisiones, en la provincia de Buenos Aires"
       ],
-      "nota": "Son valores estimados (tal vez sean menores en Formosa y el NEA). En el sector agro es habitual cobrar un básico más comisiones por ventas, así que el ingreso real puede variar mucho. Confirmalo antes de decidir."
+      "nota": "Valores estimados: en Formosa y el NEA tal vez sean menores. En el sector agro es habitual cobrar un básico más comisiones por ventas, así que el ingreso real puede variar mucho."
     },
     "id": "tecnicatura-en-agronegocios-unaf",
     "nombre": "Tecnicatura en Agronegocios",
@@ -27501,8 +28145,8 @@ const CAREERS = [
       "Empresas y corporaciones del sistema agroalimentario",
       "Comercio local, regional, nacional e internacional de productos agropecuarios",
       "Empresas agropecuarias y agroindustriales de la región",
-      "Asesor técnico-comercial o comercial de insumos agropecuarios (tal vez)",
-      "Originación y comercialización de granos y hacienda (tal vez)"
+      "Asesor técnico-comercial de insumos agropecuarios (puesto típico del sector)",
+      "Originación y comercialización de granos y hacienda (puesto típico del sector)"
     ],
     "ventajas": [
       "Carrera corta (2 años), en una universidad pública y gratuita"
@@ -27512,13 +28156,12 @@ const CAREERS = [
     ],
     "datosInteresantes": [
       "Se dicta en la Facultad de Recursos Naturales de la UNaF, junto con Ingeniería Forestal, Ingeniería Zootecnista e Ingeniería Civil.",
-      "Las prácticas incluyen trabajos de campo, visitas y pasantías en empresas agropecuarias y agroindustriales de la región (fuentes secundarias).",
-      "Universidad pública. Más información: https://www.unf.edu.ar",
-      "El plan de estudios que figura en fuentes secundarias puede no ser el vigente: algunas fuentes antiguas hablaban de 3 años y las notas recientes de la UNaF informan 2. Hay que confirmarlo con la facultad.",
-      "Lo marcado con «tal vez» es orientativo: no pudimos confirmarlo con una fuente oficial de la UNaF. Investigalo antes de decidir."
+      "La UNaF informa oficialmente una duración de 2 años y abrió la preinscripción 2026 (hasta el 6 de marzo de 2026); fuentes antiguas hablaban de 3 años.",
+      "Las prácticas incluyen trabajos de campo, visitas y pasantías en empresas agropecuarias y agroindustriales de la región.",
+      "Los sueldos que figuran son estimaciones propias: lo marcado con «tal vez» es orientativo y conviene confirmarlo antes de decidir.",
+      "Universidad pública. Más información: https://www.unf.edu.ar"
     ],
     "faltaInvestigar": [
-      "Confirmar con la facultad el plan de estudios vigente y la duración (fuentes anteriores hablaban de 3 años)",
       "Salarios y demanda laboral en Formosa y el NEA (los valores son estimados)",
       "Confirmar fechas de inscripción del ciclo 2027 cuando la universidad las publique"
     ]
@@ -27529,22 +28172,33 @@ const CAREERS = [
       "programa": null,
       "info": null
     },
-    "cargaHoraria": null,
+    "cargaHoraria": "Plan de 3 años, presencial, en la FAEN (Av. Gutnisky 3200, Formosa). La carga horaria total no figura en la web de la UNaF.",
     "experienciaPersonal": "",
-    "especializaciones": [],
-    "empresasArgentinas": [],
-    "organismosPublicos": [],
-    "herramientas": [
-      "Lenguajes de programación (tal vez)",
-      "Bases de datos (tal vez)",
-      "Control de versiones, por ejemplo Git (tal vez)"
+    "especializaciones": [
+      "Continuar con una licenciatura o ingeniería en sistemas (el reconocimiento de materias lo define la universidad)",
+      "Desarrollo web y móvil",
+      "Bases de datos y calidad de software"
     ],
-    "trabajoIndependiente": "Tal vez posible: como freelance o con proyectos propios.",
-    "trabajoRemoto": "Tal vez frecuente: en software es común trabajar de forma remota, aunque depende de cada empleador.",
-    "trabajoExterior": "Tal vez posible: muchas empresas del exterior contratan desarrolladores de Argentina y suelen pedir inglés.",
-    "demandaActual": "Tal vez alta: el sector de software argentino demanda perfiles técnicos y la propia universidad creó la carrera por la demanda provincial y regional. Conviene investigar cuántas empresas contratan en Formosa.",
-    "proyeccion": "Tal vez buena: con el título de pregrado se puede seguir creciendo en desarrollo o continuar una licenciatura o ingeniería en sistemas (tal vez con reconocimiento de materias). Consultalo en la facultad.",
-    "dificultad": "Media (tal vez)",
+    "empresasArgentinas": [
+      "Empresas de desarrollo de software y consultoras de tecnología",
+      "Áreas de sistemas de empresas de todo tipo",
+      "Desarrollo freelance de software a medida"
+    ],
+    "organismosPublicos": [
+      "Áreas de informática del Estado provincial y municipal de Formosa",
+      "Universidad Nacional de Formosa: el rector destacó el software del comedor universitario, desarrollado por estudiantes de la carrera"
+    ],
+    "herramientas": [
+      "Lenguajes de programación",
+      "Bases de datos",
+      "Control de versiones (Git)"
+    ],
+    "trabajoIndependiente": "Posible: en software es habitual trabajar como freelance o con proyectos propios.",
+    "trabajoRemoto": "Frecuente: en software es común el trabajo remoto, aunque depende de cada empleador.",
+    "trabajoExterior": "Posible: muchas empresas del exterior contratan desarrolladores de Argentina y suelen pedir inglés.",
+    "demandaActual": "La carrera tuvo una demanda de ingreso muy alta (casi 300 estudiantes en segundo año de la primera cohorte) y el sector de software demanda perfiles técnicos. Conviene averiguar cuántas empresas contratan en Formosa.",
+    "proyeccion": "Con el título de pregrado se puede seguir creciendo en desarrollo o continuar una licenciatura o ingeniería en sistemas; consultá en la universidad el reconocimiento de materias.",
+    "dificultad": "Media: carrera de pregrado de 3 años con fuerte componente de programación y lógica.",
     "salario": {
       "junior": "800.000 – 1.300.000",
       "semiSenior": "1.300.000 – 2.200.000",
@@ -27554,7 +28208,7 @@ const CAREERS = [
       "fuentes": [
         "Estimación interna por comparación con la Tecnicatura Superior en Desarrollo de Software y la Tecnicatura Universitaria en Programación de este catálogo. Referencia de mercado: Talento Tech, «Sueldos de Programadores en Argentina 2026» (junio de 2026)"
       ],
-      "nota": "Son valores estimados (tal vez cambien bastante en Formosa y según la empresa). Para el mercado general de desarrolladores, algunas guías de 2026 ubican a los juniors entre $1.200.000 y $2.000.000, y quienes trabajan para el exterior pueden cobrar más, en dólares. Confirmá los valores reales antes de decidir."
+      "nota": "Valores estimados: tal vez cambien bastante en Formosa y según la empresa. Para el mercado general de desarrolladores, algunas guías de 2026 ubican a los juniors entre $1.200.000 y $2.000.000, y quienes trabajan para el exterior pueden cobrar más, en dólares."
     },
     "id": "tecnicatura-universitaria-en-analisis-y-diseno-de-software-unaf",
     "nombre": "Tecnicatura Universitaria en Análisis y Diseño de Software",
@@ -27574,11 +28228,9 @@ const CAREERS = [
       "Resolución de problemas lógicos"
     ],
     "materiasPrincipales": [
-      "Programación (tal vez)",
-      "Bases de datos (tal vez)",
-      "Análisis y diseño de sistemas (tal vez)",
-      "Ingeniería de software (tal vez)",
-      "Redes y sistemas operativos (tal vez)"
+      "Inglés (materia de primer año)",
+      "Análisis y diseño de software (eje de la carrera)",
+      "El plan oficial completo no está publicado en la web de la UNaF: consultalo en la Escuela de Formación Profesional"
     ],
     "salidasLaborales": [
       "Desarrollo de software",
@@ -27590,19 +28242,19 @@ const CAREERS = [
     ],
     "desafios": [
       "Se dicta solo en Formosa: quien viva en otra provincia debería mudarse",
-      "Tiene mucha demanda de ingreso: la cohorte 2025 superó los 300 inscriptos, por lo que conviene consultar cupos y comisiones"
+      "Tiene mucha demanda de ingreso: la primera cohorte llegó a casi 300 estudiantes en segundo año, por lo que conviene consultar cupos y comisiones"
     ],
     "datosInteresantes": [
       "Se creó mediante un convenio entre la UNaF, el Ministerio de Educación de la Nación y la Secretaría de Políticas Universitarias, a través de la Escuela de Formación Profesional de la UNaF.",
-      "Fue aprobada por las Resoluciones HCS UNaF N.º 007/22 y 051/22 y por la Resolución 578/2023 del Ministerio de Educación. Al comenzar la segunda cohorte (2025), la universidad informó más de 80 egresados de la primera.",
+      "Fue aprobada por las Resoluciones HCS UNaF N.º 007/22 y 051/22 y por la Resolución 578/2023 del Ministerio de Educación. La primera cohorte tuvo más de 80 egresados y el 21 de agosto de 2025 se entregaron los primeros 11 títulos.",
+      "El rector Parmetler anunció el 9 de marzo de 2026 una nueva cohorte, con coordinación de Oscar Manuel Giménez.",
       "Los requisitos de inscripción habituales son DNI, constancia de grupo sanguíneo, fotos y título secundario legalizado; quienes tienen más de 25 años y no terminaron el secundario pueden ingresar según el artículo 7 de la Ley de Educación Superior (24.521).",
-      "Universidad pública. Más información: https://www.unf.edu.ar",
-      "Lo marcado con «tal vez» es orientativo: no pudimos confirmarlo con una fuente oficial de la UNaF. Investigalo antes de decidir."
+      "Los sueldos que figuran son estimaciones propias: lo marcado con «tal vez» es orientativo y conviene confirmarlo antes de decidir.",
+      "Universidad pública. Más información: https://www.unf.edu.ar"
     ],
     "faltaInvestigar": [
-      "Falta el plan de estudios oficial: las materias marcadas con «tal vez» son típicas de tecnicaturas parecidas y pueden no coincidir",
-      "Confirmar la continuidad de la cohorte 2026/2027: la UNaF anunció en marzo de 2026 la consolidación presupuestaria de la carrera",
-      "Salarios y demanda laboral en Formosa (los valores son estimados)",
+      "Salarios y demanda laboral en Formosa y el NEA (los valores son estimados)",
+      "El plan de estudios oficial completo todavía no está publicado en la web de la UNaF: consultalo en la Escuela de Formación Profesional",
       "Confirmar fechas de inscripción del ciclo 2027 cuando la universidad las publique"
     ]
   }

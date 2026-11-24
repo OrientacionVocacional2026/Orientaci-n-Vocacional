@@ -1333,6 +1333,13 @@
   const detailContent = document.getElementById("detailContent");
   const closeDetailBtn = document.getElementById("closeDetail");
 
+  // Si una carrera no tiene duración fija publicada, se explica en vez de mostrar un vacío.
+  function duracionFaltante(c) {
+    const n = (c.nombre || "").toLowerCase();
+    if (c.categoria === "Posgrado" || /^(diplomatura|doctorado|maestr|especializaci)/.test(n)) return "Según cada cohorte";
+    return "A confirmar con la institución";
+  }
+
   function renderList(items) {
     if (!items || items.length === 0) return `<p class="empty-field">Información no disponible todavía.</p>`;
     return `<ul class="plain-list">${items.map(i => `<li>${i}</li>`).join("")}</ul>`;
@@ -1491,7 +1498,7 @@
       ` : ""}
 
       <div class="detail-stats">
-        <div class="stat-box"><div class="stat-label">Duración</div><div class="stat-value">${c.duracionAnios ? c.duracionAnios + " años" : "No disponible"}</div></div>
+        <div class="stat-box"><div class="stat-label">Duración</div><div class="stat-value">${c.duracionAnios ? c.duracionAnios + " años" : duracionFaltante(c)}</div></div>
         <div class="stat-box"><div class="stat-label">Carga horaria</div><div class="stat-value">${c.cargaHoraria || "No disponible"}</div></div>
         <div class="stat-box"><div class="stat-label">Dificultad</div><div class="stat-value">${c.dificultad || "No disponible"}</div></div>
       </div>
@@ -1937,7 +1944,7 @@
       y += 8;
 
       addCard("Datos generales", [
-        `Duración: ${c.duracionInstituciones || (c.duracionAnios ? c.duracionAnios + " años" : "No disponible")}`,
+        `Duración: ${c.duracionInstituciones || (c.duracionAnios ? c.duracionAnios + " años" : duracionFaltante(c))}`,
         `Carga horaria: ${c.cargaHoraria || "No disponible"}`,
         `Dificultad: ${c.dificultad || "No disponible"}`,
         `Modalidad: ${modalidadTexto(c)}`,
